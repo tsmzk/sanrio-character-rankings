@@ -1,0 +1,98 @@
+[
+  {
+    "id": "hello-kitty",
+    "name": "ハローキティ",
+    "nameEn": "Hello Kitty",
+    "description": "1974年に誕生した白い子猫のキャラクター。世界中で愛され続けている代表的なサンリオキャラクター。",
+    "debutYear": 1974,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "my-melody",
+    "name": "マイメロディ",
+    "nameEn": "My Melody",
+    "description": "1975年に誕生した白いうさぎのキャラクター。赤いフードがトレードマークの人気キャラクター。",
+    "debutYear": 1975,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "pompompurin",
+    "name": "ポムポムプリン",
+    "nameEn": "Pompompurin",
+    "description": "1996年に誕生した黄色い犬のキャラクター。のんびり屋でプリンが大好き。",
+    "debutYear": 1996,
+    "color": "#FFD700"
+  },
+  {
+    "id": "kuromi",
+    "name": "クロミ",
+    "nameEn": "Kuromi",
+    "description": "2005年に誕生した白いうさぎのキャラクター。マイメロディのライバルで、ちょっと悪魔っぽい性格。",
+    "debutYear": 2005,
+    "color": "#9370DB"
+  },
+  {
+    "id": "keroppi",
+    "name": "けろけろけろっぴ",
+    "nameEn": "Keroppi",
+    "description": "1988年に誕生したカエルのキャラクター。元気で活発、水遊びが大好き。",
+    "debutYear": 1988,
+    "color": "#32CD32"
+  },
+  {
+    "id": "badtz-maru",
+    "name": "バッドばつ丸",
+    "nameEn": "Badtz-maru",
+    "description": "1993年に誕生したペンギンのキャラクター。いたずら好きで個性的な性格。",
+    "debutYear": 1993,
+    "color": "#000000"
+  },
+  {
+    "id": "little-twin-stars",
+    "name": "キキ&ララ",
+    "nameEn": "Little Twin Stars",
+    "description": "1975年に誕生した双子の星の子のキャラクター。キキとララの兄妹で、夢と希望を運ぶ。",
+    "debutYear": 1975,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "cinnamoroll",
+    "name": "シナモロール",
+    "nameEn": "Cinnamoroll",
+    "description": "2001年に誕生した白い子犬のキャラクター。耳が大きくて空を飛ぶことができる。",
+    "debutYear": 2001,
+    "color": "#87CEFA"
+  },
+  {
+    "id": "pochacco",
+    "name": "ポチャッコ",
+    "nameEn": "Pochacco",
+    "description": "1989年に誕生した白い犬のキャラクター。スポーツが得意で好奇心旺盛。",
+    "debutYear": 1989,
+    "color": "#4169E1"
+  },
+  {
+    "id": "tuxedosam",
+    "name": "タキシードサム",
+    "nameEn": "Tuxedosam",
+    "description": "1979年に誕生したペンギンのキャラクター。おしゃれで紳士的な性格。",
+    "debutYear": 1979,
+    "color": "#000080"
+  },
+  {
+    "id": "rururugakuen",
+    "name": "ルルロロ",
+    "nameEn": "Rururugakuen",
+    "description": "2011年に誕生したくまの双子のキャラクター。がんばり屋の姉妹。",
+    "debutYear": 2011,
+    "color": "#FFA500"
+  },
+  {
+    "id": "hangyodon",
+    "name": "ハンギョドン",
+    "nameEn": "Hangyodon",
+    "description": "1985年に誕生した魚のキャラクター。半漁人でちょっとダサいけど愛らしい。",
+    "debutYear": 1985,
+    "color": "#00CED1"
+  }
+]

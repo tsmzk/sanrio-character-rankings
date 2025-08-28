@@ -1,0 +1,1 @@
+export { RankingChart } from './RankingChart';
