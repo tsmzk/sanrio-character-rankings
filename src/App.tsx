@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import {
   CharacterSelector,
   RankingChart,
@@ -12,7 +12,7 @@ import type { Character } from './types';
 import './App.css';
 
 function App() {
-  const [yearRange, setYearRange] = useState({ min: 2014, max: 2023 });
+  const [yearRange, setYearRange] = useState({ min: 1986, max: new Date().getFullYear() });
   const [selectedCharacterForDetail, setSelectedCharacterForDetail] = useState<Character | null>(null);
 
   // Load data
@@ -27,6 +27,14 @@ function App() {
     toggleCharacter,
     isSelected
   } = useCharacterSelection();
+
+  // Initialize year range from actual data once loaded
+  useEffect(() => {
+    if (rankings.length > 0) {
+      const actualRange = DataProcessor.getYearRange(rankings);
+      setYearRange(actualRange);
+    }
+  }, [rankings]);
 
   // Filter rankings by year range
   const filteredRankings = useMemo(() => {

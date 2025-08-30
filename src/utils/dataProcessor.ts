@@ -74,7 +74,7 @@ export class DataProcessor {
 
   static getYearRange(rankings: RankingEntry[]): { min: number; max: number } {
     if (rankings.length === 0) {
-      return { min: 2014, max: 2023 };
+      return { min: 1986, max: new Date().getFullYear() };
     }
 
     const years = rankings.map(r => r.year);
