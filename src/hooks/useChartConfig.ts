@@ -35,17 +35,27 @@ export const useChartConfig = ({
         .filter(r => r.year >= yearRange.min && r.year <= yearRange.max)
         .sort((a, b) => a.year - b.year);
 
+      // 全ての年に対してデータポイントを作成（ランク外は51に設定）
+      const dataPoints = years.map(year => {
+        const rankData = characterRankings.find(r => r.year === year);
+        return {
+          x: year,
+          y: rankData ? rankData.rank : 51, // ランク外は51に設定
+          isOutOfRank: !rankData
+        };
+      });
+
       return {
         label: character.name,
-        data: characterRankings.map(r => ({ x: r.year, y: r.rank })),
+        data: dataPoints.map(p => ({ x: p.x, y: p.y })),
         borderColor: character.color,
         backgroundColor: character.color + '20', // Add transparency
         borderWidth: 3,
-        pointBackgroundColor: character.color,
-        pointBorderColor: '#ffffff',
-        pointBorderWidth: 2,
-        pointRadius: 6,
-        pointHoverRadius: 8,
+        pointBackgroundColor: dataPoints.map(p => p.isOutOfRank ? 'transparent' : character.color),
+        pointBorderColor: dataPoints.map(p => p.isOutOfRank ? 'transparent' : '#ffffff'),
+        pointBorderWidth: dataPoints.map(p => p.isOutOfRank ? 0 : 2),
+        pointRadius: dataPoints.map(p => p.isOutOfRank ? 0 : 6),
+        pointHoverRadius: dataPoints.map(p => p.isOutOfRank ? 0 : 8),
         fill: false,
         tension: 0.2,
         showLine: true
@@ -88,6 +98,9 @@ export const useChartConfig = ({
           },
           label: (context) => {
             const rank = Math.round(context.parsed.y);
+            if (rank === 51) {
+              return `${context.dataset.label}: ランク外`;
+            }
             return `${context.dataset.label}: ${rank}位`;
           }
         }
@@ -116,17 +129,19 @@ export const useChartConfig = ({
         type: 'linear',
         reverse: true, // 1位を上に表示
         min: 0.8,
-        max: 50,
+        max: 51.5,
         ticks: {
           stepSize: 5,
           precision: 0, // 小数点なし
           callback: function(value) {
             const intValue = Math.round(Number(value));
             // 1位以上のみ表示
-            if (intValue >= 1) {
+            if (intValue >= 1 && intValue <= 50) {
               return intValue + '位';
+            } else if (intValue === 51) {
+              return 'ランク外';
             }
-            return ''; // 0位以下は空文字
+            return ''; // その他は空文字
           }
         },
         title: {
