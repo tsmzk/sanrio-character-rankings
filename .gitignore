@@ -140,3 +140,4 @@ vite.config.ts.timestamp-*
 
 # Other files
 .DS_Store
+.serena/cache
