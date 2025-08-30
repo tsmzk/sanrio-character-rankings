@@ -84,20 +84,6 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
     onRankRangeChange?.(fullRankRange);
   };
 
-  const getYearMarks = () => {
-    const marks = [];
-    const step = Math.ceil((availableYearRange.max - availableYearRange.min) / 5);
-
-    for (let year = availableYearRange.min; year <= availableYearRange.max; year += step) {
-      marks.push(year);
-    }
-
-    if (!marks.includes(availableYearRange.max)) {
-      marks.push(availableYearRange.max);
-    }
-
-    return marks;
-  };
 
   if (loading) {
     return (
@@ -195,19 +181,6 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
                   width: `${((localYearRange.max - localYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`,
                 }}
               ></div>
-            </div>
-            <div className="range-marks">
-              {getYearMarks().map((year) => (
-                <div
-                  key={year}
-                  className="range-mark"
-                  style={{
-                    left: `${((year - availableYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`,
-                  }}
-                >
-                  <span className="range-mark-label">{year}</span>
-                </div>
-              ))}
             </div>
           </div>
         </div>

@@ -144,6 +144,7 @@ export const useChartConfig = ({
           ticks: {
             stepSize: 1,
             precision: 0, // 小数点なし
+            maxTicksLimit: yearRange.max - yearRange.min + 1, // 全ての年を表示
             callback: (value) => {
               const intValue = Math.round(Number(value));
               return `${intValue}年`;
