@@ -1,683 +1,2583 @@
 [
   {
-    "year": 2023,
+    "year": 1986,
     "rank": 1,
-    "characterId": "hello-kitty"
+    "characterId": "zashikibutа"
   },
   {
-    "year": 2023,
+    "year": 1986,
     "rank": 2,
-    "characterId": "cinnamoroll"
+    "characterId": "snoopy"
   },
   {
-    "year": 2023,
+    "year": 1986,
     "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2023,
-    "rank": 4,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2023,
-    "rank": 5,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2023,
-    "rank": 6,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2023,
-    "rank": 7,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2023,
-    "rank": 8,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2023,
-    "rank": 9,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2023,
-    "rank": 10,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2023,
-    "rank": 11,
     "characterId": "hangyodon"
   },
   {
-    "year": 2023,
-    "rank": 12,
-    "characterId": "rururugakuen"
-  },
-  {
-    "year": 2022,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2022,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2022,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2022,
+    "year": 1986,
     "rank": 4,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2022,
-    "rank": 5,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2022,
-    "rank": 6,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2022,
-    "rank": 7,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2022,
-    "rank": 8,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2022,
-    "rank": 9,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2022,
-    "rank": 10,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2022,
-    "rank": 11,
     "characterId": "tuxedosam"
   },
   {
-    "year": 2022,
-    "rank": 12,
-    "characterId": "rururugakuen"
-  },
-  {
-    "year": 2021,
-    "rank": 1,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2021,
-    "rank": 2,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2021,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2021,
-    "rank": 4,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2021,
+    "year": 1986,
     "rank": 5,
-    "characterId": "pompompurin"
+    "characterId": "nyanyinynenyonyon"
   },
   {
-    "year": 2021,
-    "rank": 6,
-    "characterId": "little-twin-stars"
+    "year": 1987,
+    "rank": 1,
+    "characterId": "marron-cream"
   },
   {
-    "year": 2021,
-    "rank": 7,
+    "year": 1987,
+    "rank": 2,
+    "characterId": "snoopy"
+  },
+  {
+    "year": 1987,
+    "rank": 3,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 1987,
+    "rank": 4,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 1987,
+    "rank": 5,
+    "characterId": "brownie-story"
+  },
+  {
+    "year": 1988,
+    "rank": 1,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 1988,
+    "rank": 2,
+    "characterId": "snoopy"
+  },
+  {
+    "year": 1988,
+    "rank": 3,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 1988,
+    "rank": 4,
+    "characterId": "felix-the-cat"
+  },
+  {
+    "year": 1989,
+    "rank": 1,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 1989,
+    "rank": 2,
     "characterId": "keroppi"
   },
   {
-    "year": 2021,
-    "rank": 8,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2021,
-    "rank": 9,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2021,
-    "rank": 10,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2021,
-    "rank": 11,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2021,
-    "rank": 12,
-    "characterId": "rururugakuen"
-  },
-  {
-    "year": 2020,
-    "rank": 1,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2020,
-    "rank": 2,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2020,
+    "year": 1989,
     "rank": 3,
-    "characterId": "pochacco"
+    "characterId": "snoopy"
   },
   {
-    "year": 2020,
+    "year": 1989,
     "rank": 4,
-    "characterId": "my-melody"
+    "characterId": "marron-cream"
   },
   {
-    "year": 2020,
+    "year": 1989,
     "rank": 5,
-    "characterId": "hello-kitty"
+    "characterId": "pokopon-diary"
   },
   {
-    "year": 2020,
-    "rank": 6,
-    "characterId": "yoshikitty"
-  },
-  {
-    "year": 2020,
-    "rank": 7,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2020,
-    "rank": 8,
-    "characterId": "showbyrock"
-  },
-  {
-    "year": 2020,
-    "rank": 9,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2020,
-    "rank": 10,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2020,
-    "rank": 11,
+    "year": 1990,
+    "rank": 1,
     "characterId": "keroppi"
   },
   {
-    "year": 2020,
-    "rank": 12,
-    "characterId": "gudetama"
+    "year": 1990,
+    "rank": 2,
+    "characterId": "minna-no-taa-bou"
   },
   {
-    "year": 2020,
-    "rank": 13,
-    "characterId": "kogimyun"
+    "year": 1990,
+    "rank": 3,
+    "characterId": "marron-cream"
   },
   {
-    "year": 2020,
-    "rank": 14,
-    "characterId": "badtz-maru"
+    "year": 1990,
+    "rank": 4,
+    "characterId": "snoopy"
   },
   {
-    "year": 2020,
-    "rank": 15,
-    "characterId": "hangyodon"
+    "year": 1990,
+    "rank": 5,
+    "characterId": "pokopon-diary"
   },
   {
-    "year": 2020,
-    "rank": 16,
+    "year": 1991,
+    "rank": 1,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1991,
+    "rank": 2,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 1991,
+    "rank": 3,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 1991,
+    "rank": 4,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 1991,
+    "rank": 5,
+    "characterId": "snoopy"
+  },
+  {
+    "year": 1992,
+    "rank": 1,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1992,
+    "rank": 2,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 1992,
+    "rank": 3,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 1992,
+    "rank": 4,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 1992,
+    "rank": 5,
     "characterId": "ahiru-no-pekkle"
   },
   {
-    "year": 2020,
-    "rank": 17,
-    "characterId": "kirimi-chan"
+    "year": 1993,
+    "rank": 1,
+    "characterId": "pochacco"
   },
   {
-    "year": 2020,
-    "rank": 18,
-    "characterId": "wish-me-mell"
+    "year": 1993,
+    "rank": 2,
+    "characterId": "patapata-peppy"
   },
   {
-    "year": 2020,
-    "rank": 19,
-    "characterId": "hello-mimmy"
+    "year": 1993,
+    "rank": 3,
+    "characterId": "rururu-gakuen"
   },
   {
-    "year": 2020,
-    "rank": 20,
-    "characterId": "my-sweet-piano"
+    "year": 1993,
+    "rank": 4,
+    "characterId": "osaru-no-monkichi"
   },
   {
-    "year": 2019,
+    "year": 1993,
+    "rank": 5,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 1994,
+    "rank": 1,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1994,
+    "rank": 2,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 1994,
+    "rank": 3,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 1994,
+    "rank": 4,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 1994,
+    "rank": 5,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 1995,
+    "rank": 1,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1995,
+    "rank": 2,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 1995,
+    "rank": 3,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 1995,
+    "rank": 4,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 1995,
+    "rank": 5,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 1996,
+    "rank": 1,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 1996,
+    "rank": 2,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1996,
+    "rank": 3,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 1996,
+    "rank": 4,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 1996,
+    "rank": 5,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 1997,
+    "rank": 1,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 1997,
+    "rank": 2,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 1997,
+    "rank": 3,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 1997,
+    "rank": 4,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 1997,
+    "rank": 5,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 1998,
     "rank": 1,
     "characterId": "hello-kitty"
   },
   {
-    "year": 2019,
+    "year": 1998,
     "rank": 2,
-    "characterId": "cinnamoroll"
+    "characterId": "my-melody"
   },
   {
-    "year": 2019,
+    "year": 1998,
     "rank": 3,
     "characterId": "pompompurin"
   },
   {
-    "year": 2019,
+    "year": 1998,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 1998,
+    "rank": 5,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 1999,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 1999,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 1999,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 1999,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 1999,
+    "rank": 5,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2000,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2000,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2000,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2000,
+    "rank": 4,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2000,
+    "rank": 5,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2001,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2001,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2001,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2001,
+    "rank": 4,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2001,
+    "rank": 5,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2002,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2002,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2002,
+    "rank": 3,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2002,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2002,
+    "rank": 5,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2003,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2003,
+    "rank": 2,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2003,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2003,
     "rank": 4,
     "characterId": "my-melody"
   },
   {
-    "year": 2019,
+    "year": 2003,
     "rank": 5,
-    "characterId": "pochacco"
+    "characterId": "pompompurin"
   },
   {
-    "year": 2019,
-    "rank": 6,
+    "year": 2004,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2004,
+    "rank": 2,
     "characterId": "little-twin-stars"
   },
   {
-    "year": 2019,
-    "rank": 7,
+    "year": 2004,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2004,
+    "rank": 4,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2004,
+    "rank": 5,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2005,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2005,
+    "rank": 2,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2005,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2005,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2005,
+    "rank": 5,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2006,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2006,
+    "rank": 2,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2006,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2006,
+    "rank": 4,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2006,
+    "rank": 5,
     "characterId": "kuromi"
   },
   {
-    "year": 2019,
+    "year": 2007,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2007,
+    "rank": 2,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2007,
+    "rank": 3,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2007,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2007,
+    "rank": 5,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2008,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2008,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2008,
+    "rank": 3,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2008,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2008,
+    "rank": 5,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2009,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2009,
+    "rank": 2,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2009,
+    "rank": 3,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2009,
+    "rank": 4,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2009,
+    "rank": 5,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2010,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2010,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2010,
+    "rank": 3,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2010,
+    "rank": 4,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2010,
+    "rank": 5,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2011,
+    "rank": 1,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2011,
+    "rank": 2,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2011,
+    "rank": 3,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2011,
+    "rank": 4,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2011,
+    "rank": 5,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2011,
+    "rank": 6,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2011,
+    "rank": 7,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2011,
     "rank": 8,
-    "characterId": "yoshikitty"
+    "characterId": "charmmy-kitty"
   },
   {
-    "year": 2019,
+    "year": 2011,
     "rank": 9,
-    "characterId": "gudetama"
+    "characterId": "badtz-maru"
   },
   {
-    "year": 2019,
+    "year": 2011,
+    "rank": 10,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2011,
+    "rank": 12,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2011,
+    "rank": 13,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2011,
+    "rank": 14,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2011,
+    "rank": 15,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2011,
+    "rank": 16,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2011,
+    "rank": 17,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2011,
+    "rank": 18,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2011,
+    "rank": 19,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2011,
+    "rank": 20,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2011,
+    "rank": 21,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2011,
+    "rank": 23,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2011,
+    "rank": 25,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2011,
+    "rank": 26,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2011,
+    "rank": 28,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2011,
+    "rank": 29,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2011,
+    "rank": 30,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2011,
+    "rank": 31,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2011,
+    "rank": 34,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2011,
+    "rank": 35,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2011,
+    "rank": 37,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2011,
+    "rank": 39,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2011,
+    "rank": 41,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2011,
+    "rank": 45,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2011,
+    "rank": 48,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2011,
+    "rank": 49,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2011,
+    "rank": 50,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2011,
+    "rank": 52,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2011,
+    "rank": 53,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2011,
+    "rank": 57,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2011,
+    "rank": 62,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 2011,
+    "rank": 67,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2011,
+    "rank": 75,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2011,
+    "rank": 76,
+    "characterId": "yachiyo-charmer"
+  },
+  {
+    "year": 2011,
+    "rank": 100,
+    "characterId": "mimic-mike"
+  },
+  {
+    "year": 2012,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2012,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2012,
+    "rank": 3,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2012,
+    "rank": 4,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2012,
+    "rank": 5,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2012,
+    "rank": 6,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2012,
+    "rank": 7,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2012,
+    "rank": 8,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2012,
     "rank": 10,
     "characterId": "tuxedosam"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 11,
-    "characterId": "keroppi"
+    "characterId": "charmmy-kitty"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 12,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2019,
-    "rank": 13,
-    "characterId": "showbyrock"
-  },
-  {
-    "year": 2019,
-    "rank": 14,
     "characterId": "wish-me-mell"
   },
   {
-    "year": 2019,
+    "year": 2012,
+    "rank": 13,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2012,
+    "rank": 14,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2012,
     "rank": 15,
-    "characterId": "kirimi-chan"
+    "characterId": "badtz-maru"
   },
   {
-    "year": 2019,
-    "rank": 16,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2019,
+    "year": 2012,
     "rank": 17,
-    "characterId": "my-sweet-piano"
+    "characterId": "sugar-bunnies"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 18,
     "characterId": "hangyodon"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 19,
-    "characterId": "kogimyun"
+    "characterId": "marron-cream"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 20,
-    "characterId": "marumofu-biyori"
+    "characterId": "dear-daniel"
   },
   {
-    "year": 2019,
+    "year": 2012,
     "rank": 21,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2012,
+    "rank": 22,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2012,
+    "rank": 23,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2012,
+    "rank": 24,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2012,
+    "rank": 25,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2012,
+    "rank": 26,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2012,
+    "rank": 28,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2012,
+    "rank": 29,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2012,
+    "rank": 31,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2012,
+    "rank": 32,
+    "characterId": "cacao-to-vanilla"
+  },
+  {
+    "year": 2012,
+    "rank": 33,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2012,
+    "rank": 35,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2012,
+    "rank": 37,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2012,
+    "rank": 38,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2012,
+    "rank": 39,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2012,
+    "rank": 41,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2012,
+    "rank": 42,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2012,
+    "rank": 43,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2012,
+    "rank": 45,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2012,
+    "rank": 46,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2012,
+    "rank": 47,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2012,
+    "rank": 48,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2012,
+    "rank": 49,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2012,
+    "rank": 51,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2012,
+    "rank": 54,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2012,
+    "rank": 56,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2012,
+    "rank": 57,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 2012,
+    "rank": 58,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2012,
+    "rank": 64,
+    "characterId": "beetroid"
+  },
+  {
+    "year": 2012,
+    "rank": 67,
+    "characterId": "yachiyo-charmer"
+  },
+  {
+    "year": 2012,
+    "rank": 68,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2012,
+    "rank": 75,
+    "characterId": "mimic-mike"
+  },
+  {
+    "year": 2013,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2013,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2013,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2013,
+    "rank": 4,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2013,
+    "rank": 5,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2013,
+    "rank": 6,
+    "characterId": "toffee"
+  },
+  {
+    "year": 2013,
+    "rank": 7,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2013,
+    "rank": 10,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2013,
+    "rank": 11,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2013,
+    "rank": 12,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2013,
+    "rank": 13,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2013,
+    "rank": 14,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2013,
+    "rank": 15,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2013,
+    "rank": 17,
     "characterId": "charmmy-kitty"
   },
   {
-    "year": 2019,
+    "year": 2013,
+    "rank": 18,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2013,
+    "rank": 19,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2013,
+    "rank": 20,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2013,
+    "rank": 21,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2013,
     "rank": 22,
     "characterId": "marron-cream"
   },
   {
-    "year": 2019,
-    "rank": 23,
-    "characterId": "ahiru-no-pekkle"
-  },
-  {
-    "year": 2019,
+    "year": 2013,
     "rank": 24,
-    "characterId": "mewkle-dreamy"
+    "characterId": "hangyodon"
   },
   {
-    "year": 2019,
+    "year": 2013,
     "rank": 25,
-    "characterId": "little-forest-fellows"
-  },
-  {
-    "year": 2019,
-    "rank": 26,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2019,
-    "rank": 27,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2019,
-    "rank": 28,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2019,
-    "rank": 29,
-    "characterId": "humming-mint"
-  },
-  {
-    "year": 2019,
-    "rank": 30,
-    "characterId": "kabuki-nyantaro"
-  },
-  {
-    "year": 2019,
-    "rank": 31,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2019,
-    "rank": 32,
     "characterId": "sugar-bunnies"
   },
   {
-    "year": 2019,
-    "rank": 33,
-    "characterId": "usahana"
+    "year": 2013,
+    "rank": 26,
+    "characterId": "minna-no-taa-bou"
   },
   {
-    "year": 2019,
-    "rank": 34,
-    "characterId": "caribadix"
+    "year": 2013,
+    "rank": 29,
+    "characterId": "ahiru-no-pekkle"
   },
   {
-    "year": 2019,
-    "rank": 35,
-    "characterId": "rilu-rilu-fairilu"
-  },
-  {
-    "year": 2019,
-    "rank": 36,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2019,
-    "rank": 37,
+    "year": 2013,
+    "rank": 30,
     "characterId": "osaru-no-monkichi"
   },
   {
-    "year": 2019,
-    "rank": 38,
-    "characterId": "ruroro-manic"
+    "year": 2013,
+    "rank": 31,
+    "characterId": "nyanyinynenyonyon"
   },
   {
-    "year": 2019,
-    "rank": 39,
-    "characterId": "cheery-chum"
+    "year": 2013,
+    "rank": 32,
+    "characterId": "usahana"
   },
   {
-    "year": 2019,
-    "rank": 40,
-    "characterId": "patty-and-jimmy"
+    "year": 2013,
+    "rank": 33,
+    "characterId": "corocorokuririn"
   },
   {
-    "year": 2019,
-    "rank": 41,
-    "characterId": "aggretsuko"
-  },
-  {
-    "year": 2019,
-    "rank": 42,
-    "characterId": "ichigo-man"
-  },
-  {
-    "year": 2019,
-    "rank": 43,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2019,
-    "rank": 44,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2019,
-    "rank": 45,
-    "characterId": "fukuchan"
-  },
-  {
-    "year": 2019,
-    "rank": 46,
-    "characterId": "goropicadon"
-  },
-  {
-    "year": 2019,
-    "rank": 47,
-    "characterId": "tiny-chum"
-  },
-  {
-    "year": 2019,
-    "rank": 48,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2019,
-    "rank": 49,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2019,
-    "rank": 50,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2019,
-    "rank": 51,
-    "characterId": "ha-guruman-style"
-  },
-  {
-    "year": 2019,
-    "rank": 52,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2019,
-    "rank": 53,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2019,
-    "rank": 54,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2019,
-    "rank": 55,
-    "characterId": "fresh-punch"
-  },
-  {
-    "year": 2019,
-    "rank": 56,
-    "characterId": "the-runabouts"
-  },
-  {
-    "year": 2019,
-    "rank": 57,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2019,
-    "rank": 58,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2019,
-    "rank": 59,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2019,
-    "rank": 60,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2019,
-    "rank": 61,
+    "year": 2013,
+    "rank": 34,
     "characterId": "honey-momo"
   },
   {
-    "year": 2019,
-    "rank": 62,
-    "characterId": "pan-kunchi"
+    "year": 2013,
+    "rank": 35,
+    "characterId": "shinkansen"
   },
   {
-    "year": 2019,
-    "rank": 63,
-    "characterId": "winky-pinky"
+    "year": 2013,
+    "rank": 36,
+    "characterId": "patapata-peppy"
   },
   {
-    "year": 2019,
-    "rank": 64,
-    "characterId": "pinky-lil-rose-rio-sky-peace"
+    "year": 2013,
+    "rank": 37,
+    "characterId": "marshmallow-nyanko"
   },
   {
-    "year": 2019,
-    "rank": 65,
-    "characterId": "risuru"
+    "year": 2013,
+    "rank": 39,
+    "characterId": "beetroid"
   },
   {
-    "year": 2019,
-    "rank": 66,
-    "characterId": "kashiwanko-mochi"
+    "year": 2013,
+    "rank": 40,
+    "characterId": "zashikibutа"
   },
   {
-    "year": 2019,
-    "rank": 67,
-    "characterId": "shinkai-zoku"
+    "year": 2013,
+    "rank": 41,
+    "characterId": "sugar-menuet"
   },
   {
-    "year": 2019,
-    "rank": 68,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2019,
-    "rank": 69,
-    "characterId": "tiny-poem"
-  },
-  {
-    "year": 2019,
-    "rank": 70,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2019,
-    "rank": 71,
+    "year": 2013,
+    "rank": 42,
     "characterId": "choco-cat"
   },
   {
-    "year": 2019,
+    "year": 2013,
+    "rank": 43,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2013,
+    "rank": 44,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2013,
+    "rank": 45,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2013,
+    "rank": 46,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2013,
+    "rank": 47,
+    "characterId": "dark-grape-man"
+  },
+  {
+    "year": 2013,
+    "rank": 48,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2013,
+    "rank": 49,
+    "characterId": "cacao-to-vanilla"
+  },
+  {
+    "year": 2013,
+    "rank": 51,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2013,
+    "rank": 52,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2013,
+    "rank": 54,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2013,
+    "rank": 55,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2013,
+    "rank": 60,
+    "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2013,
+    "rank": 65,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2013,
+    "rank": 66,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2013,
+    "rank": 68,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2013,
+    "rank": 71,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2013,
     "rank": 72,
-    "characterId": "cho-bot"
+    "characterId": "risuru"
   },
   {
-    "year": 2019,
+    "year": 2013,
     "rank": 73,
-    "characterId": "panna-pitta"
+    "characterId": "mr-bears-dream"
   },
   {
-    "year": 2019,
+    "year": 2013,
     "rank": 74,
     "characterId": "yachiyo-charmer"
   },
   {
-    "year": 2019,
-    "rank": 75,
-    "characterId": "mr-men-little-miss"
+    "year": 2013,
+    "rank": 81,
+    "characterId": "panna-pitta"
   },
   {
-    "year": 2019,
-    "rank": 76,
-    "characterId": "dream-tail-cubear"
+    "year": 2013,
+    "rank": 91,
+    "characterId": "sporting-bears"
   },
   {
-    "year": 2019,
-    "rank": 77,
-    "characterId": "dark-grape-man"
-  },
-  {
-    "year": 2019,
-    "rank": 78,
+    "year": 2013,
+    "rank": 94,
     "characterId": "mimic-mike"
   },
   {
-    "year": 2019,
-    "rank": 79,
-    "characterId": "little-lovin"
+    "year": 2014,
+    "rank": 1,
+    "characterId": "my-melody"
   },
   {
-    "year": 2019,
-    "rank": 80,
+    "year": 2014,
+    "rank": 2,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2014,
+    "rank": 3,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2014,
+    "rank": 4,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2014,
+    "rank": 5,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2014,
+    "rank": 7,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2014,
+    "rank": 9,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2014,
+    "rank": 11,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2014,
+    "rank": 12,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2014,
+    "rank": 13,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2014,
+    "rank": 14,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2014,
+    "rank": 16,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2014,
+    "rank": 17,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2014,
+    "rank": 18,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2014,
+    "rank": 20,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2014,
+    "rank": 21,
+    "characterId": "toffee"
+  },
+  {
+    "year": 2014,
+    "rank": 22,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2014,
+    "rank": 23,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2014,
+    "rank": 25,
+    "characterId": "honey-momo"
+  },
+  {
+    "year": 2014,
+    "rank": 26,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2014,
+    "rank": 27,
+    "characterId": "cacao-to-vanilla"
+  },
+  {
+    "year": 2014,
+    "rank": 28,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2014,
+    "rank": 29,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2014,
+    "rank": 30,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2014,
+    "rank": 31,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2014,
+    "rank": 32,
+    "characterId": "shingan-crimsyons"
+  },
+  {
+    "year": 2014,
+    "rank": 34,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2014,
+    "rank": 35,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2014,
+    "rank": 36,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2014,
+    "rank": 37,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2014,
+    "rank": 38,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2014,
+    "rank": 40,
+    "characterId": "cherry-na-cherry-ne"
+  },
+  {
+    "year": 2014,
+    "rank": 41,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2014,
+    "rank": 42,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2014,
+    "rank": 43,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2014,
+    "rank": 45,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2014,
+    "rank": 46,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2014,
+    "rank": 47,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2014,
+    "rank": 48,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2014,
+    "rank": 51,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2014,
+    "rank": 52,
+    "characterId": "plasmagica"
+  },
+  {
+    "year": 2014,
+    "rank": 53,
+    "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2014,
+    "rank": 54,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2014,
+    "rank": 55,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2014,
+    "rank": 57,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2014,
+    "rank": 59,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2014,
+    "rank": 60,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2014,
+    "rank": 61,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2014,
+    "rank": 62,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2014,
+    "rank": 63,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2014,
+    "rank": 66,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2014,
+    "rank": 76,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2014,
+    "rank": 78,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2014,
+    "rank": 83,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2014,
+    "rank": 84,
+    "characterId": "beetroid"
+  },
+  {
+    "year": 2014,
+    "rank": 87,
+    "characterId": "yachiyo-charmer"
+  },
+  {
+    "year": 2014,
+    "rank": 88,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 2014,
+    "rank": 90,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2014,
+    "rank": 92,
+    "characterId": "dark-grape-man"
+  },
+  {
+    "year": 2014,
+    "rank": 93,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2014,
+    "rank": 97,
+    "characterId": "mimic-mike"
+  },
+  {
+    "year": 2014,
+    "rank": 100,
     "characterId": "sporting-bears"
+  },
+  {
+    "year": 2015,
+    "rank": 1,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2015,
+    "rank": 2,
+    "characterId": "shingan-crimsyons"
+  },
+  {
+    "year": 2015,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2015,
+    "rank": 4,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2015,
+    "rank": 5,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2015,
+    "rank": 6,
+    "characterId": "plasmagica"
+  },
+  {
+    "year": 2015,
+    "rank": 7,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2015,
+    "rank": 8,
+    "characterId": "trichronica"
+  },
+  {
+    "year": 2015,
+    "rank": 9,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2015,
+    "rank": 10,
+    "characterId": "tsurezure-naru-ayatsuri-mugen-an"
+  },
+  {
+    "year": 2015,
+    "rank": 12,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2015,
+    "rank": 13,
+    "characterId": "critcrista"
+  },
+  {
+    "year": 2015,
+    "rank": 14,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2015,
+    "rank": 15,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2015,
+    "rank": 17,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2015,
+    "rank": 18,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2015,
+    "rank": 19,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2015,
+    "rank": 20,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2015,
+    "rank": 21,
+    "characterId": "toffee"
+  },
+  {
+    "year": 2015,
+    "rank": 22,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2015,
+    "rank": 23,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2015,
+    "rank": 24,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2015,
+    "rank": 25,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2015,
+    "rank": 26,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2015,
+    "rank": 27,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2015,
+    "rank": 28,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2015,
+    "rank": 29,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2015,
+    "rank": 30,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2015,
+    "rank": 31,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2015,
+    "rank": 33,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2015,
+    "rank": 34,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2015,
+    "rank": 35,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2015,
+    "rank": 36,
+    "characterId": "tiny-chum"
+  },
+  {
+    "year": 2015,
+    "rank": 37,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2015,
+    "rank": 38,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2015,
+    "rank": 39,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2015,
+    "rank": 40,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2015,
+    "rank": 43,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2015,
+    "rank": 44,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2015,
+    "rank": 46,
+    "characterId": "shinkai-zoku"
+  },
+  {
+    "year": 2015,
+    "rank": 47,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2015,
+    "rank": 48,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2015,
+    "rank": 49,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2015,
+    "rank": 51,
+    "characterId": "honey-momo"
+  },
+  {
+    "year": 2015,
+    "rank": 52,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2015,
+    "rank": 53,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2015,
+    "rank": 54,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2015,
+    "rank": 56,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2015,
+    "rank": 58,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2015,
+    "rank": 59,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2015,
+    "rank": 60,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2015,
+    "rank": 61,
+    "characterId": "cacao-to-vanilla"
+  },
+  {
+    "year": 2015,
+    "rank": 62,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2015,
+    "rank": 64,
+    "characterId": "cherry-na-cherry-ne"
+  },
+  {
+    "year": 2015,
+    "rank": 67,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2015,
+    "rank": 68,
+    "characterId": "cho-bot"
+  },
+  {
+    "year": 2015,
+    "rank": 69,
+    "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2015,
+    "rank": 73,
+    "characterId": "dark-grape-man"
+  },
+  {
+    "year": 2015,
+    "rank": 75,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2015,
+    "rank": 85,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2015,
+    "rank": 89,
+    "characterId": "mimic-mike"
+  },
+  {
+    "year": 2015,
+    "rank": 95,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2015,
+    "rank": 100,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2016,
+    "rank": 1,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2016,
+    "rank": 2,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2016,
+    "rank": 3,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2016,
+    "rank": 4,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2016,
+    "rank": 5,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2016,
+    "rank": 6,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2016,
+    "rank": 7,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2016,
+    "rank": 8,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2016,
+    "rank": 9,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2016,
+    "rank": 10,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2016,
+    "rank": 11,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2016,
+    "rank": 12,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2016,
+    "rank": 13,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2016,
+    "rank": 14,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2016,
+    "rank": 15,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2016,
+    "rank": 16,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2016,
+    "rank": 17,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2016,
+    "rank": 18,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2016,
+    "rank": 19,
+    "characterId": "little-forest-fellows"
+  },
+  {
+    "year": 2016,
+    "rank": 20,
+    "characterId": "rururugakuen"
+  },
+  {
+    "year": 2016,
+    "rank": 21,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2016,
+    "rank": 22,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2016,
+    "rank": 23,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2016,
+    "rank": 24,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2016,
+    "rank": 25,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2016,
+    "rank": 26,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2016,
+    "rank": 27,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2016,
+    "rank": 28,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2016,
+    "rank": 29,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2016,
+    "rank": 30,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2016,
+    "rank": 31,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2016,
+    "rank": 32,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2016,
+    "rank": 33,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2016,
+    "rank": 34,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2016,
+    "rank": 35,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2016,
+    "rank": 36,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 2016,
+    "rank": 37,
+    "characterId": "aggretsuko"
+  },
+  {
+    "year": 2016,
+    "rank": 38,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2016,
+    "rank": 39,
+    "characterId": "ichigo-man"
+  },
+  {
+    "year": 2016,
+    "rank": 40,
+    "characterId": "toffee"
+  },
+  {
+    "year": 2016,
+    "rank": 41,
+    "characterId": "fukuchan"
+  },
+  {
+    "year": 2016,
+    "rank": 42,
+    "characterId": "chinjumin-go-chan"
+  },
+  {
+    "year": 2016,
+    "rank": 43,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2016,
+    "rank": 44,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2016,
+    "rank": 45,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2016,
+    "rank": 46,
+    "characterId": "goropicadon"
+  },
+  {
+    "year": 2017,
+    "rank": 1,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2017,
+    "rank": 2,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2017,
+    "rank": 3,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2017,
+    "rank": 4,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2017,
+    "rank": 5,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2017,
+    "rank": 6,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2017,
+    "rank": 7,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2017,
+    "rank": 8,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2017,
+    "rank": 9,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2017,
+    "rank": 10,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2017,
+    "rank": 11,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2017,
+    "rank": 12,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2017,
+    "rank": 13,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2017,
+    "rank": 14,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2017,
+    "rank": 15,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2017,
+    "rank": 16,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2017,
+    "rank": 17,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2017,
+    "rank": 18,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2017,
+    "rank": 19,
+    "characterId": "kogimyun"
+  },
+  {
+    "year": 2017,
+    "rank": 20,
+    "characterId": "marumofu-biyori"
+  },
+  {
+    "year": 2017,
+    "rank": 21,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2017,
+    "rank": 22,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2017,
+    "rank": 23,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2017,
+    "rank": 24,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2017,
+    "rank": 25,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2017,
+    "rank": 26,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2017,
+    "rank": 27,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2017,
+    "rank": 28,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2017,
+    "rank": 29,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2017,
+    "rank": 30,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2017,
+    "rank": 31,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2017,
+    "rank": 32,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2017,
+    "rank": 33,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2017,
+    "rank": 34,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2017,
+    "rank": 35,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2017,
+    "rank": 36,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 2017,
+    "rank": 37,
+    "characterId": "aggretsuko"
+  },
+  {
+    "year": 2017,
+    "rank": 38,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2017,
+    "rank": 39,
+    "characterId": "ichigo-man"
+  },
+  {
+    "year": 2017,
+    "rank": 40,
+    "characterId": "toffee"
+  },
+  {
+    "year": 2017,
+    "rank": 41,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2017,
+    "rank": 42,
+    "characterId": "fukuchan"
+  },
+  {
+    "year": 2017,
+    "rank": 43,
+    "characterId": "goropicadon"
+  },
+  {
+    "year": 2017,
+    "rank": 44,
+    "characterId": "ha-guruman-style"
+  },
+  {
+    "year": 2017,
+    "rank": 45,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2017,
+    "rank": 46,
+    "characterId": "tiny-chum"
+  },
+  {
+    "year": 2017,
+    "rank": 47,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2017,
+    "rank": 48,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2017,
+    "rank": 49,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2017,
+    "rank": 50,
+    "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2017,
+    "rank": 51,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2017,
+    "rank": 52,
+    "characterId": "shinkai-zoku"
+  },
+  {
+    "year": 2017,
+    "rank": 53,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2017,
+    "rank": 54,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2017,
+    "rank": 55,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2017,
+    "rank": 56,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2017,
+    "rank": 57,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2017,
+    "rank": 58,
+    "characterId": "cacao-to-vanilla"
+  },
+  {
+    "year": 2017,
+    "rank": 59,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2017,
+    "rank": 60,
+    "characterId": "nyakki-penne"
+  },
+  {
+    "year": 2017,
+    "rank": 61,
+    "characterId": "honey-momo"
+  },
+  {
+    "year": 2017,
+    "rank": 62,
+    "characterId": "cherry-na-cherry-ne"
+  },
+  {
+    "year": 2017,
+    "rank": 63,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2017,
+    "rank": 64,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2017,
+    "rank": 65,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2017,
+    "rank": 66,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2017,
+    "rank": 67,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2017,
+    "rank": 68,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2017,
+    "rank": 69,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2017,
+    "rank": 70,
+    "characterId": "winky-pinky"
   },
   {
     "year": 2018,
@@ -1180,2583 +3080,1553 @@
     "characterId": "baku-hatsu-kun"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 1,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2017,
-    "rank": 2,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2017,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2017,
-    "rank": 4,
     "characterId": "hello-kitty"
   },
   {
-    "year": 2017,
-    "rank": 5,
-    "characterId": "gudetama"
+    "year": 2019,
+    "rank": 2,
+    "characterId": "cinnamoroll"
   },
   {
-    "year": 2017,
+    "year": 2019,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2019,
+    "rank": 4,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2019,
+    "rank": 5,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2019,
     "rank": 6,
     "characterId": "little-twin-stars"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 7,
-    "characterId": "yoshikitty"
-  },
-  {
-    "year": 2017,
-    "rank": 8,
-    "characterId": "kirimi-chan"
-  },
-  {
-    "year": 2017,
-    "rank": 9,
-    "characterId": "showbyrock"
-  },
-  {
-    "year": 2017,
-    "rank": 10,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2017,
-    "rank": 11,
     "characterId": "kuromi"
   },
   {
-    "year": 2017,
-    "rank": 12,
-    "characterId": "keroppi"
+    "year": 2019,
+    "rank": 8,
+    "characterId": "yoshikitty"
   },
   {
-    "year": 2017,
-    "rank": 13,
-    "characterId": "wish-me-mell"
+    "year": 2019,
+    "rank": 9,
+    "characterId": "gudetama"
   },
   {
-    "year": 2017,
-    "rank": 14,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2017,
-    "rank": 15,
+    "year": 2019,
+    "rank": 10,
     "characterId": "tuxedosam"
   },
   {
-    "year": 2017,
+    "year": 2019,
+    "rank": 11,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2019,
+    "rank": 12,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2019,
+    "rank": 13,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2019,
+    "rank": 14,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2019,
+    "rank": 15,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2019,
     "rank": 16,
     "characterId": "bonbonribbon"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 17,
     "characterId": "my-sweet-piano"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 18,
     "characterId": "hangyodon"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 19,
     "characterId": "kogimyun"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 20,
     "characterId": "marumofu-biyori"
   },
   {
-    "year": 2017,
+    "year": 2019,
     "rank": 21,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2017,
-    "rank": 22,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2017,
-    "rank": 23,
-    "characterId": "ruroro-manic"
-  },
-  {
-    "year": 2017,
-    "rank": 24,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2017,
-    "rank": 25,
-    "characterId": "humming-mint"
-  },
-  {
-    "year": 2017,
-    "rank": 26,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2017,
-    "rank": 27,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2017,
-    "rank": 28,
     "characterId": "charmmy-kitty"
   },
   {
-    "year": 2017,
-    "rank": 29,
-    "characterId": "nyanyinynenyonyon"
+    "year": 2019,
+    "rank": 22,
+    "characterId": "marron-cream"
   },
   {
-    "year": 2017,
-    "rank": 30,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2017,
-    "rank": 31,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2017,
-    "rank": 32,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2017,
-    "rank": 33,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2017,
-    "rank": 34,
+    "year": 2019,
+    "rank": 23,
     "characterId": "ahiru-no-pekkle"
   },
   {
-    "year": 2017,
-    "rank": 35,
-    "characterId": "usahana"
+    "year": 2019,
+    "rank": 24,
+    "characterId": "mewkle-dreamy"
   },
   {
-    "year": 2017,
-    "rank": 36,
-    "characterId": "patty-and-jimmy"
-  },
-  {
-    "year": 2017,
-    "rank": 37,
-    "characterId": "aggretsuko"
-  },
-  {
-    "year": 2017,
-    "rank": 38,
-    "characterId": "fresh-punch"
-  },
-  {
-    "year": 2017,
-    "rank": 39,
-    "characterId": "ichigo-man"
-  },
-  {
-    "year": 2017,
-    "rank": 40,
-    "characterId": "toffee"
-  },
-  {
-    "year": 2017,
-    "rank": 41,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2017,
-    "rank": 42,
-    "characterId": "fukuchan"
-  },
-  {
-    "year": 2017,
-    "rank": 43,
-    "characterId": "goropicadon"
-  },
-  {
-    "year": 2017,
-    "rank": 44,
-    "characterId": "ha-guruman-style"
-  },
-  {
-    "year": 2017,
-    "rank": 45,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2017,
-    "rank": 46,
-    "characterId": "tiny-chum"
-  },
-  {
-    "year": 2017,
-    "rank": 47,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2017,
-    "rank": 48,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2017,
-    "rank": 49,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2017,
-    "rank": 50,
-    "characterId": "dream-tail-cubear"
-  },
-  {
-    "year": 2017,
-    "rank": 51,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2017,
-    "rank": 52,
-    "characterId": "shinkai-zoku"
-  },
-  {
-    "year": 2017,
-    "rank": 53,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2017,
-    "rank": 54,
-    "characterId": "kashiwanko-mochi"
-  },
-  {
-    "year": 2017,
-    "rank": 55,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2017,
-    "rank": 56,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2017,
-    "rank": 57,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2017,
-    "rank": 58,
-    "characterId": "cacao-to-vanilla"
-  },
-  {
-    "year": 2017,
-    "rank": 59,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2017,
-    "rank": 60,
-    "characterId": "nyakki-penne"
-  },
-  {
-    "year": 2017,
-    "rank": 61,
-    "characterId": "honey-momo"
-  },
-  {
-    "year": 2017,
-    "rank": 62,
-    "characterId": "cherry-na-cherry-ne"
-  },
-  {
-    "year": 2017,
-    "rank": 63,
-    "characterId": "the-runabouts"
-  },
-  {
-    "year": 2017,
-    "rank": 64,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2017,
-    "rank": 65,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2017,
-    "rank": 66,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2017,
-    "rank": 67,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2017,
-    "rank": 68,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2017,
-    "rank": 69,
-    "characterId": "tenori-kuma"
-  },
-  {
-    "year": 2017,
-    "rank": 70,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2016,
-    "rank": 1,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2016,
-    "rank": 2,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2016,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2016,
-    "rank": 4,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2016,
-    "rank": 5,
-    "characterId": "gudetama"
-  },
-  {
-    "year": 2016,
-    "rank": 6,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2016,
-    "rank": 7,
-    "characterId": "yoshikitty"
-  },
-  {
-    "year": 2016,
-    "rank": 8,
-    "characterId": "kirimi-chan"
-  },
-  {
-    "year": 2016,
-    "rank": 9,
-    "characterId": "showbyrock"
-  },
-  {
-    "year": 2016,
-    "rank": 10,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2016,
-    "rank": 11,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2016,
-    "rank": 12,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2016,
-    "rank": 13,
-    "characterId": "wish-me-mell"
-  },
-  {
-    "year": 2016,
-    "rank": 14,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2016,
-    "rank": 15,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2016,
-    "rank": 16,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2016,
-    "rank": 17,
-    "characterId": "my-sweet-piano"
-  },
-  {
-    "year": 2016,
-    "rank": 18,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2016,
-    "rank": 19,
+    "year": 2019,
+    "rank": 25,
     "characterId": "little-forest-fellows"
   },
   {
-    "year": 2016,
-    "rank": 20,
-    "characterId": "rururugakuen"
-  },
-  {
-    "year": 2016,
-    "rank": 21,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2016,
-    "rank": 22,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2016,
-    "rank": 23,
-    "characterId": "ruroro-manic"
-  },
-  {
-    "year": 2016,
-    "rank": 24,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2016,
-    "rank": 25,
-    "characterId": "humming-mint"
-  },
-  {
-    "year": 2016,
+    "year": 2019,
     "rank": 26,
     "characterId": "dear-daniel"
   },
   {
-    "year": 2016,
+    "year": 2019,
     "rank": 27,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2019,
+    "rank": 28,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2019,
+    "rank": 29,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2019,
+    "rank": 30,
+    "characterId": "kabuki-nyantaro"
+  },
+  {
+    "year": 2019,
+    "rank": 31,
     "characterId": "minna-no-taa-bou"
   },
   {
-    "year": 2016,
-    "rank": 28,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2016,
-    "rank": 29,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2016,
-    "rank": 30,
+    "year": 2019,
+    "rank": 32,
     "characterId": "sugar-bunnies"
   },
   {
-    "year": 2016,
-    "rank": 31,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2016,
-    "rank": 32,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2016,
+    "year": 2019,
     "rank": 33,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2016,
-    "rank": 34,
-    "characterId": "ahiru-no-pekkle"
-  },
-  {
-    "year": 2016,
-    "rank": 35,
     "characterId": "usahana"
   },
   {
-    "year": 2016,
+    "year": 2019,
+    "rank": 34,
+    "characterId": "caribadix"
+  },
+  {
+    "year": 2019,
+    "rank": 35,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2019,
     "rank": 36,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2019,
+    "rank": 37,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2019,
+    "rank": 38,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2019,
+    "rank": 39,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2019,
+    "rank": 40,
     "characterId": "patty-and-jimmy"
   },
   {
-    "year": 2016,
-    "rank": 37,
+    "year": 2019,
+    "rank": 41,
     "characterId": "aggretsuko"
   },
   {
-    "year": 2016,
-    "rank": 38,
-    "characterId": "fresh-punch"
-  },
-  {
-    "year": 2016,
-    "rank": 39,
+    "year": 2019,
+    "rank": 42,
     "characterId": "ichigo-man"
   },
   {
-    "year": 2016,
-    "rank": 40,
-    "characterId": "toffee"
-  },
-  {
-    "year": 2016,
-    "rank": 41,
-    "characterId": "fukuchan"
-  },
-  {
-    "year": 2016,
-    "rank": 42,
-    "characterId": "chinjumin-go-chan"
-  },
-  {
-    "year": 2016,
+    "year": 2019,
     "rank": 43,
-    "characterId": "fresh-punch"
-  },
-  {
-    "year": 2016,
-    "rank": 44,
     "characterId": "marshmallow-nyanko"
   },
   {
-    "year": 2016,
-    "rank": 45,
-    "characterId": "maimai"
+    "year": 2019,
+    "rank": 44,
+    "characterId": "shinkansen"
   },
   {
-    "year": 2016,
+    "year": 2019,
+    "rank": 45,
+    "characterId": "fukuchan"
+  },
+  {
+    "year": 2019,
     "rank": 46,
     "characterId": "goropicadon"
   },
   {
-    "year": 2015,
-    "rank": 1,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2015,
-    "rank": 2,
-    "characterId": "shingan-crimsyons"
-  },
-  {
-    "year": 2015,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2015,
-    "rank": 4,
-    "characterId": "gudetama"
-  },
-  {
-    "year": 2015,
-    "rank": 5,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2015,
-    "rank": 6,
-    "characterId": "plasmagica"
-  },
-  {
-    "year": 2015,
-    "rank": 7,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2015,
-    "rank": 8,
-    "characterId": "trichronica"
-  },
-  {
-    "year": 2015,
-    "rank": 9,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2015,
-    "rank": 10,
-    "characterId": "tsurezure-naru-ayatsuri-mugen-an"
-  },
-  {
-    "year": 2015,
-    "rank": 12,
-    "characterId": "yoshikitty"
-  },
-  {
-    "year": 2015,
-    "rank": 13,
-    "characterId": "critcrista"
-  },
-  {
-    "year": 2015,
-    "rank": 14,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2015,
-    "rank": 15,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2015,
-    "rank": 17,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2015,
-    "rank": 18,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2015,
-    "rank": 19,
-    "characterId": "wish-me-mell"
-  },
-  {
-    "year": 2015,
-    "rank": 20,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2015,
-    "rank": 21,
-    "characterId": "toffee"
-  },
-  {
-    "year": 2015,
-    "rank": 22,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2015,
-    "rank": 23,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2015,
-    "rank": 24,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2015,
-    "rank": 25,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2015,
-    "rank": 26,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2015,
-    "rank": 27,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2015,
-    "rank": 28,
-    "characterId": "ruroro-manic"
-  },
-  {
-    "year": 2015,
-    "rank": 29,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2015,
-    "rank": 30,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2015,
-    "rank": 31,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2015,
-    "rank": 33,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2015,
-    "rank": 34,
-    "characterId": "usahana"
-  },
-  {
-    "year": 2015,
-    "rank": 35,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2015,
-    "rank": 36,
+    "year": 2019,
+    "rank": 47,
     "characterId": "tiny-chum"
   },
   {
-    "year": 2015,
-    "rank": 37,
-    "characterId": "osaru-no-monkichi"
+    "year": 2019,
+    "rank": 48,
+    "characterId": "sugar-menuet"
   },
   {
-    "year": 2015,
-    "rank": 38,
-    "characterId": "humming-mint"
-  },
-  {
-    "year": 2015,
-    "rank": 39,
-    "characterId": "ahiru-no-pekkle"
-  },
-  {
-    "year": 2015,
-    "rank": 40,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2015,
-    "rank": 43,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2015,
-    "rank": 44,
+    "year": 2019,
+    "rank": 49,
     "characterId": "patapata-peppy"
   },
   {
-    "year": 2015,
-    "rank": 46,
+    "year": 2019,
+    "rank": 50,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2019,
+    "rank": 51,
+    "characterId": "ha-guruman-style"
+  },
+  {
+    "year": 2019,
+    "rank": 52,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2019,
+    "rank": 53,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2019,
+    "rank": 54,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2019,
+    "rank": 55,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2019,
+    "rank": 56,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2019,
+    "rank": 57,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2019,
+    "rank": 58,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2019,
+    "rank": 59,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2019,
+    "rank": 60,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2019,
+    "rank": 61,
+    "characterId": "honey-momo"
+  },
+  {
+    "year": 2019,
+    "rank": 62,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2019,
+    "rank": 63,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2019,
+    "rank": 64,
+    "characterId": "pinky-lil-rose-rio-sky-peace"
+  },
+  {
+    "year": 2019,
+    "rank": 65,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2019,
+    "rank": 66,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2019,
+    "rank": 67,
     "characterId": "shinkai-zoku"
   },
   {
-    "year": 2015,
-    "rank": 47,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2015,
-    "rank": 48,
-    "characterId": "kashiwanko-mochi"
-  },
-  {
-    "year": 2015,
-    "rank": 49,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2015,
-    "rank": 51,
-    "characterId": "honey-momo"
-  },
-  {
-    "year": 2015,
-    "rank": 52,
-    "characterId": "pan-kunchi"
-  },
-  {
-    "year": 2015,
-    "rank": 53,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2015,
-    "rank": 54,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2015,
-    "rank": 56,
-    "characterId": "tenori-kuma"
-  },
-  {
-    "year": 2015,
-    "rank": 58,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2015,
-    "rank": 59,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2015,
-    "rank": 60,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2015,
-    "rank": 61,
-    "characterId": "cacao-to-vanilla"
-  },
-  {
-    "year": 2015,
-    "rank": 62,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2015,
-    "rank": 64,
-    "characterId": "cherry-na-cherry-ne"
-  },
-  {
-    "year": 2015,
-    "rank": 67,
+    "year": 2019,
+    "rank": 68,
     "characterId": "seven-siri-dwarf"
   },
   {
-    "year": 2015,
-    "rank": 68,
+    "year": 2019,
+    "rank": 69,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2019,
+    "rank": 70,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2019,
+    "rank": 71,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2019,
+    "rank": 72,
     "characterId": "cho-bot"
   },
   {
-    "year": 2015,
-    "rank": 69,
-    "characterId": "dream-tail-cubear"
-  },
-  {
-    "year": 2015,
+    "year": 2019,
     "rank": 73,
-    "characterId": "dark-grape-man"
+    "characterId": "panna-pitta"
   },
   {
-    "year": 2015,
-    "rank": 75,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2015,
-    "rank": 85,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2015,
-    "rank": 89,
-    "characterId": "mimic-mike"
-  },
-  {
-    "year": 2015,
-    "rank": 95,
-    "characterId": "risuru"
-  },
-  {
-    "year": 2015,
-    "rank": 100,
-    "characterId": "sporting-bears"
-  },
-  {
-    "year": 2014,
-    "rank": 1,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2014,
-    "rank": 2,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2014,
-    "rank": 3,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2014,
-    "rank": 4,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2014,
-    "rank": 5,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2014,
-    "rank": 7,
-    "characterId": "gudetama"
-  },
-  {
-    "year": 2014,
-    "rank": 9,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2014,
-    "rank": 11,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2014,
-    "rank": 12,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2014,
-    "rank": 13,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2014,
-    "rank": 14,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2014,
-    "rank": 16,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2014,
-    "rank": 17,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2014,
-    "rank": 18,
-    "characterId": "wish-me-mell"
-  },
-  {
-    "year": 2014,
-    "rank": 20,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2014,
-    "rank": 21,
-    "characterId": "toffee"
-  },
-  {
-    "year": 2014,
-    "rank": 22,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2014,
-    "rank": 23,
-    "characterId": "usahana"
-  },
-  {
-    "year": 2014,
-    "rank": 25,
-    "characterId": "honey-momo"
-  },
-  {
-    "year": 2014,
-    "rank": 26,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2014,
-    "rank": 27,
-    "characterId": "cacao-to-vanilla"
-  },
-  {
-    "year": 2014,
-    "rank": 28,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2014,
-    "rank": 29,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2014,
-    "rank": 30,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2014,
-    "rank": 31,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2014,
-    "rank": 32,
-    "characterId": "shingan-crimsyons"
-  },
-  {
-    "year": 2014,
-    "rank": 34,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2014,
-    "rank": 35,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2014,
-    "rank": 36,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2014,
-    "rank": 37,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2014,
-    "rank": 38,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2014,
-    "rank": 40,
-    "characterId": "cherry-na-cherry-ne"
-  },
-  {
-    "year": 2014,
-    "rank": 41,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2014,
-    "rank": 42,
-    "characterId": "pan-kunchi"
-  },
-  {
-    "year": 2014,
-    "rank": 43,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2014,
-    "rank": 45,
-    "characterId": "kashiwanko-mochi"
-  },
-  {
-    "year": 2014,
-    "rank": 46,
-    "characterId": "ahiru-no-pekkle"
-  },
-  {
-    "year": 2014,
-    "rank": 47,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2014,
-    "rank": 48,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2014,
-    "rank": 51,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2014,
-    "rank": 52,
-    "characterId": "plasmagica"
-  },
-  {
-    "year": 2014,
-    "rank": 53,
-    "characterId": "dream-tail-cubear"
-  },
-  {
-    "year": 2014,
-    "rank": 54,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2014,
-    "rank": 55,
-    "characterId": "ruroro-manic"
-  },
-  {
-    "year": 2014,
-    "rank": 57,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2014,
-    "rank": 59,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2014,
-    "rank": 60,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2014,
-    "rank": 61,
-    "characterId": "tenori-kuma"
-  },
-  {
-    "year": 2014,
-    "rank": 62,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2014,
-    "rank": 63,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2014,
-    "rank": 66,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2014,
-    "rank": 76,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2014,
-    "rank": 78,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2014,
-    "rank": 83,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2014,
-    "rank": 84,
-    "characterId": "beetroid"
-  },
-  {
-    "year": 2014,
-    "rank": 87,
-    "characterId": "yachiyo-charmer"
-  },
-  {
-    "year": 2014,
-    "rank": 88,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 2014,
-    "rank": 90,
-    "characterId": "tiny-poem"
-  },
-  {
-    "year": 2014,
-    "rank": 92,
-    "characterId": "dark-grape-man"
-  },
-  {
-    "year": 2014,
-    "rank": 93,
-    "characterId": "risuru"
-  },
-  {
-    "year": 2014,
-    "rank": 97,
-    "characterId": "mimic-mike"
-  },
-  {
-    "year": 2014,
-    "rank": 100,
-    "characterId": "sporting-bears"
-  },
-  {
-    "year": 2013,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2013,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2013,
-    "rank": 3,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2013,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2013,
-    "rank": 5,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2013,
-    "rank": 6,
-    "characterId": "toffee"
-  },
-  {
-    "year": 2013,
-    "rank": 7,
-    "characterId": "jewelpet"
-  },
-  {
-    "year": 2013,
-    "rank": 10,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2013,
-    "rank": 11,
-    "characterId": "wish-me-mell"
-  },
-  {
-    "year": 2013,
-    "rank": 12,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2013,
-    "rank": 13,
-    "characterId": "tuxedosam"
-  },
-  {
-    "year": 2013,
-    "rank": 14,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 2013,
-    "rank": 15,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2013,
-    "rank": 17,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2013,
-    "rank": 18,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2013,
-    "rank": 19,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2013,
-    "rank": 20,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2013,
-    "rank": 21,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2013,
-    "rank": 22,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2013,
-    "rank": 24,
-    "characterId": "hangyodon"
-  },
-  {
-    "year": 2013,
-    "rank": 25,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2013,
-    "rank": 26,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2013,
-    "rank": 29,
-    "characterId": "ahiru-no-pekkle"
-  },
-  {
-    "year": 2013,
-    "rank": 30,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2013,
-    "rank": 31,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2013,
-    "rank": 32,
-    "characterId": "usahana"
-  },
-  {
-    "year": 2013,
-    "rank": 33,
-    "characterId": "corocorokuririn"
-  },
-  {
-    "year": 2013,
-    "rank": 34,
-    "characterId": "honey-momo"
-  },
-  {
-    "year": 2013,
-    "rank": 35,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2013,
-    "rank": 36,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2013,
-    "rank": 37,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2013,
-    "rank": 39,
-    "characterId": "beetroid"
-  },
-  {
-    "year": 2013,
-    "rank": 40,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2013,
-    "rank": 41,
-    "characterId": "sugar-menuet"
-  },
-  {
-    "year": 2013,
-    "rank": 42,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2013,
-    "rank": 43,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2013,
-    "rank": 44,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2013,
-    "rank": 45,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2013,
-    "rank": 46,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2013,
-    "rank": 47,
-    "characterId": "dark-grape-man"
-  },
-  {
-    "year": 2013,
-    "rank": 48,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2013,
-    "rank": 49,
-    "characterId": "cacao-to-vanilla"
-  },
-  {
-    "year": 2013,
-    "rank": 51,
-    "characterId": "tenori-kuma"
-  },
-  {
-    "year": 2013,
-    "rank": 52,
-    "characterId": "pan-kunchi"
-  },
-  {
-    "year": 2013,
-    "rank": 54,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2013,
-    "rank": 55,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2013,
-    "rank": 60,
-    "characterId": "dream-tail-cubear"
-  },
-  {
-    "year": 2013,
-    "rank": 65,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2013,
-    "rank": 66,
-    "characterId": "tiny-poem"
-  },
-  {
-    "year": 2013,
-    "rank": 68,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2013,
-    "rank": 71,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2013,
-    "rank": 72,
-    "characterId": "risuru"
-  },
-  {
-    "year": 2013,
-    "rank": 73,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 2013,
+    "year": 2019,
     "rank": 74,
     "characterId": "yachiyo-charmer"
   },
   {
-    "year": 2013,
-    "rank": 81,
-    "characterId": "panna-pitta"
+    "year": 2019,
+    "rank": 75,
+    "characterId": "mr-men-little-miss"
   },
   {
-    "year": 2013,
-    "rank": 91,
-    "characterId": "sporting-bears"
+    "year": 2019,
+    "rank": 76,
+    "characterId": "dream-tail-cubear"
   },
   {
-    "year": 2013,
-    "rank": 94,
+    "year": 2019,
+    "rank": 77,
+    "characterId": "dark-grape-man"
+  },
+  {
+    "year": 2019,
+    "rank": 78,
     "characterId": "mimic-mike"
   },
   {
-    "year": 2012,
+    "year": 2019,
+    "rank": 79,
+    "characterId": "little-lovin"
+  },
+  {
+    "year": 2019,
+    "rank": 80,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2020,
     "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2012,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2012,
-    "rank": 3,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2012,
-    "rank": 4,
     "characterId": "cinnamoroll"
   },
   {
-    "year": 2012,
-    "rank": 5,
+    "year": 2020,
+    "rank": 2,
     "characterId": "pompompurin"
   },
   {
-    "year": 2012,
+    "year": 2020,
+    "rank": 3,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2020,
+    "rank": 4,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2020,
+    "rank": 5,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2020,
     "rank": 6,
-    "characterId": "jewelpet"
+    "characterId": "yoshikitty"
   },
   {
-    "year": 2012,
+    "year": 2020,
     "rank": 7,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2012,
-    "rank": 8,
     "characterId": "kuromi"
   },
   {
-    "year": 2012,
+    "year": 2020,
+    "rank": 8,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2020,
+    "rank": 9,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2020,
     "rank": 10,
     "characterId": "tuxedosam"
   },
   {
-    "year": 2012,
+    "year": 2020,
     "rank": 11,
-    "characterId": "charmmy-kitty"
+    "characterId": "keroppi"
   },
   {
-    "year": 2012,
+    "year": 2020,
     "rank": 12,
-    "characterId": "wish-me-mell"
+    "characterId": "gudetama"
   },
   {
-    "year": 2012,
+    "year": 2020,
     "rank": 13,
-    "characterId": "pochacco"
+    "characterId": "kogimyun"
   },
   {
-    "year": 2012,
+    "year": 2020,
     "rank": 14,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2012,
-    "rank": 15,
     "characterId": "badtz-maru"
   },
   {
-    "year": 2012,
-    "rank": 17,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2012,
-    "rank": 18,
+    "year": 2020,
+    "rank": 15,
     "characterId": "hangyodon"
   },
   {
-    "year": 2012,
-    "rank": 19,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 2012,
-    "rank": 20,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2012,
-    "rank": 21,
-    "characterId": "usahana"
-  },
-  {
-    "year": 2012,
-    "rank": 22,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2012,
-    "rank": 23,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2012,
-    "rank": 24,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2012,
-    "rank": 25,
-    "characterId": "cheery-chum"
-  },
-  {
-    "year": 2012,
-    "rank": 26,
+    "year": 2020,
+    "rank": 16,
     "characterId": "ahiru-no-pekkle"
   },
   {
-    "year": 2012,
-    "rank": 28,
-    "characterId": "minna-no-taa-bou"
+    "year": 2020,
+    "rank": 17,
+    "characterId": "kirimi-chan"
   },
   {
-    "year": 2012,
-    "rank": 29,
-    "characterId": "corocorokuririn"
+    "year": 2020,
+    "rank": 18,
+    "characterId": "wish-me-mell"
   },
   {
-    "year": 2012,
-    "rank": 31,
-    "characterId": "sugar-menuet"
+    "year": 2020,
+    "rank": 19,
+    "characterId": "hello-mimmy"
   },
   {
-    "year": 2012,
-    "rank": 32,
-    "characterId": "cacao-to-vanilla"
+    "year": 2020,
+    "rank": 20,
+    "characterId": "my-sweet-piano"
   },
   {
-    "year": 2012,
-    "rank": 33,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2012,
-    "rank": 35,
-    "characterId": "nyanyinynenyonyon"
-  },
-  {
-    "year": 2012,
-    "rank": 37,
-    "characterId": "tenori-kuma"
-  },
-  {
-    "year": 2012,
-    "rank": 38,
-    "characterId": "pan-kunchi"
-  },
-  {
-    "year": 2012,
-    "rank": 39,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2012,
-    "rank": 41,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2012,
-    "rank": 42,
-    "characterId": "the-vaudeville-duo"
-  },
-  {
-    "year": 2012,
-    "rank": 43,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2012,
-    "rank": 45,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2012,
-    "rank": 46,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2012,
-    "rank": 47,
-    "characterId": "tiny-poem"
-  },
-  {
-    "year": 2012,
-    "rank": 48,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2012,
-    "rank": 49,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2012,
-    "rank": 51,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2012,
-    "rank": 54,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2012,
-    "rank": 56,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2012,
-    "rank": 57,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 2012,
-    "rank": 58,
-    "characterId": "panna-pitta"
-  },
-  {
-    "year": 2012,
-    "rank": 64,
-    "characterId": "beetroid"
-  },
-  {
-    "year": 2012,
-    "rank": 67,
-    "characterId": "yachiyo-charmer"
-  },
-  {
-    "year": 2012,
-    "rank": 68,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2012,
-    "rank": 75,
-    "characterId": "mimic-mike"
-  },
-  {
-    "year": 2011,
+    "year": 2021,
     "rank": 1,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2011,
-    "rank": 2,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2011,
-    "rank": 3,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2011,
-    "rank": 4,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2011,
-    "rank": 5,
     "characterId": "cinnamoroll"
   },
   {
-    "year": 2011,
-    "rank": 6,
+    "year": 2021,
+    "rank": 2,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2021,
+    "rank": 3,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2021,
+    "rank": 4,
     "characterId": "kuromi"
   },
   {
-    "year": 2011,
+    "year": 2021,
+    "rank": 5,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2021,
+    "rank": 6,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2021,
     "rank": 7,
     "characterId": "keroppi"
   },
   {
-    "year": 2011,
+    "year": 2021,
     "rank": 8,
-    "characterId": "charmmy-kitty"
+    "characterId": "badtz-maru"
   },
   {
-    "year": 2011,
+    "year": 2021,
+    "rank": 9,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2021,
+    "rank": 10,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2021,
+    "rank": 11,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2021,
+    "rank": 12,
+    "characterId": "rururugakuen"
+  },
+  {
+    "year": 2022,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2022,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2022,
+    "rank": 3,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2022,
+    "rank": 4,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2022,
+    "rank": 5,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2022,
+    "rank": 6,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2022,
+    "rank": 7,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2022,
+    "rank": 8,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2022,
     "rank": 9,
     "characterId": "badtz-maru"
   },
   {
-    "year": 2011,
+    "year": 2022,
     "rank": 10,
-    "characterId": "pochacco"
+    "characterId": "hangyodon"
   },
   {
-    "year": 2011,
-    "rank": 12,
+    "year": 2022,
+    "rank": 11,
     "characterId": "tuxedosam"
   },
   {
-    "year": 2011,
-    "rank": 13,
-    "characterId": "sugar-bunnies"
+    "year": 2022,
+    "rank": 12,
+    "characterId": "rururugakuen"
   },
   {
-    "year": 2011,
-    "rank": 14,
-    "characterId": "jewelpet"
+    "year": 2023,
+    "rank": 1,
+    "characterId": "hello-kitty"
   },
   {
-    "year": 2011,
-    "rank": 15,
-    "characterId": "ahiru-no-pekkle"
+    "year": 2023,
+    "rank": 2,
+    "characterId": "cinnamoroll"
   },
   {
-    "year": 2011,
-    "rank": 16,
-    "characterId": "marron-cream"
+    "year": 2023,
+    "rank": 3,
+    "characterId": "my-melody"
   },
   {
-    "year": 2011,
-    "rank": 17,
+    "year": 2023,
+    "rank": 4,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2023,
+    "rank": 5,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2023,
+    "rank": 6,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2023,
+    "rank": 7,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2023,
+    "rank": 8,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2023,
+    "rank": 9,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2023,
+    "rank": 10,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2023,
+    "rank": 11,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2023,
+    "rank": 12,
+    "characterId": "rururugakuen"
+  },
+  {
+    "year": 2024,
+    "rank": 1,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2024,
+    "rank": 2,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2024,
+    "rank": 3,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2024,
+    "rank": 4,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2024,
+    "rank": 5,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2024,
+    "rank": 6,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2024,
+    "rank": 7,
+    "characterId": "hangyodon"
+  },
+  {
+    "year": 2024,
+    "rank": 8,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2024,
+    "rank": 9,
+    "characterId": "tuxedosam"
+  },
+  {
+    "year": 2024,
+    "rank": 10,
+    "characterId": "kogimyun"
+  },
+  {
+    "year": 2024,
+    "rank": 11,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2024,
+    "rank": 12,
     "characterId": "wish-me-mell"
   },
   {
-    "year": 2011,
-    "rank": 18,
-    "characterId": "marshmallow-nyanko"
+    "year": 2024,
+    "rank": 13,
+    "characterId": "ahiru-no-pekkle"
   },
   {
-    "year": 2011,
+    "year": 2024,
+    "rank": 14,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2024,
+    "rank": 15,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2024,
+    "rank": 16,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2024,
+    "rank": 17,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2024,
+    "rank": 18,
+    "characterId": "marumofu-biyori"
+  },
+  {
+    "year": 2024,
     "rank": 19,
     "characterId": "minna-no-taa-bou"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 20,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2024,
+    "rank": 21,
     "characterId": "usahana"
   },
   {
-    "year": 2011,
-    "rank": 21,
-    "characterId": "hangyodon"
+    "year": 2024,
+    "rank": 22,
+    "characterId": "mewkle-dreamy"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 23,
-    "characterId": "cheery-chum"
+    "characterId": "hello-mimmy"
   },
   {
-    "year": 2011,
+    "year": 2024,
+    "rank": 24,
+    "characterId": "little-forest-fellows"
+  },
+  {
+    "year": 2024,
     "rank": 25,
-    "characterId": "osaru-no-monkichi"
+    "characterId": "ruroro-manic"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 26,
-    "characterId": "corocorokuririn"
+    "characterId": "dear-daniel"
   },
   {
-    "year": 2011,
+    "year": 2024,
+    "rank": 27,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2024,
     "rank": 28,
-    "characterId": "patapata-peppy"
+    "characterId": "jewelpet"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 29,
-    "characterId": "pan-kunchi"
+    "characterId": "sugar-bunnies"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 30,
-    "characterId": "tenori-kuma"
+    "characterId": "maimai-maigoen"
   },
   {
-    "year": 2011,
+    "year": 2024,
     "rank": 31,
     "characterId": "nyanyinynenyonyon"
   },
   {
-    "year": 2011,
+    "year": 2024,
+    "rank": 32,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2024,
+    "rank": 33,
+    "characterId": "aggretsuko"
+  },
+  {
+    "year": 2024,
     "rank": 34,
-    "characterId": "zashikibutа"
-  },
-  {
-    "year": 2011,
-    "rank": 35,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 2011,
-    "rank": 37,
-    "characterId": "ichigo-no-ousama"
-  },
-  {
-    "year": 2011,
-    "rank": 39,
-    "characterId": "shinkansen"
-  },
-  {
-    "year": 2011,
-    "rank": 41,
-    "characterId": "seven-siri-dwarf"
-  },
-  {
-    "year": 2011,
-    "rank": 45,
-    "characterId": "tiny-poem"
-  },
-  {
-    "year": 2011,
-    "rank": 48,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2011,
-    "rank": 49,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2011,
-    "rank": 50,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 2011,
-    "rank": 52,
-    "characterId": "button-nose"
-  },
-  {
-    "year": 2011,
-    "rank": 53,
-    "characterId": "umeya-zakka-ten"
-  },
-  {
-    "year": 2011,
-    "rank": 57,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2011,
-    "rank": 62,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 2011,
-    "rank": 67,
-    "characterId": "nora-neko-land"
-  },
-  {
-    "year": 2011,
-    "rank": 75,
-    "characterId": "panna-pitta"
-  },
-  {
-    "year": 2011,
-    "rank": 76,
-    "characterId": "yachiyo-charmer"
-  },
-  {
-    "year": 2011,
-    "rank": 100,
-    "characterId": "mimic-mike"
-  },
-  {
-    "year": 2010,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2010,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2010,
-    "rank": 3,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2010,
-    "rank": 4,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2010,
-    "rank": 5,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2009,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2009,
-    "rank": 2,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2009,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2009,
-    "rank": 4,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2009,
-    "rank": 5,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2008,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2008,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2008,
-    "rank": 3,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2008,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2008,
-    "rank": 5,
-    "characterId": "sugar-bunnies"
-  },
-  {
-    "year": 2007,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2007,
-    "rank": 2,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2007,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2007,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2007,
-    "rank": 5,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2006,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2006,
-    "rank": 2,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2006,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2006,
-    "rank": 4,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2006,
-    "rank": 5,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2005,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2005,
-    "rank": 2,
-    "characterId": "charmmy-kitty"
-  },
-  {
-    "year": 2005,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2005,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2005,
-    "rank": 5,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2004,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2004,
-    "rank": 2,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2004,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2004,
-    "rank": 4,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2004,
-    "rank": 5,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2003,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2003,
-    "rank": 2,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2003,
-    "rank": 3,
-    "characterId": "cinnamoroll"
-  },
-  {
-    "year": 2003,
-    "rank": 4,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2003,
-    "rank": 5,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2002,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2002,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2002,
-    "rank": 3,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2002,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2002,
-    "rank": 5,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2001,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2001,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2001,
-    "rank": 3,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2001,
-    "rank": 4,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2001,
-    "rank": 5,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2000,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2000,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2000,
-    "rank": 3,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 2000,
-    "rank": 4,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2000,
-    "rank": 5,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 1999,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 1999,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 1999,
-    "rank": 3,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 1999,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 1999,
-    "rank": 5,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 1998,
-    "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 1998,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 1998,
-    "rank": 3,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 1998,
-    "rank": 4,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 1998,
-    "rank": 5,
-    "characterId": "patty-and-jimmy"
-  },
-  {
-    "year": 1997,
-    "rank": 1,
-    "characterId": "pompompurin"
-  },
-  {
-    "year": 1997,
-    "rank": 2,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 1997,
-    "rank": 3,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 1997,
-    "rank": 4,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 1997,
-    "rank": 5,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 1996,
-    "rank": 1,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 1996,
-    "rank": 2,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 1996,
-    "rank": 3,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 1996,
-    "rank": 4,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 1996,
-    "rank": 5,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 1995,
-    "rank": 1,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 1995,
-    "rank": 2,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 1995,
-    "rank": 3,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 1995,
-    "rank": 4,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 1995,
-    "rank": 5,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 1994,
-    "rank": 1,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 1994,
-    "rank": 2,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 1994,
-    "rank": 3,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 1994,
-    "rank": 4,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 1994,
-    "rank": 5,
-    "characterId": "mr-bears-dream"
-  },
-  {
-    "year": 1993,
-    "rank": 1,
-    "characterId": "pochacco"
-  },
-  {
-    "year": 1993,
-    "rank": 2,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 1993,
-    "rank": 3,
-    "characterId": "rururu-gakuen"
-  },
-  {
-    "year": 1993,
-    "rank": 4,
     "characterId": "osaru-no-monkichi"
   },
   {
-    "year": 1993,
-    "rank": 5,
-    "characterId": "the-vaudeville-duo"
+    "year": 2024,
+    "rank": 35,
+    "characterId": "bonbonribbon"
   },
   {
-    "year": 1992,
-    "rank": 1,
-    "characterId": "pochacco"
+    "year": 2024,
+    "rank": 36,
+    "characterId": "パティ＆ジミー"
   },
   {
-    "year": 1992,
-    "rank": 2,
-    "characterId": "rururu-gakuen"
+    "year": 2024,
+    "rank": 37,
+    "characterId": "cheery-chum"
   },
   {
-    "year": 1992,
-    "rank": 3,
-    "characterId": "the-vaudeville-duo"
+    "year": 2024,
+    "rank": 38,
+    "characterId": "pokkyokuten"
   },
   {
-    "year": 1992,
-    "rank": 4,
-    "characterId": "marron-cream"
+    "year": 2024,
+    "rank": 39,
+    "characterId": "tiny-chum"
   },
   {
-    "year": 1992,
-    "rank": 5,
-    "characterId": "ahiru-no-pekkle"
+    "year": 2024,
+    "rank": 40,
+    "characterId": "ha-guruman-style"
   },
   {
-    "year": 1991,
-    "rank": 1,
-    "characterId": "pochacco"
+    "year": 2024,
+    "rank": 41,
+    "characterId": "patapata-peppy"
   },
   {
-    "year": 1991,
-    "rank": 2,
-    "characterId": "keroppi"
+    "year": 2024,
+    "rank": 42,
+    "characterId": "beat-cats"
   },
   {
-    "year": 1991,
-    "rank": 3,
-    "characterId": "marron-cream"
+    "year": 2024,
+    "rank": 43,
+    "characterId": "marshmallow-nyanko"
   },
   {
-    "year": 1991,
-    "rank": 4,
-    "characterId": "minna-no-taa-bou"
+    "year": 2024,
+    "rank": 44,
+    "characterId": "paupipo"
   },
   {
-    "year": 1991,
-    "rank": 5,
-    "characterId": "snoopy"
-  },
-  {
-    "year": 1990,
-    "rank": 1,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 1990,
-    "rank": 2,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 1990,
-    "rank": 3,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 1990,
-    "rank": 4,
-    "characterId": "snoopy"
-  },
-  {
-    "year": 1990,
-    "rank": 5,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 1989,
-    "rank": 1,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 1989,
-    "rank": 2,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 1989,
-    "rank": 3,
-    "characterId": "snoopy"
-  },
-  {
-    "year": 1989,
-    "rank": 4,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 1989,
-    "rank": 5,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 1988,
-    "rank": 1,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 1988,
-    "rank": 2,
-    "characterId": "snoopy"
-  },
-  {
-    "year": 1988,
-    "rank": 3,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 1988,
-    "rank": 4,
-    "characterId": "felix-the-cat"
-  },
-  {
-    "year": 1987,
-    "rank": 1,
-    "characterId": "marron-cream"
-  },
-  {
-    "year": 1987,
-    "rank": 2,
-    "characterId": "snoopy"
-  },
-  {
-    "year": 1987,
-    "rank": 3,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 1987,
-    "rank": 4,
-    "characterId": "pokopon-diary"
-  },
-  {
-    "year": 1987,
-    "rank": 5,
-    "characterId": "brownie-story"
-  },
-  {
-    "year": 1986,
-    "rank": 1,
+    "year": 2024,
+    "rank": 45,
     "characterId": "zashikibutа"
   },
   {
-    "year": 1986,
-    "rank": 2,
-    "characterId": "snoopy"
+    "year": 2024,
+    "rank": 46,
+    "characterId": "adoroza-torumari"
   },
   {
-    "year": 1986,
+    "year": 2024,
+    "rank": 47,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2024,
+    "rank": 48,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2024,
+    "rank": 49,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2024,
+    "rank": 50,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2024,
+    "rank": 51,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2024,
+    "rank": 52,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2024,
+    "rank": 53,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2024,
+    "rank": 54,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2024,
+    "rank": 55,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2024,
+    "rank": 56,
+    "characterId": "ichigoman"
+  },
+  {
+    "year": 2024,
+    "rank": 57,
+    "characterId": "caribadix"
+  },
+  {
+    "year": 2024,
+    "rank": 58,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2024,
+    "rank": 59,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2024,
+    "rank": 60,
+    "characterId": "ふくちゃん"
+  },
+  {
+    "year": 2024,
+    "rank": 61,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2024,
+    "rank": 62,
+    "characterId": "bosanimaru"
+  },
+  {
+    "year": 2024,
+    "rank": 63,
+    "characterId": "mellow-tune"
+  },
+  {
+    "year": 2024,
+    "rank": 64,
+    "characterId": "shinkai-zoku"
+  },
+  {
+    "year": 2024,
+    "rank": 65,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2024,
+    "rank": 66,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2024,
+    "rank": 67,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2024,
+    "rank": 68,
+    "characterId": "puwawa"
+  },
+  {
+    "year": 2024,
+    "rank": 69,
+    "characterId": "kumamiren"
+  },
+  {
+    "year": 2024,
+    "rank": 70,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2024,
+    "rank": 71,
+    "characterId": "ザ-ラナバウツ"
+  },
+  {
+    "year": 2024,
+    "rank": 72,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2024,
+    "rank": 73,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2024,
+    "rank": 74,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2024,
+    "rank": 75,
+    "characterId": "taraiguma-no-laundry"
+  },
+  {
+    "year": 2024,
+    "rank": 76,
+    "characterId": "ニョッキ＆ペンネ"
+  },
+  {
+    "year": 2024,
+    "rank": 77,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2024,
+    "rank": 78,
+    "characterId": "れおすけ"
+  },
+  {
+    "year": 2024,
+    "rank": 79,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2024,
+    "rank": 80,
+    "characterId": "シュガークリームパフ"
+  },
+  {
+    "year": 2024,
+    "rank": 81,
+    "characterId": "cherry-na-cherry-ne"
+  },
+  {
+    "year": 2024,
+    "rank": 82,
+    "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2024,
+    "rank": 83,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2024,
+    "rank": 84,
+    "characterId": "little-lovin"
+  },
+  {
+    "year": 2025,
+    "rank": 1,
+    "characterId": "cinnamoroll"
+  },
+  {
+    "year": 2025,
+    "rank": 2,
+    "characterId": "pochacco"
+  },
+  {
+    "year": 2025,
     "rank": 3,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2025,
+    "rank": 4,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2025,
+    "rank": 5,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2025,
+    "rank": 6,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2025,
+    "rank": 7,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2025,
+    "rank": 8,
     "characterId": "hangyodon"
   },
   {
-    "year": 1986,
-    "rank": 4,
+    "year": 2025,
+    "rank": 9,
     "characterId": "tuxedosam"
   },
   {
-    "year": 1986,
-    "rank": 5,
+    "year": 2025,
+    "rank": 10,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2025,
+    "rank": 11,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2025,
+    "rank": 12,
+    "characterId": "kogimyun"
+  },
+  {
+    "year": 2025,
+    "rank": 13,
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2025,
+    "rank": 14,
+    "characterId": "hanamaru-obake"
+  },
+  {
+    "year": 2025,
+    "rank": 15,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2025,
+    "rank": 16,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2025,
+    "rank": 17,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2025,
+    "rank": 18,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2025,
+    "rank": 19,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2025,
+    "rank": 20,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2025,
+    "rank": 21,
+    "characterId": "gao-pawaru"
+  },
+  {
+    "year": 2025,
+    "rank": 22,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2025,
+    "rank": 23,
+    "characterId": "marumofu-biyori"
+  },
+  {
+    "year": 2025,
+    "rank": 24,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2025,
+    "rank": 25,
+    "characterId": "kabuki-nyantaro"
+  },
+  {
+    "year": 2025,
+    "rank": 26,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2025,
+    "rank": 27,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2025,
+    "rank": 28,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2025,
+    "rank": 29,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2025,
+    "rank": 30,
+    "characterId": "pokkyokuten"
+  },
+  {
+    "year": 2025,
+    "rank": 31,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2025,
+    "rank": 32,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2025,
+    "rank": 33,
+    "characterId": "hello-mimmy"
+  },
+  {
+    "year": 2025,
+    "rank": 34,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2025,
+    "rank": 35,
+    "characterId": "maimai-maigoen"
+  },
+  {
+    "year": 2025,
+    "rank": 36,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2025,
+    "rank": 37,
+    "characterId": "petapeta-minirian"
+  },
+  {
+    "year": 2025,
+    "rank": 38,
     "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2025,
+    "rank": 39,
+    "characterId": "little-forest-fellows"
+  },
+  {
+    "year": 2025,
+    "rank": 40,
+    "characterId": "tiny-chum"
+  },
+  {
+    "year": 2025,
+    "rank": 41,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2025,
+    "rank": 42,
+    "characterId": "パティ＆ジミー"
+  },
+  {
+    "year": 2025,
+    "rank": 43,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2025,
+    "rank": 44,
+    "characterId": "ha-guruman-style"
+  },
+  {
+    "year": 2025,
+    "rank": 45,
+    "characterId": "aggretsuko"
+  },
+  {
+    "year": 2025,
+    "rank": 46,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2025,
+    "rank": 47,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2025,
+    "rank": 48,
+    "characterId": "adoroza-torumari"
+  },
+  {
+    "year": 2025,
+    "rank": 49,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2025,
+    "rank": 50,
+    "characterId": "mewkle-dreamy"
+  },
+  {
+    "year": 2025,
+    "rank": 51,
+    "characterId": "buddyeddy"
+  },
+  {
+    "year": 2025,
+    "rank": 52,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2025,
+    "rank": 53,
+    "characterId": "ichigoman"
+  },
+  {
+    "year": 2025,
+    "rank": 54,
+    "characterId": "beat-cats"
+  },
+  {
+    "year": 2025,
+    "rank": 55,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2025,
+    "rank": 56,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2025,
+    "rank": 57,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2025,
+    "rank": 58,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2025,
+    "rank": 59,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2025,
+    "rank": 60,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2025,
+    "rank": 61,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2025,
+    "rank": 62,
+    "characterId": "caribadix"
+  },
+  {
+    "year": 2025,
+    "rank": 63,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2025,
+    "rank": 64,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2025,
+    "rank": 65,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2025,
+    "rank": 66,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2025,
+    "rank": 67,
+    "characterId": "kumamiren"
+  },
+  {
+    "year": 2025,
+    "rank": 68,
+    "characterId": "kusuri-no-fukutaro"
+  },
+  {
+    "year": 2025,
+    "rank": 69,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2025,
+    "rank": 70,
+    "characterId": "bosanimaru"
+  },
+  {
+    "year": 2025,
+    "rank": 71,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2025,
+    "rank": 72,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2025,
+    "rank": 73,
+    "characterId": "we-are-dinosaurs"
+  },
+  {
+    "year": 2025,
+    "rank": 74,
+    "characterId": "mellow-tune"
+  },
+  {
+    "year": 2025,
+    "rank": 75,
+    "characterId": "shinkai-zoku"
+  },
+  {
+    "year": 2025,
+    "rank": 76,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2025,
+    "rank": 77,
+    "characterId": "taraiguma-no-laundry"
+  },
+  {
+    "year": 2025,
+    "rank": 78,
+    "characterId": "ザ-ラナバウツ"
+  },
+  {
+    "year": 2025,
+    "rank": 79,
+    "characterId": "tenori-kuma"
+  },
+  {
+    "year": 2025,
+    "rank": 80,
+    "characterId": "バニー＆マッティ"
+  },
+  {
+    "year": 2025,
+    "rank": 81,
+    "characterId": "ニョッキ＆ペンネ"
+  },
+  {
+    "year": 2025,
+    "rank": 82,
+    "characterId": "puwawa"
+  },
+  {
+    "year": 2025,
+    "rank": 83,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2025,
+    "rank": 84,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2025,
+    "rank": 85,
+    "characterId": "mr-bears-dream"
+  },
+  {
+    "year": 2025,
+    "rank": 86,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2025,
+    "rank": 87,
+    "characterId": "button-nose"
+  },
+  {
+    "year": 2025,
+    "rank": 88,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2025,
+    "rank": 89,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2025,
+    "rank": 90,
+    "characterId": "little-lovin"
   }
 ]

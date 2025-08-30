@@ -1,43 +1,27 @@
 [
   {
-    "id": "hello-kitty",
-    "name": "ハローキティ",
-    "nameEn": "Hello Kitty",
-    "description": "1974年に誕生した白い子猫のキャラクター。世界中で愛され続けている代表的なサンリオキャラクター。",
-    "debutYear": 1974,
-    "color": "#FF69B4"
+    "id": "adoroza-torumari",
+    "name": "[要更新] Adoroza Torumari",
+    "nameEn": "Adoroza Torumari",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
   },
   {
-    "id": "my-melody",
-    "name": "マイメロディ",
-    "nameEn": "My Melody",
-    "description": "1975年に誕生した白いうさぎのキャラクター。赤いフードがトレードマークの人気キャラクター。",
-    "debutYear": 1975,
-    "color": "#FFB6C1"
+    "id": "aggretsuko",
+    "name": "アグレッシブ烈子",
+    "nameEn": "Aggretsuko",
+    "description": "サンリオキャラクター",
+    "debutYear": 2016,
+    "color": "#FF4500"
   },
   {
-    "id": "pompompurin",
-    "name": "ポムポムプリン",
-    "nameEn": "Pompompurin",
-    "description": "1996年に誕生した黄色い犬のキャラクター。のんびり屋でプリンが大好き。",
-    "debutYear": 1996,
+    "id": "ahiru-no-pekkle",
+    "name": "あひるのペックル",
+    "nameEn": "Ahiru no Pekkle",
+    "description": "1990年代に登場したアヒルのキャラクター。",
+    "debutYear": 1990,
     "color": "#FFD700"
-  },
-  {
-    "id": "kuromi",
-    "name": "クロミ",
-    "nameEn": "Kuromi",
-    "description": "2005年に誕生した白いうさぎのキャラクター。マイメロディのライバルで、ちょっと悪魔っぽい性格。",
-    "debutYear": 2005,
-    "color": "#9370DB"
-  },
-  {
-    "id": "keroppi",
-    "name": "けろけろけろっぴ",
-    "nameEn": "Keroppi",
-    "description": "1988年に誕生したカエルのキャラクター。元気で活発、水遊びが大好き。",
-    "debutYear": 1988,
-    "color": "#32CD32"
   },
   {
     "id": "badtz-maru",
@@ -48,100 +32,36 @@
     "color": "#000000"
   },
   {
-    "id": "little-twin-stars",
-    "name": "キキ&ララ",
-    "nameEn": "Little Twin Stars",
-    "description": "1975年に誕生した双子の星の子のキャラクター。キキとララの兄妹で、夢と希望を運ぶ。",
-    "debutYear": 1975,
-    "color": "#87CEEB"
+    "id": "beat-cats",
+    "name": "[要更新] Beat Cats",
+    "nameEn": "Beat Cats",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
   },
   {
-    "id": "cinnamoroll",
-    "name": "シナモロール",
-    "nameEn": "Cinnamoroll",
-    "description": "2001年に誕生した白い子犬のキャラクター。耳が大きくて空を飛ぶことができる。",
-    "debutYear": 2001,
-    "color": "#87CEFA"
+    "id": "beetroid",
+    "name": "ビートロイド",
+    "nameEn": "Beetroid",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
+    "color": "#FF4500"
   },
   {
-    "id": "pochacco",
-    "name": "ポチャッコ",
-    "nameEn": "Pochacco",
-    "description": "1989年に誕生した白い犬のキャラクター。スポーツが得意で好奇心旺盛。",
-    "debutYear": 1989,
-    "color": "#4169E1"
+    "id": "bonbonribbon",
+    "name": "ぼんぼんりぼん",
+    "nameEn": "Bonbonribbon",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#FF69B4"
   },
   {
-    "id": "tuxedosam",
-    "name": "タキシードサム",
-    "nameEn": "Tuxedosam",
-    "description": "1979年に誕生したペンギンのキャラクター。おしゃれで紳士的な性格。",
-    "debutYear": 1979,
-    "color": "#000080"
-  },
-  {
-    "id": "rururugakuen",
-    "name": "ルルロロ",
-    "nameEn": "Rururugakuen",
-    "description": "2011年に誕生したくまの双子のキャラクター。がんばり屋の姉妹。",
-    "debutYear": 2011,
-    "color": "#FFA500"
-  },
-  {
-    "id": "hangyodon",
-    "name": "ハンギョドン",
-    "nameEn": "Hangyodon",
-    "description": "1985年に誕生した魚のキャラクター。半漁人でちょっとダサいけど愛らしい。",
-    "debutYear": 1985,
-    "color": "#00CED1"
-  },
-  {
-    "id": "zashikibutа",
-    "name": "ザシキブタ",
-    "nameEn": "Zashikibutа",
-    "description": "1986年のサンリオキャラクター大賞で1位を獲得したキャラクター。",
-    "debutYear": 1985,
-    "color": "#8B4513"
-  },
-  {
-    "id": "snoopy",
-    "name": "スヌーピー",
-    "nameEn": "Snoopy",
-    "description": "ピーナッツの人気キャラクター。サンリオとコラボしていた時期があった。",
-    "debutYear": 1950,
-    "color": "#FFFFFF"
-  },
-  {
-    "id": "nyanyinynenyonyon",
-    "name": "ニャニィニュニェニョン",
-    "nameEn": "Nyanyinynenyonyon",
-    "description": "1980年代後半に登場した猫のキャラクター。",
-    "debutYear": 1985,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "marron-cream",
-    "name": "マロンクリーム",
-    "nameEn": "Marron Cream",
-    "description": "1980年代後半に人気を博したリスのキャラクター。",
-    "debutYear": 1985,
-    "color": "#DEB887"
-  },
-  {
-    "id": "minna-no-taa-bou",
-    "name": "みんなのたあ坊",
-    "nameEn": "Minna no Taa-bou",
-    "description": "1988年から1989年にかけて連続1位を獲得した人気キャラクター。",
-    "debutYear": 1987,
-    "color": "#90EE90"
-  },
-  {
-    "id": "pokopon-diary",
-    "name": "ぽこぽん日記",
-    "nameEn": "Pokopon Diary",
-    "description": "1980年代後半に登場した日記をテーマにしたキャラクター。",
-    "debutYear": 1987,
-    "color": "#FFE4E1"
+    "id": "bosanimaru",
+    "name": "[要更新] Bosanimaru",
+    "nameEn": "Bosanimaru",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
   },
   {
     "id": "brownie-story",
@@ -152,6 +72,134 @@
     "color": "#CD853F"
   },
   {
+    "id": "buddyeddy",
+    "name": "[要更新] Buddyeddy",
+    "nameEn": "Buddyeddy",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "button-nose",
+    "name": "ボタンノーズ",
+    "nameEn": "Button Nose",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "cacao-to-vanilla",
+    "name": "カカオとバニラ",
+    "nameEn": "Cacao to Vanilla",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "caribadix",
+    "name": "カリバディクス",
+    "nameEn": "Caribadix",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#FF4500"
+  },
+  {
+    "id": "charmmy-kitty",
+    "name": "チャーミーキティ",
+    "nameEn": "Charmmy Kitty",
+    "description": "ハローキティのペットの白い子猫。2004年に登場。",
+    "debutYear": 2004,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "cheery-chum",
+    "name": "チアリーチャム",
+    "nameEn": "Cheery Chum",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "cherry-na-cherry-ne",
+    "name": "チェリーナチェリーネ",
+    "nameEn": "Cherry na Cherry ne",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF6347"
+  },
+  {
+    "id": "chinjumin-go-chan",
+    "name": "ちんじゅうみん&ゴーちゃん。",
+    "nameEn": "Chinjumin & Go-chan",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "cho-bot",
+    "name": "ちょボット",
+    "nameEn": "Cho-bot",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "choco-cat",
+    "name": "チョコキャット",
+    "nameEn": "Choco Cat",
+    "description": "サンリオキャラクター",
+    "debutYear": 1996,
+    "color": "#8B4513"
+  },
+  {
+    "id": "cinnamoroll",
+    "name": "シナモロール",
+    "nameEn": "Cinnamoroll",
+    "description": "2001年に誕生した白い子犬のキャラクター。耳が大きくて空を飛ぶことができる。",
+    "debutYear": 2001,
+    "color": "#87CEFA"
+  },
+  {
+    "id": "corocorokuririn",
+    "name": "コロコロクリリン",
+    "nameEn": "Corocorokuririn",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "critcrista",
+    "name": "クリティクリスタ",
+    "nameEn": "Critcrista",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DC143C"
+  },
+  {
+    "id": "dark-grape-man",
+    "name": "ダークグレープマン",
+    "nameEn": "Dark Grape Man",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#800080"
+  },
+  {
+    "id": "dear-daniel",
+    "name": "ディアダニエル",
+    "nameEn": "Dear Daniel",
+    "description": "ハローキティのボーイフレンドとして1999年に登場。",
+    "debutYear": 1999,
+    "color": "#4169E1"
+  },
+  {
+    "id": "dream-tail-cubear",
+    "name": "ドリームテイルクーベア",
+    "nameEn": "Dream Tail Cubear",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
     "id": "felix-the-cat",
     "name": "フィリックス・ザ・キャット",
     "nameEn": "Felix the Cat",
@@ -160,11 +208,595 @@
     "color": "#000000"
   },
   {
+    "id": "fresh-punch",
+    "name": "フレッシュパンチ",
+    "nameEn": "Fresh Punch",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "fukuchan",
+    "name": "ふくちゃん",
+    "nameEn": "Fukuchan",
+    "description": "サンリオキャラクターの一体、2010年代登場。",
+    "debutYear": 2010,
+    "color": "#90EE90"
+  },
+  {
+    "id": "gao-pawaru",
+    "name": "[要更新] Gao Pawaru",
+    "nameEn": "Gao Pawaru",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "go-chan",
+    "name": "ゴーちゃん。",
+    "nameEn": "Go-chan",
+    "description": "サンリオキャラクターの一体、2010年代登場。",
+    "debutYear": 2010,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "goropikadon",
+    "name": "[要更新] Goropikadon",
+    "nameEn": "Goropikadon",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "gudetama",
+    "name": "ぐでたま",
+    "nameEn": "Gudetama",
+    "description": "2013年に登場したやる気のない卵のキャラクター。",
+    "debutYear": 2013,
+    "color": "#FFFF00"
+  },
+  {
+    "id": "ha-guruman-style",
+    "name": "歯ぐるまんすたいる",
+    "nameEn": "Ha Guruman Style",
+    "description": "サンリオキャラクター",
+    "debutYear": 2016,
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "hanamaru-obake",
+    "name": "[要更新] Hanamaru Obake",
+    "nameEn": "Hanamaru Obake",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "hangyodon",
+    "name": "ハンギョドン",
+    "nameEn": "Hangyodon",
+    "description": "1985年に誕生した魚のキャラクター。半漁人でちょっとダサいけど愛らしい。",
+    "debutYear": 1985,
+    "color": "#00CED1"
+  },
+  {
+    "id": "hello-kitty",
+    "name": "ハローキティ",
+    "nameEn": "Hello Kitty",
+    "description": "1974年に誕生した白い子猫のキャラクター。世界中で愛され続けている代表的なサンリオキャラクター。",
+    "debutYear": 1974,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "hello-mimmy",
+    "name": "ハローミミィ",
+    "nameEn": "Hello Mimmy",
+    "description": "ハローキティの双子の妹",
+    "debutYear": 1975,
+    "color": "#FFFF00"
+  },
+  {
+    "id": "honey-momo",
+    "name": "ハニーモモ",
+    "nameEn": "Honey Momo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "humming-mint",
+    "name": "ハミングミント",
+    "nameEn": "Humming Mint",
+    "description": "サンリオキャラクター",
+    "debutYear": 2005,
+    "color": "#98FB98"
+  },
+  {
+    "id": "ichigo-no-ousama",
+    "name": "いちごの王さま",
+    "nameEn": "Ichigo no Ousama",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
+    "color": "#FF6347"
+  },
+  {
+    "id": "ichigoman",
+    "name": "[要更新] Ichigoman",
+    "nameEn": "Ichigoman",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "jewelpet",
+    "name": "ジュエルペット",
+    "nameEn": "Jewelpet",
+    "description": "サンリオキャラクター",
+    "debutYear": 2008,
+    "color": "#FF1493"
+  },
+  {
+    "id": "kabuki-nyantaro",
+    "name": "かぶきにゃんたろう",
+    "nameEn": "Kabuki Nyantaro",
+    "description": "サンリオキャラクター",
+    "debutYear": 2017,
+    "color": "#FF6347"
+  },
+  {
+    "id": "kashiwanko-mochi",
+    "name": "かしわんこもち",
+    "nameEn": "Kashiwanko Mochi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#90EE90"
+  },
+  {
+    "id": "keroppi",
+    "name": "けろけろけろっぴ",
+    "nameEn": "Keroppi",
+    "description": "1988年に誕生したカエルのキャラクター。元気で活発、水遊びが大好き。",
+    "debutYear": 1988,
+    "color": "#32CD32"
+  },
+  {
+    "id": "kirimi-chan",
+    "name": "KIRIMIちゃん。",
+    "nameEn": "Kirimi-chan",
+    "description": "サケの切り身のキャラクター　2014年登場。",
+    "debutYear": 2014,
+    "color": "#FFA07A"
+  },
+  {
+    "id": "kogimyun",
+    "name": "こぎみゅん",
+    "nameEn": "Kogimyun",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "kumamiren",
+    "name": "[要更新] Kumamiren",
+    "nameEn": "Kumamiren",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "kuromi",
+    "name": "クロミ",
+    "nameEn": "Kuromi",
+    "description": "2005年に誕生した白いうさぎのキャラクター。マイメロディのライバルで、ちょっと悪魔っぽい性格。",
+    "debutYear": 2005,
+    "color": "#9370DB"
+  },
+  {
+    "id": "kusuri-no-fukutaro",
+    "name": "[要更新] Kusuri No Fukutaro",
+    "nameEn": "Kusuri No Fukutaro",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "little-forest-fellows",
+    "name": "リトルフォレストフェロォ",
+    "nameEn": "Little Forest Fellows",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#228B22"
+  },
+  {
+    "id": "little-lovin",
+    "name": "リトルラヴィン",
+    "nameEn": "Little Lovin'",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "little-twin-stars",
+    "name": "キキ&ララ",
+    "nameEn": "Little Twin Stars",
+    "description": "1975年に誕生した双子の星の子のキャラクター。キキとララの兄妹で、夢と希望を運ぶ。",
+    "debutYear": 1975,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "maimai",
+    "name": "マイマイ",
+    "nameEn": "Maimai",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "maimai-maigoen",
+    "name": "[要更新] Maimai Maigoen",
+    "nameEn": "Maimai Maigoen",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "marron-cream",
+    "name": "マロンクリーム",
+    "nameEn": "Marron Cream",
+    "description": "1980年代後半に人気を博したリスのキャラクター。",
+    "debutYear": 1985,
+    "color": "#DEB887"
+  },
+  {
+    "id": "marshmallow-nyanko",
+    "name": "マシュマロみたいなふわふわにゃんこ",
+    "nameEn": "Marshmallow Nyanko",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFFACD"
+  },
+  {
+    "id": "marumofu-biyori",
+    "name": "まるもふびより",
+    "nameEn": "Marumofu Biyori",
+    "description": "サンリオキャラクター",
+    "debutYear": 2016,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "mellow-tune",
+    "name": "[要更新] Mellow Tune",
+    "nameEn": "Mellow Tune",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "mewkle-dreamy",
+    "name": "ミュークルドリーミー",
+    "nameEn": "Mewkle Dreamy",
+    "description": "サンリオキャラクター",
+    "debutYear": 2014,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "mimic-mike",
+    "name": "ミミックマイク",
+    "nameEn": "Mimic Mike",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "minna-no-taa-bou",
+    "name": "みんなのたあ坊",
+    "nameEn": "Minna no Taa-bou",
+    "description": "1988年から1989年にかけて連続1位を獲得した人気キャラクター。",
+    "debutYear": 1987,
+    "color": "#90EE90"
+  },
+  {
+    "id": "mr-bears-dream",
+    "name": "ミスターベアーズドリーム",
+    "nameEn": "Mr. Bear's Dream",
+    "description": "1990年代に登場したクマのキャラクター。",
+    "debutYear": 1994,
+    "color": "#DEB887"
+  },
+  {
+    "id": "mr-men-little-miss",
+    "name": "ミスターメンリトルミス",
+    "nameEn": "Mr. Men & Little Miss",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
+    "color": "#FFD700"
+  },
+  {
+    "id": "my-melody",
+    "name": "マイメロディ",
+    "nameEn": "My Melody",
+    "description": "1975年に誕生した白いうさぎのキャラクター。赤いフードがトレードマークの人気キャラクター。",
+    "debutYear": 1975,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "my-sweet-piano",
+    "name": "マイスイートピアノ",
+    "nameEn": "My Sweet Piano",
+    "description": "サンリオキャラクター",
+    "debutYear": 2005,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "nora-neko-land",
+    "name": "ノラネコランド",
+    "nameEn": "Nora Neko Land",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF6347"
+  },
+  {
+    "id": "nyakki-penne",
+    "name": "ニョッキ&ペンネ",
+    "nameEn": "Nyakki & Penne",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFE4E1"
+  },
+  {
+    "id": "nyanyinynenyonyon",
+    "name": "ニャニィニュニェニョン",
+    "nameEn": "Nyanyinynenyonyon",
+    "description": "1980年代後半に登場した猫のキャラクター。",
+    "debutYear": 1985,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "osaru-no-monkichi",
+    "name": "おさるのもんきち",
+    "nameEn": "Osaru no Monkichi",
+    "description": "1992年に誕生したサルのキャラクター。",
+    "debutYear": 1992,
+    "color": "#8B4513"
+  },
+  {
+    "id": "pan-kunchi",
+    "name": "ぱんくんち",
+    "nameEn": "Pan-kunchi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DEB887"
+  },
+  {
+    "id": "panna-pitta",
+    "name": "パンナピッタ",
+    "nameEn": "Panna Pitta",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DEB887"
+  },
+  {
+    "id": "patapata-peppy",
+    "name": "パタパタペッピー",
+    "nameEn": "Patapata Peppy",
+    "description": "1990年代前半に人気を博したキャラクター。",
+    "debutYear": 1993,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "patty-and-jimmy",
+    "name": "パティ&ジミー",
+    "nameEn": "Patty & Jimmy",
+    "description": "1990年代後半に登場したペアキャラクター。",
+    "debutYear": 1998,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "paupipo",
+    "name": "パウピポ",
+    "nameEn": "Paupipo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "petapeta-minirian",
+    "name": "[要更新] Petapeta Minirian",
+    "nameEn": "Petapeta Minirian",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "pinky-lil-rose-rio-sky-peace",
+    "name": "ピンキーリルローズ&リオスカイピース",
+    "nameEn": "Pinky Lil Rose & Rio Sky Peace",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "plasmagica",
+    "name": "プラズマジカ",
+    "nameEn": "Plasmagica",
+    "description": "SHOW BY ROCK!!のガールズバンドキャラクター　2015年登場。",
+    "debutYear": 2015,
+    "color": "#FF1493"
+  },
+  {
+    "id": "pochacco",
+    "name": "ポチャッコ",
+    "nameEn": "Pochacco",
+    "description": "1989年に誕生した白い犬のキャラクター。スポーツが得意で好奇心旺盛。",
+    "debutYear": 1989,
+    "color": "#4169E1"
+  },
+  {
+    "id": "pokkyokuten",
+    "name": "[要更新] Pokkyokuten",
+    "nameEn": "Pokkyokuten",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "pokopon-diary",
+    "name": "ぽこぽん日記",
+    "nameEn": "Pokopon Diary",
+    "description": "1980年代後半に登場した日記をテーマにしたキャラクター。",
+    "debutYear": 1987,
+    "color": "#FFE4E1"
+  },
+  {
+    "id": "pompompurin",
+    "name": "ポムポムプリン",
+    "nameEn": "Pompompurin",
+    "description": "1996年に誕生した黄色い犬のキャラクター。のんびり屋でプリンが大好き。",
+    "debutYear": 1996,
+    "color": "#FFD700"
+  },
+  {
+    "id": "puwawa",
+    "name": "[要更新] Puwawa",
+    "nameEn": "Puwawa",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "rilu-rilu-fairilu",
+    "name": "リルリルフェアリル",
+    "nameEn": "Rilu Rilu Fairilu",
+    "description": "サンリオキャラクター",
+    "debutYear": 2016,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "risuru",
+    "name": "リスル",
+    "nameEn": "Risuru",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "ruroro-manic",
+    "name": "ルロロマニック",
+    "nameEn": "Ruroro Manic",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FF69B4"
+  },
+  {
     "id": "rururu-gakuen",
     "name": "るるる学園",
     "nameEn": "Rururu Gakuen",
     "description": "1990年代前半に人気を博した学園をテーマにしたキャラクター。",
     "debutYear": 1991,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "rururugakuen",
+    "name": "ルルロロ",
+    "nameEn": "Rururugakuen",
+    "description": "2011年に誕生したくまの双子のキャラクター。がんばり屋の姉妹。",
+    "debutYear": 2011,
+    "color": "#FFA500"
+  },
+  {
+    "id": "seven-siri-dwarf",
+    "name": "セブンシリードワーフ",
+    "nameEn": "Seven Siri Dwarf",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "shingan-crimsyons",
+    "name": "シンガンクリムゾンズ",
+    "nameEn": "Shingan Crimsyons",
+    "description": "SHOW BY ROCK!!のバンドキャラクター　2015年登場。",
+    "debutYear": 2015,
+    "color": "#DC143C"
+  },
+  {
+    "id": "shinkai-zoku",
+    "name": "シンカイゾク",
+    "nameEn": "Shinkai Zoku",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#0000FF"
+  },
+  {
+    "id": "shinkansen",
+    "name": "シンカンセン",
+    "nameEn": "Shinkansen",
+    "description": "サンリオキャラクター",
+    "debutYear": 2016,
+    "color": "#0000FF"
+  },
+  {
+    "id": "showbyrock",
+    "name": "SHOW BY ROCK!!",
+    "nameEn": "SHOW BY ROCK!!",
+    "description": "バンドゲームキャラクター",
+    "debutYear": 2013,
+    "color": "#FF1493"
+  },
+  {
+    "id": "snoopy",
+    "name": "スヌーピー",
+    "nameEn": "Snoopy",
+    "description": "ピーナッツの人気キャラクター。サンリオとコラボしていた時期があった。",
+    "debutYear": 1950,
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "sporting-bears",
+    "name": "スポーティングベアーズ",
+    "nameEn": "Sporting Bears",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "sugar-bunnies",
+    "name": "シュガーバニーズ",
+    "nameEn": "Sugar Bunnies",
+    "description": "2005年に登場したウサギの双子キャラクター。",
+    "debutYear": 2005,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "sugar-menuet",
+    "name": "シュガーメヌエット",
+    "nameEn": "Sugar Menuet",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "taraiguma-no-laundry",
+    "name": "[要更新] Taraiguma No Laundry",
+    "nameEn": "Taraiguma No Laundry",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "tenori-kuma",
+    "name": "てのりくま",
+    "nameEn": "Tenori Kuma",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DEB887"
+  },
+  {
+    "id": "the-runabouts",
+    "name": "ザ　ラナバウツ",
+    "nameEn": "The Runabouts",
+    "description": "サンリオキャラクター",
+    "debutYear": 2010,
     "color": "#87CEEB"
   },
   {
@@ -176,100 +808,28 @@
     "color": "#DDA0DD"
   },
   {
-    "id": "ahiru-no-pekkle",
-    "name": "あひるのペックル",
-    "nameEn": "Ahiru no Pekkle",
-    "description": "1990年代に登場したアヒルのキャラクター。",
-    "debutYear": 1990,
-    "color": "#FFD700"
-  },
-  {
-    "id": "patapata-peppy",
-    "name": "パタパタペッピー",
-    "nameEn": "Patapata Peppy",
-    "description": "1990年代前半に人気を博したキャラクター。",
-    "debutYear": 1993,
-    "color": "#FF69B4"
-  },
-  {
-    "id": "osaru-no-monkichi",
-    "name": "おさるのもんきち",
-    "nameEn": "Osaru no Monkichi",
-    "description": "1992年に誕生したサルのキャラクター。",
-    "debutYear": 1992,
-    "color": "#8B4513"
-  },
-  {
-    "id": "mr-bears-dream",
-    "name": "ミスターベアーズドリーム",
-    "nameEn": "Mr. Bear's Dream",
-    "description": "1990年代に登場したクマのキャラクター。",
-    "debutYear": 1994,
-    "color": "#DEB887"
-  },
-  {
-    "id": "patty-and-jimmy",
-    "name": "パティ&ジミー",
-    "nameEn": "Patty & Jimmy",
-    "description": "1990年代後半に登場したペアキャラクター。",
-    "debutYear": 1998,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "dear-daniel",
-    "name": "ディアダニエル",
-    "nameEn": "Dear Daniel",
-    "description": "ハローキティのボーイフレンドとして1999年に登場。",
-    "debutYear": 1999,
-    "color": "#4169E1"
-  },
-  {
-    "id": "charmmy-kitty",
-    "name": "チャーミーキティ",
-    "nameEn": "Charmmy Kitty",
-    "description": "ハローキティのペットの白い子猫。2004年に登場。",
-    "debutYear": 2004,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "sugar-bunnies",
-    "name": "シュガーバニーズ",
-    "nameEn": "Sugar Bunnies",
-    "description": "2005年に登場したウサギの双子キャラクター。",
-    "debutYear": 2005,
+    "id": "tiny-chum",
+    "name": "タイニーチャム",
+    "nameEn": "Tiny Chum",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
     "color": "#DDA0DD"
   },
   {
-    "id": "gudetama",
-    "name": "ぐでたま",
-    "nameEn": "Gudetama",
-    "description": "2013年に登場したやる気のない卵のキャラクター。",
-    "debutYear": 2013,
-    "color": "#FFFF00"
-  },
-  {
-    "id": "yoshikitty",
-    "name": "YOSHIKITTY",
-    "nameEn": "YOSHIKITTY",
-    "description": "X JAPANのYOSHIKIとハローキティのコラボキャラクター。2014年登場。",
-    "debutYear": 2014,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "shingan-crimsyons",
-    "name": "シンガンクリムゾンズ",
-    "nameEn": "Shingan Crimsyons",
-    "description": "SHOW BY ROCK!!のバンドキャラクター　2015年登場。",
+    "id": "tiny-poem",
+    "name": "タイニーポエム",
+    "nameEn": "Tiny Poem",
+    "description": "サンリオキャラクター",
     "debutYear": 2015,
-    "color": "#DC143C"
+    "color": "#DDA0DD"
   },
   {
-    "id": "plasmagica",
-    "name": "プラズマジカ",
-    "nameEn": "Plasmagica",
-    "description": "SHOW BY ROCK!!のガールズバンドキャラクター　2015年登場。",
-    "debutYear": 2015,
-    "color": "#FF1493"
+    "id": "toffee",
+    "name": "ターフィー",
+    "nameEn": "Toffee",
+    "description": "サンリオキャラクターの一体、2010年代登場。",
+    "debutYear": 2010,
+    "color": "#D2B48C"
   },
   {
     "id": "trichronica",
@@ -288,59 +848,43 @@
     "color": "#800080"
   },
   {
-    "id": "kirimi-chan",
-    "name": "KIRIMIちゃん。",
-    "nameEn": "Kirimi-chan",
-    "description": "サケの切り身のキャラクター　2014年登場。",
-    "debutYear": 2014,
-    "color": "#FFA07A"
+    "id": "tuxedosam",
+    "name": "タキシードサム",
+    "nameEn": "Tuxedosam",
+    "description": "1979年に誕生したペンギンのキャラクター。おしゃれで紳士的な性格。",
+    "debutYear": 1979,
+    "color": "#000080"
   },
   {
-    "id": "toffee",
-    "name": "ターフィー",
-    "nameEn": "Toffee",
-    "description": "サンリオキャラクターの一体、2010年代登場。",
-    "debutYear": 2010,
-    "color": "#D2B48C"
+    "id": "umeya-zakka-ten",
+    "name": "ウメ屋雑貨店",
+    "nameEn": "Umeya Zakka Ten",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
   },
   {
-    "id": "fukuchan",
-    "name": "ふくちゃん",
-    "nameEn": "Fukuchan",
-    "description": "サンリオキャラクターの一体、2010年代登場。",
-    "debutYear": 2010,
-    "color": "#90EE90"
-  },
-  {
-    "id": "go-chan",
-    "name": "ゴーちゃん。",
-    "nameEn": "Go-chan",
-    "description": "サンリオキャラクターの一体、2010年代登場。",
-    "debutYear": 2010,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "beetroid",
-    "name": "ビートロイド",
-    "nameEn": "Beetroid",
+    "id": "usahana",
+    "name": "ウサハナ",
+    "nameEn": "Usahana",
     "description": "サンリオキャラクター",
     "debutYear": 2010,
-    "color": "#FF4500"
+    "color": "#FFB6C1"
   },
   {
-    "id": "showbyrock",
-    "name": "SHOW BY ROCK!!",
-    "nameEn": "SHOW BY ROCK!!",
-    "description": "バンドゲームキャラクター",
-    "debutYear": 2013,
-    "color": "#FF1493"
+    "id": "we-are-dinosaurs",
+    "name": "[要更新] We Are Dinosaurs",
+    "nameEn": "We Are Dinosaurs",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
   },
   {
-    "id": "kogimyun",
-    "name": "こぎみゅん",
-    "nameEn": "Kogimyun",
+    "id": "winky-pinky",
+    "name": "ウィンキーピンキー",
+    "nameEn": "Winky Pinky",
     "description": "サンリオキャラクター",
-    "debutYear": 2014,
+    "debutYear": 2015,
     "color": "#FFB6C1"
   },
   {
@@ -352,262 +896,6 @@
     "color": "#DDA0DD"
   },
   {
-    "id": "hello-mimmy",
-    "name": "ハローミミィ",
-    "nameEn": "Hello Mimmy",
-    "description": "ハローキティの双子の妹",
-    "debutYear": 1975,
-    "color": "#FFFF00"
-  },
-  {
-    "id": "my-sweet-piano",
-    "name": "マイスイートピアノ",
-    "nameEn": "My Sweet Piano",
-    "description": "サンリオキャラクター",
-    "debutYear": 2005,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "bonbonribbon",
-    "name": "ぼんぼんりぼん",
-    "nameEn": "Bonbonribbon",
-    "description": "サンリオキャラクター",
-    "debutYear": 2012,
-    "color": "#FF69B4"
-  },
-  {
-    "id": "marumofu-biyori",
-    "name": "まるもふびより",
-    "nameEn": "Marumofu Biyori",
-    "description": "サンリオキャラクター",
-    "debutYear": 2016,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "mewkle-dreamy",
-    "name": "ミュークルドリーミー",
-    "nameEn": "Mewkle Dreamy",
-    "description": "サンリオキャラクター",
-    "debutYear": 2014,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "little-forest-fellows",
-    "name": "リトルフォレストフェロォ",
-    "nameEn": "Little Forest Fellows",
-    "description": "サンリオキャラクター",
-    "debutYear": 2014,
-    "color": "#228B22"
-  },
-  {
-    "id": "usahana",
-    "name": "ウサハナ",
-    "nameEn": "Usahana",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "aggretsuko",
-    "name": "アグレッシブ烈子",
-    "nameEn": "Aggretsuko",
-    "description": "サンリオキャラクター",
-    "debutYear": 2016,
-    "color": "#FF4500"
-  },
-  {
-    "id": "marshmallow-nyanko",
-    "name": "マシュマロみたいなふわふわにゃんこ",
-    "nameEn": "Marshmallow Nyanko",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFFACD"
-  },
-  {
-    "id": "shinkansen",
-    "name": "シンカンセン",
-    "nameEn": "Shinkansen",
-    "description": "サンリオキャラクター",
-    "debutYear": 2016,
-    "color": "#0000FF"
-  },
-  {
-    "id": "tiny-chum",
-    "name": "タイニーチャム",
-    "nameEn": "Tiny Chum",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "sugar-menuet",
-    "name": "シュガーメヌエット",
-    "nameEn": "Sugar Menuet",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "ha-guruman-style",
-    "name": "歯ぐるまんすたいる",
-    "nameEn": "Ha Guruman Style",
-    "description": "サンリオキャラクター",
-    "debutYear": 2016,
-    "color": "#FFFFFF"
-  },
-  {
-    "id": "ichigo-no-ousama",
-    "name": "いちごの王さま",
-    "nameEn": "Ichigo no Ousama",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#FF6347"
-  },
-  {
-    "id": "maimai",
-    "name": "マイマイ",
-    "nameEn": "Maimai",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "fresh-punch",
-    "name": "フレッシュパンチ",
-    "nameEn": "Fresh Punch",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#FF69B4"
-  },
-  {
-    "id": "the-runabouts",
-    "name": "ザ　ラナバウツ",
-    "nameEn": "The Runabouts",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "paupipo",
-    "name": "パウピポ",
-    "nameEn": "Paupipo",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "umeya-zakka-ten",
-    "name": "ウメ屋雑貨店",
-    "nameEn": "Umeya Zakka Ten",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "honey-momo",
-    "name": "ハニーモモ",
-    "nameEn": "Honey Momo",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "pan-kunchi",
-    "name": "ぱんくんち",
-    "nameEn": "Pan-kunchi",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DEB887"
-  },
-  {
-    "id": "winky-pinky",
-    "name": "ウィンキーピンキー",
-    "nameEn": "Winky Pinky",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "pinky-lil-rose-rio-sky-peace",
-    "name": "ピンキーリルローズ&リオスカイピース",
-    "nameEn": "Pinky Lil Rose & Rio Sky Peace",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FF69B4"
-  },
-  {
-    "id": "risuru",
-    "name": "リスル",
-    "nameEn": "Risuru",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#8B4513"
-  },
-  {
-    "id": "kashiwanko-mochi",
-    "name": "かしわんこもち",
-    "nameEn": "Kashiwanko Mochi",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#90EE90"
-  },
-  {
-    "id": "shinkai-zoku",
-    "name": "シンカイゾク",
-    "nameEn": "Shinkai Zoku",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#0000FF"
-  },
-  {
-    "id": "seven-siri-dwarf",
-    "name": "セブンシリードワーフ",
-    "nameEn": "Seven Siri Dwarf",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "tiny-poem",
-    "name": "タイニーポエム",
-    "nameEn": "Tiny Poem",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "nora-neko-land",
-    "name": "ノラネコランド",
-    "nameEn": "Nora Neko Land",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FF6347"
-  },
-  {
-    "id": "choco-cat",
-    "name": "チョコキャット",
-    "nameEn": "Choco Cat",
-    "description": "サンリオキャラクター",
-    "debutYear": 1996,
-    "color": "#8B4513"
-  },
-  {
-    "id": "cho-bot",
-    "name": "ちょボット",
-    "nameEn": "Cho-bot",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "panna-pitta",
-    "name": "パンナピッタ",
-    "nameEn": "Panna Pitta",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DEB887"
-  },
-  {
     "id": "yachiyo-charmer",
     "name": "八千代チャーマー",
     "nameEn": "Yachiyo Charmer",
@@ -616,171 +904,75 @@
     "color": "#FFB6C1"
   },
   {
-    "id": "mr-men-little-miss",
-    "name": "ミスターメンリトルミス",
-    "nameEn": "Mr. Men & Little Miss",
-    "description": "サンリオキャラクター",
-    "debutYear": 2010,
-    "color": "#FFD700"
-  },
-  {
-    "id": "dream-tail-cubear",
-    "name": "ドリームテイルクーベア",
-    "nameEn": "Dream Tail Cubear",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "dark-grape-man",
-    "name": "ダークグレープマン",
-    "nameEn": "Dark Grape Man",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#800080"
-  },
-  {
-    "id": "mimic-mike",
-    "name": "ミミックマイク",
-    "nameEn": "Mimic Mike",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "little-lovin",
-    "name": "リトルラヴィン",
-    "nameEn": "Little Lovin'",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "sporting-bears",
-    "name": "スポーティングベアーズ",
-    "nameEn": "Sporting Bears",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "jewelpet",
-    "name": "ジュエルペット",
-    "nameEn": "Jewelpet",
-    "description": "サンリオキャラクター",
-    "debutYear": 2008,
-    "color": "#FF1493"
-  },
-  {
-    "id": "ruroro-manic",
-    "name": "ルロロマニック",
-    "nameEn": "Ruroro Manic",
-    "description": "サンリオキャラクター",
-    "debutYear": 2013,
-    "color": "#FF69B4"
-  },
-  {
-    "id": "corocorokuririn",
-    "name": "コロコロクリリン",
-    "nameEn": "Corocorokuririn",
-    "description": "サンリオキャラクター",
+    "id": "yoshikitty",
+    "name": "YOSHIKITTY",
+    "nameEn": "YOSHIKITTY",
+    "description": "X JAPANのYOSHIKIとハローキティのコラボキャラクター。2014年登場。",
     "debutYear": 2014,
     "color": "#FFB6C1"
   },
   {
-    "id": "cheery-chum",
-    "name": "チアリーチャム",
-    "nameEn": "Cheery Chum",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "critcrista",
-    "name": "クリティクリスタ",
-    "nameEn": "Critcrista",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DC143C"
-  },
-  {
-    "id": "rilu-rilu-fairilu",
-    "name": "リルリルフェアリル",
-    "nameEn": "Rilu Rilu Fairilu",
-    "description": "サンリオキャラクター",
-    "debutYear": 2016,
-    "color": "#DDA0DD"
-  },
-  {
-    "id": "caribadix",
-    "name": "カリバディクス",
-    "nameEn": "Caribadix",
-    "description": "サンリオキャラクター",
-    "debutYear": 2014,
-    "color": "#FF4500"
-  },
-  {
-    "id": "humming-mint",
-    "name": "ハミングミント",
-    "nameEn": "Humming Mint",
-    "description": "サンリオキャラクター",
-    "debutYear": 2005,
-    "color": "#98FB98"
-  },
-  {
-    "id": "kabuki-nyantaro",
-    "name": "かぶきにゃんたろう",
-    "nameEn": "Kabuki Nyantaro",
-    "description": "サンリオキャラクター",
-    "debutYear": 2017,
-    "color": "#FF6347"
-  },
-  {
-    "id": "chinjumin-go-chan",
-    "name": "ちんじゅうみん&ゴーちゃん。",
-    "nameEn": "Chinjumin & Go-chan",
-    "description": "サンリオキャラクター",
-    "debutYear": 2014,
-    "color": "#87CEEB"
-  },
-  {
-    "id": "tenori-kuma",
-    "name": "てのりくま",
-    "nameEn": "Tenori Kuma",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#DEB887"
-  },
-  {
-    "id": "button-nose",
-    "name": "ボタンノーズ",
-    "nameEn": "Button Nose",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFB6C1"
-  },
-  {
-    "id": "nyakki-penne",
-    "name": "ニョッキ&ペンネ",
-    "nameEn": "Nyakki & Penne",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FFE4E1"
-  },
-  {
-    "id": "cherry-na-cherry-ne",
-    "name": "チェリーナチェリーネ",
-    "nameEn": "Cherry na Cherry ne",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
-    "color": "#FF6347"
-  },
-  {
-    "id": "cacao-to-vanilla",
-    "name": "カカオとバニラ",
-    "nameEn": "Cacao to Vanilla",
-    "description": "サンリオキャラクター",
-    "debutYear": 2015,
+    "id": "zashikibutа",
+    "name": "ザシキブタ",
+    "nameEn": "Zashikibutа",
+    "description": "1986年のサンリオキャラクター大賞で1位を獲得したキャラクター。",
+    "debutYear": 1985,
     "color": "#8B4513"
+  },
+  {
+    "id": "ふくちゃん",
+    "name": "[要更新] ふくちゃん",
+    "nameEn": "ふくちゃん",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "れおすけ",
+    "name": "[要更新] れおすけ",
+    "nameEn": "れおすけ",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "ザ-ラナバウツ",
+    "name": "[要更新] ザ ラナバウツ",
+    "nameEn": "ザ ラナバウツ",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "シュガークリームパフ",
+    "name": "[要更新] シュガークリームパフ",
+    "nameEn": "シュガークリームパフ",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "ニョッキ＆ペンネ",
+    "name": "[要更新] ニョッキ＆ペンネ",
+    "nameEn": "ニョッキ＆ペンネ",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "バニー＆マッティ",
+    "name": "[要更新] バニー＆マッティ",
+    "nameEn": "バニー＆マッティ",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
+  },
+  {
+    "id": "パティ＆ジミー",
+    "name": "[要更新] パティ＆ジミー",
+    "nameEn": "パティ＆ジミー",
+    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "debutYear": 2020,
+    "color": "#808080"
   }
 ]
