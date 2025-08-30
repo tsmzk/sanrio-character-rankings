@@ -22,6 +22,27 @@ export const useChartConfig = ({
   yearRange,
   windowWidth = window.innerWidth,
 }: UseChartConfigProps): UseChartConfigReturn => {
+  // 選択されたキャラクターの実際の最下位順位を計算
+  const maxRankInData = useMemo(() => {
+    // 選択されたキャラクターのランキングデータのみを対象にする
+    const selectedCharacterRankings = rankings.filter(
+      (r) =>
+        selectedCharacters.includes(r.characterId) &&
+        r.year >= yearRange.min &&
+        r.year <= yearRange.max,
+    );
+
+    if (selectedCharacterRankings.length === 0) {
+      return 50; // デフォルト値
+    }
+
+    const maxRank = Math.max(...selectedCharacterRankings.map((r) => r.rank));
+    return Math.max(maxRank, 10); // 最低でも10位まで表示
+  }, [rankings, yearRange.min, yearRange.max, selectedCharacters]);
+
+  // ランク外の値は実際の最下位＋5位
+  const outOfRankValue = maxRankInData + 5;
+
   const chartData = useMemo(() => {
     const years: number[] = [];
     for (let year = yearRange.min; year <= yearRange.max; year++) {
@@ -57,7 +78,7 @@ export const useChartConfig = ({
             const rankData = characterRankings.find((r) => r.year === year);
             return {
               x: year,
-              y: rankData ? rankData.rank : 51, // ランク外は51に設定
+              y: rankData ? rankData.rank : outOfRankValue, // ランク外は動的な値に設定
               isOutOfRank: !rankData,
             };
           })
@@ -98,7 +119,15 @@ export const useChartConfig = ({
         (dataset): dataset is NonNullable<typeof dataset> => dataset !== null,
       ),
     };
-  }, [selectedCharacters, characters, rankings, yearRange.min, yearRange.max, windowWidth]);
+  }, [
+    selectedCharacters,
+    characters,
+    rankings,
+    yearRange.min,
+    yearRange.max,
+    windowWidth,
+    outOfRankValue,
+  ]);
 
   const chartOptions = useMemo<ChartOptions<"line">>(
     () => ({
@@ -141,7 +170,7 @@ export const useChartConfig = ({
             },
             label: (context) => {
               const rank = Math.round(context.parsed.y);
-              if (rank === 51) {
+              if (rank === outOfRankValue) {
                 return `${context.dataset.label}: ランク外`;
               }
               return `${context.dataset.label}: ${rank}位`;
@@ -176,16 +205,16 @@ export const useChartConfig = ({
           type: "linear",
           reverse: true, // 1位を上に表示
           min: 0.8,
-          max: 51.5,
+          max: outOfRankValue + 0.5,
           ticks: {
             stepSize: windowWidth <= 768 ? 10 : 5,
             precision: 0, // 小数点なし
             callback: (value) => {
               const intValue = Math.round(Number(value));
               // 1位以上のみ表示
-              if (intValue >= 1 && intValue <= 50) {
+              if (intValue >= 1 && intValue <= maxRankInData) {
                 return `${intValue}位`;
-              } else if (intValue === 51) {
+              } else if (intValue === outOfRankValue) {
                 return "ランク外";
               }
               return ""; // その他は空文字
@@ -214,7 +243,7 @@ export const useChartConfig = ({
         },
       },
     }),
-    [yearRange.min, yearRange.max, windowWidth],
+    [yearRange.min, yearRange.max, windowWidth, maxRankInData, outOfRankValue],
   );
 
   return {
