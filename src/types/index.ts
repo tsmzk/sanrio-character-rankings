@@ -1,2 +1,2 @@
-export type { Character } from './character';
-export type { RankingEntry, RankingData, ChartDataPoint, FilterOptions } from './ranking';
+export type { Character } from "./character";
+export type { ChartDataPoint, FilterOptions, RankingData, RankingEntry } from "./ranking";

@@ -1,5 +1,5 @@
-export { CharacterSelector } from './CharacterSelector';
-export { RankingChart } from './RankingChart';
-export { FilterControls } from './FilterControls';
-export { CharacterDetail } from './CharacterDetail';
-export { ThemeToggle } from './ThemeToggle';
+export { CharacterDetail } from "./CharacterDetail";
+export { CharacterSelector } from "./CharacterSelector";
+export { FilterControls } from "./FilterControls";
+export { RankingChart } from "./RankingChart";
+export { ThemeToggle } from "./ThemeToggle";

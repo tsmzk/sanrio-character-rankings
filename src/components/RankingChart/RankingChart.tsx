@@ -1,30 +1,23 @@
-import React, { useRef, useEffect, useState, useMemo } from 'react';
 import {
+  CategoryScale,
   Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
+  type ChartOptions,
   Legend,
-  type ChartOptions
-} from 'chart.js';
-import { Line } from 'react-chartjs-2';
-import type { Character, RankingEntry } from '../../types';
-import { useChartConfig } from '../../hooks';
-import { ChartHelpers } from '../../utils';
-import './RankingChart.module.css';
-
-ChartJS.register(
-  CategoryScale,
   LinearScale,
-  PointElement,
   LineElement,
+  PointElement,
   Title,
   Tooltip,
-  Legend
-);
+} from "chart.js";
+import type React from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Line } from "react-chartjs-2";
+import { useChartConfig } from "../../hooks";
+import type { Character, RankingEntry } from "../../types";
+import { ChartHelpers } from "../../utils";
+import "./RankingChart.module.css";
+
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 interface RankingChartProps {
   selectedCharacters: string[];
@@ -41,9 +34,9 @@ export const RankingChart: React.FC<RankingChartProps> = ({
   rankings,
   yearRange,
   height = 400,
-  loading = false
+  loading = false,
 }) => {
-  const chartRef = useRef<ChartJS<'line'>>(null);
+  const chartRef = useRef<ChartJS<"line">>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState<number>(800);
 
@@ -51,14 +44,17 @@ export const RankingChart: React.FC<RankingChartProps> = ({
     selectedCharacters,
     characters,
     rankings,
-    yearRange
+    yearRange,
   });
 
   // Merge with responsive options based on container width - メモ化して無限ループを防ぐ
-  const responsiveOptions: ChartOptions<'line'> = useMemo(() => ({
-    ...ChartHelpers.getOptimalChartOptions(containerWidth),
-    ...chartOptions
-  }), [chartOptions, containerWidth]);
+  const responsiveOptions: ChartOptions<"line"> = useMemo(
+    () => ({
+      ...ChartHelpers.getOptimalChartOptions(containerWidth),
+      ...chartOptions,
+    }),
+    [chartOptions, containerWidth],
+  );
 
   // Handle container resize
   useEffect(() => {
@@ -99,7 +95,7 @@ export const RankingChart: React.FC<RankingChartProps> = ({
     );
   }
 
-  const hasData = chartData.datasets.some(dataset => dataset.data.length > 0);
+  const hasData = chartData.datasets.some((dataset) => dataset.data.length > 0);
 
   if (!hasData) {
     return (
@@ -121,45 +117,33 @@ export const RankingChart: React.FC<RankingChartProps> = ({
           <span className="year-range">
             {yearRange.min}年 - {yearRange.max}年
           </span>
-          <span className="character-count">
-            {selectedCharacters.length}キャラクター
-          </span>
+          <span className="character-count">{selectedCharacters.length}キャラクター</span>
         </div>
       </div>
-      
+
       <div className="chart-container" style={{ height }}>
-        <Line
-          ref={chartRef}
-          data={chartData}
-          options={responsiveOptions}
-        />
+        <Line ref={chartRef} data={chartData} options={responsiveOptions} />
       </div>
 
       <div className="chart-legend">
-        {selectedCharacters.map(characterId => {
-          const character = characters.find(c => c.id === characterId);
+        {selectedCharacters.map((characterId) => {
+          const character = characters.find((c) => c.id === characterId);
           if (!character) return null;
 
           const characterRankings = rankings.filter(
-            r => r.characterId === characterId &&
-                 r.year >= yearRange.min &&
-                 r.year <= yearRange.max
+            (r) =>
+              r.characterId === characterId && r.year >= yearRange.min && r.year <= yearRange.max,
           );
 
-          const bestRank = characterRankings.length > 0 
-            ? Math.min(...characterRankings.map(r => r.rank))
-            : null;
+          const bestRank =
+            characterRankings.length > 0 ? Math.min(...characterRankings.map((r) => r.rank)) : null;
 
-          const worstRank = characterRankings.length > 0
-            ? Math.max(...characterRankings.map(r => r.rank))
-            : null;
+          const worstRank =
+            characterRankings.length > 0 ? Math.max(...characterRankings.map((r) => r.rank)) : null;
 
           return (
             <div key={characterId} className="legend-item">
-              <div
-                className="legend-color"
-                style={{ backgroundColor: character.color }}
-              ></div>
+              <div className="legend-color" style={{ backgroundColor: character.color }}></div>
               <div className="legend-info">
                 <span className="legend-name">{character.name}</span>
                 {bestRank && worstRank && (

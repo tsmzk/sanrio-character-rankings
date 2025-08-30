@@ -1,1 +1,1 @@
-export { CharacterSelector } from './CharacterSelector';
+export { CharacterSelector } from "./CharacterSelector";

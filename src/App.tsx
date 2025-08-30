@@ -1,32 +1,30 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useEffect, useMemo, useState } from "react";
 import {
-  CharacterSelector,
-  RankingChart,
-  FilterControls,
   CharacterDetail,
-  ThemeToggle
-} from './components';
-import { useRankingData, useCharacterSelection, useTheme } from './hooks';
-import { DataProcessor } from './utils';
-import type { Character } from './types';
-import './App.css';
+  CharacterSelector,
+  FilterControls,
+  RankingChart,
+  ThemeToggle,
+} from "./components";
+import { useCharacterSelection, useRankingData, useTheme } from "./hooks";
+import type { Character } from "./types";
+import { DataProcessor } from "./utils";
+import "./App.css";
 
 function App() {
   const [yearRange, setYearRange] = useState({ min: 1986, max: new Date().getFullYear() });
-  const [selectedCharacterForDetail, setSelectedCharacterForDetail] = useState<Character | null>(null);
+  const [selectedCharacterForDetail, setSelectedCharacterForDetail] = useState<Character | null>(
+    null,
+  );
 
   // Load data
   const { characters, rankings, loading, error } = useRankingData();
-  
+
   // Get theme for debugging
   const { theme } = useTheme();
 
   // Character selection
-  const {
-    selectedCharacters,
-    toggleCharacter,
-    isSelected
-  } = useCharacterSelection();
+  const { selectedCharacters, toggleCharacter, isSelected } = useCharacterSelection();
 
   // Calculate available ranges for filter controls
   const availableYearRange = useMemo(() => DataProcessor.getYearRange(rankings), [rankings]);
@@ -55,13 +53,13 @@ function App() {
 
   // Handle character selection changes
   const handleSelectionChange = (characterIds: string[]) => {
-    characterIds.forEach(id => {
+    characterIds.forEach((id) => {
       if (!isSelected(id)) {
         toggleCharacter(id);
       }
     });
 
-    selectedCharacters.forEach(id => {
+    selectedCharacters.forEach((id) => {
       if (!characterIds.includes(id)) {
         toggleCharacter(id);
       }
@@ -74,7 +72,7 @@ function App() {
         <div className="error-container">
           <h1>エラーが発生しました</h1>
           <p>{error}</p>
-          <button onClick={() => window.location.reload()}>
+          <button type="button" onClick={() => window.location.reload()}>
             ページを再読み込み
           </button>
         </div>
@@ -86,12 +84,19 @@ function App() {
     <div className="app">
       <header className="app-header">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "flex-start",
+              marginBottom: "16px",
+            }}
+          >
             <div style={{ flex: 1 }}></div>
-            <div style={{ textAlign: 'center', flex: 2 }}>
+            <div style={{ textAlign: "center", flex: 2 }}>
               <h1>サンリオキャラクターランキング推移</h1>
             </div>
-            <div style={{ flex: 1, display: 'flex', justifyContent: 'flex-end' }}>
+            <div style={{ flex: 1, display: "flex", justifyContent: "flex-end" }}>
               <ThemeToggle compact />
             </div>
           </div>
@@ -135,17 +140,18 @@ function App() {
                 <div className="selected-characters-actions">
                   <h3>選択中のキャラクター詳細</h3>
                   <div className="character-buttons">
-                    {selectedCharacters.map(characterId => {
-                      const character = characters.find(c => c.id === characterId);
+                    {selectedCharacters.map((characterId) => {
+                      const character = characters.find((c) => c.id === characterId);
                       return character ? (
                         <button
+                          type="button"
                           key={characterId}
                           onClick={() => handleCharacterClick(character)}
                           className="character-detail-btn"
                           style={{
-                            backgroundColor: character.color + '20',
+                            backgroundColor: `${character.color}20`,
                             borderColor: character.color,
-                            color: character.color
+                            color: character.color,
                           }}
                         >
                           {character.name}の詳細
@@ -163,8 +169,9 @@ function App() {
       <footer className="app-footer">
         <div className="container">
           <p>&copy; 2024 サンリオキャラクターランキング推移. データは架空のものです。</p>
-          <p style={{ fontSize: '0.8rem', opacity: 0.6, marginTop: '8px' }}>
-            現在のテーマ: {theme === 'light' ? 'Light Mode ☀️' : 'Dark Mode 🌙'} | data-theme: {theme}
+          <p style={{ fontSize: "0.8rem", opacity: 0.6, marginTop: "8px" }}>
+            現在のテーマ: {theme === "light" ? "Light Mode ☀️" : "Dark Mode 🌙"} | data-theme:{" "}
+            {theme}
           </p>
         </div>
       </footer>

@@ -1,7 +1,7 @@
-import React from 'react';
-import type { Character, RankingEntry } from '../../types';
-import { DataProcessor } from '../../utils';
-import './CharacterDetail.module.css';
+import type React from "react";
+import type { Character, RankingEntry } from "../../types";
+import { DataProcessor } from "../../utils";
+import "./CharacterDetail.module.css";
 
 interface CharacterDetailProps {
   character: Character;
@@ -14,33 +14,30 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
   character,
   rankings,
   isOpen,
-  onClose
+  onClose,
 }) => {
   if (!isOpen) return null;
 
-  const characterRankings = rankings.filter(r => r.characterId === character.id);
+  const characterRankings = rankings.filter((r) => r.characterId === character.id);
   const stats = DataProcessor.getCharacterRankingStats(character.id, rankings);
   const yearRange = DataProcessor.getYearRange(characterRankings);
 
-  const recentRankings = characterRankings
-    .sort((a, b) => b.year - a.year)
-    .slice(0, 5);
+  const recentRankings = characterRankings.sort((a, b) => b.year - a.year).slice(0, 5);
 
   const rankingTrend = () => {
-    if (characterRankings.length < 2) return 'データ不足';
-    
+    if (characterRankings.length < 2) return "データ不足";
+
     const sortedRankings = characterRankings.sort((a, b) => a.year - b.year);
     const recentYears = sortedRankings.slice(-3);
-    
-    if (recentYears.length < 2) return 'データ不足';
-    
-    const trend = recentYears[recentYears.length - 1].rank - recentYears[0].rank;
-    
-    if (trend < -2) return '上昇傾向 📈';
-    if (trend > 2) return '下降傾向 📉';
-    return '安定 ➡️';
-  };
 
+    if (recentYears.length < 2) return "データ不足";
+
+    const trend = recentYears[recentYears.length - 1].rank - recentYears[0].rank;
+
+    if (trend < -2) return "上昇傾向 📈";
+    if (trend > 2) return "下降傾向 📉";
+    return "安定 ➡️";
+  };
 
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === e.currentTarget) {
@@ -48,27 +45,33 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
     }
   };
 
+  const handleBackdropKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Escape") {
+      onClose();
+    }
+  };
+
   return (
-    <div className="character-detail-overlay" onClick={handleBackdropClick}>
+    <div
+      className="character-detail-overlay"
+      onClick={handleBackdropClick}
+      onKeyDown={handleBackdropKeyDown}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="character-name"
+    >
       <div className="character-detail">
         <div className="character-detail__header">
           <div className="character-basic-info">
-            <div
-              className="character-avatar"
-              style={{ backgroundColor: character.color }}
-            >
-              <span className="character-initial">
-                {character.name.charAt(0)}
-              </span>
+            <div className="character-avatar" style={{ backgroundColor: character.color }}>
+              <span className="character-initial">{character.name.charAt(0)}</span>
             </div>
             <div className="character-names">
               <h2 className="character-name">{character.name}</h2>
-              {character.nameEn && (
-                <p className="character-name-en">{character.nameEn}</p>
-              )}
+              {character.nameEn && <p className="character-name-en">{character.nameEn}</p>}
             </div>
           </div>
-          <button onClick={onClose} className="close-button">
+          <button type="button" onClick={onClose} className="close-button">
             ×
           </button>
         </div>
@@ -77,16 +80,13 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
           <div className="character-info-section">
             <div className="info-grid">
               <div className="info-item">
-                <label>デビュー年</label>
+                <span className="info-label">デビュー年</span>
                 <span>{character.debutYear}年</span>
               </div>
               <div className="info-item">
-                <label>代表色</label>
+                <span className="info-label">代表色</span>
                 <div className="color-display">
-                  <div
-                    className="color-swatch"
-                    style={{ backgroundColor: character.color }}
-                  ></div>
+                  <div className="color-swatch" style={{ backgroundColor: character.color }}></div>
                   <span>{character.color}</span>
                 </div>
               </div>
@@ -127,7 +127,9 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
             {yearRange.min && yearRange.max && (
               <div className="data-range">
                 <h4>データ期間</h4>
-                <p>{yearRange.min}年 〜 {yearRange.max}年</p>
+                <p>
+                  {yearRange.min}年 〜 {yearRange.max}年
+                </p>
               </div>
             )}
           </div>
@@ -141,9 +143,7 @@ export const CharacterDetail: React.FC<CharacterDetailProps> = ({
                     <div className="timeline-year">{ranking.year}年</div>
                     <div className="timeline-connector">
                       <div className="timeline-dot"></div>
-                      {index < recentRankings.length - 1 && (
-                        <div className="timeline-line"></div>
-                      )}
+                      {index < recentRankings.length - 1 && <div className="timeline-line"></div>}
                     </div>
                     <div className="timeline-rank">
                       <span className="rank-value">{ranking.rank}位</span>

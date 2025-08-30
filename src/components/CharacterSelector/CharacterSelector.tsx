@@ -1,7 +1,8 @@
-import React, { useState, useMemo } from 'react';
-import type { Character } from '../../types';
-import { DataProcessor } from '../../utils';
-import './CharacterSelector.module.css';
+import type React from "react";
+import { useMemo, useState } from "react";
+import type { Character } from "../../types";
+import { DataProcessor } from "../../utils";
+import "./CharacterSelector.module.css";
 
 interface CharacterSelectorProps {
   characters: Character[];
@@ -14,10 +15,9 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
   characters,
   selectedCharacters,
   onSelectionChange,
-  loading = false
+  loading = false,
 }) => {
-  const [searchQuery, setSearchQuery] = useState('');
-
+  const [searchQuery, setSearchQuery] = useState("");
 
   const filteredCharacters = useMemo(() => {
     return DataProcessor.filterCharacters(characters, {
@@ -27,18 +27,17 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
 
   const handleCharacterToggle = (characterId: string) => {
     const newSelection = selectedCharacters.includes(characterId)
-      ? selectedCharacters.filter(id => id !== characterId)
+      ? selectedCharacters.filter((id) => id !== characterId)
       : [...selectedCharacters, characterId];
     onSelectionChange(newSelection);
   };
-
 
   const clearSelection = () => {
     onSelectionChange([]);
   };
 
   const clearFilters = () => {
-    setSearchQuery('');
+    setSearchQuery("");
   };
 
   if (loading) {
@@ -55,10 +54,9 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
       <div className="character-selector__header">
         <h2>キャラクター選択</h2>
         <div className="character-selector__actions">
-          <span className="selected-count">
-            {selectedCharacters.length}件選択中
-          </span>
-          <button 
+          <span className="selected-count">{selectedCharacters.length}件選択中</span>
+          <button
+            type="button"
             onClick={clearSelection}
             disabled={selectedCharacters.length === 0}
             className="clear-selection-btn"
@@ -80,9 +78,10 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
         </div>
 
         <button
+          type="button"
           onClick={clearFilters}
           className="clear-filters-btn"
-          disabled={searchQuery === ''}
+          disabled={searchQuery === ""}
         >
           検索クリア
         </button>
@@ -94,23 +93,20 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
             <p>該当するキャラクターが見つかりません</p>
           </div>
         ) : (
-          filteredCharacters.map(character => (
-            <div
+          filteredCharacters.map((character) => (
+            <button
+              type="button"
               key={character.id}
               className={`character-item ${
-                selectedCharacters.includes(character.id) ? 'selected' : ''
+                selectedCharacters.includes(character.id) ? "selected" : ""
               }`}
               onClick={() => handleCharacterToggle(character.id)}
+              aria-pressed={selectedCharacters.includes(character.id)}
             >
-              <div
-                className="character-color"
-                style={{ backgroundColor: character.color }}
-              ></div>
+              <div className="character-color" style={{ backgroundColor: character.color }}></div>
               <div className="character-info">
                 <h3 className="character-name">{character.name}</h3>
-                {character.nameEn && (
-                  <p className="character-name-en">{character.nameEn}</p>
-                )}
+                {character.nameEn && <p className="character-name-en">{character.nameEn}</p>}
                 <p className="character-debut">{character.debutYear}年デビュー</p>
               </div>
               <div className="character-checkbox">
@@ -121,7 +117,7 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
                   onClick={(e) => e.stopPropagation()}
                 />
               </div>
-            </div>
+            </button>
           ))
         )}
       </div>
@@ -130,16 +126,17 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
         <div className="selected-characters-summary">
           <h3>選択中のキャラクター:</h3>
           <div className="selected-characters-list">
-            {selectedCharacters.map(characterId => {
-              const character = characters.find(c => c.id === characterId);
+            {selectedCharacters.map((characterId) => {
+              const character = characters.find((c) => c.id === characterId);
               return character ? (
                 <span
                   key={characterId}
                   className="selected-character-tag"
-                  style={{ backgroundColor: character.color + '20', borderColor: character.color }}
+                  style={{ backgroundColor: `${character.color}20`, borderColor: character.color }}
                 >
                   {character.name}
                   <button
+                    type="button"
                     onClick={() => handleCharacterToggle(characterId)}
                     className="remove-character-btn"
                   >

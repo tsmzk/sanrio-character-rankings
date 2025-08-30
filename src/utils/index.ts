@@ -1,3 +1,3 @@
-export { DataProcessor } from './dataProcessor';
-export { ChartHelpers } from './chartHelpers';
-export * from './themeUtils';
+export { ChartHelpers } from "./chartHelpers";
+export { DataProcessor } from "./dataProcessor";
+export * from "./themeUtils";

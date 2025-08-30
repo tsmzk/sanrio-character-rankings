@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import type { RankingEntry } from '../../types';
-import './FilterControls.module.css';
+import type React from "react";
+import { useEffect, useId, useState } from "react";
+import type { RankingEntry } from "../../types";
+import "./FilterControls.module.css";
 
 interface FilterControlsProps {
   rankings: RankingEntry[];
@@ -19,10 +20,16 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
   availableRankRange,
   onYearRangeChange,
   onRankRangeChange,
-  loading = false
+  loading = false,
 }) => {
   const [localYearRange, setLocalYearRange] = useState(yearRange);
   const [rankRange, setRankRange] = useState({ min: 1, max: 12 });
+
+  // Generate unique IDs
+  const yearMinId = useId();
+  const yearMaxId = useId();
+  const rankMinId = useId();
+  const rankMaxId = useId();
 
   // Update local state when props change
   useEffect(() => {
@@ -36,32 +43,32 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
     }
   }, [rankings, availableRankRange]);
 
-  const handleYearRangeChange = (type: 'min' | 'max', value: number) => {
+  const handleYearRangeChange = (type: "min" | "max", value: number) => {
     const newRange = { ...localYearRange, [type]: value };
-    
+
     // Ensure min is not greater than max
-    if (type === 'min' && value > localYearRange.max) {
+    if (type === "min" && value > localYearRange.max) {
       newRange.max = value;
     }
-    if (type === 'max' && value < localYearRange.min) {
+    if (type === "max" && value < localYearRange.min) {
       newRange.min = value;
     }
-    
+
     setLocalYearRange(newRange);
     onYearRangeChange(newRange);
   };
 
-  const handleRankRangeChange = (type: 'min' | 'max', value: number) => {
+  const handleRankRangeChange = (type: "min" | "max", value: number) => {
     const newRange = { ...rankRange, [type]: value };
-    
+
     // Ensure min is not greater than max
-    if (type === 'min' && value > rankRange.max) {
+    if (type === "min" && value > rankRange.max) {
       newRange.max = value;
     }
-    if (type === 'max' && value < rankRange.min) {
+    if (type === "max" && value < rankRange.min) {
       newRange.min = value;
     }
-    
+
     setRankRange(newRange);
     onRankRangeChange?.(newRange);
   };
@@ -69,10 +76,10 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
   const resetFilters = () => {
     const fullYearRange = availableYearRange;
     const fullRankRange = availableRankRange;
-    
+
     setLocalYearRange(fullYearRange);
     setRankRange(fullRankRange);
-    
+
     onYearRangeChange(fullYearRange);
     onRankRangeChange?.(fullRankRange);
   };
@@ -80,15 +87,15 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
   const getYearMarks = () => {
     const marks = [];
     const step = Math.ceil((availableYearRange.max - availableYearRange.min) / 5);
-    
+
     for (let year = availableYearRange.min; year <= availableYearRange.max; year += step) {
       marks.push(year);
     }
-    
+
     if (!marks.includes(availableYearRange.max)) {
       marks.push(availableYearRange.max);
     }
-    
+
     return marks;
   };
 
@@ -113,51 +120,48 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
     <div className="filter-controls">
       <div className="filter-controls__header">
         <h3>表示設定</h3>
-        <button 
-          onClick={resetFilters}
-          className="reset-filters-btn"
-        >
+        <button type="button" onClick={resetFilters} className="reset-filters-btn">
           リセット
         </button>
       </div>
 
       <div className="filter-section">
         <div className="filter-group">
-          <label className="filter-label">表示期間</label>
+          <span className="filter-label">表示期間</span>
           <div className="year-range-controls">
             <div className="range-input-group">
-              <label htmlFor="year-min">開始年</label>
+              <label htmlFor={yearMinId}>開始年</label>
               <select
-                id="year-min"
+                id={yearMinId}
                 value={localYearRange.min}
-                onChange={(e) => handleYearRangeChange('min', parseInt(e.target.value))}
+                onChange={(e) => handleYearRangeChange("min", parseInt(e.target.value, 10))}
                 className="year-select"
               >
                 {Array.from(
                   { length: availableYearRange.max - availableYearRange.min + 1 },
-                  (_, i) => availableYearRange.min + i
-                ).map(year => (
+                  (_, i) => availableYearRange.min + i,
+                ).map((year) => (
                   <option key={year} value={year}>
                     {year}年
                   </option>
                 ))}
               </select>
             </div>
-            
+
             <span className="range-separator">〜</span>
-            
+
             <div className="range-input-group">
-              <label htmlFor="year-max">終了年</label>
+              <label htmlFor={yearMaxId}>終了年</label>
               <select
-                id="year-max"
+                id={yearMaxId}
                 value={localYearRange.max}
-                onChange={(e) => handleYearRangeChange('max', parseInt(e.target.value))}
+                onChange={(e) => handleYearRangeChange("max", parseInt(e.target.value, 10))}
                 className="year-select"
               >
                 {Array.from(
                   { length: availableYearRange.max - availableYearRange.min + 1 },
-                  (_, i) => availableYearRange.min + i
-                ).map(year => (
+                  (_, i) => availableYearRange.min + i,
+                ).map((year) => (
                   <option key={year} value={year}>
                     {year}年
                   </option>
@@ -172,7 +176,7 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
               min={availableYearRange.min}
               max={availableYearRange.max}
               value={localYearRange.min}
-              onChange={(e) => handleYearRangeChange('min', parseInt(e.target.value))}
+              onChange={(e) => handleYearRangeChange("min", parseInt(e.target.value, 10))}
               className="range-slider range-slider-min"
             />
             <input
@@ -180,25 +184,25 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
               min={availableYearRange.min}
               max={availableYearRange.max}
               value={localYearRange.max}
-              onChange={(e) => handleYearRangeChange('max', parseInt(e.target.value))}
+              onChange={(e) => handleYearRangeChange("max", parseInt(e.target.value, 10))}
               className="range-slider range-slider-max"
             />
             <div className="range-track">
-              <div 
+              <div
                 className="range-highlight"
                 style={{
                   left: `${((localYearRange.min - availableYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`,
-                  width: `${((localYearRange.max - localYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`
+                  width: `${((localYearRange.max - localYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`,
                 }}
               ></div>
             </div>
             <div className="range-marks">
-              {getYearMarks().map(year => (
+              {getYearMarks().map((year) => (
                 <div
                   key={year}
                   className="range-mark"
                   style={{
-                    left: `${((year - availableYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`
+                    left: `${((year - availableYearRange.min) / (availableYearRange.max - availableYearRange.min)) * 100}%`,
                   }}
                 >
                   <span className="range-mark-label">{year}</span>
@@ -210,41 +214,41 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
 
         {onRankRangeChange && (
           <div className="filter-group">
-            <label className="filter-label">順位範囲</label>
+            <span className="filter-label">順位範囲</span>
             <div className="rank-range-controls">
               <div className="range-input-group">
-                <label htmlFor="rank-min">最高順位</label>
+                <label htmlFor={rankMinId}>最高順位</label>
                 <select
-                  id="rank-min"
+                  id={rankMinId}
                   value={rankRange.min}
-                  onChange={(e) => handleRankRangeChange('min', parseInt(e.target.value))}
+                  onChange={(e) => handleRankRangeChange("min", parseInt(e.target.value, 10))}
                   className="rank-select"
                 >
                   {Array.from(
                     { length: availableRankRange.max - availableRankRange.min + 1 },
-                    (_, i) => availableRankRange.min + i
-                  ).map(rank => (
+                    (_, i) => availableRankRange.min + i,
+                  ).map((rank) => (
                     <option key={rank} value={rank}>
                       {rank}位
                     </option>
                   ))}
                 </select>
               </div>
-              
+
               <span className="range-separator">〜</span>
-              
+
               <div className="range-input-group">
-                <label htmlFor="rank-max">最低順位</label>
+                <label htmlFor={rankMaxId}>最低順位</label>
                 <select
-                  id="rank-max"
+                  id={rankMaxId}
                   value={rankRange.max}
-                  onChange={(e) => handleRankRangeChange('max', parseInt(e.target.value))}
+                  onChange={(e) => handleRankRangeChange("max", parseInt(e.target.value, 10))}
                   className="rank-select"
                 >
                   {Array.from(
                     { length: availableRankRange.max - availableRankRange.min + 1 },
-                    (_, i) => availableRankRange.min + i
-                  ).map(rank => (
+                    (_, i) => availableRankRange.min + i,
+                  ).map((rank) => (
                     <option key={rank} value={rank}>
                       {rank}位
                     </option>
@@ -262,9 +266,7 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
       <div className="current-filters">
         <div className="current-filter">
           <strong>表示期間:</strong> {localYearRange.min}年 〜 {localYearRange.max}年
-          <span className="filter-count">
-            ({localYearRange.max - localYearRange.min + 1}年間)
-          </span>
+          <span className="filter-count">({localYearRange.max - localYearRange.min + 1}年間)</span>
         </div>
         {onRankRangeChange && (
           <div className="current-filter">

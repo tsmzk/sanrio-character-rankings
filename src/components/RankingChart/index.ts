@@ -1,1 +1,1 @@
-export { RankingChart } from './RankingChart';
+export { RankingChart } from "./RankingChart";
