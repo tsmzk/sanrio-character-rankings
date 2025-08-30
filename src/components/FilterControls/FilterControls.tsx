@@ -84,7 +84,6 @@ export const FilterControls: React.FC<FilterControlsProps> = ({
     onRankRangeChange?.(fullRankRange);
   };
 
-
   if (loading) {
     return (
       <div className="filter-controls loading">

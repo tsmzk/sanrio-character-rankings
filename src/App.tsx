@@ -16,6 +16,8 @@ function App() {
   const [selectedCharacterForDetail, setSelectedCharacterForDetail] = useState<Character | null>(
     null,
   );
+  const [chartHeight, setChartHeight] = useState<number>(600);
+  const [windowWidth, setWindowWidth] = useState<number>(window.innerWidth);
 
   // Load data
   const { characters, rankings, loading, error } = useRankingData();
@@ -36,6 +38,29 @@ function App() {
       setYearRange(availableYearRange);
     }
   }, [rankings, availableYearRange]);
+
+  // Update chart height and window width based on screen size
+  useEffect(() => {
+    const updateViewport = () => {
+      const width = window.innerWidth;
+      setWindowWidth(width);
+
+      if (width <= 480) {
+        setChartHeight(300); // Very small screens
+      } else if (width <= 768) {
+        setChartHeight(350); // Mobile
+      } else if (width <= 1024) {
+        setChartHeight(450); // Tablet
+      } else {
+        setChartHeight(600); // Desktop
+      }
+    };
+
+    updateViewport();
+    window.addEventListener("resize", updateViewport);
+
+    return () => window.removeEventListener("resize", updateViewport);
+  }, []);
 
   // Filter rankings by year range
   const filteredRankings = useMemo(() => {
@@ -133,6 +158,8 @@ function App() {
                 characters={characters}
                 rankings={filteredRankings}
                 yearRange={yearRange}
+                height={chartHeight}
+                windowWidth={windowWidth}
                 loading={loading}
               />
 

@@ -25,6 +25,7 @@ interface RankingChartProps {
   rankings: RankingEntry[];
   yearRange: { min: number; max: number };
   height?: number;
+  windowWidth?: number;
   loading?: boolean;
 }
 
@@ -34,17 +35,19 @@ export const RankingChart: React.FC<RankingChartProps> = ({
   rankings,
   yearRange,
   height = 400,
+  windowWidth = window.innerWidth,
   loading = false,
 }) => {
   const chartRef = useRef<ChartJS<"line">>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [containerWidth, setContainerWidth] = useState<number>(800);
+  const [containerWidth, setContainerWidth] = useState<number>(window.innerWidth);
 
   const { chartData, chartOptions } = useChartConfig({
     selectedCharacters,
     characters,
     rankings,
     yearRange,
+    windowWidth,
   });
 
   // Merge with responsive options based on container width - メモ化して無限ループを防ぐ

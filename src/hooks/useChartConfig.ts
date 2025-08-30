@@ -7,6 +7,7 @@ interface UseChartConfigProps {
   characters: Character[];
   rankings: RankingEntry[];
   yearRange: { min: number; max: number };
+  windowWidth?: number;
 }
 
 interface UseChartConfigReturn {
@@ -19,6 +20,7 @@ export const useChartConfig = ({
   characters,
   rankings,
   yearRange,
+  windowWidth = window.innerWidth,
 }: UseChartConfigProps): UseChartConfigReturn => {
   const chartData = useMemo(() => {
     const years: number[] = [];
@@ -65,19 +67,21 @@ export const useChartConfig = ({
           return null;
         }
 
+        const isMobile = windowWidth <= 768;
+
         const dataset = {
           label: character.name,
           data: validDataPoints.map((p) => ({ x: p.x, y: p.y })),
           borderColor: character.color,
           backgroundColor: `${character.color}20`, // Add transparency
-          borderWidth: 3,
+          borderWidth: isMobile ? 2 : 3,
           pointBackgroundColor: validDataPoints.map((p) =>
             p.isOutOfRank ? "transparent" : character.color,
           ),
           pointBorderColor: validDataPoints.map((p) => (p.isOutOfRank ? "transparent" : "#ffffff")),
           pointBorderWidth: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 2)),
-          pointRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 6)),
-          pointHoverRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 8)),
+          pointRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : isMobile ? 4 : 6)),
+          pointHoverRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : isMobile ? 6 : 8)),
           fill: false,
           tension: 0.2,
           showLine: true,
@@ -94,7 +98,7 @@ export const useChartConfig = ({
         (dataset): dataset is NonNullable<typeof dataset> => dataset !== null,
       ),
     };
-  }, [selectedCharacters, characters, rankings, yearRange.min, yearRange.max]);
+  }, [selectedCharacters, characters, rankings, yearRange.min, yearRange.max, windowWidth]);
 
   const chartOptions = useMemo<ChartOptions<"line">>(
     () => ({
@@ -108,10 +112,13 @@ export const useChartConfig = ({
       plugins: {
         legend: {
           display: true,
-          position: "top",
+          position: windowWidth <= 768 ? "bottom" : "top",
           labels: {
             usePointStyle: true,
-            padding: 20,
+            padding: windowWidth <= 768 ? 15 : 20,
+            font: {
+              size: windowWidth <= 768 ? 11 : 14,
+            },
           },
         },
         tooltip: {
@@ -120,6 +127,13 @@ export const useChartConfig = ({
           bodyColor: "#ffffff",
           borderColor: "#ffffff",
           borderWidth: 1,
+          titleFont: {
+            size: windowWidth <= 768 ? 12 : 14,
+          },
+          bodyFont: {
+            size: windowWidth <= 768 ? 11 : 13,
+          },
+          padding: windowWidth <= 768 ? 8 : 12,
           callbacks: {
             title: (context) => {
               const year = Math.round(context[0].parsed.x);
@@ -144,10 +158,13 @@ export const useChartConfig = ({
           ticks: {
             stepSize: 1,
             precision: 0, // 小数点なし
-            maxTicksLimit: yearRange.max - yearRange.min + 1, // 全ての年を表示
+            maxTicksLimit: windowWidth <= 768 ? 6 : yearRange.max - yearRange.min + 1,
             callback: (value) => {
               const intValue = Math.round(Number(value));
               return `${intValue}年`;
+            },
+            font: {
+              size: windowWidth <= 768 ? 10 : 12,
             },
           },
           title: {
@@ -161,7 +178,7 @@ export const useChartConfig = ({
           min: 0.8,
           max: 51.5,
           ticks: {
-            stepSize: 5,
+            stepSize: windowWidth <= 768 ? 10 : 5,
             precision: 0, // 小数点なし
             callback: (value) => {
               const intValue = Math.round(Number(value));
@@ -172,6 +189,9 @@ export const useChartConfig = ({
                 return "ランク外";
               }
               return ""; // その他は空文字
+            },
+            font: {
+              size: windowWidth <= 768 ? 10 : 12,
             },
           },
           title: {
@@ -186,13 +206,15 @@ export const useChartConfig = ({
       elements: {
         line: {
           tension: 0.1,
+          borderWidth: windowWidth <= 768 ? 2 : 3,
         },
         point: {
-          hoverRadius: 8,
+          radius: windowWidth <= 768 ? 4 : 6,
+          hoverRadius: windowWidth <= 768 ? 6 : 8,
         },
       },
     }),
-    [yearRange.min, yearRange.max],
+    [yearRange.min, yearRange.max, windowWidth],
   );
 
   return {
