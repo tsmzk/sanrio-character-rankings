@@ -2,7 +2,7 @@ import type React from "react";
 import { useMemo, useState } from "react";
 import type { Character } from "../../types";
 import { DataProcessor } from "../../utils";
-import "./CharacterSelector.module.css";
+import styles from "./CharacterSelector.module.css";
 
 interface CharacterSelectorProps {
   characters: Character[];
@@ -42,112 +42,70 @@ export const CharacterSelector: React.FC<CharacterSelectorProps> = ({
 
   if (loading) {
     return (
-      <div className="character-selector loading">
-        <div className="loading-spinner"></div>
+      <div className={`${styles.characterSelector} ${styles.loading}`}>
+        <div className={styles.loadingSpinner}></div>
         <p>キャラクターを読み込み中...</p>
       </div>
     );
   }
 
   return (
-    <div className="character-selector">
-      <div className="character-selector__header">
+    <div className={styles.characterSelector}>
+      <div className={styles.characterSelector__header}>
         <h2>キャラクター選択</h2>
-        <div className="character-selector__actions">
-          <span className="selected-count">{selectedCharacters.length}件選択中</span>
+        <div className={styles.characterSelector__actions}>
+          <span className={styles.selectedCount}>{selectedCharacters.length}件選択中</span>
           <button
             type="button"
             onClick={clearSelection}
             disabled={selectedCharacters.length === 0}
-            className="clear-selection-btn"
+            className={styles.clearSelectionBtn}
           >
             選択解除
           </button>
         </div>
       </div>
 
-      <div className="character-selector__filters">
-        <div className="search-box">
+      <div className={styles.characterSelector__filters}>
+        <div className={styles.searchBox}>
           <input
             type="text"
             placeholder="キャラクター名で検索..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="search-input"
+            className={styles.searchInput}
           />
         </div>
 
         <button
           type="button"
           onClick={clearFilters}
-          className="clear-filters-btn"
+          className={styles.clearFiltersBtn}
           disabled={searchQuery === ""}
         >
           検索クリア
         </button>
       </div>
 
-      <div className="character-selector__grid">
+      <div className={styles.characterSelector__list}>
         {filteredCharacters.length === 0 ? (
-          <div className="no-results">
+          <div className={styles.noResults}>
             <p>該当するキャラクターが見つかりません</p>
           </div>
         ) : (
           filteredCharacters.map((character) => (
-            <button
-              type="button"
-              key={character.id}
-              className={`character-item ${
-                selectedCharacters.includes(character.id) ? "selected" : ""
-              }`}
-              onClick={() => handleCharacterToggle(character.id)}
-              aria-pressed={selectedCharacters.includes(character.id)}
-            >
-              <div className="character-color" style={{ backgroundColor: character.color }}></div>
-              <div className="character-info">
-                <h3 className="character-name">{character.name}</h3>
-                {character.nameEn && <p className="character-name-en">{character.nameEn}</p>}
-                <p className="character-debut">{character.debutYear}年デビュー</p>
-              </div>
-              <div className="character-checkbox">
-                <input
-                  type="checkbox"
-                  checked={selectedCharacters.includes(character.id)}
-                  onChange={() => handleCharacterToggle(character.id)}
-                  onClick={(e) => e.stopPropagation()}
-                />
-              </div>
-            </button>
+            <label key={character.id} className={styles.characterItem}>
+              <input
+                type="checkbox"
+                checked={selectedCharacters.includes(character.id)}
+                onChange={() => handleCharacterToggle(character.id)}
+                className={styles.characterCheckbox}
+              />
+              <span className={styles.characterName}>{character.name}</span>
+            </label>
           ))
         )}
       </div>
-
-      {selectedCharacters.length > 0 && (
-        <div className="selected-characters-summary">
-          <h3>選択中のキャラクター:</h3>
-          <div className="selected-characters-list">
-            {selectedCharacters.map((characterId) => {
-              const character = characters.find((c) => c.id === characterId);
-              return character ? (
-                <span
-                  key={characterId}
-                  className="selected-character-tag"
-                  style={{ backgroundColor: `${character.color}20`, borderColor: character.color }}
-                >
-                  {character.name}
-                  <button
-                    type="button"
-                    onClick={() => handleCharacterToggle(characterId)}
-                    className="remove-character-btn"
-                  >
-                    ×
-                  </button>
-                </span>
-              ) : null;
-            })}
-          </div>
-        </div>
-      )}
     </div>
   );
 };

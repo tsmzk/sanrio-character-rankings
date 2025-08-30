@@ -21,7 +21,7 @@ export const useChartConfig = ({
   yearRange,
 }: UseChartConfigProps): UseChartConfigReturn => {
   const chartData = useMemo(() => {
-    const years = [];
+    const years: number[] = [];
     for (let year = yearRange.min; year <= yearRange.max; year++) {
       years.push(year);
     }
@@ -29,40 +29,62 @@ export const useChartConfig = ({
     const datasets = selectedCharacters
       .map((characterId) => {
         const character = characters.find((c) => c.id === characterId);
-        if (!character) return null;
+        if (!character) {
+          return null;
+        }
 
         const characterRankings = rankings
           .filter((r) => r.characterId === characterId)
           .filter((r) => r.year >= yearRange.min && r.year <= yearRange.max)
           .sort((a, b) => a.year - b.year);
 
-        // 全ての年に対してデータポイントを作成（ランク外は51に設定）
-        const dataPoints = years.map((year) => {
-          const rankData = characterRankings.find((r) => r.year === year);
-          return {
-            x: year,
-            y: rankData ? rankData.rank : 51, // ランク外は51に設定
-            isOutOfRank: !rankData,
-          };
-        });
+        // 初ランクイン年を計算（全期間のランキングデータから最も早い年を取得）
+        const allCharacterRankings = rankings
+          .filter((r) => r.characterId === characterId)
+          .sort((a, b) => a.year - b.year);
+        const firstRankYear = allCharacterRankings.length > 0 ? allCharacterRankings[0].year : null;
 
-        return {
+        // データポイントを作成（初ランクイン前はスキップ、初ランクイン後でデータがない場合は51）
+        const validDataPoints = years
+          .map((year) => {
+            // 初ランクイン前の年はnullにする
+            if (firstRankYear === null || year < firstRankYear) {
+              return null;
+            }
+
+            const rankData = characterRankings.find((r) => r.year === year);
+            return {
+              x: year,
+              y: rankData ? rankData.rank : 51, // ランク外は51に設定
+              isOutOfRank: !rankData,
+            };
+          })
+          .filter((point) => point !== null); // nullデータを完全に除外
+
+        if (validDataPoints.length === 0) {
+          return null;
+        }
+
+        const dataset = {
           label: character.name,
-          data: dataPoints.map((p) => ({ x: p.x, y: p.y })),
+          data: validDataPoints.map((p) => ({ x: p.x, y: p.y })),
           borderColor: character.color,
           backgroundColor: `${character.color}20`, // Add transparency
           borderWidth: 3,
-          pointBackgroundColor: dataPoints.map((p) =>
+          pointBackgroundColor: validDataPoints.map((p) =>
             p.isOutOfRank ? "transparent" : character.color,
           ),
-          pointBorderColor: dataPoints.map((p) => (p.isOutOfRank ? "transparent" : "#ffffff")),
-          pointBorderWidth: dataPoints.map((p) => (p.isOutOfRank ? 0 : 2)),
-          pointRadius: dataPoints.map((p) => (p.isOutOfRank ? 0 : 6)),
-          pointHoverRadius: dataPoints.map((p) => (p.isOutOfRank ? 0 : 8)),
+          pointBorderColor: validDataPoints.map((p) => (p.isOutOfRank ? "transparent" : "#ffffff")),
+          pointBorderWidth: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 2)),
+          pointRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 6)),
+          pointHoverRadius: validDataPoints.map((p) => (p.isOutOfRank ? 0 : 8)),
           fill: false,
           tension: 0.2,
           showLine: true,
+          spanGaps: false, // 連続でないデータでも線で繋がない
         };
+
+        return dataset;
       })
       .filter(Boolean);
 
