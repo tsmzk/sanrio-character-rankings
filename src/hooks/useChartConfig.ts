@@ -56,11 +56,12 @@ export const useChartConfig = ({
       labels: years,
       datasets: datasets.filter((dataset): dataset is NonNullable<typeof dataset> => dataset !== null)
     };
-  }, [selectedCharacters, characters, rankings, yearRange]);
+  }, [selectedCharacters, characters, rankings, yearRange.min, yearRange.max]);
 
   const chartOptions = useMemo<ChartOptions<'line'>>(() => ({
     responsive: true,
     maintainAspectRatio: false,
+    clip: false,
     interaction: {
       intersect: false,
       mode: 'index'
@@ -114,15 +115,18 @@ export const useChartConfig = ({
       y: {
         type: 'linear',
         reverse: true, // 1位を上に表示
-        min: 1,
-        max: 15,
-        beginAtZero: false,
+        min: 0.8,
+        max: 50,
         ticks: {
-          stepSize: 1,
+          stepSize: 5,
           precision: 0, // 小数点なし
           callback: function(value) {
             const intValue = Math.round(Number(value));
-            return intValue + '位';
+            // 1位以上のみ表示
+            if (intValue >= 1) {
+              return intValue + '位';
+            }
+            return ''; // 0位以下は空文字
           }
         },
         title: {
@@ -142,10 +146,10 @@ export const useChartConfig = ({
         hoverRadius: 8
       }
     }
-  }), [yearRange]);
+  }), [yearRange.min, yearRange.max]);
 
   return {
     chartData,
     chartOptions
   };
-};
+};;

@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -54,11 +54,11 @@ export const RankingChart: React.FC<RankingChartProps> = ({
     yearRange
   });
 
-  // Merge with responsive options based on container width
-  const responsiveOptions: ChartOptions<'line'> = {
-    ...chartOptions,
-    ...ChartHelpers.getOptimalChartOptions(containerWidth)
-  };
+  // Merge with responsive options based on container width - メモ化して無限ループを防ぐ
+  const responsiveOptions: ChartOptions<'line'> = useMemo(() => ({
+    ...ChartHelpers.getOptimalChartOptions(containerWidth),
+    ...chartOptions
+  }), [chartOptions, containerWidth]);
 
   // Handle container resize
   useEffect(() => {

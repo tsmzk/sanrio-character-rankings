@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { DataProcessor } from '../../utils';
 import type { RankingEntry } from '../../types';
 import './FilterControls.module.css';
 
 interface FilterControlsProps {
   rankings: RankingEntry[];
   yearRange: { min: number; max: number };
+  availableYearRange: { min: number; max: number };
+  availableRankRange: { min: number; max: number };
   onYearRangeChange: (range: { min: number; max: number }) => void;
   onRankRangeChange?: (range: { min: number; max: number }) => void;
   loading?: boolean;
@@ -14,15 +15,14 @@ interface FilterControlsProps {
 export const FilterControls: React.FC<FilterControlsProps> = ({
   rankings,
   yearRange,
+  availableYearRange,
+  availableRankRange,
   onYearRangeChange,
   onRankRangeChange,
   loading = false
 }) => {
   const [localYearRange, setLocalYearRange] = useState(yearRange);
   const [rankRange, setRankRange] = useState({ min: 1, max: 12 });
-  
-  const availableYearRange = DataProcessor.getYearRange(rankings);
-  const availableRankRange = DataProcessor.getRankRange(rankings);
 
   // Update local state when props change
   useEffect(() => {

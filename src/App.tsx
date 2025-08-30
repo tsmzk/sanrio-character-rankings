@@ -28,13 +28,16 @@ function App() {
     isSelected
   } = useCharacterSelection();
 
+  // Calculate available ranges for filter controls
+  const availableYearRange = useMemo(() => DataProcessor.getYearRange(rankings), [rankings]);
+  const availableRankRange = useMemo(() => DataProcessor.getRankRange(rankings), [rankings]);
+
   // Initialize year range from actual data once loaded
   useEffect(() => {
     if (rankings.length > 0) {
-      const actualRange = DataProcessor.getYearRange(rankings);
-      setYearRange(actualRange);
+      setYearRange(availableYearRange);
     }
-  }, [rankings]);
+  }, [rankings, availableYearRange]);
 
   // Filter rankings by year range
   const filteredRankings = useMemo(() => {
@@ -105,6 +108,8 @@ function App() {
               <FilterControls
                 rankings={rankings}
                 yearRange={yearRange}
+                availableYearRange={availableYearRange}
+                availableRankRange={availableRankRange}
                 onYearRangeChange={setYearRange}
                 loading={loading}
               />

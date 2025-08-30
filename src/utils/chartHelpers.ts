@@ -7,7 +7,7 @@ export class ChartHelpers {
       maintainAspectRatio: false,
       layout: {
         padding: {
-          top: 20,
+          top: 30,
           right: 20,
           bottom: 20,
           left: 20
