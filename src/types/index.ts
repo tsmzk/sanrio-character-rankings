@@ -1,2 +1,2 @@
-export type { Character } from "./character";
-export type { ChartDataPoint, FilterOptions, RankingData, RankingEntry } from "./ranking";
+// Export all types from the shared types directory
+export type { Character, RankingEntry, YearRange, FilterOptions, Theme, ThemeType } from "../shared/types";
