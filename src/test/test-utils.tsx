@@ -1,5 +1,6 @@
 import { type RenderOptions, render } from "@testing-library/react";
 import type { ReactElement, ReactNode } from "react";
+import { vi } from "vitest";
 import { ThemeProvider } from "../features/theme/contexts/ThemeContext";
 import type { Character, RankingEntry } from "../shared/types";
 
@@ -107,8 +108,19 @@ export const axeConfig = {
   },
 };
 
-// Re-export everything from testing-library
-export * from "@testing-library/react";
+// Re-export specific exports from testing-library
+export {
+  act,
+  cleanup,
+  configure,
+  fireEvent,
+  prettyDOM,
+  renderHook,
+  screen,
+  waitFor,
+  waitForElementToBeRemoved,
+  within,
+} from "@testing-library/react";
 export { default as userEvent } from "@testing-library/user-event";
 
 // Override render with our custom version

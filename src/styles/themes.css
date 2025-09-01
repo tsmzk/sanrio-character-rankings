@@ -17,6 +17,7 @@
   --radius-lg: 16px;
   --radius-xl: 24px;
   --radius-full: 50%;
+  --border-radius: 12px;
 }
 
 /* Light Theme - DEFAULT */
@@ -39,6 +40,8 @@ html[data-theme="light"] {
   /* Background Colors */
   --color-bg-body: #fef7ff;
   --color-bg-main: linear-gradient(135deg, #fef7ff 0%, #fdf2f8 50%, #fff0f5 100%);
+  --color-bg-primary: #fef7ff;
+  --color-bg-secondary: #ffffff;
   --color-bg-surface: #ffffff;
   --color-bg-elevated: #fefefe;
   --color-bg-overlay: rgba(255, 255, 255, 0.95);
@@ -62,6 +65,8 @@ html[data-theme="light"] {
   --shadow-md: 0 4px 12px rgba(255, 107, 157, 0.12);
   --shadow-lg: 0 8px 24px rgba(255, 107, 157, 0.15);
   --shadow-special: 0 4px 20px rgba(255, 192, 203, 0.25);
+  --shadow-small: 0 1px 3px rgba(255, 107, 157, 0.1);
+  --shadow-medium: 0 4px 12px rgba(255, 107, 157, 0.12);
 }
 
 /* Dark Theme */
@@ -82,6 +87,8 @@ html[data-theme="dark"] {
   /* Background Colors - TRULY DARK */
   --color-bg-body: #000000;
   --color-bg-main: linear-gradient(135deg, #000000 0%, #1a0d2e 50%, #2d1b42 100%);
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #0f0f0f;
   --color-bg-surface: #0f0f0f;
   --color-bg-elevated: #1a1a1a;
   --color-bg-overlay: rgba(0, 0, 0, 0.98);
@@ -105,6 +112,8 @@ html[data-theme="dark"] {
   --shadow-md: 0 4px 12px rgba(155, 81, 224, 0.3);
   --shadow-lg: 0 8px 24px rgba(155, 81, 224, 0.4);
   --shadow-special: 0 4px 20px rgba(255, 20, 147, 0.6);
+  --shadow-small: 0 1px 3px rgba(155, 81, 224, 0.4);
+  --shadow-medium: 0 4px 12px rgba(155, 81, 224, 0.3);
   
   /* Dark theme-specific effects */
   --dark-glow: 0 0 20px rgba(155, 81, 224, 0.5);

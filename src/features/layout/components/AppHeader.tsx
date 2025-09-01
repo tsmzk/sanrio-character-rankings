@@ -9,8 +9,8 @@ export function AppHeader({ className = "" }: AppHeaderProps) {
     <header
       className={`backdrop-blur-sm border-b ${className}`}
       style={{
-        backgroundColor: 'var(--color-bg-overlay)',
-        borderColor: 'var(--color-border)'
+        backgroundColor: "var(--color-bg-overlay)",
+        borderColor: "var(--color-border)",
       }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,7 +23,10 @@ export function AppHeader({ className = "" }: AppHeaderProps) {
             <h1 className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent">
               サンリオキャラクター
             </h1>
-            <h2 className="text-lg sm:text-xl font-medium -mt-1" style={{color: 'var(--color-text-secondary)'}}>
+            <h2
+              className="text-lg sm:text-xl font-medium -mt-1"
+              style={{ color: "var(--color-text-secondary)" }}
+            >
               ランキング推移
             </h2>
           </div>
@@ -36,7 +39,10 @@ export function AppHeader({ className = "" }: AppHeaderProps) {
 
         {/* Description */}
         <div className="pb-4">
-          <p className="text-center text-sm sm:text-base" style={{color: 'var(--color-text-muted)'}}>
+          <p
+            className="text-center text-sm sm:text-base"
+            style={{ color: "var(--color-text-muted)" }}
+          >
             複数のキャラクターを選択して、年次ランキングの推移を比較できます
           </p>
         </div>

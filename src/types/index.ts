@@ -1,2 +1,9 @@
 // Export all types from the shared types directory
-export type { Character, RankingEntry, YearRange, FilterOptions, Theme, ThemeType } from "../shared/types";
+export type {
+  Character,
+  FilterOptions,
+  RankingEntry,
+  Theme,
+  ThemeType,
+  YearRange,
+} from "../shared/types";

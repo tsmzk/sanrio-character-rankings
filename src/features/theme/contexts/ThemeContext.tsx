@@ -1,23 +1,13 @@
 import type React from "react";
-import { createContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { debug } from "../../../shared/utils/debug";
-
-export type ThemeType = "light" | "dark";
-
-export interface ThemeContextType {
-  theme: ThemeType;
-  setTheme: (theme: ThemeType) => void;
-  toggleTheme: () => void;
-}
-
-export const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+import type { ThemeContextType, ThemeType } from "./theme-context";
+import { THEME_STORAGE_KEY, ThemeContext } from "./theme-context";
 
 interface ThemeProviderProps {
   children: React.ReactNode;
   defaultTheme?: ThemeType;
 }
-
-const THEME_STORAGE_KEY = "app-theme";
 
 export function ThemeProvider({ children, defaultTheme = "light" }: ThemeProviderProps) {
   const [theme, setTheme] = useState<ThemeType>(() => {
@@ -41,24 +31,19 @@ export function ThemeProvider({ children, defaultTheme = "light" }: ThemeProvide
   useEffect(() => {
     if (typeof document !== "undefined") {
       debug.theme("setting", theme);
-      
+
       // Remove old classes and data-theme attribute
       document.documentElement.classList.remove("light", "dark");
       document.documentElement.removeAttribute("data-theme");
-      
+
       // Add new theme class (Tailwind standard)
       document.documentElement.classList.add(theme);
-      
+
       // Set data-theme for custom CSS compatibility
       document.documentElement.setAttribute("data-theme", theme);
-      
+
       localStorage.setItem(THEME_STORAGE_KEY, theme);
-      debug.log(
-        "✅ Theme set to:",
-        theme,
-        "Classes:",
-        document.documentElement.className
-      );
+      debug.log("✅ Theme set to:", theme, "Classes:", document.documentElement.className);
     }
   }, [theme]);
 

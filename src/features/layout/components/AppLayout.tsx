@@ -56,7 +56,7 @@ export function AppLayout() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col" style={{background: 'var(--color-bg-main)'}}>
+    <div className="min-h-screen flex flex-col" style={{ background: "var(--color-bg-main)" }}>
       {/* Header */}
       <AppHeader />
 

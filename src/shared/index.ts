@@ -1,6 +1,6 @@
 // Components
 
-export type { ThemeType } from "../features/theme/contexts/ThemeContext";
+export type { ThemeType } from "../features/theme/contexts/theme-context";
 export { Select } from "./components/Select";
 // Types
 export type { Character, RankingEntry } from "./types";
