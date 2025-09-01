@@ -1,1 +1,0 @@
-export { RankingChart } from "./RankingChart";

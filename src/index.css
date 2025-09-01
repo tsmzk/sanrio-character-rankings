@@ -1,179 +1,160 @@
-/* Global Styles */
-:root {
-  font-family: var(--font-family, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif);
-  line-height: 1.5;
-  font-weight: 400;
-  
-  color: var(--color-text-primary);
-  background-color: var(--color-bg-body);
-  
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* Import Character Themes (Hello Kitty & Kuromi) - MUST BE FIRST */
+@import './styles/themes.css';
 
-/* Reset and Base Styles */
-* {
-  box-sizing: border-box;
-}
+/* Tailwind CSS Base Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  color: var(--color-text-primary);
-  background: var(--color-bg-main);
-  transition: all 0.3s ease;
-}
-
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: inherit;
-  color: inherit;
-}
-
-/* Typography */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--color-text-primary);
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-p {
-  line-height: 1.6;
-  color: var(--color-text-secondary);
-}
-
-/* Links */
-a {
-  color: var(--color-accent);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:hover {
-  color: var(--color-accent-hover);
-  text-decoration: underline;
-}
-
-/* Buttons */
-button {
-  font-family: inherit;
-  font-size: 1rem;
-  cursor: pointer;
-  border: none;
-  border-radius: var(--radius-md);
-  padding: 8px 16px;
-  transition: all 0.2s;
-  background-color: var(--color-accent);
-  color: var(--color-text-on-accent);
-}
-
-button:hover:not(:disabled) {
-  background-color: var(--color-accent-hover);
-  transform: translateY(-1px);
-  box-shadow: var(--shadow-sm);
-}
-
-button:disabled {
-  background-color: var(--color-text-light);
-  cursor: not-allowed;
-  transform: none;
-}
-
-button:focus {
-  outline: 2px solid var(--color-border-focus);
-  outline-offset: 2px;
-}
-
-/* Form Elements */
-input, select, textarea {
-  font-family: inherit;
-  font-size: 1rem;
-  border: 2px solid var(--color-border);
-  border-radius: var(--radius-sm);
-  padding: 8px 12px;
-  transition: border-color 0.2s;
-  background-color: var(--color-bg-surface);
-  color: var(--color-text-primary);
-}
-
-input:focus, select:focus, textarea:focus {
-  outline: none;
-  border-color: var(--color-border-focus);
-}
-
-input[type="checkbox"] {
-  width: auto;
-  margin: 0;
-}
-
-/* Scrollbar Styling */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--color-bg-surface);
-  border-radius: var(--radius-sm);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: var(--radius-sm);
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-border-hover);
-}
-
-/* Focus Styles for Accessibility */
-*:focus {
-  outline: 2px solid var(--color-border-focus);
-  outline-offset: 2px;
-}
-
-button:focus,
-input:focus,
-select:focus,
-textarea:focus {
-  outline: 2px solid var(--color-border-focus);
-  outline-offset: 2px;
-}
-
-/* Loading Animation */
-@keyframes spin {
-  0% { 
-    transform: rotate(0deg); 
+/* Global Styles - Use CSS variables from themes.css */
+@layer base {
+  :root {
+    font-family: var(--font-family);
   }
-  100% { 
-    transform: rotate(360deg); 
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--color-bg-main);
+    color: var(--color-text-primary);
+    transition: all var(--transition-normal);
+  }
+
+  #root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 }
 
-/* Utility Classes */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
+/* Custom Component Classes */
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 text-white font-medium py-2 px-4 rounded-lg 
+           transition-all duration-200 hover:translate-y-[-1px] hover:shadow-lg 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2
+           disabled:bg-gray-300 disabled:cursor-not-allowed disabled:transform-none;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2 px-4 rounded-lg 
+           transition-all duration-200 hover:translate-y-[-1px] hover:shadow-lg 
+           focus:outline-none focus:ring-2 focus:ring-secondary-500 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white 
+           font-medium py-2 px-4 rounded-lg transition-all duration-200 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .input-field {
+    @apply border-2 border-gray-200 rounded-lg px-3 py-2 text-gray-900 bg-white
+           focus:border-primary-500 focus:ring-1 focus:ring-primary-500 
+           transition-colors duration-200;
+  }
+
+  html[data-theme="dark"] .input-field {
+    @apply border-gray-600 bg-gray-800 text-white focus:border-primary-500;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 p-6 
+           hover:shadow-md transition-all duration-200;
+  }
+
+  html[data-theme="dark"] .card {
+    @apply bg-gray-800 border-gray-700;
+  }
+
+  .loading-spinner {
+    @apply animate-spin h-5 w-5 border-2 border-primary-500 border-t-transparent rounded-full;
+  }
 }
 
-/* Theme support is handled by themes.css */
-/* Ensure theme variables are available */
-html {
-  color-scheme: light dark;
+/* Custom Scrollbar */
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded-sm;
+  }
+
+  html[data-theme="dark"] .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-gray-800;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-sm hover:bg-gray-400;
+  }
+
+  html[data-theme="dark"] .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply bg-gray-600 hover:bg-gray-500;
+  }
+
+  /* Screen reader only utility */
+  .sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
 }
 
-/* Force theme application */
-html[data-theme] {
-  color-scheme: unset;
+/* Japanese font optimization */
+@layer base {
+  html:lang(ja) {
+    font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', sans-serif;
+  }
+}
+
+/* Animation utilities */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+
+  .animate-bounce-subtle {
+    animation: bounceSubtle 0.6s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  @keyframes slideUp {
+    from { 
+      transform: translateY(10px); 
+      opacity: 0; 
+    }
+    to { 
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+
+  @keyframes bounceSubtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+  }
 }
