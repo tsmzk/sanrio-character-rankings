@@ -45,8 +45,8 @@ export const measureSync = <T>(name: string, syncFn: () => T): T => {
 // Component render time tracking
 export const trackComponentRender = (
   componentName: string,
-  renderFn: () => JSX.Element,
-): JSX.Element => {
+  renderFn: () => React.JSX.Element,
+): React.JSX.Element => {
   return measureSync(`${componentName} render`, renderFn);
 };
 

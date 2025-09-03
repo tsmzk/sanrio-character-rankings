@@ -4,6 +4,7 @@ export interface RankingEntry {
   year: number;
   rank: number;
   characterId: string;
+  votes?: number; // Optional field for story/test data
 }
 
 export interface RankingData {

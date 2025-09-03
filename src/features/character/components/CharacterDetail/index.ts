@@ -1,1 +1,0 @@
-export { CharacterDetail } from "./CharacterDetail";

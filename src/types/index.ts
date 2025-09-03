@@ -3,7 +3,6 @@ export type {
   Character,
   FilterOptions,
   RankingEntry,
-  Theme,
-  ThemeType,
-  YearRange,
+  RankingData,
+  ChartDataPoint,
 } from "../shared/types";
