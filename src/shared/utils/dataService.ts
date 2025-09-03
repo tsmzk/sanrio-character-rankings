@@ -1,6 +1,5 @@
 import charactersData from "../data/characters.json";
 import type { Character, RankingEntry } from "../types";
-import { debug } from "./debug";
 
 // Cache variables
 let charactersCache: Character[] | null = null;
@@ -12,15 +11,10 @@ export const loadCharacters = async (): Promise<Character[]> => {
     return charactersCache;
   }
 
-  try {
-    // In a real app, this would be an API call
-    // For now, we're using imported JSON data
-    charactersCache = charactersData as Character[];
-    return charactersCache;
-  } catch (error) {
-    debug.error("Failed to load characters:", error);
-    throw new Error("Failed to load character data");
-  }
+  // In a real app, this would be an API call
+  // For now, we're using imported JSON data
+  charactersCache = charactersData as Character[];
+  return charactersCache;
 };
 
 // Load rankings for a specific year
@@ -30,15 +24,10 @@ export const loadRankingsForYear = async (year: number): Promise<RankingEntry[]>
     return cachedData;
   }
 
-  try {
-    const rankingModule = await import(`../data/rankings/rankings-${year}.json`);
-    const yearRankings = rankingModule.default as RankingEntry[];
-    yearlyRankingsCache.set(year, yearRankings);
-    return yearRankings;
-  } catch (error) {
-    debug.error(`Failed to load rankings for year ${year}:`, error);
-    throw new Error(`Failed to load ranking data for year ${year}`);
-  }
+  const rankingModule = await import(`../data/rankings/rankings-${year}.json`);
+  const yearRankings = rankingModule.default as RankingEntry[];
+  yearlyRankingsCache.set(year, yearRankings);
+  return yearRankings;
 };
 
 // Load rankings for multiple years
@@ -71,16 +60,11 @@ export const loadRankings = async (): Promise<RankingEntry[]> => {
     return rankingsCache;
   }
 
-  try {
-    // Get available years first
-    const availableYears = await getAvailableYears();
-    const allRankings = await loadRankingsForYears(availableYears);
-    rankingsCache = allRankings;
-    return rankingsCache;
-  } catch (error) {
-    debug.error("Failed to load rankings:", error);
-    throw new Error("Failed to load ranking data");
-  }
+  // Get available years first
+  const availableYears = await getAvailableYears();
+  const allRankings = await loadRankingsForYears(availableYears);
+  rankingsCache = allRankings;
+  return rankingsCache;
 };
 
 export const getCharacterById = async (id: string): Promise<Character | undefined> => {

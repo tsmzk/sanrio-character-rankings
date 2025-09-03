@@ -18,6 +18,14 @@ npm run lint
 npm run preview
 ```
 
+## Coding Standards
+
+### Error Handling Rules
+- **PROHIBITED**: Never use try-catch statements in this codebase
+- **RATIONALE**: Clean code architecture relies on explicit error handling patterns
+- **ALTERNATIVES**: Use function return values, error state management, and Promise chains
+- **ENFORCEMENT**: All try-catch blocks must be removed from existing code
+
 ## Architecture Overview
 
 ### Core Technology Stack

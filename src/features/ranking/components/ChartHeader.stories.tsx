@@ -1,21 +1,21 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { ChartHeader } from './ChartHeader';
+import type { Meta, StoryObj } from "@storybook/react";
+import { ChartHeader } from "./ChartHeader";
 
 const meta: Meta<typeof ChartHeader> = {
-  title: 'Ranking/ChartHeader',
+  title: "Ranking/ChartHeader",
   component: ChartHeader,
   parameters: {
-    layout: 'padded',
+    layout: "padded",
   },
   argTypes: {
     characterCount: {
-      control: { type: 'range', min: 0, max: 20, step: 1 },
+      control: { type: "range", min: 0, max: 20, step: 1 },
     },
     yearRange: {
-      control: { type: 'object' },
+      control: { type: "object" },
     },
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -89,14 +89,17 @@ export const CustomClassName: Story = {
   args: {
     yearRange: { min: 2020, max: 2023 },
     characterCount: 5,
-    className: 'bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700 mb-6',
+    className:
+      "bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700 mb-6",
   },
 };
 
 export const VariousScenarios = () => (
   <div className="space-y-6 p-4">
     <div className="space-y-4">
-      <h3 className="text-lg font-bold text-gray-900 dark:text-white">Different Character Counts</h3>
+      <h3 className="text-lg font-bold text-gray-900 dark:text-white">
+        Different Character Counts
+      </h3>
       <div className="space-y-4">
         <ChartHeader yearRange={{ min: 2018, max: 2023 }} characterCount={0} />
         <ChartHeader yearRange={{ min: 2018, max: 2023 }} characterCount={1} />
@@ -104,7 +107,7 @@ export const VariousScenarios = () => (
         <ChartHeader yearRange={{ min: 2018, max: 2023 }} characterCount={15} />
       </div>
     </div>
-    
+
     <div className="space-y-4">
       <h3 className="text-lg font-bold text-gray-900 dark:text-white">Different Year Ranges</h3>
       <div className="space-y-4">

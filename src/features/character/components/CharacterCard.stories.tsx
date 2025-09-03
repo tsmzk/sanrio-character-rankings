@@ -1,12 +1,12 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { CharacterCard } from './CharacterCard';
-import type { Character } from '../../../shared/types';
+import type { Meta, StoryObj } from "@storybook/react";
+import type { Character } from "../../../shared/types";
+import { CharacterCard } from "./CharacterCard";
 
 const meta: Meta<typeof CharacterCard> = {
-  title: 'Character/CharacterCard',
+  title: "Character/CharacterCard",
   component: CharacterCard,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   decorators: [
     (Story) => (
@@ -15,7 +15,7 @@ const meta: Meta<typeof CharacterCard> = {
       </div>
     ),
   ],
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -23,12 +23,12 @@ export default meta;
 type Story = StoryObj<typeof CharacterCard>;
 
 const mockCharacter: Character = {
-  id: 'hello-kitty',
-  name: 'ハローキティ',
-  nameEn: 'Hello Kitty',
-  description: '世界中で愛される白い子猫のキャラクター',
+  id: "hello-kitty",
+  name: "ハローキティ",
+  nameEn: "Hello Kitty",
+  description: "世界中で愛される白い子猫のキャラクター",
   debutYear: 1974,
-  color: '#ff6b9d',
+  color: "#ff6b9d",
 };
 
 export const Default: Story = {

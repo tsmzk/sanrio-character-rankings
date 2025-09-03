@@ -17,22 +17,17 @@ export const useRankingData = (): UseRankingDataReturn => {
   const [error, setError] = useState<string | null>(null);
 
   const loadData = useCallback(async () => {
-    try {
-      setLoading(true);
-      setError(null);
+    setLoading(true);
+    setError(null);
 
-      const [charactersData, rankingsData] = await Promise.all([
-        DataService.loadCharacters(),
-        DataService.loadRankings(),
-      ]);
+    const [charactersData, rankingsData] = await Promise.all([
+      DataService.loadCharacters(),
+      DataService.loadRankings(),
+    ]);
 
-      setCharacters(charactersData);
-      setRankings(rankingsData);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Failed to load data");
-    } finally {
-      setLoading(false);
-    }
+    setCharacters(charactersData);
+    setRankings(rankingsData);
+    setLoading(false);
   }, []);
 
   useEffect(() => {

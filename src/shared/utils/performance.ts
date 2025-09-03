@@ -35,11 +35,9 @@ export const measureAsync = <T>(name: string, asyncFn: () => Promise<T>): Promis
 
 export const measureSync = <T>(name: string, syncFn: () => T): T => {
   startMeasurement(name);
-  try {
-    return syncFn();
-  } finally {
-    endMeasurement(name);
-  }
+  const result = syncFn();
+  endMeasurement(name);
+  return result;
 };
 
 // Component render time tracking
@@ -84,16 +82,12 @@ export const trackWebVitals = (): void => {
 
   // Track Largest Contentful Paint (requires observer)
   if ("PerformanceObserver" in window) {
-    try {
-      const observer = new PerformanceObserver((list) => {
-        const entries = list.getEntries();
-        const lastEntry = entries[entries.length - 1];
-        debug.performance(`Largest Contentful Paint: ${lastEntry.startTime.toFixed(2)}ms`);
-      });
-      observer.observe({ entryTypes: ["largest-contentful-paint"] });
-    } catch {
-      // Observer not supported
-    }
+    const observer = new PerformanceObserver((list) => {
+      const entries = list.getEntries();
+      const lastEntry = entries[entries.length - 1];
+      debug.performance(`Largest Contentful Paint: ${lastEntry.startTime.toFixed(2)}ms`);
+    });
+    observer.observe({ entryTypes: ["largest-contentful-paint"] });
   }
 };
 

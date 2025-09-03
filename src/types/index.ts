@@ -1,8 +1,8 @@
 // Export all types from the shared types directory
 export type {
   Character,
-  FilterOptions,
-  RankingEntry,
-  RankingData,
   ChartDataPoint,
+  FilterOptions,
+  RankingData,
+  RankingEntry,
 } from "../shared/types";

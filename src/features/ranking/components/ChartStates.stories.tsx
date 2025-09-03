@@ -1,46 +1,46 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { ChartLoadingState, ChartEmptyState, ChartNoDataState } from './ChartStates';
+import type { Meta, StoryObj } from "@storybook/react";
+import { ChartEmptyState, ChartLoadingState, ChartNoDataState } from "./ChartStates";
 
 const loadingMeta: Meta<typeof ChartLoadingState> = {
-  title: 'Ranking/ChartStates/ChartLoadingState',
+  title: "Ranking/ChartStates/ChartLoadingState",
   component: ChartLoadingState,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     height: {
-      control: { type: 'range', min: 200, max: 800, step: 50 },
+      control: { type: "range", min: 200, max: 800, step: 50 },
     },
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 const emptyMeta: Meta<typeof ChartEmptyState> = {
-  title: 'Ranking/ChartStates/ChartEmptyState',
+  title: "Ranking/ChartStates/ChartEmptyState",
   component: ChartEmptyState,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     height: {
-      control: { type: 'range', min: 200, max: 800, step: 50 },
+      control: { type: "range", min: 200, max: 800, step: 50 },
     },
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 const noDataMeta: Meta<typeof ChartNoDataState> = {
-  title: 'Ranking/ChartStates/ChartNoDataState',
+  title: "Ranking/ChartStates/ChartNoDataState",
   component: ChartNoDataState,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     height: {
-      control: { type: 'range', min: 200, max: 800, step: 50 },
+      control: { type: "range", min: 200, max: 800, step: 50 },
     },
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 // Loading State Stories
@@ -71,7 +71,8 @@ export const LoadingCustomClass: LoadingStory = {
   ...loadingMeta,
   args: {
     height: 400,
-    className: 'shadow-lg ring-2 ring-blue-500/20 ring-offset-2 ring-offset-white dark:ring-offset-gray-900',
+    className:
+      "shadow-lg ring-2 ring-blue-500/20 ring-offset-2 ring-offset-white dark:ring-offset-gray-900",
   },
 };
 
@@ -103,7 +104,8 @@ export const EmptyCustomClass: EmptyStory = {
   ...emptyMeta,
   args: {
     height: 400,
-    className: 'border-dashed border-2 border-gray-300 dark:border-gray-600 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900',
+    className:
+      "border-dashed border-2 border-gray-300 dark:border-gray-600 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900",
   },
 };
 
@@ -135,7 +137,8 @@ export const NoDataCustomClass: NoDataStory = {
   ...noDataMeta,
   args: {
     height: 400,
-    className: 'border-2 border-orange-200 dark:border-orange-700 bg-gradient-to-br from-orange-50 to-yellow-50 dark:from-orange-900/20 dark:to-yellow-900/20',
+    className:
+      "border-2 border-orange-200 dark:border-orange-700 bg-gradient-to-br from-orange-50 to-yellow-50 dark:from-orange-900/20 dark:to-yellow-900/20",
   },
 };
 
@@ -173,7 +176,7 @@ export const ResponsiveStates = () => (
         <ChartNoDataState height={300} />
       </div>
     </div>
-    
+
     <div className="space-y-4">
       <h3 className="text-xl font-bold text-gray-900 dark:text-white">Medium Charts (450px)</h3>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

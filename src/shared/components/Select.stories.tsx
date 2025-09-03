@@ -1,33 +1,33 @@
-import type { Meta, StoryObj } from '@storybook/react';
-import { Select } from './Select';
+import type { Meta, StoryObj } from "@storybook/react";
+import { Select } from "./Select";
 
 const meta: Meta<typeof Select> = {
-  title: 'Shared/Select',
+  title: "Shared/Select",
   component: Select,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
   argTypes: {
     value: {
-      control: { type: 'text' },
+      control: { type: "text" },
     },
     options: {
-      control: { type: 'object' },
+      control: { type: "object" },
     },
     placeholder: {
-      control: { type: 'text' },
+      control: { type: "text" },
     },
     label: {
-      control: { type: 'text' },
+      control: { type: "text" },
     },
     disabled: {
-      control: { type: 'boolean' },
+      control: { type: "boolean" },
     },
     className: {
-      control: { type: 'text' },
+      control: { type: "text" },
     },
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
 };
 
 export default meta;
@@ -35,36 +35,36 @@ export default meta;
 type Story = StoryObj<typeof Select>;
 
 const mockOptions = [
-  { value: 'hello-kitty', label: 'Hello Kitty' },
-  { value: 'my-melody', label: 'My Melody' },
-  { value: 'kuromi', label: 'Kuromi' },
+  { value: "hello-kitty", label: "Hello Kitty" },
+  { value: "my-melody", label: "My Melody" },
+  { value: "kuromi", label: "Kuromi" },
 ];
 
 export const Default: Story = {
   args: {
-    value: '',
+    value: "",
     onChange: () => {},
     options: mockOptions,
-    placeholder: 'キャラクターを選択してください',
+    placeholder: "キャラクターを選択してください",
   },
 };
 
 export const WithLabel: Story = {
   args: {
-    value: '',
+    value: "",
     onChange: () => {},
     options: mockOptions,
-    placeholder: 'キャラクターを選択してください',
-    label: 'お気に入りのキャラクター',
+    placeholder: "キャラクターを選択してください",
+    label: "お気に入りのキャラクター",
   },
 };
 
 export const Selected: Story = {
   args: {
-    value: 'hello-kitty',
+    value: "hello-kitty",
     onChange: () => {},
     options: mockOptions,
-    placeholder: 'キャラクターを選択してください',
-    label: 'お気に入りのキャラクター',
+    placeholder: "キャラクターを選択してください",
+    label: "お気に入りのキャラクター",
   },
 };
