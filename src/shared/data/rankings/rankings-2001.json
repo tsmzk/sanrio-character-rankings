@@ -1,0 +1,27 @@
+[
+  {
+    "year": 2001,
+    "rank": 1,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2001,
+    "rank": 2,
+    "characterId": "my-melody"
+  },
+  {
+    "year": 2001,
+    "rank": 3,
+    "characterId": "pompompurin"
+  },
+  {
+    "year": 2001,
+    "rank": 4,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2001,
+    "rank": 5,
+    "characterId": "little-twin-stars"
+  }
+]

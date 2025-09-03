@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from "vitest";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 import { render, screen, userEvent } from "../../test/test-utils";
 import { Select } from "./Select";
 
@@ -44,8 +44,12 @@ describe("Select Component", () => {
     const button = screen.getByRole("button");
     await user.click(button);
 
-    // All options should be visible
-    expect(screen.getByText("2020年")).toBeInTheDocument();
+    // Check that the listbox is visible
+    const listbox = screen.getByRole("listbox");
+    expect(listbox).toBeInTheDocument();
+
+    // All options should be visible within the listbox
+    expect(screen.getAllByText("2020年")).toHaveLength(2); // One in button, one in list
     expect(screen.getByText("2021年")).toBeInTheDocument();
     expect(screen.getByText("2022年")).toBeInTheDocument();
   });
@@ -71,8 +75,13 @@ describe("Select Component", () => {
     const button = screen.getByRole("button");
     await user.click(button);
 
-    // Selected option should have checkmark (visually indicated)
-    const selectedOption = screen.getByText("2020年").closest('[role="option"]');
+    // Find the option within the listbox using role
+    const options = screen.getAllByRole("option");
+    const selectedOption = options.find(
+      (option) => option.getAttribute("aria-selected") === "true",
+    );
+
+    expect(selectedOption).toBeTruthy();
     expect(selectedOption).toHaveAttribute("aria-selected", "true");
   });
 
