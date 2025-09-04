@@ -5,7 +5,8 @@ const config: StorybookConfig = {
     "../src/shared/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../src/features/theme/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../src/features/character/**/*.stories.@(js|jsx|mjs|ts|tsx)",
-    "../src/features/ranking/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+    "../src/features/ranking/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+    "../src/features/layout/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   addons: [
     "@storybook/addon-docs"

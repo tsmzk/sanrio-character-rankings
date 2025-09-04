@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import type { Character } from '../shared/types';
+import { useState } from "react";
+import type { Character } from "../shared/types";
 
 export function useCharacterModal() {
   const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(null);

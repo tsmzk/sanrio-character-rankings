@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
-import type { RankingEntry } from '../shared/types';
+import { useEffect, useMemo, useState } from "react";
+import type { RankingEntry } from "../shared/types";
 
 interface YearRange {
   min: number;
@@ -45,8 +45,8 @@ export function useYearRangeFilter(rankings: RankingEntry[]) {
     setYearRange(availableYearRange);
   };
 
-  const isResetDisabled = yearRange.min === availableYearRange.min && 
-                          yearRange.max === availableYearRange.max;
+  const isResetDisabled =
+    yearRange.min === availableYearRange.min && yearRange.max === availableYearRange.max;
 
   return {
     yearRange,

@@ -1,0 +1,1 @@
+export { CharacterDetailModal } from "./CharacterDetailModal";

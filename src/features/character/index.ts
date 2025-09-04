@@ -1,6 +1,5 @@
 // Components
-export { CharacterCard } from "./components/CharacterCard";
-export { CharacterSelector } from "./components/CharacterSelector";
+export { CharacterCard, CharacterDetailModal, CharacterSelector } from "./components";
 
 // Hooks
 export { useCharacterSelection } from "./hooks/useCharacterSelection";
