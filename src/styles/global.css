@@ -71,18 +71,25 @@
 .theme-toggle {
   @apply relative bg-none border-none cursor-pointer p-1 rounded-full 
          transition-all duration-300 ease-out flex items-center justify-center
-         hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 
+         active:scale-95 focus:outline-none focus:ring-2 
          focus:ring-primary-500 focus:ring-offset-2;
   transform-style: preserve-3d;
 }
 
 .theme-toggle-track {
-  @apply relative w-16 h-8 rounded-full transition-all duration-300 ease-out overflow-hidden cursor-pointer;
+  @apply relative w-16 h-8 rounded-full transition-colors duration-300 ease-out overflow-hidden cursor-pointer;
   background: linear-gradient(145deg, #f8f9fa, #e9ecef);
   box-shadow: 
     inset 3px 3px 8px rgba(163, 177, 198, 0.4),
     inset -3px -3px 8px rgba(255, 255, 255, 0.8),
     0 4px 16px hsl(var(--primary-500) / 0.15);
+}
+
+.theme-toggle:hover .theme-toggle-track {
+  box-shadow: 
+    inset 3px 3px 8px rgba(163, 177, 198, 0.4),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.8),
+    0 4px 20px hsl(var(--primary-500) / 0.3);
 }
 
 [data-theme="dark"] .theme-toggle-track {
@@ -91,6 +98,13 @@
     inset 3px 3px 8px rgba(0, 0, 0, 0.6),
     inset -3px -3px 8px rgba(44, 44, 44, 0.4),
     0 4px 16px hsl(var(--primary-500) / 0.3);
+}
+
+[data-theme="dark"] .theme-toggle:hover .theme-toggle-track {
+  box-shadow: 
+    inset 3px 3px 8px rgba(0, 0, 0, 0.6),
+    inset -3px -3px 8px rgba(44, 44, 44, 0.4),
+    0 4px 20px hsl(var(--primary-500) / 0.5);
 }
 
 .theme-toggle-handle {
@@ -111,22 +125,24 @@
 }
 
 .theme-toggle-icon {
-  @apply absolute text-sm flex items-center justify-center top-1/2 -translate-y-1/2
+  @apply absolute flex items-center justify-center top-1/2 -translate-y-1/2
          transition-all duration-300 ease-out;
+  font-size: 0.65rem;
+  line-height: 1;
 }
 
 .theme-toggle-icon:first-child {
-  @apply left-2;
+  @apply left-[0.63rem];
 }
 
 .theme-toggle-icon:last-child {
-  @apply left-10;
+  @apply left-[2.675rem];
 }
 
 .theme-toggle-icon.active {
-  @apply opacity-100 scale-100;
+  @apply opacity-100 scale-110 origin-center;
 }
 
 .theme-toggle-icon.inactive {
-  @apply opacity-40 scale-75;
+  @apply opacity-40 scale-75 origin-center;
 }
