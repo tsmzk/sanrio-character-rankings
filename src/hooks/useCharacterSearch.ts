@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import type { Character, RankingEntry } from "../shared/types";
+import { multiFieldJapaneseMatch } from "../shared/utils/textNormalization";
 
 export function useCharacterSearch(characters: Character[], rankings: RankingEntry[]) {
   const [searchQuery, setSearchQuery] = useState("");
@@ -37,11 +38,9 @@ export function useCharacterSearch(characters: Character[], rankings: RankingEnt
       });
     }
 
-    // When searching, filter by query and keep original order (alphabetical)
-    const query = searchQuery.toLowerCase();
-    return characters.filter(
-      (char) =>
-        char.name.toLowerCase().includes(query) || char.nameEn?.toLowerCase().includes(query),
+    // When searching, filter by query using Japanese-aware matching
+    return characters.filter((char) =>
+      multiFieldJapaneseMatch([char.name, char.nameEn, char.description], searchQuery)
     );
   }, [characters, searchQuery, latestTop10Rankings]);
 

@@ -265,9 +265,9 @@
   },
   {
     "id": "hanamaru-obake",
-    "name": "Hanamaru Obake",
+    "name": "はなまるおばけ",
     "nameEn": "Hanamaru Obake",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "description": "今日もがんばったあなたにハナマルをくれる、不思議なおばけのキャラクター。",
     "debutYear": 2020,
     "color": "#808080"
   },
@@ -417,7 +417,7 @@
   },
   {
     "id": "little-twin-stars",
-    "name": "キキ&ララ",
+    "name": "リトルツインスターズ",
     "nameEn": "Little Twin Stars",
     "description": "1975年に誕生した双子の星の子のキャラクター。キキとララの兄妹で、夢と希望を運ぶ。",
     "debutYear": 1975,
