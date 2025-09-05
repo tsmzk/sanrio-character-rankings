@@ -464,14 +464,6 @@
     "color": "#87CEEB"
   },
   {
-    "id": "mellow-tune",
-    "name": "Mellow Tune",
-    "nameEn": "Mellow Tune",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
     "id": "mewkle-dreamy",
     "name": "ミュークルドリーミー",
     "nameEn": "Mewkle Dreamy",
@@ -656,14 +648,6 @@
     "color": "#FFD700"
   },
   {
-    "id": "puwawa",
-    "name": "Puwawa",
-    "nameEn": "Puwawa",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
     "id": "rilu-rilu-fairilu",
     "name": "リルリルフェアリル",
     "nameEn": "Rilu Rilu Fairilu",
@@ -774,14 +758,6 @@
     "description": "サンリオキャラクター",
     "debutYear": 2015,
     "color": "#DDA0DD"
-  },
-  {
-    "id": "taraiguma-no-laundry",
-    "name": "Taraiguma No Laundry",
-    "nameEn": "Taraiguma No Laundry",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
-    "debutYear": 2020,
-    "color": "#808080"
   },
   {
     "id": "tenori-kuma",
