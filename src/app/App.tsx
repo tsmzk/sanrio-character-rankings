@@ -8,7 +8,7 @@ function App() {
   const { characters, rankings, loading, error } = useRankingData();
   const characterSelection = useCharacterSelection();
   const yearRangeFilter = useYearRangeFilter(rankings);
-  const characterSearch = useCharacterSearch(characters);
+  const characterSearch = useCharacterSearch(characters, rankings);
   const characterModal = useCharacterModal();
 
   if (loading) {

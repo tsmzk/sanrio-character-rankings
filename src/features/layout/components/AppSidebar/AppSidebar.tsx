@@ -96,9 +96,13 @@ export function AppSidebar({
             </button>
           )}
         </div>
-        {characterSearch.hasSearchResults && (
+        {characterSearch.hasSearchResults ? (
           <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-2 italic">
             {characterSearch.resultCount}件のキャラクターが見つかりました
+          </div>
+        ) : (
+          <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-2 italic">
+            最新ランキングTOP10
           </div>
         )}
         <CharacterSelector
