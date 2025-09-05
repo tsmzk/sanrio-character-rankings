@@ -2,61 +2,401 @@
   {
     "year": 2022,
     "rank": 1,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2022,
-    "rank": 2,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2022,
-    "rank": 3,
     "characterId": "cinnamoroll"
   },
   {
     "year": 2022,
-    "rank": 4,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2022,
-    "rank": 5,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2022,
-    "rank": 6,
+    "rank": 2,
     "characterId": "pompompurin"
   },
   {
     "year": 2022,
-    "rank": 7,
-    "characterId": "keroppi"
+    "rank": 3,
+    "characterId": "kuromi"
   },
   {
     "year": 2022,
-    "rank": 8,
+    "rank": 4,
     "characterId": "pochacco"
   },
   {
     "year": 2022,
-    "rank": 9,
-    "characterId": "badtz-maru"
+    "rank": 5,
+    "characterId": "my-melody"
   },
   {
     "year": 2022,
-    "rank": 10,
+    "rank": 6,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2022,
+    "rank": 7,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2022,
+    "rank": 8,
     "characterId": "hangyodon"
   },
   {
     "year": 2022,
-    "rank": 11,
+    "rank": 9,
+    "characterId": "kogimyun"
+  },
+  {
+    "year": 2022,
+    "rank": 10,
     "characterId": "tuxedosam"
   },
   {
     "year": 2022,
+    "rank": 11,
+    "characterId": "keroppi"
+  },
+  {
+    "year": 2022,
     "rank": 12,
-    "characterId": "rururugakuen"
+    "characterId": "badtz-maru"
+  },
+  {
+    "year": 2022,
+    "rank": 13,
+    "characterId": "wish-me-mell"
+  },
+  {
+    "year": 2022,
+    "rank": 14,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2022,
+    "rank": 15,
+    "characterId": "gudetama"
+  },
+  {
+    "year": 2022,
+    "rank": 16,
+    "characterId": "ahiru-no-pekkle"
+  },
+  {
+    "year": 2022,
+    "rank": 17,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2022,
+    "rank": 18,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2022,
+    "rank": 19,
+    "characterId": "kirimi-chan"
+  },
+  {
+    "year": 2022,
+    "rank": 20,
+    "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2022,
+    "rank": 21,
+    "characterId": "marumofu-biyori"
+  },
+  {
+    "year": 2022,
+    "rank": 22,
+    "characterId": "marron-cream"
+  },
+  {
+    "year": 2022,
+    "rank": 23,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2022,
+    "rank": 24,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2022,
+    "rank": 25,
+    "characterId": "ruroro-manic"
+  },
+  {
+    "year": 2022,
+    "rank": 26,
+    "characterId": "kabuki-nyantaro"
+  },
+  {
+    "year": 2022,
+    "rank": 27,
+    "characterId": "hello-mimmy"
+  },
+  {
+    "year": 2022,
+    "rank": 28,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2022,
+    "rank": 29,
+    "characterId": "charmmy-kitty"
+  },
+  {
+    "year": 2022,
+    "rank": 30,
+    "characterId": "jewelpet"
+  },
+  {
+    "year": 2022,
+    "rank": 31,
+    "characterId": "little-forest-fellows"
+  },
+  {
+    "year": 2022,
+    "rank": 32,
+    "characterId": "mewkle-dreamy"
+  },
+  {
+    "year": 2022,
+    "rank": 33,
+    "characterId": "sugar-bunnies"
+  },
+  {
+    "year": 2022,
+    "rank": 34,
+    "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2022,
+    "rank": 35,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2022,
+    "rank": 36,
+    "characterId": "cheery-chum"
+  },
+  {
+    "year": 2022,
+    "rank": 37,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 2022,
+    "rank": 38,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2022,
+    "rank": 39,
+    "characterId": "ha-guruman-style"
+  },
+  {
+    "year": 2022,
+    "rank": 40,
+    "characterId": "aggretsuko"
+  },
+  {
+    "year": 2022,
+    "rank": 41,
+    "characterId": "tiny-chum"
+  },
+  {
+    "year": 2022,
+    "rank": 42,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2022,
+    "rank": 43,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2022,
+    "rank": 44,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2022,
+    "rank": 45,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2022,
+    "rank": 46,
+    "characterId": "beat-cats"
+  },
+  {
+    "year": 2022,
+    "rank": 47,
+    "characterId": "kusuri-no-fukutaro"
+  },
+  {
+    "year": 2022,
+    "rank": 48,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2022,
+    "rank": 49,
+    "characterId": "caribadix"
+  },
+  {
+    "year": 2022,
+    "rank": 50,
+    "characterId": "zashikibutа"
+  },
+  {
+    "year": 2022,
+    "rank": 51,
+    "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2022,
+    "rank": 52,
+    "characterId": "fresh-punch"
+  },
+  {
+    "year": 2022,
+    "rank": 53,
+    "characterId": "ichigoman"
+  },
+  {
+    "year": 2022,
+    "rank": 54,
+    "characterId": "kashiwanko-mochi"
+  },
+  {
+    "year": 2022,
+    "rank": 55,
+    "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2022,
+    "rank": 56,
+    "characterId": "shinkansen"
+  },
+  {
+    "year": 2022,
+    "rank": 57,
+    "characterId": "maimai-maigoen"
+  },
+  {
+    "year": 2022,
+    "rank": 58,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2022,
+    "rank": 59,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2022,
+    "rank": 60,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2022,
+    "rank": 61,
+    "characterId": "humming-mint"
+  },
+  {
+    "year": 2022,
+    "rank": 62,
+    "characterId": "puwawa"
+  },
+  {
+    "year": 2022,
+    "rank": 63,
+    "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2022,
+    "rank": 64,
+    "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2022,
+    "rank": 65,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2022,
+    "rank": 66,
+    "characterId": "shinkai-zoku"
+  },
+  {
+    "year": 2022,
+    "rank": 67,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2022,
+    "rank": 68,
+    "characterId": "シュガークリームパフ"
+  },
+  {
+    "year": 2022,
+    "rank": 69,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2022,
+    "rank": 70,
+    "characterId": "chibi-maru"
+  },
+  {
+    "year": 2022,
+    "rank": 71,
+    "characterId": "れおすけ"
+  },
+  {
+    "year": 2022,
+    "rank": 72,
+    "characterId": "rururu-gakuen"
+  },
+  {
+    "year": 2022,
+    "rank": 73,
+    "characterId": "bosanimaru"
+  },
+  {
+    "year": 2022,
+    "rank": 74,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2022,
+    "rank": 75,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2022,
+    "rank": 76,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2022,
+    "rank": 77,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2022,
+    "rank": 78,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2022,
+    "rank": 79,
+    "characterId": "little-lovin"
+  },
+  {
+    "year": 2022,
+    "rank": 80,
+    "characterId": "dream-tail-cubear"
   }
 ]

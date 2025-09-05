@@ -974,5 +974,493 @@
     "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
     "debutYear": 2020,
     "color": "#808080"
+  },
+  {
+    "id": "sweet-colon",
+    "name": "スウィートコロン",
+    "nameEn": "Sweet Colon",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "pandapple",
+    "name": "パンダップル",
+    "nameEn": "Pandapple",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#90EE90"
+  },
+  {
+    "id": "chibi-maru",
+    "name": "ちびまる",
+    "nameEn": "Chibi Maru",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "コロちゃん",
+    "name": "コロちゃん",
+    "nameEn": "Koro-chan",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFD700"
+  },
+  {
+    "id": "エスピー",
+    "name": "エスピー",
+    "nameEn": "SP",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "タキシードねこ",
+    "name": "タキシードねこ",
+    "nameEn": "Tuxedo Neko",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#000000"
+  },
+  {
+    "id": "わんわん三兄弟",
+    "name": "わんわん三兄弟",
+    "nameEn": "Wan Wan Sankyodai",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "おしゃまの森のフェアリーたち",
+    "name": "おしゃまの森のフェアリーたち",
+    "nameEn": "Oshama no Mori no Fairies",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#90EE90"
+  },
+  {
+    "id": "白水りぼん",
+    "name": "白水りぼん",
+    "nameEn": "Hakusui Ribbon",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#F0F8FF"
+  },
+  {
+    "id": "ドリームテイルクベア",
+    "name": "ドリームテイルクベア",
+    "nameEn": "Dream Tail Cubear",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "Warahibi!",
+    "name": "Warahibi!",
+    "nameEn": "Warahibi!",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB347"
+  },
+  {
+    "id": "ミスターメン リトルミス",
+    "name": "ミスターメン リトルミス",
+    "nameEn": "Mr. Men Little Miss",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "木馬",
+    "name": "木馬",
+    "nameEn": "Mokuba",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "フランボアルゥルゥ",
+    "name": "フランボアルゥルゥ",
+    "nameEn": "Framboarruru",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "コットンテイルズ",
+    "name": "コットンテイルズ",
+    "nameEn": "Cotton Tails",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#F5F5DC"
+  },
+  {
+    "id": "中年ひろいん Ojisan's",
+    "name": "中年ひろいん Ojisan's",
+    "nameEn": "Chuunen Hiroin Ojisan's",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#808080"
+  },
+  {
+    "id": "ルッキールー",
+    "name": "ルッキールー",
+    "nameEn": "Lucky Lou",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#90EE90"
+  },
+  {
+    "id": "ZIPPYZOO",
+    "name": "ZIPPYZOO",
+    "nameEn": "ZIPPYZOO",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "ピーターデイビス",
+    "name": "ピーターデイビス",
+    "nameEn": "Peter Davis",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#4169E1"
+  },
+  {
+    "id": "だちょのすけ",
+    "name": "だちょのすけ",
+    "nameEn": "Dacho no Suke",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#F0E68C"
+  },
+  {
+    "id": "ロボワン",
+    "name": "ロボワン",
+    "nameEn": "Robo Wan",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#C0C0C0"
+  },
+  {
+    "id": "フーティフーツ",
+    "name": "フーティフーツ",
+    "nameEn": "Hooty Hoots",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "ぷちぷちわんこ",
+    "name": "ぷちぷちわんこ",
+    "nameEn": "Puchi Puchi Wanko",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFE4B5"
+  },
+  {
+    "id": "パラダイスライブス",
+    "name": "パラダイスライブス",
+    "nameEn": "Paradise Lives",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFA500"
+  },
+  {
+    "id": "ペロはともだち",
+    "name": "ペロはともだち",
+    "nameEn": "Pero wa Tomodachi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB347"
+  },
+  {
+    "id": "ロベルタ",
+    "name": "ロベルタ",
+    "nameEn": "Roberta",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF1493"
+  },
+  {
+    "id": "エルパソ",
+    "name": "エルパソ",
+    "nameEn": "El Paso",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#CD853F"
+  },
+  {
+    "id": "風神雷之助",
+    "name": "風神雷之助",
+    "nameEn": "Fuujin Rainosuke",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#4682B4"
+  },
+  {
+    "id": "ペペペペン議員",
+    "name": "ペペペペン議員",
+    "nameEn": "Pepepepen Giin",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF6347"
+  },
+  {
+    "id": "ジッピーズー",
+    "name": "ジッピーズー",
+    "nameEn": "Zippy Zoo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "フレンドリーコッコちゃん",
+    "name": "フレンドリーコッコちゃん",
+    "nameEn": "Friendly Cocco-chan",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFD700"
+  },
+  {
+    "id": "スティルスモールテイルズ",
+    "name": "スティルスモールテイルズ",
+    "nameEn": "Still Small Tales",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#E6E6FA"
+  },
+  {
+    "id": "ピッケビッケ",
+    "name": "ピッケビッケ",
+    "nameEn": "Pikke Bikke",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "トレンドセッターズ",
+    "name": "トレンドセッターズ",
+    "nameEn": "Trend Setters",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DA70D6"
+  },
+  {
+    "id": "ララバイラバブルズ",
+    "name": "ララバイラバブルズ",
+    "nameEn": "Lullaby Lovables",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#F0E68C"
+  },
+  {
+    "id": "ギミーファイブ",
+    "name": "ギミーファイブ",
+    "nameEn": "Gimme Five",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF4500"
+  },
+  {
+    "id": "ピーク・ア・ブー",
+    "name": "ピーク・ア・ブー",
+    "nameEn": "Peek-a-Boo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#98FB98"
+  },
+  {
+    "id": "へーすけ",
+    "name": "へーすけ",
+    "nameEn": "Heesuke",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DEB887"
+  },
+  {
+    "id": "仲良し倶楽部",
+    "name": "仲良し倶楽部",
+    "nameEn": "Nakayoshi Club",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFA07A"
+  },
+  {
+    "id": "ようかいきっず",
+    "name": "ようかいきっず",
+    "nameEn": "Youkai Kids",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#9370DB"
+  },
+  {
+    "id": "ホプティコプティ",
+    "name": "ホプティコプティ",
+    "nameEn": "Hopty Copty",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#20B2AA"
+  },
+  {
+    "id": "カッパルンバ",
+    "name": "カッパルンバ",
+    "nameEn": "Kappalumba",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#32CD32"
+  },
+  {
+    "id": "go-ex-panda",
+    "name": "ゴーエクスパンダ",
+    "nameEn": "Go Ex-Panda",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF8C00"
+  },
+  {
+    "id": "sengoku-prison",
+    "name": "センゴクプリズン",
+    "nameEn": "Sengoku Prison",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "taraiguma-no-laundry",
+    "name": "たらいぐまのらんどりー",
+    "nameEn": "Taraiguma no Laundry",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "warau-onna",
+    "name": "笑う女",
+    "nameEn": "Warau Onna",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "osake-tachi-no-nichijou",
+    "name": "お酒たちの日常",
+    "nameEn": "Osake-tachi no Nichijou",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "ponpon-hieta",
+    "name": "ぽんぽんひえた",
+    "nameEn": "Ponpon Hieta",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#E0E0E0"
+  },
+  {
+    "id": "puwawa",
+    "name": "プワワ",
+    "nameEn": "Puwawa",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFE4B5"
+  },
+  {
+    "id": "ushi",
+    "name": "ウシ",
+    "nameEn": "Ushi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#000000"
+  },
+  {
+    "id": "hikidashi-aita",
+    "name": "ひきだしあいた",
+    "nameEn": "Hikidashi Aita",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "rosa",
+    "name": "ローサ",
+    "nameEn": "Rosa",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "moyurun",
+    "name": "もゆるん",
+    "nameEn": "Moyurun",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#98FB98"
+  },
+  {
+    "id": "kobuta-no-pippo",
+    "name": "こぶたのピッポ",
+    "nameEn": "Kobuta no Pippo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFC0CB"
+  },
+  {
+    "id": "uriuri-koron",
+    "name": "うりうりころん",
+    "nameEn": "Uriuri Koron",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#90EE90"
+  },
+  {
+    "id": "chu-chu-taco",
+    "name": "チューチューターコ",
+    "nameEn": "Chu Chu Taco",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FFD700"
+  },
+  {
+    "id": "choco-panda",
+    "name": "ちょこぱんだ",
+    "nameEn": "Choco Panda",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#8B4513"
+  },
+  {
+    "id": "mini-ryu-myu",
+    "name": "ミニールミュー",
+    "nameEn": "Mini Ryu Myu",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "flurry-myu",
+    "name": "フルーリーミュー",
+    "nameEn": "Flurry Myu",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#E6E6FA"
+  },
+  {
+    "id": "shirirapper",
+    "name": "シリラッパー",
+    "nameEn": "Shirirapper",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#FF4500"
+  },
+  {
+    "id": "miss-bears-dream",
+    "name": "ミスベアーズドリーム",
+    "nameEn": "Miss Bear's Dream",
+    "description": "サンリオキャラクター",
+    "debutYear": 2015,
+    "color": "#DDA0DD"
   }
 ]

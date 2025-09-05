@@ -92,67 +92,67 @@
   {
     "year": 2018,
     "rank": 19,
-    "characterId": "kogimyun"
-  },
-  {
-    "year": 2018,
-    "rank": 20,
     "characterId": "marumofu-biyori"
   },
   {
     "year": 2018,
-    "rank": 21,
-    "characterId": "charmmy-kitty"
+    "rank": 20,
+    "characterId": "aggretsuko"
   },
   {
     "year": 2018,
-    "rank": 22,
+    "rank": 21,
     "characterId": "marron-cream"
   },
   {
     "year": 2018,
+    "rank": 22,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2018,
     "rank": 23,
-    "characterId": "ahiru-no-pekkle"
+    "characterId": "corocorokuririn"
   },
   {
     "year": 2018,
     "rank": 24,
-    "characterId": "mewkle-dreamy"
+    "characterId": "ahiru-no-pekkle"
   },
   {
     "year": 2018,
     "rank": 25,
-    "characterId": "little-forest-fellows"
+    "characterId": "jewelpet"
   },
   {
     "year": 2018,
     "rank": 26,
-    "characterId": "little-forest-fellows"
+    "characterId": "ruroro-manic"
   },
   {
     "year": 2018,
     "rank": 27,
-    "characterId": "kogimyun"
+    "characterId": "little-forest-fellows"
   },
   {
     "year": 2018,
     "rank": 28,
-    "characterId": "charmmy-kitty"
+    "characterId": "kogimyun"
   },
   {
     "year": 2018,
     "rank": 29,
-    "characterId": "cheery-chum"
+    "characterId": "charmmy-kitty"
   },
   {
     "year": 2018,
     "rank": 30,
-    "characterId": "fukuchan"
+    "characterId": "cheery-chum"
   },
   {
     "year": 2018,
     "rank": 31,
-    "characterId": "osaru-no-monkichi"
+    "characterId": "fukuchan"
   },
   {
     "year": 2018,
@@ -212,7 +212,7 @@
   {
     "year": 2018,
     "rank": 43,
-    "characterId": "goropicadon"
+    "characterId": "goropikadon"
   },
   {
     "year": 2018,
@@ -222,7 +222,7 @@
   {
     "year": 2018,
     "rank": 45,
-    "characterId": "ichigo-man"
+    "characterId": "ichigoman"
   },
   {
     "year": 2018,
@@ -277,7 +277,7 @@
   {
     "year": 2018,
     "rank": 56,
-    "characterId": "wooden-horse"
+    "characterId": "木馬"
   },
   {
     "year": 2018,
@@ -332,7 +332,7 @@
   {
     "year": 2018,
     "rank": 67,
-    "characterId": "pinky-lil-rose-rio-sky-peace"
+    "characterId": "pinky-rururose-rio-sky-peace"
   },
   {
     "year": 2018,
@@ -362,12 +362,12 @@
   {
     "year": 2018,
     "rank": 73,
-    "characterId": "framboise-lulu"
+    "characterId": "フランボアルゥルゥ"
   },
   {
     "year": 2018,
     "rank": 74,
-    "characterId": "cotton-tails"
+    "characterId": "コットンテイルズ"
   },
   {
     "year": 2018,
@@ -382,7 +382,7 @@
   {
     "year": 2018,
     "rank": 77,
-    "characterId": "middle-aged-heroine-ojisan"
+    "characterId": "中年ひろいん Ojisan's"
   },
   {
     "year": 2018,
@@ -392,12 +392,12 @@
   {
     "year": 2018,
     "rank": 79,
-    "characterId": "nyakki-penne"
+    "characterId": "ニョッキ＆ペンネ"
   },
   {
     "year": 2018,
     "rank": 80,
-    "characterId": "mr-men-little-miss"
+    "characterId": "ミスターメン リトルミス"
   },
   {
     "year": 2018,
@@ -407,7 +407,7 @@
   {
     "year": 2018,
     "rank": 82,
-    "characterId": "lucky-lou"
+    "characterId": "ルッキールー"
   },
   {
     "year": 2018,
@@ -427,7 +427,7 @@
   {
     "year": 2018,
     "rank": 86,
-    "characterId": "zippy-zoo"
+    "characterId": "ZIPPYZOO"
   },
   {
     "year": 2018,
@@ -437,22 +437,22 @@
   {
     "year": 2018,
     "rank": 88,
-    "characterId": "peter-davis"
+    "characterId": "ピーターデイビス"
   },
   {
     "year": 2018,
     "rank": 89,
-    "characterId": "dachino-suke"
+    "characterId": "だちょのすけ"
   },
   {
     "year": 2018,
     "rank": 90,
-    "characterId": "robo-one"
+    "characterId": "ロボワン"
   },
   {
     "year": 2018,
     "rank": 91,
-    "characterId": "footy-foots"
+    "characterId": "フーティフーツ"
   },
   {
     "year": 2018,
@@ -462,7 +462,7 @@
   {
     "year": 2018,
     "rank": 93,
-    "characterId": "puchi-puchi-wanko"
+    "characterId": "ぷちぷちわんこ"
   },
   {
     "year": 2018,
@@ -472,31 +472,31 @@
   {
     "year": 2018,
     "rank": 95,
-    "characterId": "paradise-lives"
+    "characterId": "パラダイスライブス"
   },
   {
     "year": 2018,
     "rank": 96,
-    "characterId": "pero-wa-tomodachi"
+    "characterId": "ペロはともだち"
   },
   {
     "year": 2018,
     "rank": 97,
-    "characterId": "roberta"
+    "characterId": "ロベルタ"
   },
   {
     "year": 2018,
     "rank": 98,
-    "characterId": "el-paso"
+    "characterId": "エルパソ"
   },
   {
     "year": 2018,
     "rank": 99,
-    "characterId": "sports-bear"
+    "characterId": "sporting-bears"
   },
   {
     "year": 2018,
     "rank": 100,
-    "characterId": "baku-hatsu-kun"
+    "characterId": "風神雷之助"
   }
 ]

@@ -92,12 +92,12 @@
   {
     "year": 2017,
     "rank": 19,
-    "characterId": "kogimyun"
+    "characterId": "little-forest-fellows"
   },
   {
     "year": 2017,
     "rank": 20,
-    "characterId": "marumofu-biyori"
+    "characterId": "rilu-rilu-fairilu"
   },
   {
     "year": 2017,
@@ -192,12 +192,12 @@
   {
     "year": 2017,
     "rank": 39,
-    "characterId": "ichigo-man"
+    "characterId": "ichigoman"
   },
   {
     "year": 2017,
     "rank": 40,
-    "characterId": "toffee"
+    "characterId": "taffy"
   },
   {
     "year": 2017,
@@ -207,12 +207,12 @@
   {
     "year": 2017,
     "rank": 42,
-    "characterId": "fukuchan"
+    "characterId": "kusuri-no-fukutaro"
   },
   {
     "year": 2017,
     "rank": 43,
-    "characterId": "goropicadon"
+    "characterId": "goropikadon"
   },
   {
     "year": 2017,
@@ -232,22 +232,22 @@
   {
     "year": 2017,
     "rank": 47,
-    "characterId": "sugar-menuet"
+    "characterId": "pan-kunchi"
   },
   {
     "year": 2017,
     "rank": 48,
-    "characterId": "paupipo"
+    "characterId": "dream-tail-cubear"
   },
   {
     "year": 2017,
     "rank": 49,
-    "characterId": "the-vaudeville-duo"
+    "characterId": "zashikibutа"
   },
   {
     "year": 2017,
     "rank": 50,
-    "characterId": "dream-tail-cubear"
+    "characterId": "ichigo-no-ousama"
   },
   {
     "year": 2017,
@@ -297,7 +297,7 @@
   {
     "year": 2017,
     "rank": 60,
-    "characterId": "nyakki-penne"
+    "characterId": "ニョッキ＆ペンネ"
   },
   {
     "year": 2017,
@@ -348,5 +348,155 @@
     "year": 2017,
     "rank": 70,
     "characterId": "winky-pinky"
+  },
+  {
+    "year": 2017,
+    "rank": 71,
+    "characterId": "chibi-maru"
+  },
+  {
+    "year": 2017,
+    "rank": 72,
+    "characterId": "中年ひろいん Ojisan's"
+  },
+  {
+    "year": 2017,
+    "rank": 73,
+    "characterId": "フランボアルゥルゥ"
+  },
+  {
+    "year": 2017,
+    "rank": 74,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2017,
+    "rank": 75,
+    "characterId": "yachiyo-charmer"
+  },
+  {
+    "year": 2017,
+    "rank": 76,
+    "characterId": "ルッキールー"
+  },
+  {
+    "year": 2017,
+    "rank": 77,
+    "characterId": "ミスターメン リトルミス"
+  },
+  {
+    "year": 2017,
+    "rank": 78,
+    "characterId": "ペペペペン議員"
+  },
+  {
+    "year": 2017,
+    "rank": 79,
+    "characterId": "dark-grape-man"
+  },
+  {
+    "year": 2017,
+    "rank": 80,
+    "characterId": "ジッピーズー"
+  },
+  {
+    "year": 2017,
+    "rank": 81,
+    "characterId": "chibo-bot"
+  },
+  {
+    "year": 2017,
+    "rank": 82,
+    "characterId": "risuru"
+  },
+  {
+    "year": 2017,
+    "rank": 83,
+    "characterId": "フレンドリーコッコちゃん"
+  },
+  {
+    "year": 2017,
+    "rank": 84,
+    "characterId": "ピーターデイビス"
+  },
+  {
+    "year": 2017,
+    "rank": 85,
+    "characterId": "スティルスモールテイルズ"
+  },
+  {
+    "year": 2017,
+    "rank": 86,
+    "characterId": "ピッケビッケ"
+  },
+  {
+    "year": 2017,
+    "rank": 87,
+    "characterId": "トレンドセッターズ"
+  },
+  {
+    "year": 2017,
+    "rank": 88,
+    "characterId": "ララバイラバブルズ"
+  },
+  {
+    "year": 2017,
+    "rank": 89,
+    "characterId": "panna-pitta"
+  },
+  {
+    "year": 2017,
+    "rank": 90,
+    "characterId": "コロちゃん"
+  },
+  {
+    "year": 2017,
+    "rank": 91,
+    "characterId": "ギミーファイブ"
+  },
+  {
+    "year": 2017,
+    "rank": 92,
+    "characterId": "little-lovin"
+  },
+  {
+    "year": 2017,
+    "rank": 93,
+    "characterId": "ピーク・ア・ブー"
+  },
+  {
+    "year": 2017,
+    "rank": 94,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2017,
+    "rank": 95,
+    "characterId": "mimic-mike"
+  },
+  {
+    "year": 2017,
+    "rank": 96,
+    "characterId": "へーすけ"
+  },
+  {
+    "year": 2017,
+    "rank": 97,
+    "characterId": "仲良し倶楽部"
+  },
+  {
+    "year": 2017,
+    "rank": 98,
+    "characterId": "ようかいきっず"
+  },
+  {
+    "year": 2017,
+    "rank": 99,
+    "characterId": "ホプティコプティ"
+  },
+  {
+    "year": 2017,
+    "rank": 100,
+    "characterId": "カッパルンバ"
   }
 ]
