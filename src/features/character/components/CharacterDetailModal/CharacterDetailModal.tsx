@@ -1,5 +1,5 @@
-import type { useCharacterModal } from "../../../hooks";
-import type { RankingEntry } from "../../../shared/types";
+import type { useCharacterModal } from "../../../../hooks";
+import type { RankingEntry } from "../../../../shared/types";
 
 interface CharacterDetailModalProps {
   characterModal: ReturnType<typeof useCharacterModal>;

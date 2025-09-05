@@ -12,15 +12,9 @@ interface CustomRenderOptions extends Omit<RenderOptions, "wrapper"> {
 function customRender(ui: ReactElement, { theme = "light", ...options }: CustomRenderOptions = {}) {
   function Wrapper({ children }: { children: ReactNode }) {
     // Mock theme context value
-    const mockThemeValue = {
-      theme,
-      setTheme: vi.fn(),
-      toggleTheme: vi.fn(),
-    };
-
     return (
       <div data-theme={theme}>
-        <ThemeProvider value={mockThemeValue}>{children}</ThemeProvider>
+        <ThemeProvider defaultTheme={theme}>{children}</ThemeProvider>
       </div>
     );
   }

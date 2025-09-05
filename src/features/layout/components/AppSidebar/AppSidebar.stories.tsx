@@ -82,7 +82,10 @@ const mockYearRangeFilter: ReturnType<typeof useYearRangeFilter> = {
 
 const mockCharacterSearch: ReturnType<typeof useCharacterSearch> = {
   searchQuery: "",
-  setSearchQuery: (query: string) => console.log("Set search query:", query),
+  setSearchQuery: (query: string | ((prevState: string) => string)) => {
+    const queryValue = typeof query === "function" ? query("") : query;
+    console.log("Set search query:", queryValue);
+  },
   filteredCharacters: mockCharacters,
   clearSearch: () => console.log("Clear search"),
   hasSearchResults: false,
@@ -92,6 +95,9 @@ const mockCharacterSearch: ReturnType<typeof useCharacterSearch> = {
 const mockCharacterSelection: ReturnType<typeof useCharacterSelection> = {
   selectedCharacters: ["hello-kitty", "my-melody"],
   toggleCharacter: (id: string) => console.log("Toggle character:", id),
+  addCharacter: (id: string) => console.log("Add character:", id),
+  removeCharacter: (id: string) => console.log("Remove character:", id),
+  clearSelection: () => console.log("Clear selection"),
   isSelected: (id: string) => ["hello-kitty", "my-melody"].includes(id),
 };
 

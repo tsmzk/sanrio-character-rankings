@@ -23,9 +23,14 @@ describe("ThemeToggle Component", () => {
     mockTheme.mockReturnValue("light");
     render(<ThemeToggle />);
 
-    // Should show moon emoji when in light theme (to switch to dark)
-    expect(screen.getByText("🌙")).toBeInTheDocument();
-    expect(screen.queryByText("☀️")).not.toBeInTheDocument();
+    // Both icons should be present, with sun active in light theme
+    const sunIcon = screen.getByText("☀️");
+    const moonIcon = screen.getByText("🌙");
+
+    expect(sunIcon).toBeInTheDocument();
+    expect(moonIcon).toBeInTheDocument();
+    expect(sunIcon).toHaveClass("active");
+    expect(moonIcon).toHaveClass("inactive");
 
     // Should have correct ARIA label
     const toggleButton = screen.getByRole("button");
@@ -37,9 +42,14 @@ describe("ThemeToggle Component", () => {
     mockTheme.mockReturnValue("dark");
     render(<ThemeToggle />);
 
-    // Should show sun emoji when in dark theme (to switch to light)
-    expect(screen.getByText("☀️")).toBeInTheDocument();
-    expect(screen.queryByText("🌙")).not.toBeInTheDocument();
+    // Both icons should be present, with moon active in dark theme
+    const sunIcon = screen.getByText("☀️");
+    const moonIcon = screen.getByText("🌙");
+
+    expect(sunIcon).toBeInTheDocument();
+    expect(moonIcon).toBeInTheDocument();
+    expect(sunIcon).toHaveClass("inactive");
+    expect(moonIcon).toHaveClass("active");
 
     const toggleButton = screen.getByRole("button");
     expect(toggleButton).toHaveAttribute("aria-label", "Switch to light mode");
