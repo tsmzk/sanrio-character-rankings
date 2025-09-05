@@ -51,6 +51,11 @@
   },
   {
     "year": 2011,
+    "rank": 11,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 2011,
     "rank": 12,
     "characterId": "tuxedosam"
   },
@@ -101,8 +106,18 @@
   },
   {
     "year": 2011,
+    "rank": 22,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2011,
     "rank": 23,
     "characterId": "cheery-chum"
+  },
+  {
+    "year": 2011,
+    "rank": 24,
+    "characterId": "ニョッキ＆ペンネ"
   },
   {
     "year": 2011,
@@ -113,6 +128,11 @@
     "year": 2011,
     "rank": 26,
     "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2011,
+    "rank": 27,
+    "characterId": "フランボアルゥルゥ"
   },
   {
     "year": 2011,
@@ -136,6 +156,16 @@
   },
   {
     "year": 2011,
+    "rank": 32,
+    "characterId": "miss-bears-dream"
+  },
+  {
+    "year": 2011,
+    "rank": 33,
+    "characterId": "バニー＆マッティ"
+  },
+  {
+    "year": 2011,
     "rank": 34,
     "characterId": "zashikibutа"
   },
@@ -146,8 +176,18 @@
   },
   {
     "year": 2011,
+    "rank": 36,
+    "characterId": "the-vaudeville-duo"
+  },
+  {
+    "year": 2011,
     "rank": 37,
     "characterId": "ichigo-no-ousama"
+  },
+  {
+    "year": 2011,
+    "rank": 38,
+    "characterId": "angela"
   },
   {
     "year": 2011,
@@ -156,13 +196,43 @@
   },
   {
     "year": 2011,
+    "rank": 40,
+    "characterId": "mellow-tune"
+  },
+  {
+    "year": 2011,
     "rank": 41,
     "characterId": "seven-siri-dwarf"
   },
   {
     "year": 2011,
+    "rank": 42,
+    "characterId": "chibi-maru"
+  },
+  {
+    "year": 2011,
+    "rank": 43,
+    "characterId": "wee-merry-lou"
+  },
+  {
+    "year": 2011,
+    "rank": 44,
+    "characterId": "charlotte"
+  },
+  {
+    "year": 2011,
     "rank": 45,
     "characterId": "tiny-poem"
+  },
+  {
+    "year": 2011,
+    "rank": 46,
+    "characterId": "bo-boku-nezumi-kozou-dai"
+  },
+  {
+    "year": 2011,
+    "rank": 47,
+    "characterId": "jasper"
   },
   {
     "year": 2011,
@@ -181,6 +251,11 @@
   },
   {
     "year": 2011,
+    "rank": 51,
+    "characterId": "taraiguma-no-laundry"
+  },
+  {
+    "year": 2011,
     "rank": 52,
     "characterId": "button-nose"
   },
@@ -191,8 +266,43 @@
   },
   {
     "year": 2011,
+    "rank": 54,
+    "characterId": "sweet-colon"
+  },
+  {
+    "year": 2011,
+    "rank": 55,
+    "characterId": "nemukko-nyago"
+  },
+  {
+    "year": 2011,
+    "rank": 56,
+    "characterId": "dearly-lou"
+  },
+  {
+    "year": 2011,
     "rank": 57,
     "characterId": "winky-pinky"
+  },
+  {
+    "year": 2011,
+    "rank": 58,
+    "characterId": "puwawa"
+  },
+  {
+    "year": 2011,
+    "rank": 59,
+    "characterId": "tetsunagi-kuma"
+  },
+  {
+    "year": 2011,
+    "rank": 60,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2011,
+    "rank": 61,
+    "characterId": "choco-panda"
   },
   {
     "year": 2011,
@@ -201,8 +311,63 @@
   },
   {
     "year": 2011,
+    "rank": 63,
+    "characterId": "culture-shock"
+  },
+  {
+    "year": 2011,
+    "rank": 64,
+    "characterId": "okigaru-friends"
+  },
+  {
+    "year": 2011,
+    "rank": 65,
+    "characterId": "boogie-woo"
+  },
+  {
+    "year": 2011,
+    "rank": 66,
+    "characterId": "pandapple"
+  },
+  {
+    "year": 2011,
     "rank": 67,
     "characterId": "nora-neko-land"
+  },
+  {
+    "year": 2011,
+    "rank": 68,
+    "characterId": "シュガークリームパフ"
+  },
+  {
+    "year": 2011,
+    "rank": 69,
+    "characterId": "small-people"
+  },
+  {
+    "year": 2011,
+    "rank": 70,
+    "characterId": "kobuta-no-pippo"
+  },
+  {
+    "year": 2011,
+    "rank": 71,
+    "characterId": "we-are-dinosaurs"
+  },
+  {
+    "year": 2011,
+    "rank": 72,
+    "characterId": "ララバイラバブルス"
+  },
+  {
+    "year": 2011,
+    "rank": 73,
+    "characterId": "スティルスモールテイルズ"
+  },
+  {
+    "year": 2011,
+    "rank": 74,
+    "characterId": "kids-bear"
   },
   {
     "year": 2011,
@@ -213,6 +378,121 @@
     "year": 2011,
     "rank": 76,
     "characterId": "yachiyo-charmer"
+  },
+  {
+    "year": 2011,
+    "rank": 77,
+    "characterId": "へーすけ"
+  },
+  {
+    "year": 2011,
+    "rank": 78,
+    "characterId": "フレンドリーコッコちゃん"
+  },
+  {
+    "year": 2011,
+    "rank": 79,
+    "characterId": "puka-puka-paradise"
+  },
+  {
+    "year": 2011,
+    "rank": 80,
+    "characterId": "little-cottonwood-cottage"
+  },
+  {
+    "year": 2011,
+    "rank": 81,
+    "characterId": "ピーターデイビス"
+  },
+  {
+    "year": 2011,
+    "rank": 82,
+    "characterId": "bogo-the-city-boy"
+  },
+  {
+    "year": 2011,
+    "rank": 83,
+    "characterId": "コロちゃん"
+  },
+  {
+    "year": 2011,
+    "rank": 84,
+    "characterId": "robby-rabbit"
+  },
+  {
+    "year": 2011,
+    "rank": 85,
+    "characterId": "ピーク・ア・ブー"
+  },
+  {
+    "year": 2011,
+    "rank": 86,
+    "characterId": "brownie-story"
+  },
+  {
+    "year": 2011,
+    "rank": 87,
+    "characterId": "hannari-komachi"
+  },
+  {
+    "year": 2011,
+    "rank": 88,
+    "characterId": "fun-come-alive"
+  },
+  {
+    "year": 2011,
+    "rank": 89,
+    "characterId": "captain-willy"
+  },
+  {
+    "year": 2011,
+    "rank": 90,
+    "characterId": "spanky-barrow"
+  },
+  {
+    "year": 2011,
+    "rank": 91,
+    "characterId": "tweedie-drops"
+  },
+  {
+    "year": 2011,
+    "rank": 92,
+    "characterId": "tonari-no-kappa-san-chi"
+  },
+  {
+    "year": 2011,
+    "rank": 93,
+    "characterId": "honey-field"
+  },
+  {
+    "year": 2011,
+    "rank": 94,
+    "characterId": "カッパルンバ"
+  },
+  {
+    "year": 2011,
+    "rank": 95,
+    "characterId": "ギミーファイブ"
+  },
+  {
+    "year": 2011,
+    "rank": 96,
+    "characterId": "pajama-club"
+  },
+  {
+    "year": 2011,
+    "rank": 97,
+    "characterId": "puppy-love"
+  },
+  {
+    "year": 2011,
+    "rank": 98,
+    "characterId": "catsby-kids"
+  },
+  {
+    "year": 2011,
+    "rank": 99,
+    "characterId": "alfred-hatchcock"
   },
   {
     "year": 2011,

@@ -1462,5 +1462,333 @@
     "description": "サンリオキャラクター",
     "debutYear": 2015,
     "color": "#DDA0DD"
+  },
+  {
+    "id": "debi-and-bibi",
+    "name": "デビとビビ",
+    "nameEn": "Debi and Bibi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "mellow-tune",
+    "name": "メローチューン",
+    "nameEn": "Mellow Tune",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "wee-merry-lou",
+    "name": "ウィーメリールー",
+    "nameEn": "Wee Merry Lou",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "nemukko-nyago",
+    "name": "ねむっこにゃ～ご",
+    "nameEn": "Nemukko Nyago",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "dearly-lou",
+    "name": "ディアリールー",
+    "nameEn": "Dearly Lou",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#F0E68C"
+  },
+  {
+    "id": "kids-bear",
+    "name": "キッズベア",
+    "nameEn": "Kids Bear",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#8B4513"
+  },
+  {
+    "id": "bo-boku-nezumi-kozou-dai",
+    "name": "ボ・ボクねずみ小僧だい！",
+    "nameEn": "Bo-Boku Nezumi Kozou Dai!",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#696969"
+  },
+  {
+    "id": "culture-shock",
+    "name": "カルチャーショック",
+    "nameEn": "Culture Shock",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FF4500"
+  },
+  {
+    "id": "okigaru-friends",
+    "name": "おきがるふれんず",
+    "nameEn": "Okigaru Friends",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#98FB98"
+  },
+  {
+    "id": "bearobics",
+    "name": "ベアロビクス",
+    "nameEn": "Bearobics",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FF6347"
+  },
+  {
+    "id": "donjara-hoi",
+    "name": "どんじゃらほい",
+    "nameEn": "Donjara Hoi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#FFD700"
+  },
+  {
+    "id": "small-people",
+    "name": "スモールピープル",
+    "nameEn": "Small People",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#90EE90"
+  },
+  {
+    "id": "robby-rabbit",
+    "name": "ロビーラビット",
+    "nameEn": "Robby Rabbit",
+    "description": "サンリオキャラクター",
+    "debutYear": 2013,
+    "color": "#F5DEB3"
+  },
+  {
+    "id": "captain-willy",
+    "name": "キャプテンウィリー",
+    "nameEn": "Captain Willy",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#4169E1"
+  },
+  {
+    "id": "hollys-bear",
+    "name": "ホリーズベアー",
+    "nameEn": "Holly's Bear",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#8B4513"
+  },
+  {
+    "id": "puka-puka-paradise",
+    "name": "プカプカパラダイス",
+    "nameEn": "Puka Puka Paradise",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "tetsunagi-kuma",
+    "name": "てつなぎクマ",
+    "nameEn": "Tetsunagi Kuma",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#8B4513"
+  },
+  {
+    "id": "boogie-woo",
+    "name": "ブーギーウー",
+    "nameEn": "Boogie Woo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "tweedie-drops",
+    "name": "トゥイーディードロップス",
+    "nameEn": "Tweedie Drops",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#87CEEB"
+  },
+  {
+    "id": "spanky-barrow",
+    "name": "スパンキーバロー",
+    "nameEn": "Spanky Barrow",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#FF6347"
+  },
+  {
+    "id": "little-cottonwood-cottage",
+    "name": "リトルコットンウッドコテージ",
+    "nameEn": "Little Cottonwood Cottage",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#8B4513"
+  },
+  {
+    "id": "gator-gags",
+    "name": "ゲーターギャグズ",
+    "nameEn": "Gator Gags",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#228B22"
+  },
+  {
+    "id": "tweedledee-dee",
+    "name": "トウィードルディーディー",
+    "nameEn": "Tweedledee Dee",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "fun-come-alive",
+    "name": "ファンカムアライブ",
+    "nameEn": "Fun Come Alive",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#FF4500"
+  },
+  {
+    "id": "spotty-dotty",
+    "name": "スポッティドッティ",
+    "nameEn": "Spotty Dotty",
+    "description": "サンリオキャラクター",
+    "debutYear": 2012,
+    "color": "#FF69B4"
+  },
+  {
+    "id": "angela",
+    "name": "エンジェラ",
+    "nameEn": "Angela",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "charlotte",
+    "name": "チャロット",
+    "nameEn": "Charlotte",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "jasper",
+    "name": "ジャスパー",
+    "nameEn": "Jasper",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#4169E1"
+  },
+  {
+    "id": "bogo-the-city-boy",
+    "name": "ボゴ ザ シティボーイ",
+    "nameEn": "Bogo The City Boy",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#696969"
+  },
+  {
+    "id": "hannari-komachi",
+    "name": "はんなりこまち",
+    "nameEn": "Hannari Komachi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "tonari-no-kappa-san-chi",
+    "name": "となりのカッパさんち。",
+    "nameEn": "Tonari no Kappa San Chi",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#32CD32"
+  },
+  {
+    "id": "honey-field",
+    "name": "ハニーフィールド",
+    "nameEn": "Honey Field",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFD700"
+  },
+  {
+    "id": "pajama-club",
+    "name": "パジャマクラブ",
+    "nameEn": "Pajama Club",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#DDA0DD"
+  },
+  {
+    "id": "puppy-love",
+    "name": "パピーラブ",
+    "nameEn": "Puppy Love",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "catsby-kids",
+    "name": "キャッツビーキッズ",
+    "nameEn": "Catsby Kids",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FF6347"
+  },
+  {
+    "id": "alfred-hatchcock",
+    "name": "アルフレッドハッチコック",
+    "nameEn": "Alfred Hatchcock",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#800080"
+  },
+  {
+    "id": "iku-chan",
+    "name": "いっくちゃん",
+    "nameEn": "Iku-chan",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFB6C1"
+  },
+  {
+    "id": "dupey-demons",
+    "name": "ドゥーピーデーモンズ",
+    "nameEn": "Dupey Demons",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#8B008B"
+  },
+  {
+    "id": "quick-wax",
+    "name": "クイックワックス",
+    "nameEn": "Quick Wax",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#FFD700"
+  },
+  {
+    "id": "boogie-boo",
+    "name": "ブーギーブー",
+    "nameEn": "Boogie Boo",
+    "description": "サンリオキャラクター",
+    "debutYear": 2011,
+    "color": "#9370DB"
+  },
+  {
+    "id": "jochum",
+    "name": "JOCHUM",
+    "nameEn": "JOCHUM",
+    "description": "2023年サンリオキャラクター大賞にランクインしたキャラクター",
+    "debutYear": 2023,
+    "color": "#87CEEB"
   }
 ]

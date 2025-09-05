@@ -41,6 +41,11 @@
   },
   {
     "year": 2012,
+    "rank": 9,
+    "characterId": "go-ex-panda"
+  },
+  {
+    "year": 2012,
     "rank": 10,
     "characterId": "tuxedosam"
   },
@@ -68,6 +73,11 @@
     "year": 2012,
     "rank": 15,
     "characterId": "badtz-maru"
+  },
+  {
+    "year": 2012,
+    "rank": 16,
+    "characterId": "patty-and-jimmy"
   },
   {
     "year": 2012,
@@ -121,6 +131,11 @@
   },
   {
     "year": 2012,
+    "rank": 27,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2012,
     "rank": 28,
     "characterId": "minna-no-taa-bou"
   },
@@ -128,6 +143,11 @@
     "year": 2012,
     "rank": 29,
     "characterId": "corocorokuririn"
+  },
+  {
+    "year": 2012,
+    "rank": 30,
+    "characterId": "miss-bears-dream"
   },
   {
     "year": 2012,
@@ -146,8 +166,18 @@
   },
   {
     "year": 2012,
+    "rank": 34,
+    "characterId": "ニョッキ＆ペンネ"
+  },
+  {
+    "year": 2012,
     "rank": 35,
     "characterId": "nyanyinynenyonyon"
+  },
+  {
+    "year": 2012,
+    "rank": 36,
+    "characterId": "バニー＆マッティ"
   },
   {
     "year": 2012,
@@ -166,6 +196,11 @@
   },
   {
     "year": 2012,
+    "rank": 40,
+    "characterId": "フランボアルゥルゥ"
+  },
+  {
+    "year": 2012,
     "rank": 41,
     "characterId": "ichigo-no-ousama"
   },
@@ -178,6 +213,11 @@
     "year": 2012,
     "rank": 43,
     "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2012,
+    "rank": 44,
+    "characterId": "chibi-maru"
   },
   {
     "year": 2012,
@@ -206,13 +246,33 @@
   },
   {
     "year": 2012,
+    "rank": 50,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2012,
     "rank": 51,
     "characterId": "button-nose"
   },
   {
     "year": 2012,
+    "rank": 52,
+    "characterId": "mellow-tune"
+  },
+  {
+    "year": 2012,
+    "rank": 53,
+    "characterId": "puwawa"
+  },
+  {
+    "year": 2012,
     "rank": 54,
     "characterId": "choco-cat"
+  },
+  {
+    "year": 2012,
+    "rank": 55,
+    "characterId": "taraiguma-no-laundry"
   },
   {
     "year": 2012,
@@ -231,8 +291,43 @@
   },
   {
     "year": 2012,
+    "rank": 59,
+    "characterId": "ponpon-hieta"
+  },
+  {
+    "year": 2012,
+    "rank": 60,
+    "characterId": "wee-merry-lou"
+  },
+  {
+    "year": 2012,
+    "rank": 61,
+    "characterId": "sweet-colon"
+  },
+  {
+    "year": 2012,
+    "rank": 62,
+    "characterId": "へーすけ"
+  },
+  {
+    "year": 2012,
+    "rank": 63,
+    "characterId": "pandapple"
+  },
+  {
+    "year": 2012,
     "rank": 64,
     "characterId": "beetroid"
+  },
+  {
+    "year": 2012,
+    "rank": 65,
+    "characterId": "kids-bear"
+  },
+  {
+    "year": 2012,
+    "rank": 66,
+    "characterId": "choco-panda"
   },
   {
     "year": 2012,
@@ -246,7 +341,162 @@
   },
   {
     "year": 2012,
+    "rank": 69,
+    "characterId": "コロちゃん"
+  },
+  {
+    "year": 2012,
+    "rank": 70,
+    "characterId": "dearly-lou"
+  },
+  {
+    "year": 2012,
+    "rank": 71,
+    "characterId": "シュガークリームパフ"
+  },
+  {
+    "year": 2012,
+    "rank": 72,
+    "characterId": "nemukko-nyago"
+  },
+  {
+    "year": 2012,
+    "rank": 73,
+    "characterId": "small-people"
+  },
+  {
+    "year": 2012,
+    "rank": 74,
+    "characterId": "kobuta-no-pippo"
+  },
+  {
+    "year": 2012,
     "rank": 75,
     "characterId": "mimic-mike"
+  },
+  {
+    "year": 2012,
+    "rank": 76,
+    "characterId": "okigaru-friends"
+  },
+  {
+    "year": 2012,
+    "rank": 77,
+    "characterId": "culture-shock"
+  },
+  {
+    "year": 2012,
+    "rank": 78,
+    "characterId": "ララバイラバブルス"
+  },
+  {
+    "year": 2012,
+    "rank": 79,
+    "characterId": "bo-boku-nezumi-kozou-dai"
+  },
+  {
+    "year": 2012,
+    "rank": 80,
+    "characterId": "だちょのすけ"
+  },
+  {
+    "year": 2012,
+    "rank": 81,
+    "characterId": "we-are-dinosaurs"
+  },
+  {
+    "year": 2012,
+    "rank": 82,
+    "characterId": "フレンドリーコッコちゃん"
+  },
+  {
+    "year": 2012,
+    "rank": 83,
+    "characterId": "captain-willy"
+  },
+  {
+    "year": 2012,
+    "rank": 84,
+    "characterId": "hollys-bear"
+  },
+  {
+    "year": 2012,
+    "rank": 85,
+    "characterId": "puka-puka-paradise"
+  },
+  {
+    "year": 2012,
+    "rank": 86,
+    "characterId": "tetsunagi-kuma"
+  },
+  {
+    "year": 2012,
+    "rank": 87,
+    "characterId": "ギミーファイブ"
+  },
+  {
+    "year": 2012,
+    "rank": 88,
+    "characterId": "boogie-woo"
+  },
+  {
+    "year": 2012,
+    "rank": 89,
+    "characterId": "スティルスモールテイルズ"
+  },
+  {
+    "year": 2012,
+    "rank": 90,
+    "characterId": "tweedie-drops"
+  },
+  {
+    "year": 2012,
+    "rank": 91,
+    "characterId": "ピーターデイビス"
+  },
+  {
+    "year": 2012,
+    "rank": 92,
+    "characterId": "robby-rabbit"
+  },
+  {
+    "year": 2012,
+    "rank": 93,
+    "characterId": "spanky-barrow"
+  },
+  {
+    "year": 2012,
+    "rank": 94,
+    "characterId": "little-cottonwood-cottage"
+  },
+  {
+    "year": 2012,
+    "rank": 95,
+    "characterId": "gator-gags"
+  },
+  {
+    "year": 2012,
+    "rank": 96,
+    "characterId": "カッパルンバ"
+  },
+  {
+    "year": 2012,
+    "rank": 97,
+    "characterId": "tweedledee-dee"
+  },
+  {
+    "year": 2012,
+    "rank": 98,
+    "characterId": "fun-come-alive"
+  },
+  {
+    "year": 2012,
+    "rank": 99,
+    "characterId": "spotty-dotty"
+  },
+  {
+    "year": 2012,
+    "rank": 100,
+    "characterId": "bearobics"
   }
 ]

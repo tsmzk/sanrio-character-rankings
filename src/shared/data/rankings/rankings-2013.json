@@ -27,12 +27,22 @@
   {
     "year": 2013,
     "rank": 6,
-    "characterId": "toffee"
+    "characterId": "taffy"
   },
   {
     "year": 2013,
     "rank": 7,
     "characterId": "jewelpet"
+  },
+  {
+    "year": 2013,
+    "rank": 8,
+    "characterId": "kusuri-no-fukutaro"
+  },
+  {
+    "year": 2013,
+    "rank": 9,
+    "characterId": "go-ex-panda"
   },
   {
     "year": 2013,
@@ -66,6 +76,11 @@
   },
   {
     "year": 2013,
+    "rank": 16,
+    "characterId": "my-sweet-piano"
+  },
+  {
+    "year": 2013,
     "rank": 17,
     "characterId": "charmmy-kitty"
   },
@@ -96,6 +111,11 @@
   },
   {
     "year": 2013,
+    "rank": 23,
+    "characterId": "rosa"
+  },
+  {
+    "year": 2013,
     "rank": 24,
     "characterId": "hangyodon"
   },
@@ -108,6 +128,16 @@
     "year": 2013,
     "rank": 26,
     "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2013,
+    "rank": 27,
+    "characterId": "ichigoman"
+  },
+  {
+    "year": 2013,
+    "rank": 28,
+    "characterId": "patty-and-jimmy"
   },
   {
     "year": 2013,
@@ -153,6 +183,11 @@
     "year": 2013,
     "rank": 37,
     "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2013,
+    "rank": 38,
+    "characterId": "goropikadon"
   },
   {
     "year": 2013,
@@ -211,6 +246,11 @@
   },
   {
     "year": 2013,
+    "rank": 50,
+    "characterId": "ニョッキ＆ペンネ"
+  },
+  {
+    "year": 2013,
     "rank": 51,
     "characterId": "tenori-kuma"
   },
@@ -218,6 +258,11 @@
     "year": 2013,
     "rank": 52,
     "characterId": "pan-kunchi"
+  },
+  {
+    "year": 2013,
+    "rank": 53,
+    "characterId": "debi-and-bibi"
   },
   {
     "year": 2013,
@@ -231,8 +276,48 @@
   },
   {
     "year": 2013,
+    "rank": 56,
+    "characterId": "miss-bears-dream"
+  },
+  {
+    "year": 2013,
+    "rank": 57,
+    "characterId": "taraiguma-no-laundry"
+  },
+  {
+    "year": 2013,
+    "rank": 58,
+    "characterId": "フランボアルゥルゥ"
+  },
+  {
+    "year": 2013,
+    "rank": 59,
+    "characterId": "mellow-tune"
+  },
+  {
+    "year": 2013,
     "rank": 60,
     "characterId": "dream-tail-cubear"
+  },
+  {
+    "year": 2013,
+    "rank": 61,
+    "characterId": "wee-merry-lou"
+  },
+  {
+    "year": 2013,
+    "rank": 62,
+    "characterId": "ピーターデイビス"
+  },
+  {
+    "year": 2013,
+    "rank": 63,
+    "characterId": "chibi-maru"
+  },
+  {
+    "year": 2013,
+    "rank": 64,
+    "characterId": "the-runabouts"
   },
   {
     "year": 2013,
@@ -246,8 +331,23 @@
   },
   {
     "year": 2013,
+    "rank": 67,
+    "characterId": "バニー＆マッティ"
+  },
+  {
+    "year": 2013,
     "rank": 68,
     "characterId": "umeya-zakka-ten"
+  },
+  {
+    "year": 2013,
+    "rank": 69,
+    "characterId": "コロちゃん"
+  },
+  {
+    "year": 2013,
+    "rank": 70,
+    "characterId": "puwawa"
   },
   {
     "year": 2013,
@@ -271,8 +371,83 @@
   },
   {
     "year": 2013,
+    "rank": 75,
+    "characterId": "sweet-colon"
+  },
+  {
+    "year": 2013,
+    "rank": 76,
+    "characterId": "シュガークリームパフ"
+  },
+  {
+    "year": 2013,
+    "rank": 77,
+    "characterId": "mini-ryu-myu"
+  },
+  {
+    "year": 2013,
+    "rank": 78,
+    "characterId": "pandapple"
+  },
+  {
+    "year": 2013,
+    "rank": 79,
+    "characterId": "choco-panda"
+  },
+  {
+    "year": 2013,
+    "rank": 80,
+    "characterId": "ponpon-hieta"
+  },
+  {
+    "year": 2013,
     "rank": 81,
     "characterId": "panna-pitta"
+  },
+  {
+    "year": 2013,
+    "rank": 82,
+    "characterId": "kobuta-no-pippo"
+  },
+  {
+    "year": 2013,
+    "rank": 83,
+    "characterId": "へーすけ"
+  },
+  {
+    "year": 2013,
+    "rank": 84,
+    "characterId": "nemukko-nyago"
+  },
+  {
+    "year": 2013,
+    "rank": 85,
+    "characterId": "dearly-lou"
+  },
+  {
+    "year": 2013,
+    "rank": 86,
+    "characterId": "フレンドリーコッコちゃん"
+  },
+  {
+    "year": 2013,
+    "rank": 87,
+    "characterId": "kids-bear"
+  },
+  {
+    "year": 2013,
+    "rank": 88,
+    "characterId": "bo-boku-nezumi-kozou-dai"
+  },
+  {
+    "year": 2013,
+    "rank": 89,
+    "characterId": "フーティフーツ"
+  },
+  {
+    "year": 2013,
+    "rank": 90,
+    "characterId": "culture-shock"
   },
   {
     "year": 2013,
@@ -281,7 +456,47 @@
   },
   {
     "year": 2013,
+    "rank": 92,
+    "characterId": "ララバイラバブルズ"
+  },
+  {
+    "year": 2013,
+    "rank": 93,
+    "characterId": "okigaru-friends"
+  },
+  {
+    "year": 2013,
     "rank": 94,
     "characterId": "mimic-mike"
+  },
+  {
+    "year": 2013,
+    "rank": 95,
+    "characterId": "だちょのすけ"
+  },
+  {
+    "year": 2013,
+    "rank": 96,
+    "characterId": "bearobics"
+  },
+  {
+    "year": 2013,
+    "rank": 97,
+    "characterId": "ようかいきっず"
+  },
+  {
+    "year": 2013,
+    "rank": 98,
+    "characterId": "donjara-hoi"
+  },
+  {
+    "year": 2013,
+    "rank": 99,
+    "characterId": "small-people"
+  },
+  {
+    "year": 2013,
+    "rank": 100,
+    "characterId": "robby-rabbit"
   }
 ]
