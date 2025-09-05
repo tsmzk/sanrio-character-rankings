@@ -4,31 +4,32 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
+  darkMode: 'selector', // Modern dark mode strategy
   theme: {
     extend: {
+      // Use CSS custom properties for dynamic theming
       colors: {
-        // Use CSS custom properties for theme-aware colors
         primary: {
-          50: 'var(--color-primary-soft)',
-          100: 'var(--color-primary-alt)',
-          500: 'var(--color-accent)',
-          600: 'var(--color-accent-hover)',
-          700: 'var(--color-accent-hover)',
-          900: 'var(--color-accent-hover)',
+          50: 'hsl(var(--primary-50))',
+          100: 'hsl(var(--primary-100))',
+          500: 'hsl(var(--primary-500))',
+          600: 'hsl(var(--primary-600))',
+          700: 'hsl(var(--primary-700))',
+          900: 'hsl(var(--primary-900))',
         },
         secondary: {
-          50: 'var(--color-primary-alt)',
-          500: 'var(--color-secondary)',
-          600: 'var(--color-secondary-soft)',
-          900: 'var(--color-secondary)',
+          50: 'hsl(var(--secondary-50))',
+          100: 'hsl(var(--secondary-100))',
+          500: 'hsl(var(--secondary-500))',
+          600: 'hsl(var(--secondary-600))',
+          700: 'hsl(var(--secondary-700))',
+          900: 'hsl(var(--secondary-900))',
         },
-        // Surface colors
-        surface: 'var(--color-bg-surface)',
-        elevated: 'var(--color-bg-elevated)',
+        surface: 'hsl(var(--surface))',
+        elevated: 'hsl(var(--elevated))',
       },
       fontFamily: {
-        sans: ['Inter', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'sans-serif'],
+        sans: ['Inter', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -54,5 +55,18 @@ export default {
   plugins: [
     require('@tailwindcss/typography'),
   ],
+  // Optimizations
+  future: {
+    respectDefaultRingColorOpacity: true,
+    disableColorOpacityUtilitiesByDefault: true,
+    relativeContentPathsByDefault: true,
+  },
+  experimental: {
+    optimizeUniversalDefaults: true,
+  },
+  corePlugins: {
+    // Disable unused utilities for smaller bundle
+    touchAction: false,
+    scrollSnapType: false,
+  }
 }
-

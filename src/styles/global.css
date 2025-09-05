@@ -1,0 +1,132 @@
+/* Tailwind CSS Base Configuration */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Essential CSS Variables for Theme System */
+:root {
+  /* Light Theme - Hello Kitty Colors */
+  --primary-50: 335 100% 95%;
+  --primary-100: 335 100% 90%;
+  --primary-500: 335 100% 52%;
+  --primary-600: 328 100% 54%;
+  --primary-700: 328 100% 49%;
+  --primary-900: 328 100% 44%;
+  
+  --secondary-50: 351 100% 95%;
+  --secondary-100: 351 100% 90%;
+  --secondary-500: 351 100% 85%;
+  --secondary-600: 351 100% 80%;
+  --secondary-700: 351 100% 75%;
+  --secondary-900: 351 100% 70%;
+  
+  --surface: 0 0% 100%;
+  --elevated: 0 0% 99%;
+  
+  --bg-body: 318 100% 98%;
+  --text-primary: 315 25% 15%;
+}
+
+/* Dark Theme - Kuromi Colors */
+[data-theme="dark"] {
+  --primary-50: 271 65% 85%;
+  --primary-100: 271 65% 80%;
+  --primary-500: 271 65% 55%;
+  --primary-600: 271 78% 70%;
+  --primary-700: 271 78% 65%;
+  --primary-900: 271 78% 60%;
+  
+  --secondary-50: 328 100% 90%;
+  --secondary-100: 328 100% 85%;
+  --secondary-500: 328 100% 54%;
+  --secondary-600: 328 100% 60%;
+  --secondary-700: 328 100% 65%;
+  --secondary-900: 328 100% 70%;
+  
+  --surface: 0 0% 6%;
+  --elevated: 0 0% 10%;
+  
+  --bg-body: 0 0% 0%;
+  --text-primary: 0 0% 100%;
+}
+
+/* Global Base Styles */
+@layer base {
+  body {
+    background: hsl(var(--bg-body));
+    color: hsl(var(--text-primary));
+    transition: all 0.3s ease;
+    font-family: 'Inter', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', system-ui, sans-serif;
+  }
+}
+
+/* Application Components */
+@layer components {
+  .loading-spinner {
+    @apply animate-spin h-5 w-5 border-2 border-primary-500 border-t-transparent rounded-full;
+  }
+}
+
+/* Theme Toggle Component */
+.theme-toggle {
+  @apply relative bg-none border-none cursor-pointer p-1 rounded-full 
+         transition-all duration-300 ease-out flex items-center justify-center
+         hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 
+         focus:ring-primary-500 focus:ring-offset-2;
+  transform-style: preserve-3d;
+}
+
+.theme-toggle-track {
+  @apply relative w-16 h-8 rounded-full transition-all duration-300 ease-out overflow-hidden cursor-pointer;
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  box-shadow: 
+    inset 3px 3px 8px rgba(163, 177, 198, 0.4),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.8),
+    0 4px 16px hsl(var(--primary-500) / 0.15);
+}
+
+[data-theme="dark"] .theme-toggle-track {
+  background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+  box-shadow: 
+    inset 3px 3px 8px rgba(0, 0, 0, 0.6),
+    inset -3px -3px 8px rgba(44, 44, 44, 0.4),
+    0 4px 16px hsl(var(--primary-500) / 0.3);
+}
+
+.theme-toggle-handle {
+  @apply absolute top-1 left-1 w-6 h-6 rounded-full transition-all duration-300 ease-out
+         cursor-pointer border-2 border-white/30 z-10 flex items-center justify-center;
+  background: linear-gradient(145deg, hsl(var(--primary-500)), hsl(var(--primary-600)));
+  box-shadow: 
+    0 4px 12px hsl(var(--primary-500) / 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] .theme-toggle-handle {
+  @apply left-9;
+}
+
+.theme-toggle-icons {
+  @apply absolute inset-0 flex items-center z-20 pointer-events-none;
+}
+
+.theme-toggle-icon {
+  @apply absolute text-sm flex items-center justify-center top-1/2 -translate-y-1/2
+         transition-all duration-300 ease-out;
+}
+
+.theme-toggle-icon:first-child {
+  @apply left-2;
+}
+
+.theme-toggle-icon:last-child {
+  @apply left-10;
+}
+
+.theme-toggle-icon.active {
+  @apply opacity-100 scale-100;
+}
+
+.theme-toggle-icon.inactive {
+  @apply opacity-40 scale-75;
+}
