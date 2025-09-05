@@ -140,8 +140,11 @@ vite.config.ts.timestamp-*
 
 # Other files
 .DS_Store
-.serena/
 .kiro/
 
 # Storybook build output (development-only project)
 storybook-static
+
+# MCP
+.serena/
+.playwright-mcp/
