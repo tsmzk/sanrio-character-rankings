@@ -180,6 +180,211 @@ html[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
   background: var(--color-accent-hover);
 }
 
+/* Theme Toggle Styles - Modern Design */
+/* ==================================== */
+
+.theme-toggle {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 32px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.theme-toggle:focus {
+  outline: none;
+  transform: scale(1.02);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.98);
+}
+
+.theme-toggle-track {
+  position: relative;
+  width: 72px;
+  height: 32px;
+  border-radius: 32px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-toggle-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.theme-toggle-handle {
+  position: absolute;
+  top: 3px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle-icon {
+  position: absolute;
+  font-size: 14px;
+  line-height: 1;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-toggle-icon:first-child {
+  left: 8px;
+}
+
+.theme-toggle-icon:last-child {
+  left: 48px;
+}
+
+
+.theme-toggle-icon.active {
+  opacity: 1;
+  transform: translateY(-50%) scale(1);
+}
+
+.theme-toggle-icon.inactive {
+  opacity: 0.4;
+  transform: translateY(-50%) scale(0.8);
+}
+
+/* Light Theme Toggle Styles */
+:root .theme-toggle-track,
+html:not([data-theme]) .theme-toggle-track,
+html[data-theme="light"] .theme-toggle-track {
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  box-shadow: 
+    inset 3px 3px 8px rgba(163, 177, 198, 0.4),
+    inset -3px -3px 8px rgba(255, 255, 255, 0.8),
+    0 4px 16px rgba(255, 107, 157, 0.15);
+}
+
+:root .theme-toggle-handle,
+html:not([data-theme]) .theme-toggle-handle,
+html[data-theme="light"] .theme-toggle-handle {
+  left: 3px;
+  background: linear-gradient(145deg, #ff6b9d, #ff1493);
+  box-shadow: 
+    0 4px 12px rgba(255, 107, 157, 0.4),
+    0 2px 4px rgba(0, 0, 0, 0.1),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+:root .theme-toggle:hover .theme-toggle-track,
+html:not([data-theme]) .theme-toggle:hover .theme-toggle-track,
+html[data-theme="light"] .theme-toggle:hover .theme-toggle-track {
+  background: linear-gradient(145deg, #ffffff, #f1f3f4);
+  box-shadow: 
+    inset 3px 3px 10px rgba(163, 177, 198, 0.5),
+    inset -3px -3px 10px rgba(255, 255, 255, 0.9),
+    0 6px 20px rgba(255, 107, 157, 0.25);
+}
+
+:root .theme-toggle:hover .theme-toggle-handle,
+html:not([data-theme]) .theme-toggle:hover .theme-toggle-handle,
+html[data-theme="light"] .theme-toggle:hover .theme-toggle-handle {
+  background: linear-gradient(145deg, #ff1493, #e91e63);
+  box-shadow: 
+    0 6px 16px rgba(255, 107, 157, 0.5),
+    0 3px 6px rgba(0, 0, 0, 0.15),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+/* Dark Theme Toggle Styles */
+html[data-theme="dark"] .theme-toggle-track {
+  background: linear-gradient(145deg, #1a1a1a, #0f0f0f);
+  box-shadow: 
+    inset 3px 3px 8px rgba(0, 0, 0, 0.6),
+    inset -3px -3px 8px rgba(44, 44, 44, 0.4),
+    0 4px 16px rgba(155, 81, 224, 0.3);
+}
+
+html[data-theme="dark"] .theme-toggle-handle {
+  left: 43px;
+  background: linear-gradient(145deg, #9b51e0, #7c3aed);
+  box-shadow: 
+    0 4px 12px rgba(155, 81, 224, 0.6),
+    0 2px 4px rgba(0, 0, 0, 0.3),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.2);
+}
+
+html[data-theme="dark"] .theme-toggle:hover .theme-toggle-track {
+  background: linear-gradient(145deg, #2a2a2a, #1a1a1a);
+  box-shadow: 
+    inset 3px 3px 10px rgba(0, 0, 0, 0.7),
+    inset -3px -3px 10px rgba(54, 54, 54, 0.5),
+    0 6px 20px rgba(155, 81, 224, 0.4);
+}
+
+html[data-theme="dark"] .theme-toggle:hover .theme-toggle-handle {
+  background: linear-gradient(145deg, #b865f0, #9333ea);
+  box-shadow: 
+    0 6px 16px rgba(155, 81, 224, 0.7),
+    0 3px 6px rgba(0, 0, 0, 0.4),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+/* Focus states with modern glow */
+.theme-toggle:focus .theme-toggle-track {
+  box-shadow: 
+    0 0 0 3px rgba(255, 107, 157, 0.3),
+    inset 3px 3px 10px rgba(163, 177, 198, 0.5),
+    inset -3px -3px 10px rgba(255, 255, 255, 0.9);
+}
+
+html[data-theme="dark"] .theme-toggle:focus .theme-toggle-track {
+  box-shadow: 
+    0 0 0 3px rgba(155, 81, 224, 0.4),
+    inset 3px 3px 10px rgba(0, 0, 0, 0.7),
+    inset -3px -3px 10px rgba(54, 54, 54, 0.5);
+}
+
+/* Smooth morphing animation */
+.theme-toggle-handle {
+  will-change: transform, left, box-shadow;
+}
+
+.theme-toggle-track {
+  will-change: background, box-shadow;
+}
+
 /* Ensure theme is applied immediately */
 html[data-theme="dark"] {
   background-color: #000000 !important;

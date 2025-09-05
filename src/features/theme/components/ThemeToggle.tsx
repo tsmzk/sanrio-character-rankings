@@ -13,8 +13,19 @@ export function ThemeToggle({ className = "" }: ThemeToggleProps) {
       onClick={toggleTheme}
       className={`theme-toggle ${className}`}
       aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
+      data-theme={theme}
     >
-      {theme === "light" ? "🌙" : "☀️"}
+      <div className="theme-toggle-track">
+        <div className="theme-toggle-icons">
+          <span className={`theme-toggle-icon ${theme === "light" ? "active" : "inactive"}`}>
+            ☀️
+          </span>
+          <span className={`theme-toggle-icon ${theme === "dark" ? "active" : "inactive"}`}>
+            🌙
+          </span>
+        </div>
+        <div className="theme-toggle-handle"></div>
+      </div>
     </button>
   );
 }
