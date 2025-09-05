@@ -20,7 +20,7 @@ export function useYearRangeFilter(rankings: RankingEntry[]) {
   }, [rankings]);
 
   // Initialize year range with default values first
-  const [yearRange, setYearRange] = useState<YearRange>({ min: 1986, max: 2025 });
+  const [yearRange, setYearRange] = useState<YearRange>({ min: 2016, max: 2025 });
 
   // Update year range when data loads
   useEffect(() => {
