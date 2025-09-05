@@ -48,14 +48,16 @@ export const ErrorWithRetry: Story = {
 
 export const LongErrorMessage: Story = {
   args: {
-    error: "サンリオキャラクターのランキングデータを取得する際にエラーが発生しました。ネットワーク接続を確認して、再度お試しください。",
+    error:
+      "サンリオキャラクターのランキングデータを取得する際にエラーが発生しました。ネットワーク接続を確認して、再度お試しください。",
     onRetry: () => console.log("Retrying..."),
   },
 };
 
 export const APIError: Story = {
   args: {
-    error: "API Error: 500 Internal Server Error - The server encountered an unexpected condition that prevented it from fulfilling the request.",
+    error:
+      "API Error: 500 Internal Server Error - The server encountered an unexpected condition that prevented it from fulfilling the request.",
     onRetry: () => console.log("Retrying API call..."),
   },
 };

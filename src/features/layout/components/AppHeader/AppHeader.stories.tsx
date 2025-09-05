@@ -10,7 +10,8 @@ const meta: Meta<typeof AppHeader> = {
     layout: "fullscreen",
     docs: {
       description: {
-        component: "アプリケーションのヘッダーコンポーネント。タイトル、説明、テーマ切り替えボタンを含みます。",
+        component:
+          "アプリケーションのヘッダーコンポーネント。タイトル、説明、テーマ切り替えボタンを含みます。",
       },
     },
   },
@@ -37,9 +38,7 @@ export const LightMode: Story = {
       <MockThemeProvider theme="light">
         <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
           <Story />
-          <div className="p-8 text-center text-sm text-gray-600">
-            ライトモードでのヘッダー表示
-          </div>
+          <div className="p-8 text-center text-sm text-gray-600">ライトモードでのヘッダー表示</div>
         </div>
       </MockThemeProvider>
     ),
@@ -52,9 +51,7 @@ export const DarkMode: Story = {
       <MockThemeProvider theme="dark">
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 dark">
           <Story />
-          <div className="p-8 text-center text-sm text-gray-400">
-            ダークモードでのヘッダー表示
-          </div>
+          <div className="p-8 text-center text-sm text-gray-400">ダークモードでのヘッダー表示</div>
         </div>
       </MockThemeProvider>
     ),
@@ -77,9 +74,9 @@ export const Responsive: Story = {
   parameters: {
     viewport: {
       viewports: {
-        mobile: { name: 'Mobile', styles: { width: '375px', height: '667px' } },
-        tablet: { name: 'Tablet', styles: { width: '768px', height: '1024px' } },
-        desktop: { name: 'Desktop', styles: { width: '1200px', height: '800px' } },
+        mobile: { name: "Mobile", styles: { width: "375px", height: "667px" } },
+        tablet: { name: "Tablet", styles: { width: "768px", height: "1024px" } },
+        desktop: { name: "Desktop", styles: { width: "1200px", height: "800px" } },
       },
     },
   },

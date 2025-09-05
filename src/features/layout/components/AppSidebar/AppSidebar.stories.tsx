@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import type { Character } from "../../../../shared/types";
 import type {
   useCharacterSearch,
   useCharacterSelection,
   useYearRangeFilter,
 } from "../../../../hooks";
+import type { Character } from "../../../../shared/types";
 import { AppSidebar } from "./AppSidebar";
 
 const meta: Meta<typeof AppSidebar> = {
@@ -14,7 +14,8 @@ const meta: Meta<typeof AppSidebar> = {
     layout: "centered",
     docs: {
       description: {
-        component: "アプリケーションのサイドバーコンポーネント。年範囲フィルターとキャラクター検索・選択機能を提供します。",
+        component:
+          "アプリケーションのサイドバーコンポーネント。年範囲フィルターとキャラクター検索・選択機能を提供します。",
       },
     },
   },
@@ -27,11 +28,46 @@ type Story = StoryObj<typeof AppSidebar>;
 
 // Mock data
 const mockCharacters: Character[] = [
-  { id: "hello-kitty", name: "ハローキティ", nameEn: "Hello Kitty", description: "1974年にデビューした世界的に人気のキャラクター", debutYear: 1974, color: "#FF6B9D" },
-  { id: "my-melody", name: "マイメロディ", nameEn: "My Melody", description: "うさぎの女の子のキャラクター", debutYear: 1975, color: "#FFB6C1" },
-  { id: "kuromi", name: "クロミ", nameEn: "Kuromi", description: "白いうさぎの悪魔的キャラクター", debutYear: 2005, color: "#9B59B6" },
-  { id: "pochacco", name: "ポチャッコ", nameEn: "Pochacco", description: "元気な白い犬のキャラクター", debutYear: 1989, color: "#4A90E2" },
-  { id: "cinnamoroll", name: "シナモロール", nameEn: "Cinnamoroll", description: "雲のような白い子犬", debutYear: 2001, color: "#87CEEB" },
+  {
+    id: "hello-kitty",
+    name: "ハローキティ",
+    nameEn: "Hello Kitty",
+    description: "1974年にデビューした世界的に人気のキャラクター",
+    debutYear: 1974,
+    color: "#FF6B9D",
+  },
+  {
+    id: "my-melody",
+    name: "マイメロディ",
+    nameEn: "My Melody",
+    description: "うさぎの女の子のキャラクター",
+    debutYear: 1975,
+    color: "#FFB6C1",
+  },
+  {
+    id: "kuromi",
+    name: "クロミ",
+    nameEn: "Kuromi",
+    description: "白いうさぎの悪魔的キャラクター",
+    debutYear: 2005,
+    color: "#9B59B6",
+  },
+  {
+    id: "pochacco",
+    name: "ポチャッコ",
+    nameEn: "Pochacco",
+    description: "元気な白い犬のキャラクター",
+    debutYear: 1989,
+    color: "#4A90E2",
+  },
+  {
+    id: "cinnamoroll",
+    name: "シナモロール",
+    nameEn: "Cinnamoroll",
+    description: "雲のような白い子犬",
+    debutYear: 2001,
+    color: "#87CEEB",
+  },
 ];
 
 // Mock hook return values
@@ -174,9 +210,9 @@ export const Responsive: Story = {
   parameters: {
     viewport: {
       viewports: {
-        mobile: { name: 'Mobile', styles: { width: '375px', height: '667px' } },
-        tablet: { name: 'Tablet', styles: { width: '768px', height: '1024px' } },
-        desktop: { name: 'Desktop', styles: { width: '1200px', height: '800px' } },
+        mobile: { name: "Mobile", styles: { width: "375px", height: "667px" } },
+        tablet: { name: "Tablet", styles: { width: "768px", height: "1024px" } },
+        desktop: { name: "Desktop", styles: { width: "1200px", height: "800px" } },
       },
     },
   },

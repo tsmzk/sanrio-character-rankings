@@ -8,7 +8,8 @@ const meta: Meta<typeof AppLoadingState> = {
     layout: "fullscreen",
     docs: {
       description: {
-        component: "アプリケーション全体のローディング状態を表示するコンポーネント。フルスクリーンで表示されます。",
+        component:
+          "アプリケーション全体のローディング状態を表示するコンポーネント。フルスクリーンで表示されます。",
       },
     },
   },
