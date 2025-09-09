@@ -321,11 +321,11 @@
   },
   {
     "id": "ichigoman",
-    "name": "Ichigoman",
+    "name": "イチゴマン",
     "nameEn": "Ichigoman",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
+    "description": "ハローキティ展から生まれたスーパーヒーロー。正体はハローキティ。",
     "debutYear": 2020,
-    "color": "#808080"
+    "color": "#FF6347"
   },
   {
     "id": "jewelpet",
@@ -849,11 +849,11 @@
   },
   {
     "id": "we-are-dinosaurs",
-    "name": "We Are Dinosaurs",
+    "name": "ウィアーダイナソアーズ！",
     "nameEn": "We Are Dinosaurs",
-    "description": "2024-2025年のランキングに登場した新キャラクター。詳細情報は更新が必要です。",
-    "debutYear": 2020,
-    "color": "#808080"
+    "description": "元気で楽しい恐竜キャラクターたち。ティラン、トップス、ステガ、プテラなどが仲間。",
+    "debutYear": 1990,
+    "color": "#228B22"
   },
   {
     "id": "winky-pinky",
@@ -1761,7 +1761,7 @@
   },
   {
     "id": "jochum",
-    "name": "JOCHUM",
+    "name": "ジェオチャム",
     "nameEn": "JOCHUM",
     "description": "2023年サンリオキャラクター大賞にランクインしたキャラクター",
     "debutYear": 2023,
