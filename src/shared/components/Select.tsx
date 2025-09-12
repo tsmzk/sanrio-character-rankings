@@ -33,29 +33,23 @@ export function Select({
     <div className={className}>
       <Listbox value={value} onChange={onChange} disabled={disabled}>
         {label && (
-          <Listbox.Label className="block text-xs text-gray-600 dark:text-gray-400 mb-1">
-            {label}
-          </Listbox.Label>
+          <Listbox.Label className="label-text text-xs opacity-70 mb-1">{label}</Listbox.Label>
         )}
         <div className="relative">
           <Listbox.Button
             className="
-            relative w-full cursor-default rounded-lg
-            bg-white dark:bg-gray-800 
-            border border-gray-200 dark:border-gray-700
-            py-2 pl-3 pr-10 text-left text-sm
-            text-gray-900 dark:text-white
-            shadow-sm hover:shadow-md
-            focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent
-            disabled:opacity-50 disabled:cursor-not-allowed
-            transition-all duration-200
+            select select-bordered w-full 
+            text-left text-sm 
+            hover:select-primary 
+            focus:select-primary focus:outline-none 
+            disabled:select-disabled
           "
           >
             <span className="block truncate">
               {selectedOption ? selectedOption.label : placeholder}
             </span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-              <ChevronUpDownIcon className="h-4 w-4 text-gray-400" aria-hidden="true" />
+              <ChevronUpDownIcon className="h-4 w-4 opacity-60" aria-hidden="true" />
             </span>
           </Listbox.Button>
 
@@ -67,10 +61,10 @@ export function Select({
           >
             <Listbox.Options
               className="
-              absolute z-50 mt-1 max-h-60 w-full overflow-auto rounded-md
-              bg-white dark:bg-gray-800
-              border border-gray-200 dark:border-gray-700
-              py-1 shadow-lg ring-1 ring-black ring-opacity-5
+              menu bg-base-100 rounded-box z-50 
+              absolute mt-1 max-h-60 w-full overflow-auto 
+              border border-base-300 
+              py-1 shadow-lg 
               focus:outline-none text-sm
             "
             >
@@ -78,28 +72,26 @@ export function Select({
                 <Listbox.Option
                   key={option.value}
                   className={({ active }) =>
-                    `relative cursor-default select-none py-2 pl-10 pr-4 ${
-                      active
-                        ? "bg-primary-50 dark:bg-primary-900/20 text-primary-900 dark:text-primary-100"
-                        : "text-gray-900 dark:text-white"
-                    } ${option.disabled ? "opacity-50 cursor-not-allowed" : ""}`
+                    `menu-item ${
+                      active ? "bg-primary text-primary-content" : ""
+                    } ${option.disabled ? "disabled" : ""}`
                   }
                   value={option.value}
                   disabled={option.disabled}
                 >
                   {({ selected }) => (
-                    <>
+                    <div className="flex items-center py-2 pl-10 pr-4">
                       <span
                         className={`block truncate ${selected ? "font-medium" : "font-normal"}`}
                       >
                         {option.label}
                       </span>
                       {selected ? (
-                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-primary-600 dark:text-primary-400">
+                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-primary">
                           <CheckIcon className="h-4 w-4" aria-hidden="true" />
                         </span>
                       ) : null}
-                    </>
+                    </div>
                   )}
                 </Listbox.Option>
               ))}

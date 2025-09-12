@@ -39,11 +39,20 @@ export function ThemeProvider({ children, defaultTheme = "light" }: ThemeProvide
       // Add new theme class (Tailwind standard)
       document.documentElement.classList.add(theme);
 
-      // Set data-theme for custom CSS compatibility
-      document.documentElement.setAttribute("data-theme", theme);
+      // Set data-theme for DaisyUI
+      // Map light/dark to our custom DaisyUI themes
+      const daisyTheme = theme === "light" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", daisyTheme);
 
       localStorage.setItem(THEME_STORAGE_KEY, theme);
-      debug.log("✅ Theme set to:", theme, "Classes:", document.documentElement.className);
+      debug.log(
+        "✅ Theme set to:",
+        theme,
+        "DaisyUI theme:",
+        daisyTheme,
+        "Classes:",
+        document.documentElement.className,
+      );
     }
   }, [theme]);
 

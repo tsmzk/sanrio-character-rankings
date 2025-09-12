@@ -54,7 +54,67 @@ export default {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('daisyui'),
   ],
+  daisyui: {
+    themes: [
+      {
+        // Light theme
+        light: {
+          "primary": "#ff6fb4",         // Pink
+          "secondary": "#ffb3c1",       // Light Pink
+          "accent": "#ff8fa3",          // Rose
+          "neutral": "#fce7f3",         // Very Light Pink
+          "base-100": "#ffffff",        // White background
+          "base-200": "#fff7f9",        // Light Pink background
+          "base-300": "#ffecf0",        // Lighter Pink background
+          "info": "#9bb5ff",            // Light Blue
+          "success": "#9be9a8",         // Light Green
+          "warning": "#ffd93d",         // Yellow
+          "error": "#ff6b9d",           // Error Pink
+          "--rounded-box": "0.5rem",
+          "--rounded-btn": "0.5rem",
+          "--rounded-badge": "1.5rem",
+          "--animation-btn": "0.25s",
+          "--animation-input": "0.2s",
+          "--btn-focus-scale": "0.95",
+          "--border-btn": "1px",
+          "--tab-border": "1px",
+          "--tab-radius": "0.5rem",
+        },
+        // Dark theme
+        dark: {
+          "primary": "#b388ff",         // Purple
+          "secondary": "#ff6fb4",       // Pink
+          "accent": "#d500f9",          // Magenta
+          "neutral": "#1a1625",         // Dark Purple
+          "base-100": "#000000",        // Black background
+          "base-200": "#0a0a0a",        // Very Dark background
+          "base-300": "#1a1a1a",        // Dark background
+          "info": "#80d8ff",            // Cyan
+          "success": "#69f0ae",         // Green
+          "warning": "#ffd740",         // Amber
+          "error": "#ff5252",           // Red
+          "--rounded-box": "0.5rem",
+          "--rounded-btn": "0.5rem",
+          "--rounded-badge": "1.5rem",
+          "--animation-btn": "0.25s",
+          "--animation-input": "0.2s",
+          "--btn-focus-scale": "0.95",
+          "--border-btn": "1px",
+          "--tab-border": "1px",
+          "--tab-radius": "0.5rem",
+        }
+      }
+    ],
+    darkTheme: "dark", // name of the dark theme
+    base: true, // applies background color and foreground color for root element
+    styled: true, // include daisyUI colors and design decisions for all components
+    utils: true, // adds responsive and modifier utility classes
+    prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
+    logs: false, // Shows info about daisyUI version and config in the console
+    themeRoot: ":root", // The element that receives theme color CSS variables
+  },
   // Optimizations
   future: {
     respectDefaultRingColorOpacity: true,

@@ -25,42 +25,46 @@ export function katakanaToHiragana(text: string): string {
  * 全角英数字・記号を半角に変換
  */
 export function fullWidthToHalfWidth(text: string): string {
-  return text
-    .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (match) => {
-      return String.fromCharCode(match.charCodeAt(0) - 0xFEE0);
-    })
-    // 主要な記号の変換
-    .replace(/＆/g, '&')
-    .replace(/\u3000/g, ' ') // 全角スペースを半角スペースに
-    .replace(/！/g, '!')
-    .replace(/？/g, '?')
-    .replace(/（/g, '(')
-    .replace(/）/g, ')')
-    .replace(/＋/g, '+')
-    .replace(/－/g, '-')
-    .replace(/＝/g, '=')
-    .replace(/％/g, '%');
+  return (
+    text
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, (match) => {
+        return String.fromCharCode(match.charCodeAt(0) - 0xfee0);
+      })
+      // 主要な記号の変換
+      .replace(/＆/g, "&")
+      .replace(/\u3000/g, " ") // 全角スペースを半角スペースに
+      .replace(/！/g, "!")
+      .replace(/？/g, "?")
+      .replace(/（/g, "(")
+      .replace(/）/g, ")")
+      .replace(/＋/g, "+")
+      .replace(/－/g, "-")
+      .replace(/＝/g, "=")
+      .replace(/％/g, "%")
+  );
 }
 
 /**
  * 半角英数字・記号を全角に変換
  */
 export function halfWidthToFullWidth(text: string): string {
-  return text
-    .replace(/[A-Za-z0-9]/g, (match) => {
-      return String.fromCharCode(match.charCodeAt(0) + 0xFEE0);
-    })
-    // 主要な記号の変換
-    .replace(/&/g, '＆')
-    .replace(/ /g, '　') // 半角スペースを全角スペースに
-    .replace(/!/g, '！')
-    .replace(/\?/g, '？')
-    .replace(/\(/g, '（')
-    .replace(/\)/g, '）')
-    .replace(/\+/g, '＋')
-    .replace(/-/g, '－')
-    .replace(/=/g, '＝')
-    .replace(/%/g, '％');
+  return (
+    text
+      .replace(/[A-Za-z0-9]/g, (match) => {
+        return String.fromCharCode(match.charCodeAt(0) + 0xfee0);
+      })
+      // 主要な記号の変換
+      .replace(/&/g, "＆")
+      .replace(/ /g, "　") // 半角スペースを全角スペースに
+      .replace(/!/g, "！")
+      .replace(/\?/g, "？")
+      .replace(/\(/g, "（")
+      .replace(/\)/g, "）")
+      .replace(/\+/g, "＋")
+      .replace(/-/g, "－")
+      .replace(/=/g, "＝")
+      .replace(/%/g, "％")
+  );
 }
 
 /**
@@ -71,7 +75,7 @@ export function halfWidthToFullWidth(text: string): string {
  * - 全角英数字を半角に統一
  */
 export function normalizeForSearch(text: string): string {
-  return katakanaToHiragana(fullWidthToHalfWidth(text.toLowerCase().replace(/\s+/g, '')));
+  return katakanaToHiragana(fullWidthToHalfWidth(text.toLowerCase().replace(/\s+/g, "")));
 }
 
 /**
@@ -80,10 +84,10 @@ export function normalizeForSearch(text: string): string {
  */
 export function flexibleJapaneseMatch(targetText: string, searchQuery: string): boolean {
   if (!searchQuery || !targetText) return false;
-  
+
   const normalizedTarget = normalizeForSearch(targetText);
   const normalizedQuery = normalizeForSearch(searchQuery);
-  
+
   return normalizedTarget.includes(normalizedQuery);
 }
 
@@ -93,11 +97,9 @@ export function flexibleJapaneseMatch(targetText: string, searchQuery: string): 
  */
 export function multiFieldJapaneseMatch(
   searchFields: (string | undefined | null)[],
-  searchQuery: string
+  searchQuery: string,
 ): boolean {
   if (!searchQuery) return false;
-  
-  return searchFields.some(field => 
-    field && flexibleJapaneseMatch(field, searchQuery)
-  );
+
+  return searchFields.some((field) => field && flexibleJapaneseMatch(field, searchQuery));
 }

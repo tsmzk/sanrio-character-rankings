@@ -40,7 +40,7 @@ export function useCharacterSearch(characters: Character[], rankings: RankingEnt
 
     // When searching, filter by query using Japanese-aware matching
     return characters.filter((char) =>
-      multiFieldJapaneseMatch([char.name, char.nameEn, char.description], searchQuery)
+      multiFieldJapaneseMatch([char.name, char.nameEn, char.description], searchQuery),
     );
   }, [characters, searchQuery, latestTop10Rankings]);
 
