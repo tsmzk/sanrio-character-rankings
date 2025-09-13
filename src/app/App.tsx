@@ -33,6 +33,7 @@ function App() {
           yearRangeFilter={yearRangeFilter}
           characterSearch={characterSearch}
           characterSelection={characterSelection}
+          allCharacters={characters}
         />
 
         <AppMainContent

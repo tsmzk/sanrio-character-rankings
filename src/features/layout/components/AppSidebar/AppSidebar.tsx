@@ -1,21 +1,42 @@
+import { useMemo } from "react";
 import type {
   useCharacterSearch,
   useCharacterSelection,
   useYearRangeFilter,
 } from "../../../../hooks";
+import type { Character } from "../../../../shared/types";
 import { CharacterSelector } from "../../../character";
 
 interface AppSidebarProps {
   yearRangeFilter: ReturnType<typeof useYearRangeFilter>;
   characterSearch: ReturnType<typeof useCharacterSearch>;
   characterSelection: ReturnType<typeof useCharacterSelection>;
+  allCharacters: Character[];
 }
 
 export function AppSidebar({
   yearRangeFilter,
   characterSearch,
   characterSelection,
+  allCharacters,
 }: AppSidebarProps) {
+  // 選択済みキャラクターと検索結果を組み合わせる
+  const displayCharacters = useMemo(() => {
+    // 選択済みキャラクターのIDセット
+    const selectedIds = new Set(characterSelection.selectedCharacters);
+
+    // 選択済みキャラクターを全リストから取得
+    const selectedChars = allCharacters.filter((char) => selectedIds.has(char.id));
+
+    // 検索結果から選択済みを除外
+    const unselectedSearchResults = characterSearch.filteredCharacters.filter(
+      (char) => !selectedIds.has(char.id),
+    );
+
+    // 選択済みキャラクターと未選択の検索結果を組み合わせる
+    return [...selectedChars, ...unselectedSearchResults];
+  }, [allCharacters, characterSelection.selectedCharacters, characterSearch.filteredCharacters]);
+
   return (
     <aside className="lg:w-80 w-full bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-6 h-fit shadow-xl border border-gray-200/50 dark:border-gray-700/50 space-y-6 lg:sticky lg:top-6">
       {/* Year Range Filter */}
@@ -25,14 +46,14 @@ export function AppSidebar({
         </h2>
         <div className="p-4 bg-gray-50 dark:bg-gray-900/50 rounded-lg">
           <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-3 italic">
-            利用可能期間: {yearRangeFilter.availableYearRange.min}年〜
+            利用可能期間: {yearRangeFilter.availableYearRange.min}年～
             {yearRangeFilter.availableYearRange.max}年
           </div>
           <div className="flex items-center justify-center gap-2 mb-4 p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
             <span className="text-base font-semibold text-pink-600 dark:text-pink-400">
               {yearRangeFilter.yearRange.min}年
             </span>
-            <span className="text-gray-400">〜</span>
+            <span className="text-gray-400">～</span>
             <span className="text-base font-semibold text-purple-600 dark:text-purple-400">
               {yearRangeFilter.yearRange.max}年
             </span>
@@ -98,7 +119,7 @@ export function AppSidebar({
         </div>
         {characterSearch.hasSearchResults ? (
           <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-2 italic">
-            {characterSearch.resultCount}件のキャラクターが見つかりました
+            {displayCharacters.length}件のキャラクターが見つかりました
           </div>
         ) : (
           <div className="text-xs text-gray-500 dark:text-gray-400 text-center mb-2 italic">
@@ -106,7 +127,7 @@ export function AppSidebar({
           </div>
         )}
         <CharacterSelector
-          characters={characterSearch.filteredCharacters}
+          characters={displayCharacters}
           toggleCharacter={characterSelection.toggleCharacter}
           isSelected={characterSelection.isSelected}
         />
