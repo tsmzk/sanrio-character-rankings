@@ -49,6 +49,12 @@ export function AppSidebar({
             利用可能期間: {yearRangeFilter.availableYearRange.min}年～
             {yearRangeFilter.availableYearRange.max}年
           </div>
+          {yearRangeFilter.yearRange.min < 2015 && (
+            <div className="text-xs text-amber-600 dark:text-amber-400 text-center mb-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-700 rounded-lg p-2">
+              <span className="font-bold mr-1">！</span>
+              2015年以前のデータは公式サイト以外の媒体から入手した情報をもとにランキングを出力しています
+            </div>
+          )}
           <div className="flex items-center justify-center gap-2 mb-4 p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
             <span className="text-base font-semibold text-pink-600 dark:text-pink-400">
               {yearRangeFilter.yearRange.min}年
