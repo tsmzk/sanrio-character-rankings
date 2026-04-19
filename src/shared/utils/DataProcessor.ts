@@ -103,23 +103,35 @@ export const getCharacterRankingStats = (
   worstRank: number;
   averageRank: number;
   appearances: number;
+  latestRank: number;
+  latestYear: number;
 } => {
   const characterRankings = rankings.filter((r) => r.characterId === characterId);
 
   if (characterRankings.length === 0) {
-    return { bestRank: 0, worstRank: 0, averageRank: 0, appearances: 0 };
+    return {
+      bestRank: 0,
+      worstRank: 0,
+      averageRank: 0,
+      appearances: 0,
+      latestRank: 0,
+      latestYear: 0,
+    };
   }
 
   const ranks = characterRankings.map((r) => r.rank);
   const bestRank = Math.min(...ranks);
   const worstRank = Math.max(...ranks);
   const averageRank = ranks.reduce((sum, rank) => sum + rank, 0) / ranks.length;
+  const latest = characterRankings.reduce((acc, cur) => (cur.year > acc.year ? cur : acc));
 
   return {
     bestRank,
     worstRank,
     averageRank: Math.round(averageRank * 10) / 10, // Round to 1 decimal
     appearances: characterRankings.length,
+    latestRank: latest.rank,
+    latestYear: latest.year,
   };
 };
 

@@ -1,5 +1,6 @@
 import type { useCharacterModal } from "../../../../hooks";
 import type { RankingEntry } from "../../../../shared/types";
+import { getCharacterRankingStats } from "../../../../shared/utils/DataProcessor";
 
 interface CharacterDetailModalProps {
   characterModal: ReturnType<typeof useCharacterModal>;
@@ -10,6 +11,8 @@ export function CharacterDetailModal({ characterModal, rankings }: CharacterDeta
   if (!characterModal.isOpen || !characterModal.selectedCharacter) {
     return null;
   }
+
+  const stats = getCharacterRankingStats(characterModal.selectedCharacter.id, rankings);
 
   return (
     <button
@@ -53,6 +56,22 @@ export function CharacterDetailModal({ characterModal, rankings }: CharacterDeta
                 <span className="font-semibold text-gray-800 dark:text-gray-100">デビュー年:</span>{" "}
                 {characterModal.selectedCharacter.debutYear}年
               </p>
+            )}
+            {stats.appearances > 0 && (
+              <>
+                <p className="text-gray-600 dark:text-gray-300">
+                  <span className="font-semibold text-gray-800 dark:text-gray-100">
+                    過去最高順位:
+                  </span>{" "}
+                  {stats.bestRank}位
+                </p>
+                <p className="text-gray-600 dark:text-gray-300">
+                  <span className="font-semibold text-gray-800 dark:text-gray-100">
+                    最新の順位:
+                  </span>{" "}
+                  {stats.latestRank}位（{stats.latestYear}年）
+                </p>
+              </>
             )}
           </div>
           <div>
