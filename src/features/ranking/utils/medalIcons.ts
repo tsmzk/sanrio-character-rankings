@@ -37,16 +37,16 @@ export function getMedalCanvas(rank: MedalRank, size: number): HTMLCanvasElement
   const cached = cache.get(key);
   if (cached) return cached;
 
-  const dpr = (typeof window !== "undefined" && window.devicePixelRatio) || 1;
+  // Chart.js draws HTMLCanvasElement pointStyles using the canvas's intrinsic
+  // width/height (see drawPointLegend in chart.js helpers), not our pointRadius.
+  // So the backing store must match the visual CSS size or the point renders
+  // 2–3× too large on HiDPI devices.
   const canvas = document.createElement("canvas");
-  canvas.width = Math.round(size * dpr);
-  canvas.height = Math.round(size * dpr);
-  canvas.style.width = `${size}px`;
-  canvas.style.height = `${size}px`;
+  canvas.width = size;
+  canvas.height = size;
 
   const ctx = canvas.getContext("2d");
   if (!ctx) return null;
-  ctx.scale(dpr, dpr);
 
   drawMedal(ctx, rank, size);
 

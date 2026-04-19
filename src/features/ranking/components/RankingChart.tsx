@@ -9,10 +9,28 @@ import {
   Tooltip,
 } from "chart.js";
 import type React from "react";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Line } from "react-chartjs-2";
 import type { Character, RankingEntry } from "../../../shared/types";
 import { getMedalCanvas, type MedalRank } from "../utils/medalIcons";
+
+const MOBILE_MEDIA_QUERY = "(max-width: 640px)";
+
+function useIsMobile(): boolean {
+  const [isMobile, setIsMobile] = useState<boolean>(() =>
+    typeof window === "undefined" ? false : window.matchMedia(MOBILE_MEDIA_QUERY).matches,
+  );
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const mq = window.matchMedia(MOBILE_MEDIA_QUERY);
+    const handler = (event: MediaQueryListEvent) => setIsMobile(event.matches);
+    mq.addEventListener("change", handler);
+    return () => mq.removeEventListener("change", handler);
+  }, []);
+
+  return isMobile;
+}
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -38,6 +56,8 @@ export const RankingChart: React.FC<RankingChartProps> = ({
   loading = false,
   className = "",
 }) => {
+  const isMobile = useIsMobile();
+
   const chartData = useMemo(() => {
     if (selectedCharacters.length === 0) return null;
 
@@ -184,15 +204,24 @@ export const RankingChart: React.FC<RankingChartProps> = ({
       maintainAspectRatio: false,
       layout: {
         padding: {
-          left: 20,
-          right: 20,
-          top: 20,
-          bottom: 20,
+          left: isMobile ? 4 : 20,
+          right: isMobile ? 8 : 20,
+          top: isMobile ? 12 : 20,
+          bottom: isMobile ? 4 : 20,
         },
       },
       plugins: {
         legend: {
-          position: "top" as const,
+          position: isMobile ? ("bottom" as const) : ("top" as const),
+          labels: isMobile
+            ? {
+                usePointStyle: true,
+                boxWidth: 8,
+                boxHeight: 8,
+                padding: 8,
+                font: { size: 10 },
+              }
+            : undefined,
         },
         title: {
           display: false,
@@ -227,7 +256,10 @@ export const RankingChart: React.FC<RankingChartProps> = ({
               if (intValue < 1) return "";
               return `${intValue}位`;
             },
-            maxTicksLimit: 15,
+            maxTicksLimit: isMobile ? 8 : 15,
+            font: {
+              size: isMobile ? 10 : 12,
+            },
           },
           grid: {
             color: (context: { tick: { value: number } }) => {
@@ -244,19 +276,27 @@ export const RankingChart: React.FC<RankingChartProps> = ({
             },
           },
           title: {
-            display: true,
+            display: !isMobile,
             text: "ランキング順位",
           },
         },
         x: {
+          ticks: {
+            font: {
+              size: isMobile ? 10 : 12,
+            },
+            maxRotation: isMobile ? 45 : 0,
+            autoSkip: true,
+            autoSkipPadding: isMobile ? 8 : 4,
+          },
           title: {
-            display: true,
+            display: !isMobile,
             text: "年",
           },
         },
       },
     };
-  }, [chartData]);
+  }, [chartData, isMobile]);
 
   if (loading) {
     return (
@@ -292,7 +332,7 @@ export const RankingChart: React.FC<RankingChartProps> = ({
 
   return (
     <div className={`chart-wrapper ${className}`}>
-      <div style={{ height: "600px", width: "100%", position: "relative" }}>
+      <div className="relative w-full h-[440px] sm:h-[600px]">
         {chartJsData && <Line data={chartJsData} options={options} />}
       </div>
     </div>

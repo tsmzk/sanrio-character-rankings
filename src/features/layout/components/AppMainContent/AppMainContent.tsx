@@ -27,8 +27,8 @@ export function AppMainContent({
   return (
     <main className="flex-1 space-y-6">
       {/* Chart Section */}
-      <section className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 min-h-[700px]">
-        <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-6 text-center">
+      <section className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 sm:p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 sm:min-h-[700px]">
+        <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4 sm:mb-6 text-center">
           ランキング推移
         </h2>
         <RankingChart
