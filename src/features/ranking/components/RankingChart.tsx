@@ -332,8 +332,10 @@ export const RankingChart: React.FC<RankingChartProps> = ({
 
   return (
     <div className={`chart-wrapper ${className}`}>
-      <div className="relative w-full h-[440px] sm:h-[600px]">
-        {chartJsData && <Line data={chartJsData} options={options} />}
+      <div className="overflow-x-auto sm:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0">
+        <div className="relative h-[80dvh] min-h-[440px] sm:h-[600px] sm:min-h-0 w-full min-w-[640px] sm:min-w-0">
+          {chartJsData && <Line data={chartJsData} options={options} />}
+        </div>
       </div>
     </div>
   );
