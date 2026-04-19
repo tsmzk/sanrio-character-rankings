@@ -26,7 +26,6 @@ const mockCharacter: Character = {
   id: "hello-kitty",
   name: "ハローキティ",
   nameEn: "Hello Kitty",
-  description: "世界中で愛される白い子猫のキャラクター",
   debutYear: 1974,
   color: "#ff6b9d",
 };

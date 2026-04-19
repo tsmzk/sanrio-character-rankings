@@ -27,7 +27,6 @@ export const createMockCharacter = (overrides: Partial<Character> = {}): Charact
   id: "test-character-1",
   name: "テストキャラクター",
   nameEn: "Test Character",
-  description: "テスト用のキャラクターです",
   debutYear: 2020,
   color: "#ff6b9d",
   ...overrides,

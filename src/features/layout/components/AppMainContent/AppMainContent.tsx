@@ -54,9 +54,6 @@ export function AppMainContent({
               <h4 className="font-semibold text-gray-800 dark:text-gray-100 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
                 {character.name}
               </h4>
-              <p className="text-sm text-gray-600 dark:text-gray-300 mt-1 line-clamp-2">
-                {character.description}
-              </p>
               <span className="text-xs text-pink-500 dark:text-pink-400 italic block mt-2 opacity-0 group-hover:opacity-100 transition-opacity">
                 クリックで詳細表示
               </span>

@@ -41,9 +41,6 @@ export function CharacterDetailModal({ characterModal, rankings }: CharacterDeta
           </button>
         </div>
         <div className="p-6">
-          <p className="text-gray-700 dark:text-gray-200 leading-relaxed mb-6">
-            {characterModal.selectedCharacter.description}
-          </p>
           <div className="space-y-3 mb-6">
             {characterModal.selectedCharacter.nameEn && (
               <p className="text-gray-600 dark:text-gray-300">

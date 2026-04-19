@@ -93,7 +93,7 @@ export function flexibleJapaneseMatch(targetText: string, searchQuery: string): 
 
 /**
  * 複数の検索候補に対する柔軟マッチング
- * name, nameEn, description などの複数フィールドに対応
+ * name, nameEn などの複数フィールドに対応
  */
 export function multiFieldJapaneseMatch(
   searchFields: (string | undefined | null)[],

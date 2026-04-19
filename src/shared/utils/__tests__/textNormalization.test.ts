@@ -141,11 +141,11 @@ describe("textNormalization", () => {
     it("should find characters with various search patterns", () => {
       // Test data similar to actual character data
       const testCharacters = [
-        { name: "キキ&ララ", nameEn: "Little Twin Stars", description: "双子の星の子" },
-        { name: "ハローキティ", nameEn: "Hello Kitty", description: "白い子猫のキャラクター" },
-        { name: "マイメロディ", nameEn: "My Melody", description: "白いうさぎのキャラクター" },
-        { name: "ぐでたま", nameEn: "Gudetama", description: "やる気のない卵" },
-        { name: "はなまるおばけ", nameEn: "Hanamaru Obake", description: "不思議なおばけ" },
+        { name: "キキ&ララ", nameEn: "Little Twin Stars" },
+        { name: "ハローキティ", nameEn: "Hello Kitty" },
+        { name: "マイメロディ", nameEn: "My Melody" },
+        { name: "ぐでたま", nameEn: "Gudetama" },
+        { name: "はなまるおばけ", nameEn: "Hanamaru Obake" },
       ];
 
       // Test hiragana/katakana flexibility
@@ -162,20 +162,6 @@ describe("textNormalization", () => {
       ).toBe(true);
       expect(
         multiFieldJapaneseMatch([testCharacters[1].name, testCharacters[1].nameEn], "hello"),
-      ).toBe(true);
-
-      // Test description search
-      expect(
-        multiFieldJapaneseMatch(
-          [testCharacters[1].name, testCharacters[1].nameEn, testCharacters[1].description],
-          "子猫",
-        ),
-      ).toBe(true);
-      expect(
-        multiFieldJapaneseMatch(
-          [testCharacters[3].name, testCharacters[3].nameEn, testCharacters[3].description],
-          "やる気",
-        ),
       ).toBe(true);
     });
   });
