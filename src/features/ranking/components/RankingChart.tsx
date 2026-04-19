@@ -12,8 +12,14 @@ import type React from "react";
 import { useMemo } from "react";
 import { Line } from "react-chartjs-2";
 import type { Character, RankingEntry } from "../../../shared/types";
+import { getMedalCanvas, type MedalRank } from "../utils/medalIcons";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+
+const MEDAL_SIZE = 22;
+const MEDAL_RADIUS = MEDAL_SIZE / 2;
+const MEDAL_HOVER_RADIUS = MEDAL_RADIUS + 2;
+const MEDAL_RANKS: ReadonlySet<number> = new Set([1, 2, 3]);
 
 interface RankingChartProps {
   selectedCharacters: string[];
@@ -107,16 +113,29 @@ export const RankingChart: React.FC<RankingChartProps> = ({
           tension: 0.1,
           pointRadius: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            return value === outOfRankPosition ? 6 : 4; // ランク外は大きめのポイント
+            if (value === outOfRankPosition) return 6; // ランク外は大きめのポイント
+            if (value !== undefined && MEDAL_RANKS.has(value)) return MEDAL_RADIUS; // 1〜3位はメダル
+            return 4;
           },
-          pointHoverRadius: 8,
+          pointHoverRadius: (context: { parsed?: { y: number } }) => {
+            const value = context.parsed?.y;
+            if (value !== undefined && MEDAL_RANKS.has(value)) return MEDAL_HOVER_RADIUS;
+            return 8;
+          },
           pointStyle: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            return value === outOfRankPosition ? "crossRot" : "circle"; // ランク外は×印
+            if (value === outOfRankPosition) return "crossRot"; // ランク外は×印
+            if (value !== undefined && MEDAL_RANKS.has(value)) {
+              const medal = getMedalCanvas(value as MedalRank, MEDAL_SIZE);
+              if (medal) return medal;
+            }
+            return "circle";
           },
           pointBorderWidth: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            return value === outOfRankPosition ? 3 : 1; // ランク外は太いボーダー
+            if (value === outOfRankPosition) return 3; // ランク外は太いボーダー
+            if (value !== undefined && MEDAL_RANKS.has(value)) return 0; // メダル画像に縁線は不要
+            return 1;
           },
           segment: {
             borderDash: (ctx: {
