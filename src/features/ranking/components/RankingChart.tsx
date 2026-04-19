@@ -151,6 +151,8 @@ export const RankingChart: React.FC<RankingChartProps> = ({
             },
           },
           spanGaps: false, // null値では線を繋がない
+          // 1位メダルが chart area 上端で切れるのを防ぐ（layout.padding 側で吸収）
+          clip: false as const,
         };
       })
       .filter((dataset): dataset is NonNullable<typeof dataset> => dataset !== null);
