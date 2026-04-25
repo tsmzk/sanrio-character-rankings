@@ -33,10 +33,10 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-pink-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 transition-all duration-300">
+    <div className="h-[100dvh] lg:h-auto lg:min-h-screen flex flex-col overflow-hidden lg:overflow-visible bg-gradient-to-br from-pink-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-purple-900 transition-all duration-300">
       <AppHeader />
 
-      <div className="flex flex-1 max-w-7xl mx-auto w-full gap-6 px-5 pb-8 lg:flex-row flex-col">
+      <div className="flex flex-1 min-h-0 max-w-7xl mx-auto w-full gap-6 px-5 pb-2 lg:pb-8 lg:flex-row flex-col">
         {isDesktop && (
           <AppSidebar
             yearRangeFilter={yearRangeFilter}

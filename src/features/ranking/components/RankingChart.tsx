@@ -9,28 +9,11 @@ import {
   Tooltip,
 } from "chart.js";
 import type React from "react";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Line } from "react-chartjs-2";
 import type { Character, RankingEntry } from "../../../shared/types";
+import { CHART_COLOR_PALETTE } from "../utils/chartColors";
 import { getMedalCanvas, type MedalRank } from "../utils/medalIcons";
-
-const MOBILE_MEDIA_QUERY = "(max-width: 640px)";
-
-function useIsMobile(): boolean {
-  const [isMobile, setIsMobile] = useState<boolean>(() =>
-    typeof window === "undefined" ? false : window.matchMedia(MOBILE_MEDIA_QUERY).matches,
-  );
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const mq = window.matchMedia(MOBILE_MEDIA_QUERY);
-    const handler = (event: MediaQueryListEvent) => setIsMobile(event.matches);
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
-
-  return isMobile;
-}
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
@@ -56,32 +39,14 @@ export const RankingChart: React.FC<RankingChartProps> = ({
   loading = false,
   className = "",
 }) => {
-  const isMobile = useIsMobile();
-
   const chartData = useMemo(() => {
     if (selectedCharacters.length === 0) return null;
 
-    // Generate years array
     const years = Array.from(
       { length: yearRange.max - yearRange.min + 1 },
       (_, i) => yearRange.min + i,
     );
 
-    // Get colors for characters
-    const colors = [
-      "#ff6b9d",
-      "#9b51e0",
-      "#4fc3f7",
-      "#66bb6a",
-      "#ffa726",
-      "#ef5350",
-      "#ab47bc",
-      "#5c6bc0",
-      "#26a69a",
-      "#ffca28",
-    ];
-
-    // Calculate the lowest rank among selected characters for out-of-rank positioning
     let lowestRank = 1;
     selectedCharacters.forEach((characterId) => {
       const characterRankings = rankings.filter(
@@ -97,7 +62,6 @@ export const RankingChart: React.FC<RankingChartProps> = ({
       }
     });
 
-    // Set out-of-rank position as lowest rank + 5
     const outOfRankPosition = lowestRank + 5;
 
     const datasets = selectedCharacters
@@ -106,35 +70,30 @@ export const RankingChart: React.FC<RankingChartProps> = ({
         if (!character) return null;
 
         const characterRankings = rankings.filter((r) => r.characterId === characterId);
-
-        // 初めてランクインした年を取得
         const firstRankingYear = Math.min(
           ...characterRankings.filter((r) => r.rank > 0).map((r) => r.year),
         );
 
         const data = years.map((year) => {
-          // 初めてランクインした年より前は非表示（null）
           if (year < firstRankingYear) return null;
-
           const ranking = characterRankings.find((r) => r.year === year);
-          // データがない場合はランク外（最下位+5位）
           if (!ranking) return outOfRankPosition;
-          // rank が 0 または null の場合もランク外（最下位+5位）
           if (ranking.rank === 0 || ranking.rank === null) return outOfRankPosition;
-          // 正常なランクの場合はそのまま返す
           return ranking.rank;
         });
+
+        const color = CHART_COLOR_PALETTE[index % CHART_COLOR_PALETTE.length];
 
         return {
           label: character.name,
           data: data,
-          borderColor: colors[index % colors.length],
-          backgroundColor: `${colors[index % colors.length]}20`,
+          borderColor: color,
+          backgroundColor: `${color}20`,
           tension: 0.1,
           pointRadius: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            if (value === outOfRankPosition) return 6; // ランク外は大きめのポイント
-            if (value !== undefined && MEDAL_RANKS.has(value)) return MEDAL_RADIUS; // 1〜3位はメダル
+            if (value === outOfRankPosition) return 6;
+            if (value !== undefined && MEDAL_RANKS.has(value)) return MEDAL_RADIUS;
             return 4;
           },
           pointHoverRadius: (context: { parsed?: { y: number } }) => {
@@ -144,7 +103,7 @@ export const RankingChart: React.FC<RankingChartProps> = ({
           },
           pointStyle: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            if (value === outOfRankPosition) return "crossRot"; // ランク外は×印
+            if (value === outOfRankPosition) return "crossRot";
             if (value !== undefined && MEDAL_RANKS.has(value)) {
               const medal = getMedalCanvas(value as MedalRank, MEDAL_SIZE);
               if (medal) return medal;
@@ -153,8 +112,8 @@ export const RankingChart: React.FC<RankingChartProps> = ({
           },
           pointBorderWidth: (context: { parsed?: { y: number } }) => {
             const value = context.parsed?.y;
-            if (value === outOfRankPosition) return 3; // ランク外は太いボーダー
-            if (value !== undefined && MEDAL_RANKS.has(value)) return 0; // メダル画像に縁線は不要
+            if (value === outOfRankPosition) return 3;
+            if (value !== undefined && MEDAL_RANKS.has(value)) return 0;
             return 1;
           },
           segment: {
@@ -162,7 +121,6 @@ export const RankingChart: React.FC<RankingChartProps> = ({
               p0?: { parsed?: { y: number } };
               p1?: { parsed?: { y: number } };
             }) => {
-              // ランク外への線は点線
               const fromValue = ctx.p0?.parsed?.y;
               const toValue = ctx.p1?.parsed?.y;
               return fromValue === outOfRankPosition || toValue === outOfRankPosition
@@ -170,7 +128,7 @@ export const RankingChart: React.FC<RankingChartProps> = ({
                 : undefined;
             },
           },
-          spanGaps: false, // null値では線を繋がない
+          spanGaps: false,
           // 1位メダルが chart area 上端で切れるのを防ぐ（layout.padding 側で吸収）
           clip: false as const,
         };
@@ -203,29 +161,11 @@ export const RankingChart: React.FC<RankingChartProps> = ({
       responsive: true,
       maintainAspectRatio: false,
       layout: {
-        padding: {
-          left: isMobile ? 4 : 20,
-          right: isMobile ? 8 : 20,
-          top: isMobile ? 12 : 20,
-          bottom: isMobile ? 4 : 20,
-        },
+        padding: { left: 20, right: 20, top: 20, bottom: 20 },
       },
       plugins: {
-        legend: {
-          position: isMobile ? ("bottom" as const) : ("top" as const),
-          labels: isMobile
-            ? {
-                usePointStyle: true,
-                boxWidth: 8,
-                boxHeight: 8,
-                padding: 8,
-                font: { size: 10 },
-              }
-            : undefined,
-        },
-        title: {
-          display: false,
-        },
+        legend: { position: "top" as const },
+        title: { display: false },
         tooltip: {
           callbacks: {
             label: (context: { dataset: { label?: string }; parsed: { y: number } }) => {
@@ -250,53 +190,30 @@ export const RankingChart: React.FC<RankingChartProps> = ({
               const intValue = Math.round(Number(value));
               if (intValue !== Number(value)) return "";
               if (intValue > outOfRankPosition) return "";
-              if (intValue === outOfRankPosition) {
-                return "ランク外";
-              }
+              if (intValue === outOfRankPosition) return "ランク外";
               if (intValue < 1) return "";
               return `${intValue}位`;
             },
-            maxTicksLimit: isMobile ? 8 : 15,
-            font: {
-              size: isMobile ? 10 : 12,
-            },
+            maxTicksLimit: 15,
+            font: { size: 12 },
           },
           grid: {
-            color: (context: { tick: { value: number } }) => {
-              if (context.tick.value === outOfRankPosition) {
-                return "rgba(255, 107, 157, 0.3)"; // ランク外の線を強調
-              }
-              return "rgba(128, 128, 128, 0.1)";
-            },
-            lineWidth: (context: { tick: { value: number } }) => {
-              if (context.tick.value === outOfRankPosition) {
-                return 2;
-              }
-              return 1;
-            },
+            color: (context: { tick: { value: number } }) =>
+              context.tick.value === outOfRankPosition
+                ? "rgba(255, 107, 157, 0.3)"
+                : "rgba(128, 128, 128, 0.1)",
+            lineWidth: (context: { tick: { value: number } }) =>
+              context.tick.value === outOfRankPosition ? 2 : 1,
           },
-          title: {
-            display: !isMobile,
-            text: "ランキング順位",
-          },
+          title: { display: true, text: "ランキング順位" },
         },
         x: {
-          ticks: {
-            font: {
-              size: isMobile ? 10 : 12,
-            },
-            maxRotation: isMobile ? 45 : 0,
-            autoSkip: true,
-            autoSkipPadding: isMobile ? 8 : 4,
-          },
-          title: {
-            display: !isMobile,
-            text: "年",
-          },
+          ticks: { font: { size: 12 } },
+          title: { display: true, text: "年" },
         },
       },
     };
-  }, [chartData, isMobile]);
+  }, [chartData]);
 
   if (loading) {
     return (
@@ -322,7 +239,6 @@ export const RankingChart: React.FC<RankingChartProps> = ({
     );
   }
 
-  // Extract only the chart data for Chart.js (remove our custom properties)
   const chartJsData = chartData
     ? {
         labels: chartData.labels,
@@ -332,10 +248,8 @@ export const RankingChart: React.FC<RankingChartProps> = ({
 
   return (
     <div className={`chart-wrapper ${className}`}>
-      <div className="overflow-x-auto sm:overflow-visible -mx-4 px-4 sm:mx-0 sm:px-0">
-        <div className="relative h-[calc(80dvh-6rem)] min-h-[380px] sm:h-[600px] sm:min-h-0 w-full min-w-[640px] sm:min-w-0">
-          {chartJsData && <Line data={chartJsData} options={options} />}
-        </div>
+      <div className="relative h-[600px] w-full">
+        {chartJsData && <Line data={chartJsData} options={options} />}
       </div>
     </div>
   );

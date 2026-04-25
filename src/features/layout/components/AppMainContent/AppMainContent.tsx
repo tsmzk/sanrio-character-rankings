@@ -5,7 +5,7 @@ import type {
 } from "../../../../hooks";
 import type { Character, RankingEntry } from "../../../../shared/types";
 import { getCharacterRankingStats } from "../../../../shared/utils/DataProcessor";
-import { RankingChart } from "../../../ranking";
+import { RankingChart, RankingChartMobile } from "../../../ranking";
 
 interface AppMainContentProps {
   rankings: RankingEntry[];
@@ -25,9 +25,9 @@ export function AppMainContent({
   characterModal,
 }: AppMainContentProps) {
   return (
-    <main className="flex-1 space-y-6">
-      {/* Chart Section */}
-      <section className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 sm:p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 sm:min-h-[700px]">
+    <main className="flex-1 flex flex-col min-h-0 sm:space-y-6">
+      {/* Chart Section (PC only) */}
+      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 sm:p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 sm:min-h-[700px]">
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4 sm:mb-6 text-center">
           ランキング推移
         </h2>
@@ -39,8 +39,29 @@ export function AppMainContent({
         />
       </section>
 
-      {/* Character Stats Section */}
-      <section className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
+      {/* Mobile: ラインチャート（凡例固定＋タップでハイライト） */}
+      <section className="sm:hidden flex flex-col flex-1 min-h-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
+        <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-2 text-center flex-shrink-0">
+          ランキング推移
+        </h2>
+        {selectedCharacterObjects.length === 0 ? (
+          <p className="flex-1 flex items-center justify-center text-gray-500 dark:text-gray-400 text-sm">
+            キャラクターを選択してください
+          </p>
+        ) : (
+          <div className="flex-1 min-h-0">
+            <RankingChartMobile
+              selectedCharacters={characterSelection.selectedCharacters}
+              characters={characters}
+              rankings={rankings}
+              yearRange={yearRangeFilter.yearRange}
+            />
+          </div>
+        )}
+      </section>
+
+      {/* Character Stats Section (PC only) */}
+      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
         <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">
           選択中のキャラクター詳細
         </h3>
