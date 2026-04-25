@@ -5,6 +5,7 @@ export { ChartHeader } from "./components/ChartHeader";
 export { ChartLegend } from "./components/ChartLegend";
 export { ChartEmptyState, ChartLoadingState, ChartNoDataState } from "./components/ChartStates";
 export { RankingChart } from "./components/RankingChart";
+export { YearRangeFilterPanel } from "./components/YearRangeFilterPanel";
 
 // Hooks
 export { useChartConfig } from "./hooks/useChartConfig";

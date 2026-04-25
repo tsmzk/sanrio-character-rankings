@@ -6,4 +6,5 @@ export { useTheme } from "../features/theme/hooks/useTheme";
 // App-specific hooks
 export { useCharacterModal } from "./useCharacterModal";
 export { useCharacterSearch } from "./useCharacterSearch";
+export { useIsDesktop, useMediaQuery } from "./useMediaQuery";
 export { useYearRangeFilter } from "./useYearRangeFilter";

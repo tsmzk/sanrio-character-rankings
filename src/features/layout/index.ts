@@ -1,2 +1,2 @@
 // Layout Feature Exports
-export { AppHeader, AppMainContent, AppSidebar } from "./components";
+export { AppHeader, AppMainContent, AppSidebar, MobileBottomBar } from "./components";
