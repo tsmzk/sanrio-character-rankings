@@ -1,7 +1,7 @@
 [
   {
     "id": "adoroza-torumari",
-    "name": "Adoroza Torumari",
+    "name": "アドローザトルマリィ",
     "nameEn": "Adoroza Torumari",
     "debutYear": 2020,
     "color": "#808080"
@@ -29,7 +29,7 @@
   },
   {
     "id": "beat-cats",
-    "name": "Beat Cats",
+    "name": "ビートキャッツ",
     "nameEn": "Beat Cats",
     "debutYear": 2020,
     "color": "#808080"
@@ -50,21 +50,21 @@
   },
   {
     "id": "bosanimaru",
-    "name": "Bosanimaru",
+    "name": "ぼさにまる",
     "nameEn": "Bosanimaru",
     "debutYear": 2020,
     "color": "#808080"
   },
   {
     "id": "brownie-story",
-    "name": "プラウニーストーリー",
+    "name": "ブラウニーズストーリー",
     "nameEn": "Brownie Story",
     "debutYear": 1987,
     "color": "#CD853F"
   },
   {
     "id": "buddyeddy",
-    "name": "Buddyeddy",
+    "name": "バディエディ",
     "nameEn": "Buddyeddy",
     "debutYear": 2020,
     "color": "#808080"
@@ -197,7 +197,7 @@
   },
   {
     "id": "gao-pawaru",
-    "name": "Gao Pawaru",
+    "name": "がおぱわるぅ",
     "nameEn": "Gao Pawaru",
     "debutYear": 2020,
     "color": "#808080"
@@ -211,7 +211,7 @@
   },
   {
     "id": "goropikadon",
-    "name": "Goropikadon",
+    "name": "ゴロピカドン",
     "nameEn": "Goropikadon",
     "debutYear": 2020,
     "color": "#808080"
@@ -316,7 +316,7 @@
   },
   {
     "id": "kirimi-chan",
-    "name": "KIRIMIちゃん。",
+    "name": "KIRIMIちゃん.",
     "nameEn": "Kirimi-chan",
     "debutYear": 2014,
     "color": "#FFA07A"
@@ -330,7 +330,7 @@
   },
   {
     "id": "kumamiren",
-    "name": "Kumamiren",
+    "name": "クマミレン",
     "nameEn": "Kumamiren",
     "debutYear": 2020,
     "color": "#808080"
@@ -344,7 +344,7 @@
   },
   {
     "id": "kusuri-no-fukutaro",
-    "name": "Kusuri No Fukutaro",
+    "name": "くすりの福太郎",
     "nameEn": "Kusuri No Fukutaro",
     "debutYear": 2020,
     "color": "#808080"
@@ -379,7 +379,7 @@
   },
   {
     "id": "maimai-maigoen",
-    "name": "Maimai Maigoen",
+    "name": "まいまいまいごえん",
     "nameEn": "Maimai Maigoen",
     "debutYear": 2020,
     "color": "#808080"
@@ -435,7 +435,7 @@
   },
   {
     "id": "mr-men-little-miss",
-    "name": "ミスターメンリトルミス",
+    "name": "ミスターメン リトルミス",
     "nameEn": "Mr. Men & Little Miss",
     "debutYear": 2010,
     "color": "#FFD700"
@@ -449,7 +449,7 @@
   },
   {
     "id": "my-sweet-piano",
-    "name": "マイスイートピアノ",
+    "name": "マイスウィートピアノ",
     "nameEn": "My Sweet Piano",
     "debutYear": 2005,
     "color": "#FFB6C1"
@@ -463,7 +463,7 @@
   },
   {
     "id": "nyakki-penne",
-    "name": "ニョッキ&ペンネ",
+    "name": "ニョッキ＆ペンネ",
     "nameEn": "Nyakki & Penne",
     "debutYear": 2015,
     "color": "#FFE4E1"
@@ -505,7 +505,7 @@
   },
   {
     "id": "patty-and-jimmy",
-    "name": "パティ&ジミー",
+    "name": "パティ＆ジミー",
     "nameEn": "Patty & Jimmy",
     "debutYear": 1998,
     "color": "#FFB6C1"
@@ -519,14 +519,14 @@
   },
   {
     "id": "petapeta-minirian",
-    "name": "Petapeta Minirian",
+    "name": "ぺたぺたみにりあん",
     "nameEn": "Petapeta Minirian",
     "debutYear": 2020,
     "color": "#808080"
   },
   {
     "id": "pinky-lil-rose-rio-sky-peace",
-    "name": "ピンキーリルローズ&リオスカイピース",
+    "name": "ピンキーリルローズ＆リオスカイピース",
     "nameEn": "Pinky Lil Rose & Rio Sky Peace",
     "debutYear": 2015,
     "color": "#FF69B4"
@@ -547,7 +547,7 @@
   },
   {
     "id": "pokkyokuten",
-    "name": "Pokkyokuten",
+    "name": "ぽっきょくてん",
     "nameEn": "Pokkyokuten",
     "debutYear": 2020,
     "color": "#808080"
@@ -673,7 +673,7 @@
   },
   {
     "id": "the-runabouts",
-    "name": "ザ　ラナバウツ",
+    "name": "ザ ラナバウツ",
     "nameEn": "The Runabouts",
     "debutYear": 2010,
     "color": "#87CEEB"
@@ -771,7 +771,7 @@
   },
   {
     "id": "yoshikitty",
-    "name": "YOSHIKITTY",
+    "name": "yoshikitty",
     "nameEn": "YOSHIKITTY",
     "debutYear": 2014,
     "color": "#FFB6C1"
@@ -784,23 +784,9 @@
     "color": "#8B4513"
   },
   {
-    "id": "ふくちゃん",
-    "name": "ふくちゃん",
-    "nameEn": "ふくちゃん",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
     "id": "れおすけ",
     "name": "れおすけ",
     "nameEn": "れおすけ",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
-    "id": "ザ-ラナバウツ",
-    "name": "ザ ラナバウツ",
-    "nameEn": "ザ ラナバウツ",
     "debutYear": 2020,
     "color": "#808080"
   },
@@ -812,23 +798,9 @@
     "color": "#808080"
   },
   {
-    "id": "ニョッキ＆ペンネ",
-    "name": "ニョッキ＆ペンネ",
-    "nameEn": "ニョッキ＆ペンネ",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
     "id": "バニー＆マッティ",
     "name": "バニー＆マッティ",
     "nameEn": "バニー＆マッティ",
-    "debutYear": 2020,
-    "color": "#808080"
-  },
-  {
-    "id": "パティ＆ジミー",
-    "name": "パティ＆ジミー",
-    "nameEn": "パティ＆ジミー",
     "debutYear": 2020,
     "color": "#808080"
   },
@@ -908,13 +880,6 @@
     "nameEn": "Warahibi!",
     "debutYear": 2015,
     "color": "#FFB347"
-  },
-  {
-    "id": "ミスターメン リトルミス",
-    "name": "ミスターメン リトルミス",
-    "nameEn": "Mr. Men Little Miss",
-    "debutYear": 2015,
-    "color": "#87CEEB"
   },
   {
     "id": "木馬",
@@ -1541,9 +1506,23 @@
   },
   {
     "id": "jochum",
-    "name": "ジェオチャム",
+    "name": "JOCHUM",
     "nameEn": "JOCHUM",
     "debutYear": 2023,
     "color": "#87CEEB"
+  },
+  {
+    "id": "pururun-kupi",
+    "name": "プルルンキュピ",
+    "nameEn": "Pururun Kupi",
+    "debutYear": 2014,
+    "color": "#808080"
+  },
+  {
+    "id": "kaitou-roppappu",
+    "name": "怪盗ロッパップ",
+    "nameEn": "Kaitou Roppappu",
+    "debutYear": 2014,
+    "color": "#808080"
   }
 ]

@@ -7,72 +7,72 @@
   {
     "year": 2021,
     "rank": 2,
-    "characterId": "hello-kitty"
-  },
-  {
-    "year": 2021,
-    "rank": 3,
-    "characterId": "my-melody"
-  },
-  {
-    "year": 2021,
-    "rank": 4,
-    "characterId": "kuromi"
-  },
-  {
-    "year": 2021,
-    "rank": 5,
     "characterId": "pompompurin"
   },
   {
     "year": 2021,
-    "rank": 6,
-    "characterId": "little-twin-stars"
-  },
-  {
-    "year": 2021,
-    "rank": 7,
-    "characterId": "keroppi"
-  },
-  {
-    "year": 2021,
-    "rank": 8,
-    "characterId": "badtz-maru"
-  },
-  {
-    "year": 2021,
-    "rank": 9,
+    "rank": 3,
     "characterId": "pochacco"
   },
   {
     "year": 2021,
-    "rank": 10,
-    "characterId": "hangyodon"
+    "rank": 4,
+    "characterId": "my-melody"
   },
   {
     "year": 2021,
-    "rank": 11,
+    "rank": 5,
+    "characterId": "kuromi"
+  },
+  {
+    "year": 2021,
+    "rank": 6,
+    "characterId": "hello-kitty"
+  },
+  {
+    "year": 2021,
+    "rank": 7,
+    "characterId": "little-twin-stars"
+  },
+  {
+    "year": 2021,
+    "rank": 8,
+    "characterId": "showbyrock"
+  },
+  {
+    "year": 2021,
+    "rank": 9,
     "characterId": "tuxedosam"
   },
   {
     "year": 2021,
+    "rank": 10,
+    "characterId": "kogimyun"
+  },
+  {
+    "year": 2021,
+    "rank": 11,
+    "characterId": "yoshikitty"
+  },
+  {
+    "year": 2021,
     "rank": 12,
-    "characterId": "rururugakuen"
+    "characterId": "wish-me-mell"
   },
   {
     "year": 2021,
     "rank": 13,
-    "characterId": "ahiru-no-pekkle"
+    "characterId": "hangyodon"
   },
   {
     "year": 2021,
     "rank": 14,
-    "characterId": "コロちゃん"
+    "characterId": "badtz-maru"
   },
   {
     "year": 2021,
     "rank": 15,
-    "characterId": "wish-me-mell"
+    "characterId": "keroppi"
   },
   {
     "year": 2021,
@@ -82,7 +82,7 @@
   {
     "year": 2021,
     "rank": 17,
-    "characterId": "aggretsuko"
+    "characterId": "ahiru-no-pekkle"
   },
   {
     "year": 2021,
@@ -102,32 +102,32 @@
   {
     "year": 2021,
     "rank": 21,
-    "characterId": "showbyrock"
-  },
-  {
-    "year": 2021,
-    "rank": 22,
-    "characterId": "yoshikitty"
-  },
-  {
-    "year": 2021,
-    "rank": 23,
-    "characterId": "usahana"
-  },
-  {
-    "year": 2021,
-    "rank": 24,
-    "characterId": "dear-daniel"
-  },
-  {
-    "year": 2021,
-    "rank": 25,
     "characterId": "marumofu-biyori"
   },
   {
     "year": 2021,
-    "rank": 26,
+    "rank": 22,
+    "characterId": "minna-no-taa-bou"
+  },
+  {
+    "year": 2021,
+    "rank": 23,
     "characterId": "marron-cream"
+  },
+  {
+    "year": 2021,
+    "rank": 24,
+    "characterId": "usahana"
+  },
+  {
+    "year": 2021,
+    "rank": 25,
+    "characterId": "dear-daniel"
+  },
+  {
+    "year": 2021,
+    "rank": 26,
+    "characterId": "mewkle-dreamy"
   },
   {
     "year": 2021,
@@ -137,22 +137,22 @@
   {
     "year": 2021,
     "rank": 28,
-    "characterId": "charmmy-kitty"
+    "characterId": "little-forest-fellows"
   },
   {
     "year": 2021,
     "rank": 29,
-    "characterId": "minna-no-taa-bou"
-  },
-  {
-    "year": 2021,
-    "rank": 30,
     "characterId": "ruroro-manic"
   },
   {
     "year": 2021,
+    "rank": 30,
+    "characterId": "bonbonribbon"
+  },
+  {
+    "year": 2021,
     "rank": 31,
-    "characterId": "jewelpet"
+    "characterId": "charmmy-kitty"
   },
   {
     "year": 2021,
@@ -162,107 +162,107 @@
   {
     "year": 2021,
     "rank": 33,
-    "characterId": "mewkle-dreamy"
+    "characterId": "jewelpet"
   },
   {
     "year": 2021,
     "rank": 34,
-    "characterId": "little-forest-fellows"
-  },
-  {
-    "year": 2021,
-    "rank": 35,
     "characterId": "sugar-bunnies"
   },
   {
     "year": 2021,
-    "rank": 36,
-    "characterId": "bonbonribbon"
-  },
-  {
-    "year": 2021,
-    "rank": 37,
+    "rank": 35,
     "characterId": "nyanyinynenyonyon"
   },
   {
     "year": 2021,
-    "rank": 38,
+    "rank": 36,
     "characterId": "cheery-chum"
   },
   {
     "year": 2021,
-    "rank": 39,
-    "characterId": "patty-and-jimmy"
-  },
-  {
-    "year": 2021,
-    "rank": 40,
-    "characterId": "osaru-no-monkichi"
-  },
-  {
-    "year": 2021,
-    "rank": 41,
-    "characterId": "ha-guruman-style"
-  },
-  {
-    "year": 2021,
-    "rank": 42,
-    "characterId": "tiny-chum"
-  },
-  {
-    "year": 2021,
-    "rank": 43,
-    "characterId": "patapata-peppy"
-  },
-  {
-    "year": 2021,
-    "rank": 44,
-    "characterId": "paupipo"
-  },
-  {
-    "year": 2021,
-    "rank": 45,
-    "characterId": "marshmallow-nyanko"
-  },
-  {
-    "year": 2021,
-    "rank": 46,
-    "characterId": "goropikadon"
-  },
-  {
-    "year": 2021,
-    "rank": 47,
-    "characterId": "beat-cats"
-  },
-  {
-    "year": 2021,
-    "rank": 48,
+    "rank": 37,
     "characterId": "kusuri-no-fukutaro"
   },
   {
     "year": 2021,
-    "rank": 49,
-    "characterId": "rilu-rilu-fairilu"
+    "rank": 38,
+    "characterId": "aggretsuko"
   },
   {
     "year": 2021,
-    "rank": 50,
+    "rank": 39,
+    "characterId": "ha-guruman-style"
+  },
+  {
+    "year": 2021,
+    "rank": 40,
+    "characterId": "patty-and-jimmy"
+  },
+  {
+    "year": 2021,
+    "rank": 41,
+    "characterId": "osaru-no-monkichi"
+  },
+  {
+    "year": 2021,
+    "rank": 42,
     "characterId": "caribadix"
   },
   {
     "year": 2021,
-    "rank": 51,
+    "rank": 43,
+    "characterId": "goropikadon"
+  },
+  {
+    "year": 2021,
+    "rank": 44,
+    "characterId": "marshmallow-nyanko"
+  },
+  {
+    "year": 2021,
+    "rank": 45,
+    "characterId": "rilu-rilu-fairilu"
+  },
+  {
+    "year": 2021,
+    "rank": 46,
+    "characterId": "tiny-chum"
+  },
+  {
+    "year": 2021,
+    "rank": 47,
+    "characterId": "patapata-peppy"
+  },
+  {
+    "year": 2021,
+    "rank": 48,
+    "characterId": "paupipo"
+  },
+  {
+    "year": 2021,
+    "rank": 49,
+    "characterId": "sugar-menuet"
+  },
+  {
+    "year": 2021,
+    "rank": 50,
     "characterId": "zashikibutа"
   },
   {
     "year": 2021,
+    "rank": 51,
+    "characterId": "maimai"
+  },
+  {
+    "year": 2021,
     "rank": 52,
-    "characterId": "ichigo-no-ousama"
+    "characterId": "beat-cats"
   },
   {
     "year": 2021,
     "rank": 53,
-    "characterId": "fresh-punch"
+    "characterId": "humming-mint"
   },
   {
     "year": 2021,
@@ -277,7 +277,7 @@
   {
     "year": 2021,
     "rank": 56,
-    "characterId": "pan-kunchi"
+    "characterId": "ichigo-no-ousama"
   },
   {
     "year": 2021,
@@ -287,47 +287,47 @@
   {
     "year": 2021,
     "rank": 58,
-    "characterId": "maimai-maigoen"
+    "characterId": "fresh-punch"
   },
   {
     "year": 2021,
     "rank": 59,
-    "characterId": "pokopon-diary"
+    "characterId": "pan-kunchi"
   },
   {
     "year": 2021,
     "rank": 60,
-    "characterId": "maimai"
-  },
-  {
-    "year": 2021,
-    "rank": 61,
-    "characterId": "choco-cat"
-  },
-  {
-    "year": 2021,
-    "rank": 62,
-    "characterId": "humming-mint"
-  },
-  {
-    "year": 2021,
-    "rank": 63,
-    "characterId": "puwawa"
-  },
-  {
-    "year": 2021,
-    "rank": 64,
     "characterId": "nora-neko-land"
   },
   {
     "year": 2021,
+    "rank": 61,
+    "characterId": "chibi-maru"
+  },
+  {
+    "year": 2021,
+    "rank": 62,
+    "characterId": "winky-pinky"
+  },
+  {
+    "year": 2021,
+    "rank": 63,
+    "characterId": "pokopon-diary"
+  },
+  {
+    "year": 2021,
+    "rank": 64,
+    "characterId": "choco-cat"
+  },
+  {
+    "year": 2021,
     "rank": 65,
-    "characterId": "umeya-zakka-ten"
+    "characterId": "the-vaudeville-duo"
   },
   {
     "year": 2021,
     "rank": 66,
-    "characterId": "sugar-menuet"
+    "characterId": "れおすけ"
   },
   {
     "year": 2021,
@@ -337,42 +337,42 @@
   {
     "year": 2021,
     "rank": 68,
-    "characterId": "the-vaudeville-duo"
+    "characterId": "umeya-zakka-ten"
   },
   {
     "year": 2021,
     "rank": 69,
-    "characterId": "シュガークリームパフ"
-  },
-  {
-    "year": 2021,
-    "rank": 70,
-    "characterId": "winky-pinky"
-  },
-  {
-    "year": 2021,
-    "rank": 71,
-    "characterId": "chibi-maru"
-  },
-  {
-    "year": 2021,
-    "rank": 72,
-    "characterId": "れおすけ"
-  },
-  {
-    "year": 2021,
-    "rank": 73,
     "characterId": "rururu-gakuen"
   },
   {
     "year": 2021,
+    "rank": 70,
+    "characterId": "seven-siri-dwarf"
+  },
+  {
+    "year": 2021,
+    "rank": 71,
+    "characterId": "tiny-poem"
+  },
+  {
+    "year": 2021,
+    "rank": 72,
+    "characterId": "the-runabouts"
+  },
+  {
+    "year": 2021,
+    "rank": 73,
+    "characterId": "we-are-dinosaurs"
+  },
+  {
+    "year": 2021,
     "rank": 74,
-    "characterId": "bosanimaru"
+    "characterId": "コロちゃん"
   },
   {
     "year": 2021,
     "rank": 75,
-    "characterId": "seven-siri-dwarf"
+    "characterId": "risuru"
   },
   {
     "year": 2021,
@@ -382,12 +382,12 @@
   {
     "year": 2021,
     "rank": 77,
-    "characterId": "the-runabouts"
+    "characterId": "dream-tail-cubear"
   },
   {
     "year": 2021,
     "rank": 78,
-    "characterId": "risuru"
+    "characterId": "cho-bot"
   },
   {
     "year": 2021,
@@ -398,10 +398,5 @@
     "year": 2021,
     "rank": 80,
     "characterId": "little-lovin"
-  },
-  {
-    "year": 2021,
-    "rank": 81,
-    "characterId": "dream-tail-cubear"
   }
 ]

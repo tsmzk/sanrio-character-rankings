@@ -117,7 +117,7 @@
   {
     "year": 2011,
     "rank": 24,
-    "characterId": "ニョッキ＆ペンネ"
+    "characterId": "nyakki-penne"
   },
   {
     "year": 2011,
@@ -357,7 +357,7 @@
   {
     "year": 2011,
     "rank": 72,
-    "characterId": "ララバイラバブルス"
+    "characterId": "ララバイラバブルズ"
   },
   {
     "year": 2011,
@@ -498,5 +498,30 @@
     "year": 2011,
     "rank": 100,
     "characterId": "mimic-mike"
+  },
+  {
+    "year": 2011,
+    "rank": 101,
+    "characterId": "だちょのすけ"
+  },
+  {
+    "year": 2011,
+    "rank": 102,
+    "characterId": "iku-chan"
+  },
+  {
+    "year": 2011,
+    "rank": 103,
+    "characterId": "dupey-demons"
+  },
+  {
+    "year": 2011,
+    "rank": 104,
+    "characterId": "quick-wax"
+  },
+  {
+    "year": 2011,
+    "rank": 105,
+    "characterId": "boogie-boo"
   }
 ]

@@ -272,7 +272,7 @@
   {
     "year": 2023,
     "rank": 55,
-    "characterId": "kashiwanko-mochi"
+    "characterId": "rilu-rilu-fairilu"
   },
   {
     "year": 2023,
@@ -282,166 +282,171 @@
   {
     "year": 2023,
     "rank": 57,
-    "characterId": "pan-kunchi"
+    "characterId": "kashiwanko-mochi"
   },
   {
     "year": 2023,
     "rank": 58,
-    "characterId": "ichigo-no-ousama"
+    "characterId": "pan-kunchi"
   },
   {
     "year": 2023,
     "rank": 59,
-    "characterId": "nora-neko-land"
+    "characterId": "ichigo-no-ousama"
   },
   {
     "year": 2023,
     "rank": 60,
-    "characterId": "humming-mint"
+    "characterId": "nora-neko-land"
   },
   {
     "year": 2023,
     "rank": 61,
-    "characterId": "ichigoman"
+    "characterId": "humming-mint"
   },
   {
     "year": 2023,
     "rank": 62,
-    "characterId": "caribadix"
+    "characterId": "ichigoman"
   },
   {
     "year": 2023,
     "rank": 63,
-    "characterId": "pokopon-diary"
+    "characterId": "caribadix"
   },
   {
     "year": 2023,
     "rank": 64,
-    "characterId": "the-vaudeville-duo"
+    "characterId": "pokopon-diary"
   },
   {
     "year": 2023,
     "rank": 65,
-    "characterId": "fukuchan"
+    "characterId": "the-vaudeville-duo"
   },
   {
     "year": 2023,
     "rank": 66,
-    "characterId": "maimai"
+    "characterId": "kusuri-no-fukutaro"
   },
   {
     "year": 2023,
     "rank": 67,
-    "characterId": "bosanimaru"
+    "characterId": "maimai"
   },
   {
     "year": 2023,
     "rank": 68,
-    "characterId": "mellow-tune"
+    "characterId": "bosanimaru"
   },
   {
     "year": 2023,
     "rank": 69,
-    "characterId": "shinkai-zoku"
+    "characterId": "mellow-tune"
   },
   {
     "year": 2023,
     "rank": 70,
-    "characterId": "rururu-gakuen"
+    "characterId": "shinkai-zoku"
   },
   {
     "year": 2023,
     "rank": 71,
-    "characterId": "tenori-kuma"
+    "characterId": "rururu-gakuen"
   },
   {
     "year": 2023,
     "rank": 72,
-    "characterId": "winky-pinky"
+    "characterId": "tenori-kuma"
   },
   {
     "year": 2023,
     "rank": 73,
-    "characterId": "puwawa"
+    "characterId": "winky-pinky"
   },
   {
     "year": 2023,
     "rank": 74,
-    "characterId": "kumamiren"
+    "characterId": "puwawa"
   },
   {
     "year": 2023,
     "rank": 75,
-    "characterId": "sugar-menuet"
+    "characterId": "kumamiren"
   },
   {
     "year": 2023,
     "rank": 76,
-    "characterId": "the-runabouts"
+    "characterId": "sugar-menuet"
   },
   {
     "year": 2023,
     "rank": 77,
-    "characterId": "risuru"
+    "characterId": "the-runabouts"
   },
   {
     "year": 2023,
     "rank": 78,
-    "characterId": "seven-siri-dwarf"
+    "characterId": "risuru"
   },
   {
     "year": 2023,
     "rank": 79,
-    "characterId": "tiny-poem"
+    "characterId": "seven-siri-dwarf"
   },
   {
     "year": 2023,
     "rank": 80,
-    "characterId": "taraiguma-no-laundry"
+    "characterId": "tiny-poem"
   },
   {
     "year": 2023,
     "rank": 81,
-    "characterId": "nyakki-penne"
+    "characterId": "taraiguma-no-laundry"
   },
   {
     "year": 2023,
     "rank": 82,
-    "characterId": "panna-pitta"
+    "characterId": "nyakki-penne"
   },
   {
     "year": 2023,
     "rank": 83,
-    "characterId": "れおすけ"
+    "characterId": "panna-pitta"
   },
   {
     "year": 2023,
     "rank": 84,
-    "characterId": "button-nose"
+    "characterId": "れおすけ"
   },
   {
     "year": 2023,
     "rank": 85,
-    "characterId": "シュガークリームパフ"
+    "characterId": "button-nose"
   },
   {
     "year": 2023,
     "rank": 86,
-    "characterId": "cherry-na-cherry-ne"
+    "characterId": "シュガークリームパフ"
   },
   {
     "year": 2023,
     "rank": 87,
-    "characterId": "dream-tail-cubear"
+    "characterId": "cherry-na-cherry-ne"
   },
   {
     "year": 2023,
     "rank": 88,
-    "characterId": "sporting-bears"
+    "characterId": "dream-tail-cubear"
   },
   {
     "year": 2023,
     "rank": 89,
+    "characterId": "sporting-bears"
+  },
+  {
+    "year": 2023,
+    "rank": 90,
     "characterId": "little-lovin"
   }
 ]
