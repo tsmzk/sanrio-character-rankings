@@ -1,1 +1,1 @@
-export { DisclaimerPage, LegalPageLayout, PrivacyPolicyPage } from "./components";
+export { DisclaimerPage, IntroModal, LegalPageLayout, PrivacyPolicyPage } from "./components";

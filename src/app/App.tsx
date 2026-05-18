@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   CharacterDetailModal,
   CharacterSelectionPanel,
@@ -11,7 +11,7 @@ import {
   AppSidebar,
   MobileBottomBar,
 } from "../features/layout";
-import { DisclaimerPage, PrivacyPolicyPage } from "../features/legal";
+import { DisclaimerPage, IntroModal, PrivacyPolicyPage } from "../features/legal";
 import { useRankingData, YearRangeFilterPanel } from "../features/ranking";
 import {
   useCharacterModal,
@@ -24,6 +24,8 @@ import { AppErrorState, AppLoadingState, BottomSheet } from "../shared/component
 
 type MobileSheet = "characters" | "year" | null;
 
+const INTRO_MODAL_STORAGE_KEY = "hasSeenIntroModal_v1";
+
 function App() {
   const { path, navigate } = useRoute();
   const { characters, rankings, loading, error } = useRankingData();
@@ -33,6 +35,22 @@ function App() {
   const characterModal = useCharacterModal();
   const isDesktop = useIsDesktop();
   const [activeSheet, setActiveSheet] = useState<MobileSheet>(null);
+  const [isIntroModalOpen, setIsIntroModalOpen] = useState(false);
+
+  // Show the intro modal once the initial content is on screen (not during loading)
+  useEffect(() => {
+    if (loading) return;
+    if (typeof window === "undefined") return;
+    if (localStorage.getItem(INTRO_MODAL_STORAGE_KEY)) return;
+    setIsIntroModalOpen(true);
+  }, [loading]);
+
+  const closeIntroModal = useCallback(() => {
+    if (typeof window !== "undefined") {
+      localStorage.setItem(INTRO_MODAL_STORAGE_KEY, "true");
+    }
+    setIsIntroModalOpen(false);
+  }, []);
 
   const renderHome = () => {
     if (loading) {
@@ -122,6 +140,8 @@ function App() {
       {path === "/disclaimer" && <DisclaimerPage onNavigate={navigate} />}
 
       <AppFooter currentPath={path} onNavigate={navigate} />
+
+      <IntroModal isOpen={isIntroModalOpen} onClose={closeIntroModal} onNavigate={navigate} />
     </div>
   );
 }
