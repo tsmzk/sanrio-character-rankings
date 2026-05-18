@@ -7,4 +7,5 @@ export { useTheme } from "../features/theme/hooks/useTheme";
 export { useCharacterModal } from "./useCharacterModal";
 export { useCharacterSearch } from "./useCharacterSearch";
 export { useIsDesktop, useMediaQuery } from "./useMediaQuery";
+export { type RoutePath, useRoute } from "./useRoute";
 export { useYearRangeFilter } from "./useYearRangeFilter";

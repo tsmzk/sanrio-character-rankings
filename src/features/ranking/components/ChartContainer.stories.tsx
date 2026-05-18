@@ -51,7 +51,7 @@ const mockChartOptions: ChartOptions<"line"> = {
     },
     title: {
       display: true,
-      text: "サンリオキャラクターランキング推移",
+      text: "サンリオキャラ歴代順位ウォッチ",
     },
   },
   scales: {
