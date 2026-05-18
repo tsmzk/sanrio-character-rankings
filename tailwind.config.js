@@ -121,9 +121,6 @@ export default {
     disableColorOpacityUtilitiesByDefault: true,
     relativeContentPathsByDefault: true,
   },
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
   corePlugins: {
     // Disable unused utilities for smaller bundle
     touchAction: false,
