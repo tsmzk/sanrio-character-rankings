@@ -11,10 +11,10 @@ export function MobileBottomBar({
 }: MobileBottomBarProps) {
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-30 lg:hidden pointer-events-none px-3"
+      className="z-30 lg:hidden flex justify-center px-3 pt-2 pb-2"
       style={{ paddingBottom: "calc(env(safe-area-inset-bottom) + 0.5rem)" }}
     >
-      <div className="mx-auto flex w-fit max-w-full items-stretch gap-1 rounded-full bg-white/95 dark:bg-gray-800/95 backdrop-blur-md p-1.5 shadow-2xl border border-gray-200/60 dark:border-gray-700/60 pointer-events-auto">
+      <div className="flex w-fit max-w-full items-stretch gap-1 rounded-full bg-white/95 dark:bg-gray-800/95 backdrop-blur-md p-1.5 shadow-2xl border border-gray-200/60 dark:border-gray-700/60">
         <button
           type="button"
           onClick={onOpenCharacters}

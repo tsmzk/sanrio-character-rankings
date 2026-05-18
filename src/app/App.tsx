@@ -69,9 +69,6 @@ function App() {
           />
         </div>
 
-        {/* Mobile spacer so the bottom bar never overlaps content */}
-        {!isDesktop && <div aria-hidden="true" className="h-24" />}
-
         {!isDesktop && (
           <>
             <MobileBottomBar
