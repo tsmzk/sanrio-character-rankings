@@ -1,18 +1,14 @@
 import { useCallback, useEffect, useState } from "react";
+import { trackEvent } from "../shared/firebase";
+import { getCurrentPath, type RoutePath } from "./routePath";
 
-export type RoutePath = "/" | "/privacy" | "/disclaimer";
+export type { RoutePath } from "./routePath";
 
-const KNOWN_ROUTES: RoutePath[] = ["/", "/privacy", "/disclaimer"];
-
-function normalizePath(pathname: string): RoutePath {
-  const trimmed = pathname.replace(/\/+$/, "") || "/";
-  return (KNOWN_ROUTES as string[]).includes(trimmed) ? (trimmed as RoutePath) : "/";
-}
-
-function getCurrentPath(): RoutePath {
-  if (typeof window === "undefined") return "/";
-  return normalizePath(window.location.pathname);
-}
+const ROUTE_TITLES: Record<RoutePath, string> = {
+  "/": "サンリオキャラクターランキング",
+  "/privacy": "プライバシーポリシー",
+  "/disclaimer": "免責事項",
+};
 
 export function useRoute() {
   const [path, setPath] = useState<RoutePath>(getCurrentPath);
@@ -22,6 +18,16 @@ export function useRoute() {
     window.addEventListener("popstate", handler);
     return () => window.removeEventListener("popstate", handler);
   }, []);
+
+  useEffect(() => {
+    trackEvent({
+      name: "page_view",
+      params: {
+        page_path: path,
+        page_title: ROUTE_TITLES[path],
+      },
+    });
+  }, [path]);
 
   const navigate = useCallback((to: RoutePath) => {
     if (typeof window === "undefined") return;
