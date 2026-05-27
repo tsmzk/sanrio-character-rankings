@@ -7,16 +7,6 @@
  * SDK 初期化時に既存の consent default が読まれる(これが Consent Mode v2 の標準動線)。
  */
 
-// @types/gtag.js は Gtag 名前空間と global な gtag 変数を提供するが、
-// Window.dataLayer の型拡張は含まないため、ここで最小限の augmentation を行う。
-// dataLayer は gtag.js 仕様で IArguments を格納する配列。
-declare global {
-  interface Window {
-    dataLayer: IArguments[];
-    gtag?: Gtag.Gtag;
-  }
-}
-
 type ConsentValue = "granted" | "denied";
 type ConsentParams = {
   analytics_storage: ConsentValue;
@@ -32,10 +22,11 @@ type ConsentParams = {
 // arguments(IArguments)を push する。_args は呼び出しシグネチャを成立させるためだけの
 // 宣言で、push には用いない(配列を push しないことで本修正の意図を保つ)。
 function gtagStub(..._args: unknown[]): void {
-  if (typeof window === "undefined") return;
-  window.dataLayer = window.dataLayer || [];
+  // biome-ignore lint/suspicious/noExplicitAny: dataLayer は gtag.js の仕様で any[]
+  (window as any).dataLayer = (window as any).dataLayer || [];
   // biome-ignore lint/complexity/noArguments: IArguments を push するのが gtag.js 公式仕様(rest 配列では不可)
-  window.dataLayer.push(arguments);
+  // biome-ignore lint/suspicious/noExplicitAny: arguments(IArguments) を push するのが公式仕様
+  (window as any).dataLayer.push(arguments as any);
 }
 
 let initialized = false;
