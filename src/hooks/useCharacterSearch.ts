@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
+import { trackEvent } from "../shared/firebase";
 import type { Character, RankingEntry } from "../shared/types";
+import { useDebouncedEffect } from "../shared/utils";
 import { multiFieldJapaneseMatch } from "../shared/utils/textNormalization";
 
 export function useCharacterSearch(characters: Character[], rankings: RankingEntry[]) {
@@ -43,6 +45,20 @@ export function useCharacterSearch(characters: Character[], rankings: RankingEnt
       multiFieldJapaneseMatch([char.name, char.nameEn], searchQuery),
     );
   }, [characters, searchQuery, latestTop10Rankings]);
+
+  // 検索キーワード確定時に search イベントを送信（空文字は除外）
+  useDebouncedEffect(
+    () => {
+      const trimmed = searchQuery.trim();
+      if (!trimmed) return;
+      trackEvent({
+        name: "search",
+        params: { search_term: trimmed },
+      });
+    },
+    [searchQuery],
+    500,
+  );
 
   const clearSearch = () => setSearchQuery("");
 

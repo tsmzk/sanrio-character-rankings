@@ -1,5 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { trackEvent } from "../shared/firebase";
 import type { RankingEntry } from "../shared/types";
+import { useDebouncedEffect } from "../shared/utils";
 
 interface YearRange {
   min: number;
@@ -64,19 +66,42 @@ export function useYearRangeFilter(rankings: RankingEntry[]) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(yearRange));
   }, [yearRange]);
 
+  // ユーザー操作による変更だけを GA に送りたいので、ハンドラ呼び出し時にフラグを立てる。
+  //
+  // 注意: 現状のアプリではデータ再フェッチが発生しないため問題ないが、
+  // 将来 stale-while-revalidate 等の再ロード機構を入れる際は、
+  // userInteractedRef のリセットタイミングを再評価する必要がある。
+  const userInteractedRef = useRef(false);
+
+  useDebouncedEffect(
+    () => {
+      if (!userInteractedRef.current) return;
+      userInteractedRef.current = false;
+      trackEvent({
+        name: "year_range_change",
+        params: { start_year: yearRange.min, end_year: yearRange.max },
+      });
+    },
+    [yearRange.min, yearRange.max],
+    500,
+  );
+
   const updateStartYear = (value: number) => {
     if (value <= yearRange.max) {
+      userInteractedRef.current = true;
       setYearRange({ ...yearRange, min: value });
     }
   };
 
   const updateEndYear = (value: number) => {
     if (value >= yearRange.min) {
+      userInteractedRef.current = true;
       setYearRange({ ...yearRange, max: value });
     }
   };
 
   const resetToFullRange = () => {
+    userInteractedRef.current = true;
     setYearRange(availableYearRange);
   };
 

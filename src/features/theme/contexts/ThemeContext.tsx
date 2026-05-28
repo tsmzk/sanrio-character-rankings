@@ -1,5 +1,6 @@
 import type React from "react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { trackEvent } from "../../../shared/firebase";
 import { debug } from "../../../shared/utils/debug";
 import type { ThemeContextType, ThemeType } from "./theme-context";
 import { THEME_STORAGE_KEY, ThemeContext } from "./theme-context";
@@ -73,8 +74,22 @@ export function ThemeProvider({ children, defaultTheme = "light" }: ThemeProvide
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
+  // 最新テーマを保持する ref。functional setState の updater 外で計測を1回だけ
+  // 行うために使う(StrictMode の updater 二重実行による二重発火を避ける)。
+  //
+  // 注意: useCharacterSelection の selectedRef と同じ batched-update 上の限界がある。
+  // 同一イベント内で toggleTheme を連続呼びすると 2 回目が古い ref を参照しうるが、
+  // theme は light/dark の二値かつ同期連続切り替えの UI が無いため実害は更に低い。
+  // 同期一括でテーマを切り替える API を追加する際は再評価すること。
+  const themeRef = useRef<ThemeType>(theme);
+  useEffect(() => {
+    themeRef.current = theme;
+  }, [theme]);
+
   const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+    const next: ThemeType = themeRef.current === "light" ? "dark" : "light";
+    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    trackEvent({ name: "theme_change", params: { theme: next } });
   };
 
   const value: ThemeContextType = {

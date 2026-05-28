@@ -4,6 +4,7 @@ import {
   CharacterSelectionPanel,
   useCharacterSelection,
 } from "../features/character";
+import { AnalyticsConsentBanner } from "../features/consent";
 import {
   AppFooter,
   AppHeader,
@@ -21,6 +22,7 @@ import {
   useYearRangeFilter,
 } from "../hooks";
 import { AppErrorState, AppLoadingState, BottomSheet } from "../shared/components";
+import { trackEvent } from "../shared/firebase";
 
 type MobileSheet = "characters" | "year" | null;
 
@@ -50,6 +52,7 @@ function App() {
       localStorage.setItem(INTRO_MODAL_STORAGE_KEY, "true");
     }
     setIsIntroModalOpen(false);
+    trackEvent({ name: "intro_modal_dismiss", params: {} });
   }, []);
 
   const renderHome = () => {
@@ -142,6 +145,7 @@ function App() {
       <AppFooter currentPath={path} onNavigate={navigate} />
 
       <IntroModal isOpen={isIntroModalOpen} onClose={closeIntroModal} onNavigate={navigate} />
+      {!loading && !isIntroModalOpen && <AnalyticsConsentBanner onNavigate={navigate} />}
     </div>
   );
 }
