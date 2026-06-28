@@ -14,7 +14,7 @@ export function useYearRangeFilter(rankings: RankingEntry[]) {
   // Calculate available year range from actual data
   const availableYearRange = useMemo(() => {
     if (!rankings || rankings.length === 0) {
-      return { min: 1986, max: 2025 };
+      return { min: 1986, max: 2026 };
     }
     const years = rankings.map((r) => r.year);
     return {
@@ -32,15 +32,15 @@ export function useYearRangeFilter(rankings: RankingEntry[]) {
         return JSON.parse(saved);
       } catch {
         // If parsing fails, use default values
-        return { min: 2016, max: 2025 };
+        return { min: 2016, max: 2026 };
       }
     }
-    return { min: 2016, max: 2025 };
+    return { min: 2016, max: 2026 };
   });
 
   // Update year range when data loads (but respect saved preferences)
   useEffect(() => {
-    if (availableYearRange.min !== 1986 || availableYearRange.max !== 2025) {
+    if (availableYearRange.min !== 1986 || availableYearRange.max !== 2026) {
       // Only update if there's no saved preference or if saved values are out of bounds
       const saved = localStorage.getItem(STORAGE_KEY);
       if (!saved) {

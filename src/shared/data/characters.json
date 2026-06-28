@@ -1524,5 +1524,26 @@
     "nameEn": "Kaitou Roppappu",
     "debutYear": 2014,
     "color": "#808080"
+  },
+  {
+    "id": "magical-twin-comets",
+    "name": "マジカルツインコメッツ",
+    "nameEn": "Magical Twin Comets",
+    "debutYear": 2026,
+    "color": "#7B68EE"
+  },
+  {
+    "id": "kingyodo-honpo",
+    "name": "きんぎょ堂本舗",
+    "nameEn": "Kingyodo Honpo",
+    "debutYear": 2026,
+    "color": "#FF7F50"
+  },
+  {
+    "id": "dokidoki-yummy-chums",
+    "name": "ドキドキヤミーチャムズ",
+    "nameEn": "Dokidoki Yummy Chums",
+    "debutYear": 2026,
+    "color": "#FF69B4"
   }
 ]
