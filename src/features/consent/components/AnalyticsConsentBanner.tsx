@@ -47,14 +47,14 @@ export function AnalyticsConsentBanner({ onNavigate }: AnalyticsConsentBannerPro
               onClick={() => {
                 void grant().catch(() => {});
               }}
-              className="flex-1 sm:flex-none px-5 py-2 rounded-full bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
+              className="flex-1 sm:flex-none px-5 py-2 rounded-full bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm shadow-xs focus:outline-hidden focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
             >
               許可する
             </button>
             <button
               type="button"
               onClick={deny}
-              className="flex-1 sm:flex-none px-5 py-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
+              className="flex-1 sm:flex-none px-5 py-2 rounded-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-200 font-semibold text-sm focus:outline-hidden focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
             >
               拒否する
             </button>

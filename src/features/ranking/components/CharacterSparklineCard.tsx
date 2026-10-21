@@ -30,7 +30,7 @@ const RankBadge: React.FC<RankBadgeProps> = ({ latestRank }) => {
     <span
       className={`px-2.5 py-1 rounded-full text-sm font-bold tabular-nums ${
         top3
-          ? "bg-gradient-to-br from-pink-500 to-fuchsia-500 text-white shadow-sm"
+          ? "bg-linear-to-br/srgb from-pink-500 to-fuchsia-500 text-white shadow-xs"
           : "bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-100"
       }`}
     >
@@ -97,18 +97,18 @@ export const CharacterSparklineCard: React.FC<CharacterSparklineCardProps> = ({
       style={style}
       className="flex flex-col w-full text-left bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-2xl px-3 py-2 transition-all duration-200 active:scale-[0.99] hover:border-pink-300 dark:hover:border-pink-600 hover:shadow-md cursor-pointer"
     >
-      <div className="flex items-center justify-between gap-2 flex-shrink-0">
+      <div className="flex items-center justify-between gap-2 shrink-0">
         <div className="flex items-center gap-2 min-w-0">
           <span
             aria-hidden="true"
-            className="inline-block w-2.5 h-2.5 rounded-full flex-shrink-0"
+            className="inline-block w-2.5 h-2.5 rounded-full shrink-0"
             style={{ backgroundColor: color }}
           />
           <h4 className="font-semibold text-gray-800 dark:text-gray-100 truncate">
             {character.name}
           </h4>
           {stats.appearances > 0 && stats.bestRank > 0 && (
-            <span className="text-[11px] text-gray-500 dark:text-gray-400 tabular-nums whitespace-nowrap flex-shrink-0">
+            <span className="text-[11px] text-gray-500 dark:text-gray-400 tabular-nums whitespace-nowrap shrink-0">
               ベスト{" "}
               <span className="text-gray-700 dark:text-gray-200 font-semibold">
                 {stats.bestRank}位
@@ -116,7 +116,7 @@ export const CharacterSparklineCard: React.FC<CharacterSparklineCardProps> = ({
             </span>
           )}
         </div>
-        <div className="flex items-center gap-2 flex-shrink-0">
+        <div className="flex items-center gap-2 shrink-0">
           <DeltaBadge delta={delta} />
           <RankBadge latestRank={stats.latestRank} />
         </div>

@@ -7,7 +7,7 @@ type AppFooterProps = {
 
 export function AppFooter({ currentPath, onNavigate }: AppFooterProps) {
   return (
-    <footer className="mt-auto border-t border-base-300/60 bg-base-100/60 backdrop-blur-sm">
+    <footer className="mt-auto border-t backdrop-blur-xs">
       <div className="max-w-7xl mx-auto w-full px-5 py-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs sm:text-sm opacity-80">
         <p>© サンリオキャラ歴代順位ウォッチ（非公式ファンアプリ）</p>
         <nav className="flex items-center gap-4">
@@ -41,7 +41,7 @@ function FooterLink({ path, currentPath, onNavigate, children }: FooterLinkProps
         onNavigate(path);
       }}
       className={`hover:underline transition-colors ${
-        isActive ? "text-primary font-medium" : "text-base-content"
+        isActive ? "font-medium" : "text-base-content"
       }`}
     >
       {children}

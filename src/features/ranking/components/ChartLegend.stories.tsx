@@ -156,6 +156,6 @@ export const CustomClassName: Story = {
     rankings: mockRankings,
     yearRange: { min: 2020, max: 2023 },
     className:
-      "bg-gradient-to-r from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-pink-200 dark:border-pink-700",
+      "bg-linear-to-r/srgb from-pink-50 to-purple-50 dark:from-pink-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-pink-200 dark:border-pink-700",
   },
 };

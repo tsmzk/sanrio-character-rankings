@@ -105,7 +105,7 @@ export const EmptyCustomClass: EmptyStory = {
   args: {
     height: 400,
     className:
-      "border-dashed border-2 border-gray-300 dark:border-gray-600 bg-gradient-to-br from-gray-50 to-white dark:from-gray-800 dark:to-gray-900",
+      "border-dashed border-2 border-gray-300 dark:border-gray-600 bg-linear-to-br/srgb from-gray-50 to-white dark:from-gray-800 dark:to-gray-900",
   },
 };
 
@@ -138,7 +138,7 @@ export const NoDataCustomClass: NoDataStory = {
   args: {
     height: 400,
     className:
-      "border-2 border-orange-200 dark:border-orange-700 bg-gradient-to-br from-orange-50 to-yellow-50 dark:from-orange-900/20 dark:to-yellow-900/20",
+      "border-2 border-orange-200 dark:border-orange-700 bg-linear-to-br/srgb from-orange-50 to-yellow-50 dark:from-orange-900/20 dark:to-yellow-900/20",
   },
 };
 

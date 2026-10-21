@@ -18,7 +18,7 @@ export function MobileBottomBar({
         <button
           type="button"
           onClick={onOpenCharacters}
-          className="relative flex items-center gap-1.5 rounded-full bg-gradient-to-r from-pink-500 to-purple-600 px-4 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:from-pink-600 hover:to-purple-700 active:scale-95"
+          className="relative flex items-center gap-1.5 rounded-full bg-linear-to-r/srgb from-pink-500 to-purple-600 px-4 py-2.5 text-sm font-semibold text-white shadow-md transition-all duration-200 hover:from-pink-600 hover:to-purple-700 active:scale-95"
           aria-label={`キャラクター選択 (${selectedCount}件選択中)`}
         >
           <span aria-hidden="true">✨</span>

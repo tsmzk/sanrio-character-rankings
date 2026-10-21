@@ -16,9 +16,9 @@ export function CharacterCard({
   return (
     <div
       className={`
-        card card-compact bg-base-100 shadow hover:shadow-lg
+        card card-compact bg-base-100 shadow-sm hover:shadow-lg
         transition-all duration-200 ease-in-out hover:scale-[1.02]
-        ${isSelected ? "ring-2 ring-primary ring-offset-2" : ""}
+        ${isSelected ? "ring-2 ring-blue-500/50 ring-offset-2" : ""}
         ${className}
       `}
     >
@@ -34,7 +34,7 @@ export function CharacterCard({
           <div className="flex items-center gap-2">
             {/* Character color indicator */}
             <div
-              className="w-3 h-3 rounded-full flex-shrink-0 shadow-sm"
+              className="w-3 h-3 rounded-full shrink-0 shadow-xs"
               style={{ backgroundColor: character.color }}
               aria-hidden="true"
             />
@@ -52,9 +52,9 @@ export function CharacterCard({
         </div>
 
         {isSelected && (
-          <div className="ml-2 flex-shrink-0">
+          <div className="ml-2 shrink-0">
             <svg
-              className="w-4 h-4 text-primary"
+              className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 20 20"
               role="img"

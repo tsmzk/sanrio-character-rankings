@@ -17,7 +17,7 @@ export function YearRangeFilterPanel({ yearRangeFilter }: YearRangeFilterPanelPr
           2015年以前のデータは公式サイト以外の媒体から入手した情報をもとにランキングを出力しています
         </div>
       )}
-      <div className="flex items-center justify-center gap-2 mb-4 p-2 bg-white dark:bg-gray-800 rounded-lg shadow-sm">
+      <div className="flex items-center justify-center gap-2 mb-4 p-2 bg-white dark:bg-gray-800 rounded-lg shadow-xs">
         <span className="text-base font-semibold text-pink-600 dark:text-pink-400">
           {yearRangeFilter.yearRange.min}年
         </span>
@@ -54,7 +54,7 @@ export function YearRangeFilterPanel({ yearRangeFilter }: YearRangeFilterPanelPr
         type="button"
         onClick={yearRangeFilter.resetToFullRange}
         disabled={yearRangeFilter.isResetDisabled}
-        className="w-full mt-4 px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg text-sm font-medium transition-all duration-200 hover:from-pink-600 hover:to-purple-700 hover:-translate-y-0.5 hover:shadow-md disabled:from-gray-300 disabled:to-gray-400 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
+        className="w-full mt-4 px-4 py-2 bg-linear-to-r/srgb from-pink-500 to-purple-600 text-white rounded-lg text-sm font-medium transition-all duration-200 hover:from-pink-600 hover:to-purple-700 hover:-translate-y-0.5 hover:shadow-md disabled:from-gray-300 disabled:to-gray-400 disabled:cursor-not-allowed disabled:opacity-60 disabled:hover:translate-y-0"
       >
         全期間にリセット
       </button>
