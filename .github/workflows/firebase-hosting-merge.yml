@@ -11,6 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # ランナー既定の Node はセキュリティリリースへの追従が遅れるため、
+      # .nvmrc で固定したパッチ適用済みバージョンを使う。
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
       - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
