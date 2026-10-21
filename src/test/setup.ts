@@ -1,4 +1,4 @@
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom/vitest";
 import { createElement } from "react";
 
 // Mock Chart.js to avoid canvas issues in tests
