@@ -90,7 +90,7 @@ export const CustomClassName: Story = {
     yearRange: { min: 2020, max: 2023 },
     characterCount: 5,
     className:
-      "bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700 mb-6",
+      "bg-linear-to-r/srgb from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 p-4 rounded-lg border border-blue-200 dark:border-blue-700 mb-6",
   },
 };
 

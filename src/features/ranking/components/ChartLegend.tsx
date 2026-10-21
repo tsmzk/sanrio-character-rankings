@@ -48,7 +48,7 @@ export function ChartLegend({
             >
               {/* Color indicator */}
               <div
-                className="w-4 h-4 rounded-full flex-shrink-0 shadow-sm border border-gray-200 dark:border-gray-600"
+                className="w-4 h-4 rounded-full shrink-0 shadow-xs border border-gray-200 dark:border-gray-600"
                 style={{ backgroundColor: character.color }}
                 aria-hidden="true"
               />

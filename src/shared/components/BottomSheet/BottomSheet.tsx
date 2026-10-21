@@ -188,7 +188,7 @@ export function BottomSheet({
         aria-modal="true"
         aria-labelledby={titleId}
         className={`absolute left-0 right-0 bottom-0 bg-white dark:bg-gray-800 rounded-t-3xl shadow-2xl border-t border-gray-200/50 dark:border-gray-700/50 flex flex-col will-change-transform ${
-          isDragging ? "" : "transition-transform duration-250 ease-out"
+          isDragging ? "" : "transition-transform ease-out"
         }`}
         style={{
           height: `${currentHeight}px`,
@@ -201,7 +201,7 @@ export function BottomSheet({
       >
         {/* Drag handle area */}
         <div
-          className="flex-shrink-0 cursor-grab active:cursor-grabbing touch-none select-none pt-3 pb-2"
+          className="shrink-0 cursor-grab active:cursor-grabbing select-none pt-3 pb-2"
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
           onPointerUp={handlePointerUp}
@@ -211,7 +211,7 @@ export function BottomSheet({
         </div>
 
         {/* Header */}
-        <div className="flex-shrink-0 flex items-center justify-between px-5 pb-3 border-b border-gray-200 dark:border-gray-700">
+        <div className="shrink-0 flex items-center justify-between px-5 pb-3 border-b border-gray-200 dark:border-gray-700">
           <h2 id={titleId} className="text-lg font-semibold text-gray-800 dark:text-gray-100">
             {title}
           </h2>

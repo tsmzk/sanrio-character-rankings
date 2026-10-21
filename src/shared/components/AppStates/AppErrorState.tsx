@@ -37,7 +37,7 @@ export function AppErrorState({ error, onRetry, className = "" }: AppErrorStateP
           <button
             type="button"
             onClick={onRetry}
-            className="px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg font-medium transition-all duration-200 hover:from-pink-600 hover:to-purple-700 hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-pink-500/20"
+            className="px-6 py-3 bg-linear-to-r/srgb from-pink-500 to-purple-600 text-white rounded-lg font-medium transition-all duration-200 hover:from-pink-600 hover:to-purple-700 hover:-translate-y-0.5 hover:shadow-md focus:outline-hidden focus:ring-2 focus:ring-pink-500/20"
           >
             再試行
           </button>

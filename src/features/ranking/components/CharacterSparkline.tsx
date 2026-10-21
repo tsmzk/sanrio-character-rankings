@@ -186,7 +186,7 @@ export const CharacterSparkline: React.FC<CharacterSparklineProps> = ({
     <div
       ref={scrollRef}
       onScroll={onScroll}
-      className="relative w-full overflow-x-auto overscroll-x-contain touch-pan-x h-full"
+      className="relative w-full overflow-x-auto overscroll-x-contain h-full"
       style={height !== undefined ? { height } : undefined}
     >
       <div

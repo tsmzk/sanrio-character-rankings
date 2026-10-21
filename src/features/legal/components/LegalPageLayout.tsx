@@ -41,11 +41,11 @@ export function LegalPageLayout({
       <button
         type="button"
         onClick={() => onNavigate("/")}
-        className="inline-flex items-center gap-1 text-sm text-primary hover:underline mb-6"
+        className="inline-flex items-center gap-1 text-sm hover:underline mb-6"
       >
         ← トップに戻る
       </button>
-      <article className="prose prose-sm sm:prose-base dark:prose-invert max-w-none break-words prose-headings:text-balance prose-h1:text-2xl sm:prose-h1:text-3xl prose-h2:text-lg sm:prose-h2:text-2xl bg-base-100/80 backdrop-blur-sm rounded-2xl shadow-lg p-5 sm:p-8">
+      <article className="prose prose-sm sm:prose-base dark:prose-invert max-w-none break-words prose-headings:text-balance prose-h1:text-2xl sm:prose-h1:text-3xl prose-h2:text-lg sm:prose-h2:text-2xl backdrop-blur-xs rounded-2xl shadow-lg p-5 sm:p-8">
         {children}
       </article>
     </main>

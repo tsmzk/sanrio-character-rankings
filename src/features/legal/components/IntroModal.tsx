@@ -98,7 +98,7 @@ export function IntroModal({ isOpen, onClose, onNavigate }: IntroModalProps) {
           はじめにお読みください
         </h2>
 
-        <div className="text-gray-700 dark:text-gray-200 text-sm sm:text-base leading-relaxed space-y-5">
+        <div className="text-gray-700 dark:text-gray-200 text-sm sm:text-base leading-relaxed sm:leading-6 space-y-5">
           <section>
             <h3 className="text-base sm:text-lg font-semibold text-pink-600 dark:text-pink-400 mb-1">
               🌸 サンリオキャラ歴代順位ウォッチへようこそ
@@ -162,7 +162,7 @@ export function IntroModal({ isOpen, onClose, onNavigate }: IntroModalProps) {
             ref={closeButtonRef}
             type="button"
             onClick={onClose}
-            className="px-6 py-2.5 rounded-full bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm sm:text-base shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
+            className="px-6 py-2.5 rounded-full bg-pink-500 hover:bg-pink-600 text-white font-semibold text-sm sm:text-base shadow-xs focus:outline-hidden focus-visible:ring-2 focus-visible:ring-pink-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-gray-800 transition-colors"
           >
             閉じる
           </button>

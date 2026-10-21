@@ -240,7 +240,7 @@ export const RankingChartMobile: React.FC<RankingChartMobileProps> = ({
 
   return (
     <div className="flex flex-col h-full min-h-0">
-      <div className="flex flex-wrap gap-1.5 pb-2 flex-shrink-0">
+      <div className="flex flex-wrap gap-1.5 pb-2 shrink-0">
         {chips.map((chip) => {
           const active = highlightedId === chip.id;
           const dimmed = highlightedId !== null && !active;
@@ -252,7 +252,7 @@ export const RankingChartMobile: React.FC<RankingChartMobileProps> = ({
               aria-pressed={active}
               className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] font-medium transition-all ${
                 active
-                  ? "border-pink-400 bg-pink-50 text-pink-700 shadow-sm dark:border-pink-500/60 dark:bg-pink-500/15 dark:text-pink-200"
+                  ? "border-pink-400 bg-pink-50 text-pink-700 shadow-xs dark:border-pink-500/60 dark:bg-pink-500/15 dark:text-pink-200"
                   : dimmed
                     ? "border-gray-200 bg-white text-gray-400 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-500"
                     : "border-gray-200 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200"
@@ -260,7 +260,7 @@ export const RankingChartMobile: React.FC<RankingChartMobileProps> = ({
             >
               <span
                 aria-hidden="true"
-                className="inline-block w-2 h-2 rounded-full flex-shrink-0"
+                className="inline-block w-2 h-2 rounded-full shrink-0"
                 style={{ backgroundColor: dimmed ? `${chip.color}55` : chip.color }}
               />
               <span className="max-w-[7rem] truncate">{chip.name}</span>
@@ -268,10 +268,7 @@ export const RankingChartMobile: React.FC<RankingChartMobileProps> = ({
           );
         })}
       </div>
-      <div
-        ref={scrollerRef}
-        className="flex-1 min-h-0 overflow-x-auto overscroll-x-contain touch-pan-x"
-      >
+      <div ref={scrollerRef} className="flex-1 min-h-0 overflow-x-auto overscroll-x-contain">
         <div
           style={{
             width: `${chartData.labels.length * PX_PER_YEAR}px`,

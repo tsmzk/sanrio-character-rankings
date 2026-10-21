@@ -99,7 +99,7 @@ export const WithSelectedCharacters: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-4 min-h-screen">
+      <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50 p-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Story />
         </div>
@@ -122,7 +122,7 @@ export const NoCharactersSelected: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-4 min-h-screen">
+      <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50 p-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Story />
         </div>
@@ -145,7 +145,7 @@ export const SingleCharacterSelected: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-4 min-h-screen">
+      <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50 p-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Story />
         </div>
@@ -168,7 +168,7 @@ export const AllCharactersSelected: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-4 min-h-screen">
+      <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50 p-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Story />
         </div>
@@ -188,7 +188,7 @@ export const DarkTheme: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="dark bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 p-4 min-h-screen">
+      <div className="dark bg-linear-to-br/srgb from-gray-900 via-gray-800 to-purple-900 p-4 min-h-screen">
         <div className="max-w-4xl mx-auto">
           <Story />
         </div>
@@ -208,7 +208,7 @@ export const Responsive: Story = {
   },
   decorators: [
     (Story) => (
-      <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-4">
+      <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50 p-4">
         <Story />
       </div>
     ),

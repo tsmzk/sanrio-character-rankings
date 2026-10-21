@@ -36,7 +36,7 @@ export const LightMode: Story = {
   decorators: [
     (Story) => (
       <MockThemeProvider theme="light">
-        <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
+        <div className="min-h-screen bg-linear-to-br/srgb from-pink-50 via-white to-purple-50">
           <Story />
           <div className="p-8 text-center text-sm text-gray-600">ライトモードでのヘッダー表示</div>
         </div>
@@ -49,7 +49,7 @@ export const DarkMode: Story = {
   decorators: [
     (Story) => (
       <MockThemeProvider theme="dark">
-        <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-purple-900 dark">
+        <div className="min-h-screen bg-linear-to-br/srgb from-gray-900 via-gray-800 to-purple-900 dark">
           <Story />
           <div className="p-8 text-center text-sm text-gray-400">ダークモードでのヘッダー表示</div>
         </div>
@@ -62,7 +62,7 @@ export const Responsive: Story = {
   decorators: [
     (Story) => (
       <MockThemeProvider theme="light">
-        <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50">
+        <div className="bg-linear-to-br/srgb from-pink-50 via-white to-purple-50">
           <Story />
           <div className="p-4 text-center text-xs text-gray-500">
             画面サイズを変更してレスポンシブ対応を確認できます

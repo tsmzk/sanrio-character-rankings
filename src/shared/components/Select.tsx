@@ -41,7 +41,7 @@ export function Select({
             select select-bordered w-full 
             text-left text-sm 
             hover:select-primary 
-            focus:select-primary focus:outline-none 
+            focus:select-primary focus:outline-hidden 
             disabled:select-disabled
           "
           >
@@ -65,7 +65,7 @@ export function Select({
               absolute mt-1 max-h-60 w-full overflow-auto 
               border border-base-300 
               py-1 shadow-lg 
-              focus:outline-none text-sm
+              focus:outline-hidden text-sm
             "
             >
               {options.map((option) => (
@@ -73,7 +73,7 @@ export function Select({
                   key={option.value}
                   className={({ active }) =>
                     `menu-item ${
-                      active ? "bg-primary text-primary-content" : ""
+                      active ? "text-primary-content" : ""
                     } ${option.disabled ? "disabled" : ""}`
                   }
                   value={option.value}
@@ -87,7 +87,7 @@ export function Select({
                         {option.label}
                       </span>
                       {selected ? (
-                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-primary">
+                        <span className="absolute inset-y-0 left-0 flex items-center pl-3">
                           <CheckIcon className="h-4 w-4" aria-hidden="true" />
                         </span>
                       ) : null}

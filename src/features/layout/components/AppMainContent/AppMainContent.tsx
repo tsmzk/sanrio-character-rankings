@@ -27,7 +27,7 @@ export function AppMainContent({
   return (
     <main className="flex-1 flex flex-col min-h-0 sm:space-y-6">
       {/* Chart Section (PC only) */}
-      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 sm:p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 sm:min-h-[700px]">
+      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-xs rounded-2xl p-4 sm:p-8 shadow-xl border border-gray-200/50 dark:border-gray-700/50 sm:min-h-[700px]">
         <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4 sm:mb-6 text-center">
           ランキング推移
         </h2>
@@ -40,8 +40,8 @@ export function AppMainContent({
       </section>
 
       {/* Mobile: ラインチャート（凡例固定＋タップでハイライト） */}
-      <section className="sm:hidden flex flex-col flex-1 min-h-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-4 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
-        <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-2 text-center flex-shrink-0">
+      <section className="sm:hidden flex flex-col flex-1 min-h-0 bg-white/90 dark:bg-gray-800/90 backdrop-blur-xs rounded-2xl p-4 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
+        <h2 className="text-base font-semibold text-gray-800 dark:text-gray-100 mb-2 text-center shrink-0">
           ランキング推移
         </h2>
         {selectedCharacterObjects.length === 0 ? (
@@ -61,7 +61,7 @@ export function AppMainContent({
       </section>
 
       {/* Character Stats Section (PC only) */}
-      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
+      <section className="hidden sm:block bg-white/90 dark:bg-gray-800/90 backdrop-blur-xs rounded-2xl p-6 shadow-xl border border-gray-200/50 dark:border-gray-700/50">
         <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100 mb-4">
           選択中のキャラクター詳細
         </h3>
@@ -73,7 +73,7 @@ export function AppMainContent({
                 key={character.id}
                 type="button"
                 onClick={() => characterModal.openModal(character)}
-                className="bg-gradient-to-br from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 border border-gray-200 dark:border-gray-600 rounded-xl p-4 text-left transition-all duration-200 hover:shadow-lg hover:-translate-y-1 hover:border-pink-300 dark:hover:border-pink-600 cursor-pointer group"
+                className="bg-linear-to-br/srgb from-white to-gray-50 dark:from-gray-700 dark:to-gray-800 border border-gray-200 dark:border-gray-600 rounded-xl p-4 text-left transition-all duration-200 hover:shadow-lg hover:-translate-y-1 hover:border-pink-300 dark:hover:border-pink-600 cursor-pointer group"
               >
                 <h4 className="font-semibold text-gray-800 dark:text-gray-100 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors">
                   {character.name}
